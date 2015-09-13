@@ -1,0 +1,53 @@
+
+$base-sans-font: 'freight-sans-pro', sans-serif;
+$body-sans-font: $base-sans-font;
+
+$heading-font-family: $base-sans-font;
+$heading-font-weight: 900;
+
+$max-width: (
+	xs: 480px,
+	sm: 20em,
+	md: 25em,
+	lg: 35em,
+	xl: 45em
+);
+
+$base-font-color: #000000;
+$base-font-size: 1.5rem;
+$base-padding: 1em;
+
+$link-colors: map-get($blue, links);
+
+$base-border-radius: 8px;
+
+
+//
+// Media Queries & Breakpoints
+// 
+
+// Extra small screen / phone
+$screen-xs-width:                  480px !default;
+
+// Small screen / tablet
+$screen-sm-width:                  768px !default;
+
+// Medium screen / desktop
+$screen-md-width:                  992px !default;
+
+// Large screen / wide desktop
+$screen-lg-width:                  1200px !default;
+
+// Monster screen / wide desktop
+$screen-xl-width:                  1500px !default;
+
+// So media queries don't overlap when required, provide a maximum
+
+$screen-xs:     new-breakpoint(min-width $screen-xs-width 12);
+$screen-sm:     new-breakpoint(min-width $screen-sm-width 12);
+$screen-md:     new-breakpoint(min-width $screen-md-width 12);
+$screen-lg:     new-breakpoint(min-width $screen-lg-width 12);
+$screen-xl:     new-breakpoint(min-width $screen-xl-width 12);
+
+$screen-sm-max:     new-breakpoint(max-width $screen-sm-width 12);
+$screen-md-max:     new-breakpoint(max-width $screen-md-width 12);
