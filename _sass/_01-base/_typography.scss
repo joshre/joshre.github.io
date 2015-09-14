@@ -162,7 +162,7 @@ ol {
 }
 
 code {
-    background: map-get($blue, dark);
+    background: map-get($blue, main);
     border-radius: 3px;
     color:white;
     @include pad(0.1em 0.4em 0.2em 0.4em);
