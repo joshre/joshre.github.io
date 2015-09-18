@@ -14,7 +14,7 @@ $max-width: (
 );
 
 $base-font-color: #000000;
-$base-font-size: 1.5rem;
+$base-font-size: 1.2rem;
 $base-padding: 1em;
 
 $link-colors: map-get($blue, links);
@@ -51,3 +51,5 @@ $screen-xl:     new-breakpoint(min-width $screen-xl-width 12);
 
 $screen-sm-max:     new-breakpoint(max-width $screen-sm-width 12);
 $screen-md-max:     new-breakpoint(max-width $screen-md-width 12);
+
+$base-border: 1px solid map-get($gray, border);

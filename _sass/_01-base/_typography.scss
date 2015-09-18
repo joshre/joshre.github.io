@@ -164,8 +164,15 @@ ol {
 code {
     background: map-get($blue, main);
     border-radius: 3px;
-    color:white;
+    color: white;
+
     @include pad(0.1em 0.4em 0.2em 0.4em);
 
     font-size: 1.2rem;
+}
+
+hr {
+    border: 0;
+    border-top: $base-border;
+    margin: 3em 0;
 }

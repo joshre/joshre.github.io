@@ -1,0 +1,10 @@
+<section>
+	{% for item in include.episode  %}
+		<aside class="episode">
+			<iframe class="center" src="https://overcast.fm/podcasts/episode_card/{{item.card}}?t=0" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+		</aside>
+		<h6>{{item.title}}</h6>
+		<a href="{{item.link}}">More Info</a>
+	{% endfor %}
+	<br><br>
+</section>

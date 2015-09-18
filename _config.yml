@@ -10,3 +10,7 @@ markdown: kramdown
 
 sass:
   style: :compressed
+
+collections:
+  share:
+    output: true

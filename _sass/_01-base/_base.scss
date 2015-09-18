@@ -2,13 +2,18 @@
 //     @include row;
 //     background-color: #F5F6F6;
 // }
-
+body{
+	overflow-x: hidden;
+}
 main {
+
  	@include pad(2em 1em 1em 1em);
     @include media($screen-xs) {@include outer-container(map-get($max-width, xs));}
     @include media($screen-sm) {@include outer-container(map-get($max-width, sm));@include pad(2em 0 1em 0);}
     @include media($screen-md) {@include outer-container(map-get($max-width, md));@include pad(2em 0 1em 0);}
     @include media($screen-lg) {@include outer-container(map-get($max-width, lg));@include pad(2em 0 1em 0);}
     @include media($screen-xl) {@include outer-container(map-get($max-width, xl));@include pad(2em 0 1em 0);}
-      	
+}
+img{
+	max-width: 100%;
 }
