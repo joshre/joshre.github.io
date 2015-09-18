@@ -3,8 +3,11 @@
 		<aside class="episode">
 			<iframe class="center" src="https://overcast.fm/podcasts/episode_card/{{item.card}}?t=0" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
 		</aside>
-		<h6>{{item.title}}</h6>
+		<h5>{{item.title}}</h5>
+		
 		<a href="{{item.link}}">More Info</a>
+		<a href="{{item.overcast}}">Listen on Overcast</a>
+		
 	{% endfor %}
 	<br><br>
 </section>

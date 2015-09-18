@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2 {
     line-height: 1;
     letter-spacing: -0.025em;
-    margin-bottom: .55rem;
+    margin-bottom: 1.55rem;
     word-spacing: -0.03em;
 }
 
@@ -127,52 +127,83 @@ h5 {
 }
 
 
-a {
-    color: $link-colors;
-    text-decoration: none;
-}
-
-em {
+em, i, address, blockquote, cite, dfn, var {
     font-style: italic;
 }
 
-strong {
+strong, b {
     font-weight: 900;
 }
 
-ol, ul, p {
-    margin-bottom: 1.55556rem;
-    margin-top: 0;
+// `margin-bottom` to maintain vertical rhythm
+p, blockquote, pre, ul, ol, dl, dir, figure, article, menu, div, %vertical-rhythm {
+    margin-bottom: $spacing-unit;
 }
 
-ul {
-    list-style-type: square;
-
-    li {
-        margin-left: 1.5em;
-    }
+a {
+    color: $base-link-color;
 }
 
-ol {
-    list-style: decimal;
-}
-
-.center {
-    text-align: center;
+code, kbd, samp, tt {
+    font-family: monospace;
 }
 
 code {
-    background: map-get($blue, main);
-    border-radius: 3px;
-    color: white;
+    background-color: map-get($gray, code);
+    color: map-get($gray, codeWord);
 
-    @include pad(0.1em 0.4em 0.2em 0.4em);
+    @include pad(0.15625em 0.3125em);
 
-    font-size: 1.2rem;
+    tab-size: 4;
+    text-shadow: 0 .08em #fff;
+    white-space: pre-line;
+    border-radius: $base-border-radius;
 }
+
+blockquote {
+    @include pad(1em 2em);
+
+    border-radius: $base-border-radius;
+    background-color: map-get($gray, dark);
+    color: white;
+    letter-spacing: .75px;
+
+    a {
+        color: lighten($base-link-color, 20%);
+        text-decoration: none;
+    }
+    ul{
+        margin-bottom: $small-spacing / 2;
+    }
+    p {
+        margin: 0;
+    }
+}
+
+small, sub, sup {
+    font-size: $base-font-size * 0.8;
+
+    @include media($screen-sm-max) {
+        font-size: $base-font-size * 0.6;
+    }
+}
+
+sub {
+    vertical-align: sub;
+}
+
+sup {
+    vertical-align: super;
+}
+
+mark {}
 
 hr {
     border: 0;
     border-top: $base-border;
     margin: 3em 0;
+}
+
+.center {
+    text-align: center;
 }
