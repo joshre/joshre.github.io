@@ -172,7 +172,7 @@ Planet Money is usually somewhere between 20-30 minutes. It's packed full of sma
 
 ----
 
-> These next ones aren't necessarily a format that we're going for but they're high-quality shows, and some of my favorites. And since I enjoy them so much, I want *you* to enjoy them just as much.
+> These next ones aren't necessarily a format that we're going for but they're high-quality shows, and some of my favorites.
 
 <br>
 
