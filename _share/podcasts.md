@@ -109,11 +109,11 @@ Open to changes, updates and experimenting. There’s a really consistent reflec
 *Radiolab is an investigation told through sounds and stories, and centered around one big idea. In the Radiolab world, information sounds like music and science and culture collide.*
 {: .center}
 
-We're not going to do anything close to radiolab, but it's worth hearing what can be done with a podcast format.
-
 {% include episode.html episode=page.radiolab %}
 
 ##### Why It’s Good
+We're not going to do anything close to radiolab, but it's worth hearing what can be done with a podcast format.
+
 Radiolab is a tour de force of radio storytelling, they spend an inordinate amount of time editing in sound effects, layering interviews, and adding explanations here-and-there. This is what one of their audio files looks like:
 
 ![Radiolab Pro Tools File](http://i.imgur.com/oEgEoAy.jpg)
