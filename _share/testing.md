@@ -6,4 +6,4 @@ layout: default
 
 ##### Testing the "profile" widget
 
-<iframe src="http://mortgage.lfhsdev.com/widget/profile/pid/" width="400" frameborder="0"></iframe>
+<iframe src="http://mortgage.lfhsdev.com/widget/profile/pid/" width="600" frameborder="0"></iframe>
