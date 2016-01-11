@@ -52,5 +52,5 @@ I work in Mac OSX. I'm comfortable in most design programs and can make my way t
 - Excel, Numbers, Google Docs
 
 
-[^1]: These are a few images that I designed for our various campaigns; ç <br><br> ![Social Image](/images/social/01.jpg) ![Social Image](/images/social/02.jpg) ![Social Image](/images/social/03.jpg) ![Social Image](/images/social/04.jpg) ![Social Image](/images/social/05.jpg) ![Social Image](/images/social/06.jpg)
+[^1]: These are a few images that I designed for our various campaigns<br> ![Social Image](/images/social/01.jpg) ![Social Image](/images/social/02.jpg) ![Social Image](/images/social/03.jpg) ![Social Image](/images/social/04.jpg) ![Social Image](/images/social/05.jpg) ![Social Image](/images/social/06.jpg)
 [^trestle]: ![Trestle Leather](/images/trestle2.jpg)
