@@ -139,8 +139,9 @@ $gray-blue: #5c6773;
             @include shift(0.5);
         }
 
+
         color: white;
-        font-size: 2rem;
+        font-size: 1.6rem;
         margin-top: 0;
     }
 }
@@ -153,11 +154,16 @@ $gray-blue: #5c6773;
 
         @include span-columns(7 of 12);
 
+        h1, h2, h3, h4, h5, h6 {
+            color: $gray-blue;
+        }
+
         color: $gray-blue;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         line-height: 1.6;
     }
 }
-section{
+
+section {
     @include row;
 }

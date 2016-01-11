@@ -6,7 +6,7 @@ layout: resume
 {: .face }
  -->
 
-### About Me
+# About Me
 
 I’m josh, I live in Sacramento, CA with my [wonderful wife](https://www.instagram.com/leilamre/); I’ve been working on the web for about 3-4 years, most of that time has been spent at my current employer [Bamboo Creative](https://bamboocreative.com/). 
 
@@ -16,7 +16,7 @@ While working on Trestle I got involved at Bamboo Creative doing a little sidewo
 
 I’ve worked on a variety of websites, branding projects, marketing campaigns, prototypes; worked with and without project managers, designers, and have been responsible for handling projects on my own with a client. At one time I was a *"designer"* [^1] when we were in a pinch for social media posts. I can work within a team and have learned how to be adaptable. I'm comfortable in Git, Git-flow, with a PSD or a .sketch file; heck, if you give me an ms-paint file I can make it happen.
 
-### Tech I'm Confortable With
+## Tech I'm Comfortable With
 
 I'm fluent in HTML5, CSS3, I use Sass/SCSS and like starting with [bourbon](http://bourbon.io) and [neat](http://neat.bourbon.io/). I've done a great deal of work in wordpress, here's my boilerplate theme: [buscemi](https://github.com/joshre/buscemi). 
 

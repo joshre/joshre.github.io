@@ -19,22 +19,22 @@ function empty(data) {
 }
 // End of the empty function
 // Sets Poly Backgrounds for some titles. Sets default if the section doesn't have a data-element
-var poly = document.getElementsByClassName('break');
-for (var i = poly.length - 1; i >= 0; i--) {
-    var color = poly[i].dataset.color;
-    if (empty(color)) {
-        color = 'Blues';
-    };
-    var pattern = Trianglify({
-        cell_size: 60,
-        seed: null,
-        x_colors: color,
-        width: window.innerWidth,
-        height: 800
-    });
-    poly[i]
-    poly[i].style.backgroundImage = "url('" + pattern.canvas().toDataURL("image/png") + "')";
-};
+// var poly = document.getElementsByClassName('break');
+// for (var i = poly.length - 1; i >= 0; i--) {
+//     var color = poly[i].dataset.color;
+//     if (empty(color)) {
+//         color = 'Blues';
+//     };
+//     var pattern = Trianglify({
+//         cell_size: 60,
+//         seed: null,
+//         x_colors: color,
+//         width: window.innerWidth,
+//         height: 800
+//     });
+//     poly[i]
+//     poly[i].style.backgroundImage = "url('" + pattern.canvas().toDataURL("image/png") + "')";
+// };
 // jQuery(document).ready(function($) {
 //     function open($image) {
 //         $($image).addClass('abs-img');

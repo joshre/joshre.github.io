@@ -36,19 +36,25 @@ layout: compress
 			{% include offset.html %}
 		{% endif %}
 		{% if project.second %}
-			{% include second-half.html %}
-		{% endif %}
-		<section>
-		<div class="outer">
-			<h5>Features</h5>
-			<ul>
-				{% for feature in project.features %}<li>{{ feature }}</li>{% endfor %}
-			</ul>
-		</div>
-		</section>
-		
-	{% endfor %}
-	</main>
-	{% include footer.html %}
-</body>
+			<div class="project-wrap pad-vert--2">
+				<div class="content">
+					<p>{{project.second}}</p>
+					<p class="break-box-img">
+						<img src="{{project.secondimg}}">
+					</p>
+				</div></div>
+			{% endif %}
+			<div class="project-wrap pad-vert--2">
+				<div class="content">
+					<strong>Features</strong>
+					<ul>
+						{% for feature in project.features %}<li>{{ feature }}</li>{% endfor %}
+					</ul>
+				</div>
+			</div>
+			
+		{% endfor %}
+		</main>
+		{% include footer.html %}
+	</body>
 </html>

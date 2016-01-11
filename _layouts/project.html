@@ -1,6 +1,18 @@
 ---
 layout: compress
 ---
-<section class="section--project">
-	{{content}}
-</section>
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	
+	<body>
+		{% include header.html %}
+		<main>
+		<section>
+			<div class="project-wrap pad-vert--2">
+				<div class="content">
+					{{content}}
+				</div>
+			</div>
+		</section>
+		</main>

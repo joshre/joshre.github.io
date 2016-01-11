@@ -14,7 +14,6 @@ body {
 //                 margin-bottom: 0;
 //             }
 //         }
-
 //         @include media(max-width $screen-xs-width) {
 //             padding-bottom: 4em;
 //         }
@@ -34,7 +33,11 @@ main {
     }
 
 
-    
+    @include media($screen-md) {
+        p {
+            padding-right: 20%;
+        }
+    }
 }
 
 img {

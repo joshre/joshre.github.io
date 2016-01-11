@@ -15,7 +15,7 @@ $max-width: (
 
 $base-font-color:darken(map-get($blue, dark), 10%);
 $heading-font-color: darken(map-get($blue, dark), 10%);
-$base-font-size: 1.125rem;
+$base-font-size: 1rem;
 $base-padding: 1em;
 
 $link-colors: map-get($blue, links);
