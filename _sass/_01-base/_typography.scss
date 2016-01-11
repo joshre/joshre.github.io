@@ -1,6 +1,6 @@
 body {
     font-family: $body-sans-font;
-    line-height: 1.6;
+    line-height: 1.5;
     font-size: $base-font-size;
 
     @include media($screen-sm-max) {
@@ -14,6 +14,7 @@ body {
 %headings {
     font-family: $heading-font-family;
     font-weight: $heading-font-weight;
+    color: $heading-font-color;
 
     &.section-title {
         line-height: 2.5;
@@ -27,13 +28,20 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2 {
     line-height: 1;
     letter-spacing: -0.025em;
-    margin-bottom: 1.55rem;
     word-spacing: -0.03em;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 h3, h4 {
     line-height: 1.4;
     letter-spacing: -0.025em;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h5, h6 {
+    line-height: 1;
 }
 
 // mobile
@@ -103,29 +111,28 @@ h5 {
 }
 
 
-@include media($screen-lg) {
-    h1 {
-        font-size: 4 * $base-font-size;
-        margin-bottom: 1.55555rem;
-    }
+// @include media($screen-lg) {
+//     h1 {
+//         font-size: 4 * $base-font-size;
+//         margin-bottom: 1.55555rem;
+//     }
 
-    h2 {
-        font-size: 2.5 * $base-font-size;
-    }
+//     h2 {
+//         font-size: 2.5 * $base-font-size;
+//     }
 
-    h3 {
-        font-size: 2 * $base-font-size;
-    }
+//     h3 {
+//         font-size: 2 * $base-font-size;
+//     }
 
-    h4 {
-        font-size: 1.8 * $base-font-size;
-    }
+//     h4 {
+//         font-size: 1.8 * $base-font-size;
+//     }
 
-    h5 {
-        font-size: 1.3 * $base-font-size;
-    }
-}
-
+//     h5 {
+//         font-size: 1.3 * $base-font-size;
+//     }
+// }
 
 em, i, address, blockquote, cite, dfn, var {
     font-style: italic;
@@ -136,12 +143,20 @@ strong, b {
 }
 
 // `margin-bottom` to maintain vertical rhythm
-p, blockquote, pre, ul, ol, dl, dir, figure, article, menu, div, %vertical-rhythm {
-    margin-bottom: $spacing-unit;
+p, blockquote, pre, ul, ol, dl, dir, figure, article, menu, %vertical-rhythm {
+    margin: $spacing-unit auto;
 }
 
 a {
     color: $base-link-color;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+
+    @include transition(border 0.2s ease-in-out);
+
+    &:hover {
+        border-bottom: 1px solid;
+    }
 }
 
 code, kbd, samp, tt {
@@ -172,9 +187,11 @@ blockquote {
         color: lighten($base-link-color, 20%);
         text-decoration: none;
     }
-    ul{
+
+    ul {
         margin-bottom: $small-spacing / 2;
     }
+
     p {
         margin: 0;
     }

@@ -1,0 +1,163 @@
+.break-box-img {
+    img {
+        @include media($screen-sm) {
+            max-width: 120%;
+            margin-left: -10%;
+        }
+    }
+}
+
+.bg-blue {
+    background-color: $base-font-color;
+    color: white;
+
+    h1, h2, h3, h4, h5, h6 {
+        color: white;
+    }
+}
+
+.bg-light-gray {
+    // map-get
+}
+
+.border-rad {
+    border-radius: 5px;
+}
+
+.screenshot--feature {
+    @include pad(0 2em);
+
+    overflow: hidden;
+}
+
+.screenshot--feature-image {
+    @include span-columns(5 of 12);
+
+    @include shift(0.5);
+
+    margin-bottom: -6em;
+    margin-top: 4em;
+}
+
+.screenshot--feature-text {
+    @include span-columns(5 of 12);
+
+    margin-top: 4em;
+
+    @include shift(0.5);
+}
+
+.site-cta {
+    float: right;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 0.32em 0.75em 0.3em;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+
+    @include transition(background-color, border 0.3s ease-in-out);
+
+    &:hover {
+        background-color: $base-font-color;
+        border-color: $base-font-color;
+        box-shadow: 0px 0px 2px rgba(8, 12, 17, 0.56);
+    }
+
+    &:active {
+        background-color: transparentize($base-font-color, 0.2);
+    }
+}
+
+.break {
+    background-position: 0 0;
+
+    @include transition(background-position 1s ease-in-out);
+
+    &:hover {
+        @include animation(bg-move 1 ease-in-out);
+
+        background-position: 0 -2em;
+    }
+}
+
+@include keyframes(bg-move) {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 -2em;
+    }
+}
+
+
+$bright-green: #8bd2ab;
+$gray-blue: #5c6773;
+
+.project-grid {
+    border-top: 100px solid $bright-green;
+
+    @include row;
+
+    @include pad(4em 0);
+
+    background-color: $gray-blue;
+
+    .sup-title {
+        @include span-columns(11 of 12);
+
+        text-transform: uppercase;
+
+        @include shift(1);
+
+        color: $bright-green;
+        font-size: 2.56rem;
+    }
+
+    .header {
+        @include media($screen-md) {
+            @include span-columns(2.5 of 12);
+
+            @include shift(1);
+        }
+
+
+        text-transform: uppercase;
+        font-size: 2.84rem;
+        font-weight: 900;
+        margin-top: 0;
+        line-height: 1.2;
+    }
+
+    .content {
+        @include media($screen-md) {
+            @include span-columns(7 of 12);
+
+            @include shift(0.5);
+        }
+
+        color: white;
+        font-size: 2rem;
+        margin-top: 0;
+    }
+}
+
+.project-wrap {
+    @include row;
+
+    .content {
+        @include shift(2.5);
+
+        @include span-columns(7 of 12);
+
+        color: $gray-blue;
+        font-size: 1.3rem;
+        line-height: 1.6;
+    }
+}
+section{
+    @include row;
+}

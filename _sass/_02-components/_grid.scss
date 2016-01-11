@@ -1,0 +1,4 @@
+.half{
+	@include span-columns(6 of 12);
+	@include omega(2n);
+}

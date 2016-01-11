@@ -2,18 +2,45 @@
 //     @include row;
 //     background-color: #F5F6F6;
 // }
-body{
-	overflow-x: hidden;
+body {
+    overflow-x: hidden;
 }
-main {
 
- 	@include pad(2em 1em 1em 1em);
-    @include media($screen-xs) {@include outer-container(map-get($max-width, xs));}
-    @include media($screen-sm) {@include outer-container(map-get($max-width, sm));@include pad(2em 0 1em 0);}
-    @include media($screen-md) {@include outer-container(map-get($max-width, md));@include pad(2em 0 1em 0);}
-    @include media($screen-lg) {@include outer-container(map-get($max-width, lg));@include pad(2em 0 1em 0);}
-    @include media($screen-xl) {@include outer-container(map-get($max-width, xl));@include pad(2em 0 1em 0);}
+// .projects {
+//     .outer {
+//         @include media(max-width $screen-sm-width) {
+//             h4 {
+//                 margin-top: 0.4em;
+//                 margin-bottom: 0;
+//             }
+//         }
+
+//         @include media(max-width $screen-xs-width) {
+//             padding-bottom: 4em;
+//         }
+//     }
+// }
+main {
+    @include row;
 }
-img{
-	max-width: 100%;
+
+.outer {
+    @include pad(2em 1em 1em 1em);
+
+    @include media($screen-md) {
+        @include span-columns(8 of 12);
+
+        @include shift(2);
+    }
+
+
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+.site-header {
+    @include row;
 }

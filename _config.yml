@@ -16,3 +16,7 @@ collections:
     output: true
   science:
     output: true
+  project:
+    output: true
+    permalink: /project/:path/
+    output_ext: false
