@@ -13,7 +13,7 @@ I'm a web developer currently working at [Bamboo Creative](http://bamboocreative
 - [Resume](/resume)
 - [Veggies](http://veggies.casa)
 
-#### A Few Of My Most Recent Posts:
+<!-- #### A Few Of My Most Recent Posts:
 
 <ul>
   {% for post in site.posts %}
@@ -21,4 +21,4 @@ I'm a web developer currently working at [Bamboo Creative](http://bamboocreative
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
-</ul>
+</ul> -->
