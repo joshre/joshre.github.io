@@ -4,7 +4,7 @@ ul, ol, menu, dir {
     padding: 0;
 
     &%default-ul {
-        list-style-type: square;
+        list-style-type: disc;
         margin-bottom: $small-spacing;
         padding-left: $base-spacing / 2;
 

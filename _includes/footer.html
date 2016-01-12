@@ -1,4 +1,9 @@
 <footer>
-
 </footer>
-<script src="/js/site.js"></script>
+<script src='{{ "/js/jquery-2.1.4.min.js" | prepend: site.baseurl }}' type='text/javascript'></script>
+<script src='{{ "/js/bigfoot.min.js" | prepend: site.baseurl }}' type='text/javascript'></script>
+<script src='{{ "/js/transition.min.js" | prepend: site.baseurl }}' type='text/javascript'></script>
+<script src='{{ "/js/zoom.min.js" | prepend: site.baseurl }}' type='text/javascript'></script>
+
+{% include bigfoot.html %}
+<!-- <script src="/js/site.js"></script> -->

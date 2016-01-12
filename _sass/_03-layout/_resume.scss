@@ -25,26 +25,40 @@
 }
 
 .screenshot--feature {
-    @include pad(0 2em);
+    @include media($screen-md) {
+        @include pad(0 2em);
+    }
+
 
     overflow: hidden;
 }
 
-.screenshot--feature-image {
-    @include span-columns(5 of 12);
+.screenshot--feature-image, .screenshot--feature-text {
+    @include span-columns(12 of 12);
 
-    @include shift(0.5);
+    @include media($screen-sm) {
+        @include span-columns(5 of 12);
 
-    margin-bottom: -6em;
-    margin-top: 4em;
+        @include shift(0.5);
+
+        margin-top: 4em;
+    }
+
+
+    padding: 1em;
 }
 
-.screenshot--feature-text {
-    @include span-columns(5 of 12);
+.screenshot--feature-image {
+    margin-bottom: -2em;
 
-    margin-top: 4em;
+    @include media($screen-sm) {
+        margin-bottom: -6em;
+    }
 
-    @include shift(0.5);
+
+    @include media($screen-sm-max) {
+        padding: 0;
+    }
 }
 
 .site-cta {
@@ -71,39 +85,22 @@
     }
 }
 
-.break {
-    background-position: 0 0;
-
-    @include transition(background-position 1s ease-in-out);
-
-    &:hover {
-        @include animation(bg-move 1 ease-in-out);
-
-        background-position: 0 -2em;
-    }
-}
-
-@include keyframes(bg-move) {
-    0% {
-        background-position: 0 0;
-    }
-
-    100% {
-        background-position: 0 -2em;
-    }
-}
-
-
 $bright-green: #8bd2ab;
 $gray-blue: #5c6773;
 
 .project-grid {
-    border-top: 100px solid $bright-green;
+    border-top: 3em solid $bright-green;
 
     @include row;
 
-    @include pad(4em 0);
-
+    
+@include pad(2em 0);
+    
+      @include media($screen-sm) {@include pad(4em 0);}
+      @include media($screen-md) {}
+      @include media($screen-lg) {}
+      @include media($screen-xl) {}
+      
     background-color: $gray-blue;
 
     .sup-title {
@@ -114,45 +111,58 @@ $gray-blue: #5c6773;
         @include shift(1);
 
         color: $bright-green;
-        font-size: 2.56rem;
+        font-size: 1.658rem;
+
+        @include media($screen-md) {
+            font-size: 2.56rem;
+        }
     }
 
     .header {
-        @include media($screen-md) {
-            @include span-columns(2.5 of 12);
+        @include span-columns(10 of 12);
 
-            @include shift(1);
+        @include shift(1);
+
+        font-size: 1.84rem;
+
+        @include media($screen-md) {
+            font-size: 2.84rem;
         }
 
 
         text-transform: uppercase;
-        font-size: 2.84rem;
         font-weight: 900;
         margin-top: 0;
         line-height: 1.2;
     }
 
-    .content {
-        @include media($screen-md) {
-            @include span-columns(7 of 12);
+    // .content {
+    //     @include media($screen-md) {
+    //         @include span-columns(7 of 12);
 
-            @include shift(0.5);
-        }
+    //         @include shift(0.5);
+    //     }
 
-
-        color: white;
-        font-size: 1.6rem;
-        margin-top: 0;
-    }
+    //     color: white;
+    //     font-size: 1.6rem;
+    //     margin-top: 0;
+    // }
 }
 
 .project-wrap {
     @include row;
 
     .content {
-        @include shift(2.5);
+        @include shift(1);
 
-        @include span-columns(7 of 12);
+        @include span-columns(10 of 12);
+
+        @include media($screen-md) {
+            @include shift(2.5);
+
+            @include span-columns(7 of 12);
+        }
+
 
         h1, h2, h3, h4, h5, h6 {
             color: $gray-blue;
