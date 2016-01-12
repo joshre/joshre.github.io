@@ -85,7 +85,7 @@
     }
 }
 
-$bright-green: #8bd2ab;
+$bright-green: map-get($blue, links);
 $gray-blue: #5c6773;
 
 .project-grid {
