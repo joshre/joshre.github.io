@@ -31,8 +31,12 @@ h1, h2 {
     // line-height: 1;
     letter-spacing: -0.025em;
     word-spacing: -0.03em;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
+    font-weight: 100;
+}
+h2{
+    margin-top: 3rem;
 }
 
 h3, h4 {
@@ -40,6 +44,7 @@ h3, h4 {
     letter-spacing: -0.025em;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
+    font-weight: 600;
 }
 
 h5, h6 {
