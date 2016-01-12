@@ -1,0 +1,14 @@
+.half {
+    @include span-columns(6 of 12);
+
+    @include omega(2n);
+}
+
+.half-image {
+    @include span-columns(6 of 12);
+
+    &:after {
+        display: block;
+        content: "(" attr(alt) ")";
+    }
+}
