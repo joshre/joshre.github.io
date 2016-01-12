@@ -93,14 +93,13 @@ $gray-blue: #5c6773;
 
     @include row;
 
-    
-@include pad(2em 0);
-    
-      @include media($screen-sm) {@include pad(4em 0);}
-      @include media($screen-md) {}
-      @include media($screen-lg) {}
-      @include media($screen-xl) {}
-      
+    @include pad(2em 0);
+
+    @include media($screen-sm) {
+        @include pad(4em 0);
+    }
+
+
     background-color: $gray-blue;
 
     .sup-title {
@@ -172,8 +171,4 @@ $gray-blue: #5c6773;
         font-size: 1.2rem;
         line-height: 1.6;
     }
-}
-
-section {
-    @include row;
 }

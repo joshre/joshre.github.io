@@ -6,20 +6,11 @@ body {
     overflow-x: hidden;
 }
 
-// .projects {
-//     .outer {
-//         @include media(max-width $screen-sm-width) {
-//             h4 {
-//                 margin-top: 0.4em;
-//                 margin-bottom: 0;
-//             }
-//         }
-//         @include media(max-width $screen-xs-width) {
-//             padding-bottom: 4em;
-//         }
-//     }
-// }
 main {
+    @include row;
+}
+
+section {
     @include row;
 }
 
