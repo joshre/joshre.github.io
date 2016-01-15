@@ -1,1 +1,39 @@
-footer{}
+#letsmakethishappen {
+    @include pad(3em 0);
+
+    background-color: $second-accent;
+    color: white;
+
+    &:after {
+        content: 'Interested?';
+        display: table;
+        margin: 0 auto;
+        font-size: 1.5rem;
+    }
+
+    &:hover {
+        &:after {
+            content: 'HAPPEN';
+            font-weight: 600;
+
+            @include animation(makeithappen 10s linear 1);
+        }
+    }
+}
+
+@include keyframes(makeithappen) {
+    0% {
+        content: 'LETS';
+    }
+
+    50% {
+        content: 'MAKE';
+    }
+
+    100% {
+        content: 'THIS';
+    }
+}
+
+
+footer {}

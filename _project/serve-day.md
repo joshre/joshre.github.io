@@ -2,6 +2,7 @@
 layout: project
 title: Serve Day 2015
 color: Blues
+order: 3
 features:
   - Wordpress
   - Event Management
@@ -11,7 +12,7 @@ features:
 siteurl: http://serve.baysideonline.com
 offsetimage: /images/serve1.png
 offsettitle: Easy To Understand Search
-offsetdetail: Serve day needed a homepage that was blue and you're looking at that very blue homepage.
+offsetdetail: To make it clear to the user what they were searching for, we display search results in a natural language format, with simple links to re-filter.
 
 ---
 

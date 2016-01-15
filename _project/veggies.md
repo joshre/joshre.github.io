@@ -2,6 +2,7 @@
 layout: project
 title: veggies.casa
 color: Blues
+order: 2
 features:
   - Jekyll
   - Break-neck speed

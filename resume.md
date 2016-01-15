@@ -39,6 +39,8 @@ The site you're looking at is built in Jekyll using bourbon/neat as well as the 
 - Git
 - Web Performance Optimization
 - Writing Site Documentation
+- Vim
+- Command Line
 
 ## Software I Use
 

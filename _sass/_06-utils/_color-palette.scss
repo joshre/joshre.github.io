@@ -8,14 +8,22 @@
 // 	dark: 			#5F7687
 // );
 $blue: (
-	main:	#83A8BC,
+	main:	#39474f,
 	dark:	#2b3c54,
-	links:	#429EBF,
+	links:	#2185d5,
+	gray: 	#303842,
 );
 $gray: (
 	border: #DEDEDE,
 	dark:	#424242,
 );
+$accent: (
+	main: #f3f3f3,
+);
+
+$accent-color: map-get($accent, main);
+$second-accent: map-get($blue, links);
+$dark-large: map-get($blue, gray);
 
 // -----------------------------------------------------------------------------
 // Social Icons

@@ -2,6 +2,7 @@
 layout: project
 title: We Are Rocklin
 color: Blues
+order: 5
 features:
   - Jekyll
   - Bourbon/Neat

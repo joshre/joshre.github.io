@@ -2,6 +2,7 @@
 layout: project
 title: Light Conference
 color: Greys
+order: 4
 features:
   - Jekyll
   - Amazon S3 Hosted

@@ -33,6 +33,14 @@ h1, h2 {
     word-spacing: -0.03em;
     margin-top: 2.5rem;
     margin-bottom: 1rem;
+<<<<<<< Updated upstream
+=======
+    font-weight: 100;
+}
+
+h2 {
+    margin-top: 3rem;
+>>>>>>> Stashed changes
 }
 
 h3, h4 {
@@ -251,7 +259,10 @@ hr {
     line-height: 1.4;
     margin: .5em 0 .7em;
     max-width: 30em;
-    padding-right: 0 !important;
+
+    @include media($screen-md) {
+        padding-right: 7% !important;
+    }
 }
 
 h4 + ul {

@@ -32,11 +32,8 @@ main {
         @include span-columns(8 of 12);
 
         @include shift(2);
-    }
 
-
-    @include media($screen-md) {
-        p {
+        p, ul, ol {
             padding-right: 20%;
         }
     }
@@ -52,4 +49,7 @@ img {
     .outer {
         padding-top: 2em !important;
     }
+}
+.row{
+@include row;
 }

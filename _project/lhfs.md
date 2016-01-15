@@ -2,6 +2,7 @@
 layout: project
 title: Land Home Financial Services
 color: Greys
+order: 1
 features:
   - Wordpress Multisite
   - Bourbon/Neat & My Own Framework
@@ -22,7 +23,8 @@ second: Due to the robust nature of the site, it was necessary to cut out page-w
 secondimg: /images/lhfs-mac.jpg
 
 ---
-Land Home Financial Services approached us looking for a website that would better serve their branches and loan officers. We saw a few opportunities for them to stand out in the home loan industry as a more empathetic, personality-driven company; and used the website as a medium to leverage that.
+
+Land Home Financial Services approached us looking for a website that would better serve their branches and loan officers as well as simplify the loan process for their users. We saw a few opportunities for them to stand out in the home loan industry as a more empathetic, personality-driven company; and used the website as a medium to leverage that.
 
 Part of the project was ensuring that each local branch had it's own site; and that within each branch site each loan officer was represented. To make sure that the large number of sites required were manageable, we set up a WordPress multisite install and based each "subsite" off of an API provided from LHFS' intranet. 
 
