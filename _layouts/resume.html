@@ -8,61 +8,6 @@ layout: compress
 	<body>
 		{% include header.html %}
 		<main>
-<<<<<<< Updated upstream
-		<section>
-			<div class="outer">
-				{{ content }}
-			</div>
-		</section>
-		<section>
-			<div class="outer">
-				<h1>Projects</h1>
-				<p>These are a few of the projects I've worked on in the last few years. Some were done in tandem with other developers and designers. They've gone through various client interviews, wireframing and sketching, prototyping and usually few rounds of revisions.</p>
-			</div>
-		</section>
-		{% for project in site.project %}
-			<section>
-				<div class="project-grid">
-					{% if project.categories %}<span class="sup-title">{% for category in project.categories %}
-						<span>{{category}}</span>{% if forloop.last == false and forloop.length > 1 %}, {% endif %}{% endfor %}</span><br>{% endif %}
-						<h4 class="color--white font--shadow mar-top--no header">{{project.title}}</h4>
-						<!-- <p class="content">{{project.intro}}</p> -->
-					</div>
-				</section>
-				<section>
-					<div class="outer">
-					{% capture marked %}{% include project.md %}{% endcapture %}
-					{{ marked | markdownify }}
-				</div>
-			</section>
-			{% if project.offsetimage %}
-				{% include offset.html %}
-			{% endif %}
-			{% if project.second %}
-				<section>
-					<div class="outer">
-						<p>{{project.second}}</p>
-						<p class="break-box-img">
-							<img src="{{project.secondimg}}">
-						</p>
-					</div>
-				</section>
-			{% endif %}
-			<section>
-				<div class="outer">
-					<strong>Features</strong>
-					<ul>
-						{% for feature in project.features %}<li>{{ feature }}</li>{% endfor %}
-					</ul>
-				</div>
-			</section>
-			
-		{% endfor %}
-		</main>
-		{% include footer.html %}
-	</body>
-</html>
-=======
 		<article class="mar-no">
 			<section>
 				<div class="outer">
@@ -79,17 +24,17 @@ layout: compress
 			{% for project in projects %}
 				<section>
 					<div class="project-grid">
-					<div class="outer">
-					<!-- 	{% if project.categories %}<span class="sup-title">{% for category in project.categories %}
-							<span>{{category}}</span>{% if forloop.last == false and forloop.length > 1 %}, {% endif %}{% endfor %}</span><br>{% endif %} -->
-							<h4 class="color--white font--shadow mar-top--no header">{{project.title}}</h4>
-							<div class="row">
-							<div class="color--white features">
-							{% for feature in project.features %}<span>{{ feature }}</span>{% endfor %}
+						<div class="outer">
+							<!-- 	{% if project.categories %}<span class="sup-title">{% for category in project.categories %}
+								<span>{{category}}</span>{% if forloop.last == false and forloop.length > 1 %}, {% endif %}{% endfor %}</span><br>{% endif %} -->
+								<h4 class="color--white font--shadow mar-top--no header">{{project.title}}</h4>
+								<div class="row">
+									<div class="color--white features">
+										{% for feature in project.features %}<span>{{ feature }}</span>{% endfor %}
+									</div>
+								</div>
+								{% if project.siteurl  %}<a class="site-cta" href="{{project.siteurl}}">View Site</a>{% endif %}
 							</div>
-							</div>
-							{% if project.siteurl  %}<a class="site-cta" href="{{project.siteurl}}">View Site</a>{% endif %}
-						</div>
 						</div>
 					</section>
 					<section>
@@ -112,9 +57,9 @@ layout: compress
 					</section>
 				{% endif %}
 				<!-- <section>
-					<div class="outer">
-						
-					</div>
+							<div class="outer">
+										
+							</div>
 				</section> -->
 				
 			{% endfor %}
@@ -125,4 +70,3 @@ layout: compress
 			{% include footer.html %}
 		</body>
 	</html>
->>>>>>> Stashed changes
