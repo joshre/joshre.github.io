@@ -23,13 +23,13 @@ layout: compress
 			{% assign projects = site.project | sort: 'order' %}
 			{% for project in projects %}
 				<section>
-					<div class="project-grid">
+					<div class="project-grid bg--gray-lightest">
 						<div class="outer">
 							<!-- 	{% if project.categories %}<span class="sup-title">{% for category in project.categories %}
 								<span>{{category}}</span>{% if forloop.last == false and forloop.length > 1 %}, {% endif %}{% endfor %}</span><br>{% endif %} -->
-								<h4 class="color--white font--shadow mar-top--no header">{{project.title}}</h4>
+								<h4 class="mar-top--no header">{{project.title}}</h4>
 								<div class="row">
-									<div class="color--white features">
+									<div class="color--gray-light features">
 										{% for feature in project.features %}<span>{{ feature }}</span>{% endfor %}
 									</div>
 								</div>

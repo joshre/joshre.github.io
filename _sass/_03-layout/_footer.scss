@@ -16,7 +16,7 @@
             content: 'HAPPEN';
             font-weight: 600;
 
-            @include animation(makeithappen 10s linear 1);
+            @include animation(makeithappen 2s linear 1);
         }
     }
 }

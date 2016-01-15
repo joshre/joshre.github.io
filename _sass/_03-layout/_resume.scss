@@ -90,9 +90,9 @@
 
 $bright-green: #8bd2ab;
 $gray-blue: #5c6773;
-
+// $lightest-highlight: #F6F8FA;
 .project-grid {
-    border-top: 3em solid $second-accent;
+
 
     @include row;
 
@@ -103,7 +103,7 @@ $gray-blue: #5c6773;
     }
 
 
-    background-color: $dark-large;
+    background-color: map-get($gray, lightest);
 
     .sup-title {
         // @include span-columns(11 of 12);
@@ -197,6 +197,7 @@ $gray-blue: #5c6773;
 
     //     @include shift(1);
     // }
+
     margin-bottom: 1rem;
 
     span {

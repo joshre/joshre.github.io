@@ -1,5 +1,5 @@
 .lead-paragraph, h1 {
-    @include gradient-text($second-accent, $dark-large);
+    @include gradient-text($second-accent, lighten($dark-large, 10%));
 
     display: inline-block;
 }
