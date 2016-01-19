@@ -5,7 +5,8 @@ color: Blues
 order: 2
 features:
   - Jekyll
-  - Break-neck speed
+  - SVG Animation
+  - SASS
 
 
 siteurl: http://veggies.casa

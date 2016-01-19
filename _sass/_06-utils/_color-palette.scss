@@ -17,10 +17,13 @@ $gray: (
 	border: #DEDEDE,
 	dark:	#424242,
 	light: #7b8994,
-	lightest: #F6F8FA,
+	lightest: #E8EDF2,
 );
 $accent: (
 	main: #f3f3f3,
+);
+$pink: (
+	main: #fc3476,
 );
 
 $accent-color: map-get($accent, main);

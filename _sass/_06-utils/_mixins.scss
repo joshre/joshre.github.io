@@ -25,30 +25,53 @@
         color: $color;
     }
 }
-
-@mixin st-button($color) {
-    @include pad(0.5em 1em);
-
-    text-decoration: none;
-    border-radius: 8px;
-    color: white;
-    text-decoration: none;
-    display: table;
-    margin: 0 auto;
-    background-color: map-get($color, main);
-
-    &:hover {
-        background-color: map-get($color, mainOne);
-    }
-
-    &:active {
-        background-color: map-get($color, mainTwo);
-    }
-}
-
 @mixin gradient-text($color1, $color2) {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+
     @include background-image(linear-gradient(45deg, $color1, $color2));
 }
+
+@mixin st-button($button-color, $text-color: white, $button-type: solid) {
+    @include pad(0.3em 1em);
+
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 2em;
+
+    box-shadow: none;
+    border: 1px solid;
+
+    @include transition(all 0.2s ease-in-out);
+
+    @if $button-type == solid {
+        background-color: $button-color;
+        border-color: $button-color;
+        color: $text-color;
+
+        &:hover, &:focus {
+            background-color: darken($button-color, 5%);
+        }
+
+        &:active {
+            background-color: darken($button-color, 7%);
+        }
+    }
+    @else {
+        background-color: transparent;
+        color: $button-color;
+        border-color: $button-color;
+
+        &:hover, &:focus {
+            background-color: $button-color;
+            color: $text-color;
+        }
+
+        &:active {
+            background-color: $button-color;
+            color: $text-color;
+        }
+    }
+}
+

@@ -5,11 +5,12 @@ color: Greys
 order: 1
 features:
   - Wordpress Multisite
-  - Bourbon/Neat & My Own Framework
+  - Bourbon/Neat
   - AWS
-  - Full-Fledged Pattern Library
-  - Customizable Landing-Page generator
-  - Embeddable iframe profile widgets
+  - CSS Pattern Library
+  - Built-in Landing-Page Generator
+  - Embeddable &lt;iframe&gt; Profile Widgets
+  - Documentation
 
 categories:
   - web

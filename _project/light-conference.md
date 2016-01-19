@@ -6,6 +6,8 @@ order: 4
 features:
   - Jekyll
   - Amazon S3 Hosted
+  - Custom Fonts
+  - SVG
 
 intro: Light Conference is a good example of a PSD to Web project; a designer handed off the mockups and I took them and made them work on desktop and mobile.
 siteurl: http://www.lightconference.com
