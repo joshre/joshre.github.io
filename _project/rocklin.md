@@ -5,7 +5,7 @@ color: Blues
 order: 5
 features:
   - Jekyll
-  - Bourbon/Neat
+  - Sass
 
 siteurl: http://wearerocklin.com
 intro: Build the life you love in Rocklin.

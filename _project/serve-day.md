@@ -8,9 +8,10 @@ features:
   - Event Management
   - User Management
   - AWS
+  - JavaScript Search
 
 siteurl: http://serve.baysideonline.com
-offsetimage: /images/serve1.png
+offsetimage: /images/serveday.jpg
 offsettitle: Easy To Understand Search
 offsetdetail: To make it clear to the user what they were searching for, we display search results in a natural language format, with simple links to re-filter.
 

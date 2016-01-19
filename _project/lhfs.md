@@ -5,18 +5,18 @@ color: Greys
 order: 1
 features:
   - Wordpress Multisite
-  - Bourbon/Neat & My Own Framework
   - AWS
-  - Full-Fledged Pattern Library
-  - Customizable Landing-Page generator
-  - Embeddable iframe profile widgets
+  - CSS Pattern Library
+  - Built-in Landing-Page Generator
+  - Embeddable &lt;iframe&gt; Profile Widgets
+  - Documentation
 
 categories:
   - web
   - bamboo
 
 siteurl: http://lfhsdev.com
-offsetimage: /images/kc.png
+offsetimage: /images/kc.jpg
 offsettitle: Knowledge Center
 offsetdetail: This content hub is custom built on top of the WordPress engine to track post popularity, easily share content between site installs, all without leaving the familiar dashboard.
 second: Due to the robust nature of the site, it was necessary to cut out page-weight wherever possible. So before we started putting pages together we set up a pattern library for each style component; like a custom-made Bootstrap based on SMACSS and BASSCSS.

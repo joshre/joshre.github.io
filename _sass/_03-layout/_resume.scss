@@ -1,3 +1,6 @@
+$bright-green: #8bd2ab;
+$gray-blue: #5c6773;
+
 .break-box-img {
     img {
         @include media($screen-sm) {
@@ -16,9 +19,7 @@
     }
 }
 
-.bg-light-gray {
-    // map-get
-}
+.bg-light-gray {}
 
 .border-rad {
     border-radius: 5px;
@@ -49,8 +50,6 @@
 }
 
 .screenshot--feature-image {
-    margin-bottom: -2em;
-
     @include media($screen-sm) {
         margin-bottom: -6em;
     }
@@ -59,29 +58,32 @@
     @include media($screen-sm-max) {
         padding: 0;
     }
+
+
+    margin-bottom: -2em;
 }
 
-
 .site-cta {
-    // float: right;
-    color: white;
-    text-decoration: none;
-    border: 1px solid $second-accent;
-    padding: 0.32em 0.75em 0.3em;
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1.5px;
-    background-color: $second-accent;
-    display: inline-block;
     @include transition(all 0.3s ease-in-out);
 
-    &:hover {
-        background-color: lighten($second-accent, 5%);
-        border-color: lighten($second-accent, 5%);
-        box-shadow: 0px 0px 2px rgba(8, 12, 17, 0.56);
-        text-shadow:$base-text-shadow;
+    display: inline-block;
+    padding: 0.32em 0.75em 0.3em;
+    border: 1px solid $second-accent;
+    border-radius: 3px;
+    background-color: $second-accent;
 
+    // float: right;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+    &:hover {
+        border-color: lighten($second-accent, 5%);
+        background-color: lighten($second-accent, 5%);
+        box-shadow: 0px 0px 2px rgba(8, 12, 17, 0.56);
+        text-shadow: $base-text-shadow;
     }
 
     &:active {
@@ -89,28 +91,10 @@
     }
 }
 
-<<<<<<< Updated upstream
-$bright-green: #8bd2ab;
-$gray-blue: #5c6773;
-
-=======
->>>>>>> Stashed changes
+// $lightest-highlight: #F6F8FA;
 .project-grid {
-    border-top: 3em solid $second-accent;
-
     @include row;
 
-<<<<<<< Updated upstream
-    
-@include pad(2em 0);
-    
-      @include media($screen-sm) {@include pad(4em 0);}
-      @include media($screen-md) {}
-      @include media($screen-lg) {}
-      @include media($screen-xl) {}
-      
-    background-color: $gray-blue;
-=======
     @include pad(2em 0);
 
     @include media($screen-sm) {
@@ -118,110 +102,43 @@ $gray-blue: #5c6773;
     }
 
 
-    background-color: $dark-large;
->>>>>>> Stashed changes
+    background-color: map-get($gray, lightest);
 
     .sup-title {
-        // @include span-columns(11 of 12);
-
-        text-transform: uppercase;
-
-        // @include shift(0.5);
-
-        // @include media($screen-sm) {
-        //     @include span-columns(10 of 12);
-
-        //     @include shift(1);
-        // }
-
-        color: $second-accent;
-        font-size: 1.658rem;
-
         @include media($screen-md) {
             font-size: 2.56rem;
         }
+
+
+        color: $second-accent;
+        font-size: 1.658rem;
+        text-transform: uppercase;
     }
 
     .header {
-        // @include span-columns(11 of 12);
-
-        // @include shift(0.5);
-
-        font-size: 1.84rem;
-
-        // @include media($screen-sm) {
-        //     @include span-columns(10 of 12);
-
-        //     @include shift(1);
-        // }
-
         @include media($screen-md) {
             font-size: 2.84rem;
         }
 
 
-        text-transform: uppercase;
-        font-weight: 900;
         margin-top: 0;
+        font-size: 1.84rem;
+        font-weight: 900;
+        text-transform: uppercase;
         line-height: 1.2;
     }
-
-    // .content {
-    //     @include media($screen-md) {
-    //         @include span-columns(7 of 12);
-
-    //         @include shift(0.5);
-    //     }
-
-    //     color: white;
-    //     font-size: 1.6rem;
-    //     margin-top: 0;
-    // }
 }
 
-// .project-wrap {
-//     @include row;
-
-//     .content {
-//         @include shift(1);
-
-//         @include span-columns(10 of 12);
-
-//         @include media($screen-md) {
-//             @include shift(2.5);
-
-//             @include span-columns(7 of 12);
-//         }
-
-//         h1, h2, h3, h4, h5, h6 {
-//             color: $dark-large;
-//         }
-
-//         color: $dark-large;
-//         font-size: 1.2rem;
-//         line-height: 1.6;
-//     }
-// }
-
 .features {
-    // @include span-columns(11 of 12);
-
-    // @include shift(0.5);
-
-    // @include media($screen-sm) {
-    //     @include span-columns(10 of 12);
-
-    //     @include shift(1);
-    // }
     margin-bottom: 1rem;
 
     span {
-        border: 1px solid;
-        padding: 0.2em 0.5em;
-        margin-right: 0.5em;
-        border-radius: 3px;
         display: inline-block;
+        padding: 0.2em 0.5em;
         margin-bottom: 0.7em;
+        margin-right: 0.5em;
+        border: 1px solid;
+        border-radius: 3px;
     }
 }
 

@@ -5,14 +5,12 @@ color: Blues
 order: 2
 features:
   - Jekyll
-  - Break-neck speed
+  - SVG Animation
+  - Scss
 
 
 siteurl: http://veggies.casa
 intro: Our health is important, healthy decisions ought to be basic.
-offsetimage: /images/serve1.png
-offsettitle: Easy To Understand Search
-offsetdetail: Serve day needed a homepage that was blue and you're looking at that very blue homepage.
 
 ---
 
