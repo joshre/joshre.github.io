@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 Hey, I'm Josh. I get a kick out of making stuff. From ties, belts, food, to the web: I make, break, and fix things.
@@ -13,12 +13,6 @@ I'm a web developer currently working at [Bamboo Creative](http://bamboocreative
 - [Resume](/resume)
 - [Veggies](http://veggies.casa)
 
-<!-- #### A Few Of My Most Recent Posts:
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul> -->
+[Hire Me](https://josh259.typeform.com/to/UpUHR6) [Contact Me](mailto:joshre@me.com)
+{: .buttons .mar-bot-desk--2 .mar-top-desk--2}

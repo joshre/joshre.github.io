@@ -1,0 +1,32 @@
+.buttons {
+    a {
+        @include st-button(map-get($pink, main), white, solid);
+
+        &:nth-of-type(2n) {
+            @include st-button(map-get($pink, main), white, transparent);
+        }
+    }
+
+    @include media($screen-sm-max) {
+        width: 100%;
+
+        @include row;
+
+        @include pad(0);
+
+        text-align: center;
+
+        a {
+            @include span-columns(6 of 12);
+        }
+    }
+}
+
+div.buttons {
+    display: table;
+    margin: 0 auto;
+
+    @include media($screen-sm-max) {
+        @include pad(2em 1em);
+    }
+}

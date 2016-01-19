@@ -2,13 +2,11 @@
 layout: project
 title: Stanford University Email Templates
 color: Reds
+order: 6
 features:
-  - Wordpress Multisite
-  - Bourbon/Neat & My Own Framework
-  - AWS
-  - Full-Fledged Pattern Library
-  - Customizable Landing-Page generator
-  - Embeddable iframe profile widgets
+  - Responsive Emails
+  - HTML Emails
+  - Mailchimp Integration
 
 ---
 

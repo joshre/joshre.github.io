@@ -1,3 +1,9 @@
 .color--white{
 	color: white;
 }
+.color--gray-light{
+	color: map-get($gray, light);
+}
+.color--gray-lightest{
+	color: map-get($gray, lightest);
+}

@@ -1,3 +1,6 @@
+$bright-green: #8bd2ab;
+$gray-blue: #5c6773;
+
 .break-box-img {
     img {
         @include media($screen-sm) {
@@ -16,9 +19,7 @@
     }
 }
 
-.bg-light-gray {
-    // map-get
-}
+.bg-light-gray {}
 
 .border-rad {
     border-radius: 5px;
@@ -49,8 +50,6 @@
 }
 
 .screenshot--feature-image {
-    margin-bottom: -2em;
-
     @include media($screen-sm) {
         margin-bottom: -6em;
     }
@@ -59,38 +58,41 @@
     @include media($screen-sm-max) {
         padding: 0;
     }
+
+
+    margin-bottom: -2em;
 }
 
 .site-cta {
-    float: right;
-    color: white;
-    text-decoration: none;
-    border: 1px solid white;
+    @include transition(all 0.3s ease-in-out);
+
+    display: inline-block;
     padding: 0.32em 0.75em 0.3em;
+    border: 1px solid $second-accent;
     border-radius: 3px;
-    text-transform: uppercase;
+    background-color: $second-accent;
+
+    // float: right;
+    color: white;
     font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
     letter-spacing: 1.5px;
 
-    @include transition(background-color, border 0.3s ease-in-out);
-
     &:hover {
-        background-color: $base-font-color;
-        border-color: $base-font-color;
+        border-color: lighten($second-accent, 5%);
+        background-color: lighten($second-accent, 5%);
         box-shadow: 0px 0px 2px rgba(8, 12, 17, 0.56);
+        text-shadow: $base-text-shadow;
     }
 
     &:active {
-        background-color: transparentize($base-font-color, 0.2);
+        box-shadow: 0px 0px 1px rgba(8, 12, 17, 0.16);
     }
 }
 
-$bright-green: map-get($blue, links);
-$gray-blue: #5c6773;
-
+// $lightest-highlight: #F6F8FA;
 .project-grid {
-    border-top: 3em solid $bright-green;
-
     @include row;
 
     @include pad(2em 0);
@@ -100,75 +102,46 @@ $gray-blue: #5c6773;
     }
 
 
-    background-color: $gray-blue;
+    background-color: map-get($gray, lightest);
 
     .sup-title {
-        @include span-columns(11 of 12);
-
-        text-transform: uppercase;
-
-        @include shift(1);
-
-        color: $bright-green;
-        font-size: 1.658rem;
-
         @include media($screen-md) {
             font-size: 2.56rem;
         }
+
+
+        color: $second-accent;
+        font-size: 1.658rem;
+        text-transform: uppercase;
     }
 
     .header {
-        @include span-columns(10 of 12);
-
-        @include shift(1);
-
-        font-size: 1.84rem;
-
         @include media($screen-md) {
             font-size: 2.84rem;
         }
 
 
-        text-transform: uppercase;
-        font-weight: 600;
         margin-top: 0;
+        font-size: 1.84rem;
+        font-weight: 900;
+        text-transform: uppercase;
         line-height: 1.2;
     }
-
-    // .content {
-    //     @include media($screen-md) {
-    //         @include span-columns(7 of 12);
-
-    //         @include shift(0.5);
-    //     }
-
-    //     color: white;
-    //     font-size: 1.6rem;
-    //     margin-top: 0;
-    // }
 }
 
-.project-wrap {
-    @include row;
+.features {
+    margin-bottom: 1rem;
 
-    .content {
-        @include shift(1);
-
-        @include span-columns(10 of 12);
-
-        @include media($screen-md) {
-            @include shift(2.5);
-
-            @include span-columns(7 of 12);
-        }
-
-
-        h1, h2, h3, h4, h5, h6 {
-            color: $gray-blue;
-        }
-
-        color: $gray-blue;
-        font-size: 1.2rem;
-        line-height: 1.6;
+    span {
+        display: inline-block;
+        padding: 0.2em 0.5em;
+        margin-bottom: 0.7em;
+        margin-right: 0.5em;
+        border: 1px solid;
+        border-radius: 3px;
     }
+}
+
+section {
+    @include row;
 }

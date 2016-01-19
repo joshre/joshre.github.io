@@ -6,11 +6,20 @@ body {
     overflow-x: hidden;
 }
 
+// .projects {
+//     .outer {
+//         @include media(max-width $screen-sm-width) {
+//             h4 {
+//                 margin-top: 0.4em;
+//                 margin-bottom: 0;
+//             }
+//         }
+//         @include media(max-width $screen-xs-width) {
+//             padding-bottom: 4em;
+//         }
+//     }
+// }
 main {
-    @include row;
-}
-
-section {
     @include row;
 }
 
@@ -18,16 +27,13 @@ section {
     @include pad(1em);
 
     @include media($screen-md) {
-        @include pad(2em 1em);
+        @include pad(1.6em 1em 1em 1em);
 
         @include span-columns(8 of 12);
 
         @include shift(2);
-    }
 
-
-    @include media($screen-md) {
-        p {
+        p, ul, ol {
             padding-right: 20%;
         }
     }
@@ -40,8 +46,17 @@ img {
 .site-header {
     @include row;
 
+    h2 {
+        margin-bottom: 0;
+        // color: map-get($blue, links);
+    }
+
     .outer {
         padding-top: 2em !important;
-        padding-bottom: 1em !important;
+        padding-bottom: 0em !important;
     }
+}
+
+.row {
+    @include row;
 }

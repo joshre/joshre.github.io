@@ -1,0 +1,6 @@
+.bg--gray-light{
+	background-color: map-get($gray, light);
+}
+.bg--gray-lightest{
+	background-color: map-get($gray, lightest);
+}
