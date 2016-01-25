@@ -1,24 +1,7 @@
-// main.docs {
-//     @include row;
-//     background-color: #F5F6F6;
-// }
 body {
     overflow-x: hidden;
 }
 
-// .projects {
-//     .outer {
-//         @include media(max-width $screen-sm-width) {
-//             h4 {
-//                 margin-top: 0.4em;
-//                 margin-bottom: 0;
-//             }
-//         }
-//         @include media(max-width $screen-xs-width) {
-//             padding-bottom: 4em;
-//         }
-//     }
-// }
 main {
     @include row;
 }
@@ -26,9 +9,31 @@ main {
 .outer {
     @include pad(1em);
 
-    @include media($screen-md) {
+    @include media($screen-sm) {
         @include pad(1.6em 1em 1em 1em);
 
+        @include span-columns(11 of 12);
+
+        @include shift(0.5);
+
+        p, ul, ol {
+            padding-right: 15%;
+        }
+    }
+
+
+    @include media($screen-md) {
+        @include span-columns(10 of 12);
+
+        @include shift(1);
+
+        p, ul, ol {
+            padding-right: 18%;
+        }
+    }
+
+
+    @include media($screen-lg) {
         @include span-columns(8 of 12);
 
         @include shift(2);
@@ -48,7 +53,9 @@ img {
 
     h2 {
         margin-bottom: 0;
+
         // color: map-get($blue, links);
+   
     }
 
     .outer {

@@ -2,7 +2,7 @@
 layout: project
 title: Stanford University Email Templates
 color: Reds
-order: 6
+order: 3
 features:
   - Responsive Emails
   - HTML Emails
