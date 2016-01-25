@@ -7,7 +7,7 @@
 <meta property="og:image:url" content="{% if page.image %}{{page.image}}{% else %}{{site.url}}/image/josh-twitter.jpg{% endif %}" />
 <meta property="og:image:type" content="image/jpeg" />
 
-<meta property="og:url" content="{{site.url}}{{page.url}}"/>
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
 <meta property="og:site_name" content="Josh Reeder-Esparza"/>
 
 <!-- Twitter -->
