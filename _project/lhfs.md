@@ -28,6 +28,11 @@ We started the project by building a pattern library. As our designer put layout
 
 This approach made development flexible and allowed us to leverage WordPress to make highly-customizable layouts without requiring extra code down the road. Anything you see on the site is controlled simple dedicated input fields, for example the story sections on [refinance](http://lhfs.com/refinance/) are drag-and-drop custom fields.
 
+
+![LHFS](/images/lhfs-mac.jpg)
+{: .break-box-img }
+
+
 **Multiple Sites**
 
 A large piece of the project was ensuring that each of Land Home's local branches had it's own site; and that within each branch site each loan officer was represented. To make sure that the large number of sites required were manageable, we set up a WordPress multisite install and based each "subsite" off of an API provided from LHFS' intranet.
