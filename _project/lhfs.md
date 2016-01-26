@@ -15,7 +15,7 @@ categories:
   - web
   - bamboo
 
-siteurl: http://lhfs.com/
+siteurl: http://lfhsdev.com/
 offsetimage: /images/kc.jpg
 offsettitle: Knowledge Center
 offsetdetail: We custom built a content hub called the "knowledge center" to support LHFS's position as a leader in the mortgage industry. The hub is integrated into WordPress to track post-popularity, re-use site-wide categories, and enable post broadcasting to branch sites&mdash;all within the familiar WordPress dashboard.
