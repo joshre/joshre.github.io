@@ -16,7 +16,7 @@ main {
 
         @include shift(0.5);
 
-        p, ul, ol {
+        p, ul, ol, .post-header {
             padding-right: 15%;
         }
     }
@@ -27,7 +27,7 @@ main {
 
         @include shift(1);
 
-        p, ul, ol {
+        p, ul, ol, .post-header {
             padding-right: 18%;
         }
     }
@@ -38,7 +38,7 @@ main {
 
         @include shift(2);
 
-        p, ul, ol {
+        p, ul, ol, .post-header {
             padding-right: 20%;
         }
     }
