@@ -12,6 +12,9 @@ _Good question_—yes you are.
 
 ![Is such a thing possible](http://i.imgur.com/FCEYI.gif)
 
+
+This page goes over how to setup all of these calculator details and [there's a test at the end](#now-that-youve-added-all-of-your-calendars-add-me-to-a-calendar-event-in-the-conference-room-to-make-sure-youre-all-setup), but this should take __12 minutes max__ of your time. 
+
 ## Lets start with Room Reservations.
 
 __How this will work.__  
@@ -74,6 +77,7 @@ It's easier to understand if you see an example. I've added Grady's below:
 
 * [Watch me creep on Grady](http://i.imgur.com/T5BuQyi.gifv)
 
+## Now that you've added all of your calendars, add me to a calendar event in the conference room, to make sure you're all setup.
 
 # You're done
 ![](http://i.imgur.com/uhx9LCH.gif)
