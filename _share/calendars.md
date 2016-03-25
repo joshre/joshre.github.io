@@ -15,7 +15,7 @@ _Good question_—yes you are.
 ## Lets start with Room Reservations.
 
 __How this will work.__  
-There will be a __contact__ in your address book that you invite to an event that listens to our calendar items and adds them _auto-magically_ to a dedicated "room calendar". You can see the room availability when you're adding the calendar item, and If there's already something going on in there when you add an event you'll get an "Event Declined" email.
+There will be a __contact__ in your address book that you invite to any event you would like to designate a room to.That contact listens to our calendar items and adds them _auto-magically_ to a dedicated "room calendar". You can see the room availability when you're adding the calendar item, and If there's already something going on in there when you add an event you'll get an "Event Declined" email.
 
 So, we'll go over the few pieces you need to make sure you're all setup to reserve rooms _like a professional._
 
