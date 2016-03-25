@@ -61,5 +61,7 @@ This is pretty simple.
 
 [Watch how to do this](http://i.imgur.com/hECGPaw.gifv)
 
+Now that you're all setup add an event to the conference room and invite me. 
+
 # You're done
 ![](http://i.imgur.com/uhx9LCH.gif)
