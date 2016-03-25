@@ -30,13 +30,16 @@ So, we'll go over the few pieces you need to make sure you're all setup to reser
 There are two calendars.
 
 1. Conference Room
+    *   `https://calendar.google.com/calendar/ical/honeyagency.com_3633313232323637363438%40resource.calendar.google.com/public/basic.ics`
 2. Buzzworthy Lounge
+    *  `https://calendar.google.com/calendar/ical/honeyagency.com_2d34313835333136392d313931%40resource.calendar.google.com/public/basic.ics`
 
 To add it to your OSX calendar:
 
-1. Navigate to your calendar
-2. Click `File` >  `New Calendar Group`
-3. Paste in the link to the calendar (above next to calendar names)
+1. Copy (not click) the link of the calendar you're about to add (those are up there ^^)
+2. Navigate to your calendar app.
+3. Click `File` >  `New Calendar Group`
+4. Paste in the link to the calendar (above next to calendar names)
 
 [Watch how to do this](http://i.imgur.com/qx5VypG.gifv)
 
