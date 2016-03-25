@@ -21,9 +21,9 @@ There will be a __contact__ in your address book that you invite to an event tha
 So, we'll go over the few pieces you need to make sure you're all setup to reserve rooms _like a professional._
 
 
-1. Adding a room calendar to your calendar setup.
-1. Adding rooms to your contacts.
-1. Adding a room reservation.
+1. [Adding a room calendar to your calendar setup.](#adding-a-room-calendar-to-your-calendar-setup)
+1. [Adding rooms to your contacts.](#adding-rooms-to-your-contacts)
+1. [Adding a room reservation.](#adding-a-room-reservation)
 
 
 ## Adding A Room Calendar To Your Calendar Setup
