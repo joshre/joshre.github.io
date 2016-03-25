@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: resume
 ---
 
 # Conference Room Calendars
