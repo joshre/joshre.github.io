@@ -1,5 +1,5 @@
 ---
-layout: calendars
+layout: share
 ---
 
 # Conference Room Calendars
