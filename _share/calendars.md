@@ -4,7 +4,7 @@ layout: share
 
 # Conference Room Calendars
 
-__Ladies and gentlem<sup>(a)</sup>n <sup><(grady)</sup>. I have _very_ exiting news.__
+__Ladies and gentlem<sup>(a)</sup>n <sup>(grady)</sup>. I have _very_ exiting news.__
 
 We're going to setup conference/buzzworthy lounge rooms, accordingly, in our calendar. Also, I'm going to explain how to add someone else's calendar to your own too keep it on your radar. You might be asking yourself "Am I ready for this?"
 
