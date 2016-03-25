@@ -2,7 +2,6 @@
 layout: resume
 ---
 
-
 # Conference Room Calendars
 
 Ladies and gentlem(a)n (grady). I have _very_ exiting news.
@@ -46,9 +45,9 @@ It's added, stop here. You're golden.
 
 ##  Adding Rooms To Your Contacts
 
-Download the contact group linked below, and double-click it, add the two contacts to your contacts, they've got images and names there already. That's it!
+Download the zip file of the meeting contact group linked below, and double-click it, add the two contacts to your contacts, they've got images and names there already. That's it!
 
-[]()
+[This is the zip you want](https://github.com/joshre/joshre.github.io/raw/master/_share/Meetings.zip)
 
 
 ## Adding A Room Reservation
