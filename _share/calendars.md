@@ -6,11 +6,9 @@ layout: share
 
 __Ladies and gentlemen. I have _very_ exiting news.__
 
-We're going to setup conference/buzzworthy lounge rooms, accordingly, in our calendar. Also, I'm going to explain how to [add someone else's calendar to your own](#showing-a-co-workers-calendar-within-your-own-calendar-app) too keep it on your radar. You might be asking yourself "Am I ready for this?"
+We're going to setup conference/buzzworthy lounge rooms, accordingly, in our calendar. Also, I'm going to explain how to [add someone else's calendar to your own](#showing-a-co-workers-calendar-within-your-own-calendar-app) too keep it on your radar. You might be asking yourself: "Am I ready for this?"
 
-_Good question_—yes you are. 
-
-![Is such a thing possible](http://i.imgur.com/FCEYI.gif)
+_Good question_—[yes you are](http://i.imgur.com/GgR2MMS.gif). 
 
 
 This page goes over how to setup all of these calculator details and [there's a test at the end](#now-that-youve-added-all-of-your-calendars-add-me-to-a-calendar-event-in-the-conference-room-to-make-sure-youre-all-setup), but this should take __12 minutes max__ of your time. 
