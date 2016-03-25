@@ -6,7 +6,7 @@ layout: share
 
 __Ladies and gentlemen. I have _very_ exiting news.__
 
-We're going to setup conference/buzzworthy lounge rooms, accordingly, in our calendar. Also, I'm going to explain how to add someone else's calendar to your own too keep it on your radar. You might be asking yourself "Am I ready for this?"
+We're going to setup conference/buzzworthy lounge rooms, accordingly, in our calendar. Also, I'm going to explain how to [add someone else's calendar to your own](#showing-a-co-workers-calendar-within-your-own-calendar-app) too keep it on your radar. You might be asking yourself "Am I ready for this?"
 
 _Good question_—yes you are. 
 
@@ -67,9 +67,9 @@ Keeping up-to-date on what everyone has on their radar is a lot easier if you ca
 
 * [calendar.honeyagency.com](calendar.honeyagency.com)
 
-I've added Grady's below:
+It's easier to understand if you see an example. I've added Grady's below:
 
-[Watch me creep on Grady](http://i.imgur.com/T5BuQyi.gifv)
+* [Watch me creep on Grady](http://i.imgur.com/T5BuQyi.gifv)
 
 
 # You're done
