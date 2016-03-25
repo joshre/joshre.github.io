@@ -61,4 +61,5 @@ This is pretty simple.
 
 [Watch how to do this](http://i.imgur.com/hECGPaw.gifv)
 
-http://i.imgur.com/uhx9LCH.gif
+# You're done
+![](http://i.imgur.com/uhx9LCH.gif)
