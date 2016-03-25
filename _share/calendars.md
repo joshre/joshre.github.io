@@ -61,7 +61,7 @@ This is pretty simple.
 
 [Watch how to do this](http://i.imgur.com/hECGPaw.gifv)
 
-## Adding a co-worker's calendar to your own. 
+## Showing a co-worker's calendar within your own calendar app. 
 
 Keeping up-to-date on what everyone has on their radar is a lot easier if you can _get right in their business_ and look at their calendar. Currently, you can subscribe to anyone with an `@honeyagency.com` email address simply by searching for it in "other calendars" within your google calendar. 
 
