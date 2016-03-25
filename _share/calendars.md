@@ -2,6 +2,7 @@
 layout: resume
 ---
 
+
 # Conference Room Calendars
 
 Ladies and gentlem(a)n (grady). I have _very_ exiting news.
@@ -25,7 +26,7 @@ So, we'll go over the few pieces you need to make sure you're all setup to reser
 1. Adding a room reservation.
 
 
-### Adding A Room Calendar To Your Calendar Setup
+## Adding A Room Calendar To Your Calendar Setup
 
 There are two calendars.
 
@@ -43,14 +44,14 @@ To add it to your OSX calendar:
 It's added, stop here. You're golden. 
 
 
-###  Adding Rooms To Your Contacts
+##  Adding Rooms To Your Contacts
 
 Download the contact group linked below, and double-click it, add the two contacts to your contacts, they've got images and names there already. That's it!
 
 []()
 
 
-### Adding A Room Reservation
+## Adding A Room Reservation
 
 This is pretty simple. 
 
