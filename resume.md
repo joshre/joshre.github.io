@@ -8,11 +8,14 @@ layout: resume
 
 # About Me
 
+> __Note__  
+> I made this beginning of 2016 when I was mid-job search, while I've updated it to be accurate I&rsquo;m probably not going to touch it for quite some time, so It won't have new info. But I like how it looks and I'm linking to it from the home page. (╯&deg;□&deg;）╯︵ ┻━┻
+
 I’m josh, I live in Sacramento, CA with my [wonderful wife](https://www.instagram.com/leilamre/); I’ve been working on the web for about 3-4 years, a lot of that time was spent at [Bamboo Creative](https://bamboocreative.com/). 
 
 About 4 years ago I started making belts, ties, wallets and other odds-and-ends and selling them on etsy—never anything too serious, but enough to cover expenses and spend time tweaking my designs. I called it Trestle Leather Co [^trestle], it was a lot of fun.
 
-While working on Trestle I got involved at Bamboo Creative doing a little sidework—they gave me some space to work on my belts and I paid for it by building websites. Eventually, the web work was more demanding than the leather work was useful, and I’ve been there since. 
+While working on Trestle I got involved at Bamboo Creative doing a little sidework—they gave me some space to work on my belts and I paid for it by building websites. Eventually, the web work was more demanding than the leather work was useful, and was there up untill January 2016
 
 I’ve worked on a variety of websites, branding projects, marketing campaigns, prototypes; worked with and without project managers, designers, and have been responsible for handling projects on my own with a client. At one time I was a *"designer"* [^1] when we were in a pinch for social media posts. I can work within a team and have learned how to be adaptable. I'm comfortable in Git, Git-flow, with a PSD or a .sketch file; heck, if you give me an ms-paint file I can make it happen.
 
