@@ -9,7 +9,7 @@ layout: resume
 # About Me
 
 > __Note__  
-> I made this beginning of 2016 when I was mid-job search, while I've updated it to be accurate I&rsquo;m probably not going to touch it for quite some time, so It won't have new info. But I like how it looks and I'm linking to it from the home page. (╯&deg;□&deg;）╯︵ ┻━┻
+> I made this beginning of 2016 when I was mid-job search, while I've updated it to be accurate I&rsquo;m probably not going to touch it for quite some time, so It won't have new info. But I like how it looks and I'm linking to it from the home page. <br/>(╯&deg;□&deg;）╯︵ ┻━┻
 
 I’m josh, I live in Sacramento, CA with my [wonderful wife](https://www.instagram.com/leilamre/); I’ve been working on the web for about 3-4 years, a lot of that time was spent at [Bamboo Creative](https://bamboocreative.com/). 
 
