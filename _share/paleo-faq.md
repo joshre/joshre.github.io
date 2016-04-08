@@ -2,7 +2,7 @@
 layout: share
 ---
 
-## FAQ
+# FAQ
 
 _This is a document that explains how to edit FAQ's on the paleoshoes.com website, it's located at this URL for formatting purposes._
 
@@ -10,7 +10,7 @@ The paleo shoes website uses something called "accordions." Accordions are a lis
 
 We will be making changes to the back-end of the FAQ page. To edit the FAQ, navigate to the FAQ (while logged in) and click "edit page."
 
-#### Finding and Editing an FAQ.
+## Finding and Editing an FAQ.
 
 Once you're editing the page you will see something like this:   
 
@@ -30,6 +30,6 @@ Highlighted in blue is one "FAQ":
 
 To make changes, click an FAQ and update the text accordingly. Highlighted in blue is the __question__ and highlighted in green is the __answer.__
 
-#### Adding an FAQ
+## Adding an FAQ
 
 To add an FAQ, go to step 2 in the previous walk-through and scroll to the bottom. You will see a `+` sign that allows you to add an FAQ.  [Here's a quick walkthrough](https://i.imgur.com/JmdOBNx.gif)
