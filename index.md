@@ -8,6 +8,13 @@ Hey, I'm Josh. I get a kick out of making stuff. From ties, belts, food, to the 
 
 I'm a web developer working at [Honey Agency](http://honeyagency.com/) in Sacramento, CA. Most places on the internet you can generally find me as `joshre`. lets be friends there. If you're into **Twitter** my username is [@jawshre](http://twitter.com/jawshre), on **Github** you can find me under [joshre](http://github.com/joshre), and if you like pictures I'm [joshre](http://instagram.com/joshre) on **Instagram**.
 
+I'm a big fan of lists. Here's one of quotes & verses I've been keeping.
+{: .mar-top-desk--2}
+
+[Quotes & Verses](/share/quotes+verses/)
+{: .buttons}
+
+<!-- 
 **Some Of My Work:**
 
 - [Resume](/resume)
@@ -15,4 +22,4 @@ I'm a web developer working at [Honey Agency](http://honeyagency.com/) in Sacram
 
 
 [Hire Me](https://josh259.typeform.com/to/UpUHR6) [Contact Me](mailto:joshre@me.com)
-{: .buttons .mar-bot-desk--2 .mar-top-desk--2}
+{: .buttons .mar-bot-desk--2 .mar-top-desk--2} -->
