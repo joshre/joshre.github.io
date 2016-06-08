@@ -693,3 +693,9 @@ _____
 
 ##### [Twitter](https://twitter.com/jmspool/status/391311660062736384)
 The best designers are passionate about design, but dispassionate about their own designs.
+
+_____
+
+## Dads
+
+Hi Hungry, I'm dad.
