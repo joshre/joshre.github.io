@@ -696,6 +696,15 @@ The best designers are passionate about design, but dispassionate about their ow
 
 _____
 
-## Dads
+## Dads 
 
 Hi Hungry, I'm dad.
+
+
+_____
+
+## Luke Wroblewski. 
+
+#### [Twitter](https://twitter.com/lukew/status/742390448375762944)  
+
+You can spam a user to water but you can’t make them drink. 
