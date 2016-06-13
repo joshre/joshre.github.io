@@ -2,8 +2,6 @@
 layout: share
 ---
 
-### CARBONATED NEGRONI
-
 __Mix volume:__ 165.1 ml  
 __Finished volume:__ 165.1 ml  
 __Start:__ 16% abv, 7.3 g/100 ml sugar, 0.38% acid  
