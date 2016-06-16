@@ -9,6 +9,7 @@ Big 'ol list of things I've made, or that I do.
 * [Coffee](#coffee)
     - [Roasting](#roasting)
     - [Kyoto (Cold Brew)](#kyoto-slow-drip-cold-brew)
+* [Sous vide](#sous-vide)
 * [Baking Bread](#baking-bread)
 * [Pizza Dough](#pizza-dough)
 * [Kombucha](#kombucha)
@@ -59,6 +60,7 @@ Roasting has been fun; I started after reading [this article](http://www.kinfolk
 It'd be cool to try making some sort of Liqueur by running something like 500ml of spirit (lets say, bourbon) through a drip and then taking that and hitting it with N<sub>2</sub>O, you could throw an over-flavored vanilla ice-cream (or a really vanilla-ey foam/whip) and make a really interesting strong Affogato.
 {: .ideas}
 
+# Sous Vide
 
 
 # Baking Bread
