@@ -13,6 +13,7 @@ Big 'ol list of things I've made, or that I do.
 * [Pizza Dough](#pizza-dough)
 * [Kombucha](#kombucha)
 * [Re-surfacing Cast Iron](#re-surfacing-cast-iron)
+* [Whetstone Knife Sharpening](#whetstone-knife-sharpening)
 * Food around the house (recipes?)
     - Granola
     - Stir Fry
@@ -71,7 +72,7 @@ It'd be cool to try making some sort of Liqueur by running something like 500ml 
 # Re-surfacing Cast Iron
 <br>
 
-# Whet stone Knife Sharpening
+# Whetstone Knife Sharpening
 
 [^1]: [Dave Arnold (2014). Liquid Intelligence: The Art and Science of the Perfect Cocktail.](http://amzn.to/1UB4M05)
 [^2]: If you're in Sacramento, hit up [Brew Ferment Distill](http://brewfermentdistill.com/) — $90 deposit w/ a $20 refill—I'll only probably end up re-filling 3-4 times a year, it's a lot of gas.
