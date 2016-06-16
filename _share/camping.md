@@ -38,7 +38,6 @@ title: Camping
 * Everyone bring sleeping gear
 * Cornhole?
 * Bocce ball
-* Smoker
 * Bed For Amos
 * Poker Chips
 
