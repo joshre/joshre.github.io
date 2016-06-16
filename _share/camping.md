@@ -29,7 +29,7 @@ title: Camping
 * Bacon ends and pieces
 * Eggs
 * 1 Bottle Whiskey [^1]
-* 3 6-packs 🍻
+* 3 6-packs 🍻 [^2]
 
 ## Stuff
 
@@ -43,3 +43,4 @@ title: Camping
 * Poker Chips
 
 [^1]: Preferably Evan Williams Single Barrel (it's like $23) ![Whiskey](http://www.drinkhacker.com/wp-content/uploads/2009/11/evan-williams-single-barrel-bourbon-2000.jpg)
+[^2]: (`6 x 3 = 18`) / 4  =  __4.5__
