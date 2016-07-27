@@ -1,0 +1,19 @@
+table {
+    width: 100%;
+    min-width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 1px solid #d0d4d9;
+    border-radius: 5px;
+    word-break: break-word;
+    background-color: #fff;
+    font-size: 1.2rem;
+    thead{
+    	font-weight: 600;
+    }
+    td {
+    	text-align: center;
+        border: 1px solid #d0d4d9;
+        padding: 0.3em;
+    }
+}

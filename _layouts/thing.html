@@ -1,0 +1,28 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	
+	<body>
+		{% include header.html %}
+		<main>
+		<article class="mar-no">
+			
+			<div class="outer">
+				<div class="row">
+					<h2>{{page.title}}</h2>
+					<h5 class="mar-top--no header">{{page.date| date: "%a, %b %d, %y" }}</h5>
+					{{content}}
+				</div>
+				{% for tag in page.tags %}
+					<a href="" class="tag tag--{{tag}}">{{tag}}</a>
+				{% endfor %}
+			</div>
+			
+		</article>
+		</main>
+		{% include footer.html %}
+	</body>
+</html>

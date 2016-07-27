@@ -21,3 +21,5 @@ collections:
     output: true
     permalink: /project/:path/
     output_ext: false
+  things:
+    output: true

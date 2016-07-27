@@ -1,0 +1,53 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	
+	<body>
+		{% include header.html %}
+		<main>
+		<article class="mar-no">
+			<section>
+				<div id="resume-intro" class="outer">
+					{{ content }}
+				</div>
+			</section>
+			<section>
+				<div class="outer">
+					<h1>Things I've Made</h1>
+					<p>I make a lot of things at home; this is like, a ledger or something—where I keep track of everything. We used to call things like this "blogs."</p>
+				</div>
+			</section>
+			{% assign things = site.things | sort: 'category' %}
+			{% for thing in things %}
+				<section>
+					{% if thing.main == 'true' %}
+						<div class="outer">
+							<h1 class="mar-top--no">{{thing.title|capitalize}}</h1>
+							<div class="row">
+								{{thing.content}}
+							</div>
+						</div>
+					</div>
+				{% else %}
+					<div class="outer">
+						<div class="row">
+							<h5 class="mar-top--no header">{{thing.date| date: "%a, %b %d, %y" }}</h5>
+							<a href="{{thing.url}}"><h2>{{thing.title}}</h2></a>
+							{{thing.content}}
+						</div>
+						{% for tag in thing.tags %}
+							<a href="" class="tag tag--{{tag}}">{{tag}}</a>
+						{% endfor %}
+					</section>
+				</div>
+			{% endif %}
+		{% endfor %}
+		
+	</article>
+	</main>
+	{% include footer.html %}
+</body>
+</html>
