@@ -696,6 +696,5 @@ The best designers are passionate about design, but dispassionate about their ow
 
 _____
 
-## Dads
-
-Hi Hungry, I'm dad.
+## Ralph Waldo Emerson  
+What you do speaks so loud that I cannot hear what you say.
