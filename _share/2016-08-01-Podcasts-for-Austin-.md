@@ -18,6 +18,10 @@ Most of these are links are just links to specific episodes, the app I use us ca
 
 ##### Reply All  
 Show about the internet  
-* [link](https://overcast.fm/+DzGWc6c6I)
+* [lLnk](https://overcast.fm/+DzGWc6c6I)
 
+##### Freakonomics
+* [Link](https://overcast.fm/itunes354668519/freakonomics-radio)
 
+##### Surprisingly Awesome 
+* [Link](https://overcast.fm/+FeeKqG4cs)
