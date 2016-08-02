@@ -25,3 +25,9 @@ Show about the internet
 
 ##### Surprisingly Awesome 
 * [Link](https://overcast.fm/+FeeKqG4cs)
+
+##### Planet Money 
+[Link](https://overcast.fm/itunes290783428/planet-money)
+
+##### Radiolab 
+[Link](https://overcast.fm/+LzZw6Q)
