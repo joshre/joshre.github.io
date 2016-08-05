@@ -12,17 +12,13 @@ header.been-making {
 .making-header {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
     background-color: white;
+    z-index: 1;
+    position: relative;
 
     .outer {
         padding-top: 0.8em;
         font-size: 1.3rem;
         padding-bottom: 0.7em;
-
-        span {
-            border-left: 1px solid #bdbdbd;
-            margin-left: 1em;
-            padding-left: 1em;
-        }
     }
 }
 
