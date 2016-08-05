@@ -2,7 +2,7 @@
 layout: home
 ---
 
-Hey, I'm Josh. I get a kick out of making stuff. From ties, belts, food, to the web: I make, break, and fix things.
+Hey, I'm Josh. I get a kick out of making stuff and have a lot of hobbies. From food, drinks, to the web I make, break, and fix things.
 {: .lead-paragraph}
 
 
