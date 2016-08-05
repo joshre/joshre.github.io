@@ -7,3 +7,6 @@
 .color--gray-lightest{
 	color: map-get($gray, lightest);
 }
+.color--text{
+	color: $base-font-color;
+}

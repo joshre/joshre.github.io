@@ -10,19 +10,11 @@ I'm a web developer working at [Honey Agency](http://honeyagency.com/) in Sacram
 
 
 
-__Things I've cobbled together__  
-I made a thing to get your [snapcode](https://support.snapchat.com/en-US/ca/snapcode) as an SVG — and there's a list of quotes and verses I've randomly been adding to over the years.
+__Things I've Been Making__  
+I post some of the things I make from time-to-time . Pretty much everything's from the kitchen: Drinks, food, tinctures and what-not.
 {: .mar-top-desk--2}
 
-[Snapcode SVG](/snapcode-svg/) [Quotes & Verses](/share/quotes+verses/)
+[See everything](/been-making/)
 {: .buttons}
 
-<!-- 
-**Some Of My Work:**
-
-- [Resume](/resume)
-- [Veggies](http://veggies.casa)
-
-
-[Hire Me](https://josh259.typeform.com/to/UpUHR6) [Contact Me](mailto:joshre@me.com)
-{: .buttons .mar-bot-desk--2 .mar-top-desk--2} -->
+{% include posts.html %} 
