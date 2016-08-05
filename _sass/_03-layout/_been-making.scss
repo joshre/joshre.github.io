@@ -1,0 +1,27 @@
+header.been-making {
+    padding: 14em 0 2em 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h2 {
+        color: white;
+    }
+}
+
+.making-header {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    z-index: 1;
+    position: relative;
+
+    .outer {
+        padding-top: 0.8em;
+        font-size: 1.3rem;
+        padding-bottom: 0.7em;
+    }
+}
+
+main.been-making {
+    background-color: #f9f9f9;
+}
