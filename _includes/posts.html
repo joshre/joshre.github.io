@@ -1,12 +1,14 @@
-{% if parent == 'home' %}
+<!-- {% if parent == 'home' %}
 {% assign share = (site.share | where: "home", "true" | limit: 3 %}
 {% else %}
 {% assign share = (site.share | where: "home", "true" %}
-{% endif %}
+{% endif %} -->
 <ul>
-  {% for share in share %}
+  {% for share in site.share %}
+  {% if share.home == 'true' %}
     <li>
       <a href="{{ share.url }}">{{share.tags}} {{ share.title }}</a>
     </li>
+    {% endif %}
   {% endfor %}
 </ul>
