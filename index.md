@@ -14,7 +14,7 @@ __Things I've Been Making__
 I post some of the things I make from time-to-time . Pretty much everything's from the kitchen: Drinks, food, tinctures and what-not.
 {: .mar-top-desk--2}
 
-{% include posts.html %} 
+<!-- {% include posts.html %}  -->
 
 [See All Of The Things](/been-making/)
 {: .buttons}
