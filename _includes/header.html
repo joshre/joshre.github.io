@@ -9,11 +9,11 @@
 	<header class="site-header break {% if shareHeader %}been-making{% endif %}" style="background-image:url('{{shareHeader.imageUrl}}');">
 	<div class="outer">
 		<a href="/" class="font--no-deco"><h2 class="mar-top--no mar-bot--2">Josh Reeder-Esparza</h2></a>
-		{% if shareHeader %}
 		</div>
 	</header>
 	<section class="making-header">
 		<div class="outer">
+		{% if shareHeader %}
 			<strong>
 			<a class="color--text" href="{{shareHeader.url}}">{{shareHeader.title}}</a>
 			</strong>
