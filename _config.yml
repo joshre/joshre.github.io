@@ -16,4 +16,12 @@ collections:
   share:
     output: true
   science:
+<<<<<<< HEAD
     output: true
+=======
+    output: true
+  project:
+    output: false
+    permalink: /project/:path/
+    output_ext: false
+>>>>>>> 73b4e2ef53a30ac4aa141f79743db7180a588394
