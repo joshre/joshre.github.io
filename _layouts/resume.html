@@ -39,7 +39,7 @@ layout: compress
 					</section>
 					<section>
 						<div class="outer">
-						{% capture marked %}{% include project.md %}{% endcapture %}
+						{% capture marked %}{{ project.content }}{% endcapture %}
 						{{ marked | markdownify }}
 					</div>
 				</section>
