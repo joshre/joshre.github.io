@@ -13,12 +13,12 @@
 	</header>
 	<section class="making-header">
 		<div class="outer">
-		{% if shareHeader %}
-			<strong>
-			<a class="color--text" href="{{shareHeader.url}}">{{shareHeader.title}}</a>
-			</strong>
-			<span class="emoji-tags">{{shareHeader.tags}}</span>
-		{% endif %}
-	</div>
-</section>
+			{% if shareHeader %}
+				<strong>
+				<a class="color--text" href="{{shareHeader.url}}">{{shareHeader.title}}</a>
+				</strong>
+				<span class="emoji-tags">{{shareHeader.tags}}</span>
+			{% endif %}
+		</div>
+	</section>
 {% endif %}
