@@ -10,9 +10,7 @@ I'm a web developer working at [Honey Agency](http://honeyagency.com/) in Sacram
 
 
 
-__Things I've Been Making__  
+<!-- __Things I've Been Making__  
 I post some of the things I make from time-to-time . Pretty much everything's from the kitchen: Drinks, food, tinctures and what-not.
-{: .mar-top-desk--2}
+{: .mar-top-desk--2} -->
 
-[See All Of The Things](/been-making/)
-{: .buttons}
