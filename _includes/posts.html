@@ -1,13 +1,13 @@
-{% if parent == 'home' %}
+<!-- {% if parent == 'home' %}
 {% assign share = (site.share | where: "home", "true" | limit: 3 %}
 {% else %}
 {% assign share = (site.share | where: "home", "true" %}
-{% endif %}
+{% endif %} -->
 <ul>
   {% for share in site.share %}
   {% if share.home == true %}
     <li>
-      <time datetime="{{ share.date }}" itemprop="datePublished"><strong>{{ share.date | date: "%b %-d" }}</strong> - </time> <a href="{{ share.url }}">{{share.tags}} {{ share.title }}</a>
+      <a href="{{ share.url }}"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d" }}</time> - {{share.tags}} {{ share.title }}</a>
     </li>
     {% endif %}
   {% endfor %}
