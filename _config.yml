@@ -4,7 +4,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://joshre.com" # the base hostname & protocol for your site
 twitter_username: jawshre
 github_username:  joshre
-description: Josh Reeder-Esparza is an independent web developer working in Sacramento, CA.
+description: Josh Reeder-Esparza is an web developer working in Sacramento, CA.
 permalink: /blog/:title/
 # Build settings
 markdown: kramdown
@@ -17,7 +17,3 @@ collections:
     output: true
   science:
     output: true
-  project:
-    output: true
-    permalink: /project/:path/
-    output_ext: false

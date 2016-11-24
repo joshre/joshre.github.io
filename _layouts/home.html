@@ -5,11 +5,14 @@ layout: default
 	<div class="outer">
 		{{ content }}
 	</div>
-</section>
-<!-- <section class="bg--gray-lightest pad-vert--1">
 	<div class="outer">
-		<strong>Thing's I've Been Making:</strong>
-		<p>I'm starting to post some of the things I make from time-to-time to give me an outlet for the stuff I spend time on. Pretty much everything's from the kitchen: Drinks, food, tinctures and what-not.</p>
-		{% include posts.html %}
+		<strong><a href="/been-making/" title="All of the things">Thing's I've Been Making</a></strong>
+	<!-- 	<p>I post some of the things I make from time-to-time . Pretty much everything's from the kitchen: Drinks, food, tinctures and what-not.</p> -->
+		{% include posts.html parent="home" %}
+		<!-- <div  class="buttons"> -->
+		<p class="buttons">
+		<a href="/been-making" class="">See all of the things.</a>
+		</p>
+		<!-- </div> -->
 	</div>
-</section> -->
+</section>
