@@ -1,15 +1,13 @@
 ---
-title: CO<sub>2</sub> Whiskey Sours
 main: 'false'
 category: carbonation
-layout: 'log'
 tags:
     - whiskey
     - cocktails
     - C02
-date: 2016-07-23
+date: 23-07-2016
+title: CO<sub>2</sub> Whiskey Sours
 ---
-
 With whiskey sours, you usually shake your ingredients with egg white before you throw in ice to chill them, it forces in some air and gives it a nice texture. These are cool because you're substituting the egg with the texture of the CO<sub>2</sub>. An egg-white Whiskey sour and a carbonated one aren't really comparable—they're _just_ different enough to kinda be different products. 
 
 <!-- ![CO<sub>2</sub> Whiskey Sour in a champagne flute](/images/share/Asset.jpg)

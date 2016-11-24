@@ -1,14 +1,13 @@
-<!-- {% if parent == 'home' %}
-{% assign share = (site.share | where: "home", "true" | limit: 3 %}
-{% else %}
-{% assign share = (site.share | where: "home", "true" %}
-{% endif %} -->
-<ul>
-  {% for share in site.share %}
-  {% if share.home == true %}
-    <li>
-    <time datetime="{{ share.date }}" itemprop="datePublished"><strong>{{ share.date | date: "%b %-d" }}</strong></time> - {{share.tags}}   <a href="{{ share.url }}">{{ share.title }}</a>
-    </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+{% assign reverseLog = site.log | sort:"date" | reverse %}
+
+{% for log in reverseLog %}
+	<article class="outer">
+		<time datetime="{{ log.date }}" itemprop="datePublished">
+			<strong>{{ log.date | date: "%b %-d, %Y" }}</strong>
+		</time>
+		<h3>{{ log.title }}</h3>
+		<section>
+		{{log.content}}
+		</section>
+	</article>
+{% endfor %}

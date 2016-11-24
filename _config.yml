@@ -13,7 +13,7 @@ sass:
   style: :compressed
 
 collections:
-  share:
+  log:
     output: true
-  science:
-    output: true
+  # science:
+    # output: true

@@ -1,18 +1,18 @@
 {% if page.layout != 'been-making' %}
 	<header class="site-header break">
 		<div class="outer">
-			<a href="/" class="font--no-deco"><h2 class="mar-top--no">Josh Reeder-Esparza</h2></a>
+			<a href="{{site.url}}" class="font--no-deco"><h2 class="mar-top--no">Josh Reeder-Esparza</h2></a>
 		</div>
 	</header>
 {% else %}
-	{% assign shareHeader = (site.share | where: "home", "true" | where:  "image", "true" ) | first %}
-	<header class="site-header break {% if shareHeader %}been-making{% endif %}" style="background-image:url('{{shareHeader.imageUrl}}');">
+	<header class="site-header break making-header">
 	<div class="outer">
-		<a href="/" class="font--no-deco"><h2 class="mar-top--no mar-bot--2">Josh Reeder-Esparza</h2></a>
-		</div>
-	</header>
-	<section class="making-header">
-		<div class="outer">
+		<a href="{{site.url}}" class="font--no-deco"><h2 class="mar-no">Josh Reeder-Esparza</h2></a>
+	</div>
+</header>
+<!-- <section class="making-header">
+	<div class="outer">
+		If you're looking for a homepage, <a href="{{site.url}}">thats here.</a>
 		{% if shareHeader %}
 			<strong>
 			<a class="color--text" href="{{shareHeader.url}}">{{shareHeader.title}}</a>
@@ -20,5 +20,5 @@
 			<span class="emoji-tags">{{shareHeader.tags}}</span>
 		{% endif %}
 	</div>
-</section>
+</section> -->
 {% endif %}
