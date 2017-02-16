@@ -1,6 +1,6 @@
 {% assign reverseLog = site.data.things | sort:"created_at" | reverse %}
 {% for log in reverseLog %}
-	<article class="outer">
+	<article class="outer" id="{{log.uuid}}">
 		<time datetime="{{ log.created_at }}" itemprop="datePublished">
 		<strong>{{ log.created_at | date: "%b %-d, %Y" }}</strong>
 		</time>
