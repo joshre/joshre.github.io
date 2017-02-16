@@ -15,5 +15,5 @@ sass:
 collections:
   log:
     output: true
-  # science:
-    # output: true
+  data.things:
+    output: true
