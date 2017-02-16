@@ -1,13 +1,15 @@
-{% assign reverseLog = site.log | sort:"date" | reverse %}
-
+{% assign reverseLog = site.data.things | sort:"created_at" | reverse %}
 {% for log in reverseLog %}
 	<article class="outer">
-		<time datetime="{{ log.date }}" itemprop="datePublished">
-			<strong>{{ log.date | date: "%b %-d, %Y" }}</strong>
+		<time datetime="{{ log.created_at }}" itemprop="datePublished">
+		<strong>{{ log.created_at | date: "%b %-d, %Y" }}</strong>
 		</time>
-		<h3>{{ log.title }}</h3>
+		{% assign paragraphs = log.content | newline_to_br | split: '<br />' %}
+		{% assign title = paragraphs.first | markdownify | strip_html | strip_newlines %}
+		{% assign titleraw = paragraphs.first %}
+		<h2>{{title}}</h2>
 		<section>
-		{{log.content}}
+			{{ log.content | remove: titleraw | markdownify }}
 		</section>
 	</article>
 {% endfor %}
