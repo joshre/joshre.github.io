@@ -1,0 +1,755 @@
+uuid,created_at,created_longitude,created_latitude,modified_at,modified_longitude,modified_latitude,accessed_at,content,folder,pinned
+5F5B2F1E-6B56-4F6F-A611-4D5C619CB43C,2015-09-17 18:16:35 +0000,-121.2875518798828,38.81063461303711,2015-09-17 18:16:35 +0000,-121.2875518798828,38.81063461303711,2016-07-17 00:30:16 +0000,"# WordPress Component Play
+
+## Adding A New Component
+1. Figure out what you’re going to call the component `componentName`. Does the team agree on the name? Will it make sense to someone without a development/technical background? Draw out what types of data it will require and where they will be coming from.
+- The naming convention for files is `section--componentName’
+	- If you’re creating a “block” —anything re-used in multiple components—it should be called `block--componentName`
+2. Draw out details on the component and it’s data, answering these questions:
+	- What pieces make up the component?
+	- What types of data does each piece include?
+	- How does that data get added to the database?
+	- What does it look like when it comes back from the database?
+		- Images - ID’s or URL’s?
+		- Dates - Format entered to DB.
+		- Arrays
+		- Objects? ID’s referencing other post types?
+	- What has to happen to that data for it to be ready for display?
+		- Images — should they be re-sized?
+		- Dates - formats saved, timezones, formats displayed.
+	- What happens when there’s no data?
+		- Does it display nothing?
+		- Should it display an error? 
+		- Should it display default content?
+2. Create a markdown file for the documentation
+	- `componentName.md`
+3. Create an .scss file in the components folder, and link it up within main.scss
+	- `scss/_02-components/_section--componentName.scss`
+4. Create a twig file with the html written, in the components folder. Note the names written for variables to use in step 5.
+	- `/views/components/section--componentName.twig`
+5. Build the function to call data for each variable in the `theme.php` file that we’ve linked our `functions.php` file to.
+
+## Testing That Component",1,0
+949B821E-9BE8-4B9D-A6FE-5280E9608C71,2015-09-19 15:23:09 +0000,-121.1535949707031,38.6437873840332,2015-09-19 15:34:40 +0000,-121.1535263061523,38.6438102722168,2017-01-08 00:07:30 +0000,"## I am for
+* a constant encourager
+* she's my closest friend
+* I can trust her implicitly 
+* she's shown me she's an incredible caretaker 
+* one day I hope to be as compassionate as her
+* she's a babe 
+* she's so funny 😂😭
+
+## Leilas Marrying me because
+* I put Christ before her
+* I've shown her that I'm trustworthy and trusting 
+* she loves my sick bod
+* I take care of her
+* I am gentle with her and show her grace",1,0
+BD956573-A8C7-459F-B32D-87530AF3D6B7,2015-09-19 15:30:51 +0000,-121.1536560058594,38.64385604858398,2016-07-13 20:15:24 +0000,-121.4771728515625,38.57087326049805,2016-07-13 20:15:24 +0000,"# Leila’s Favorite
+
+#### Flowers:
+* Black Eyed Susan'sw",1,0
+D824D962-CA85-43B2-8555-B03775D7BBBF,2015-09-20 17:38:56 +0000,-121.1537017822266,38.67002487182617,2015-09-20 17:38:56 +0000,-121.1537017822266,38.67002487182617,2016-07-18 06:09:42 +0000,"# Whiskey
+My favorite cheap bourbon 
+- [Evan Williams Single Barrel](https://drinkdistiller.com/#!/spirits/evan-williams-single-barrel)
+-----
+This is that awesome app I mentioned that does whiskey reviews
+- [Distiller](https://itunes.apple.com/us/app/distiller-your-whiskey-companion/id784925833?mt=8&uo=4)
+-----
+This app is a *really* cool way to save cocktail recipes:
+- [Highball](https://appsto.re/us/-76a6.i)
+-----
+This is an awesome app that you input what you have in your cabinets and t shows you what drinks you can make
+- [Mixtura](https://appsto.re/us/P7cgX.i)
+-----
+And this app has a *huge* index of great cocktails. And the animation is amazing:
+- [Lush](https://appsto.re/us/0Vb6Q.i)
+-----
+The bar that I was talking about in downtown Sacramento that has amazing whiskey (and incredible charcuterie):
+- [Block Butcher Bar](http://www.blockbutcherbar.com/)
+-----
+I mentioned that guy that does all the science with drinks, his name is Dave Arnold, his bar is Booker & Dax in NY. 
+- [His Book, Liquid Intelligence](http://www.goodreads.com/book/show/20707970-liquid-intelligence)
+- [Cooking Issues](https://overcast.fm/itunes380317598/cooking-issues) his podcast, it's a little more broad than just drinks but it's really good.
+-----
+And lastly, I read this book a few months ago and it's super interesting. It's all about the science of alcohol, it's history, and how it's made. It also has a lot of really insightful information about the way alcohol affects people biologically - recommended read 👌
+- [Proof: The Science of Boose](http://www.goodreads.com/book/show/18222694-proof)
+
+#lists",1,0
+5EC6EE2D-9BE5-4A9A-8DB7-D46033946D5D,2015-09-22 18:58:19 +0000,0,0,2015-09-22 18:58:19 +0000,0,0,2016-05-17 20:57:14 +0000,"# Modules
+
+* **Sidebar**
+	* Logo
+	* Navigation Items
+		* Title
+		* Link
+			* Current Page State
+			* Featured Item
+	* Loan officer Block
+			* corp made up or feat
+			* branch someone from branch
+		* Image
+		* Name
+		* Subtitle
+		* CTA 
+	* CTA Block
+		* Apply now
+		* Find a Branch *corp*
+		* Chat
+
+* **Header**
+	* Background 
+		* Image
+		* Video
+		* Color
+	* Title
+	* Subtitle
+	* Action Block
+		* Search
+		* CTA
+
+* **Search Section** *modal*
+	* Title
+	* Paragraph
+	* Search Block
+		* Label
+		* Search Field
+		* Search Button
+
+* **Footer**
+	* Link List
+		* Title
+		* List Items
+			* Title
+			* Link
+	* Social
+		* Link
+		* Icons
+	* Disclosure
+		* big-ass paragraph 
+
+* **Mortgage Calculator**
+	* Title
+	* Calculator Method Tab
+	* Input Fields
+	* Highlighted Result
+	* Regular Result
+	* “All Calculators” Link
+
+* **Testimonial**
+	* Background
+		* Image
+			* Overlay Toggle
+		* Color
+	* Arrow Slider
+	* Title
+	* Face (optional)
+	* Quote
+	* Name
+
+* Top Nav 
+
+* **Glossary** (limit for # of terms [i.e. 5 terms]) (category filter)
+	* Term
+	* Definition (paragraph)
+	* See Full Glossary
+
+* **FAQ FULL expansions**  (limit for # of terms [i.e. 5 terms])
+		*  **Tell Us Section**
+		*  **FAQ**
+	* Normal State
+		* Leading Statement (question)
+		* CTA Statement
+	* Hover State
+		* Leading Statement (question)
+		* CTA Statement BG Change
+	* Clicked State
+		* CTA Statement
+		* Link
+		* Text
+	* Read All Link
+
+* **Embedded FAQ Section** (limit for # of terms [i.e. 5 terms]) (category filter)
+	* Title
+	* Question Answer
+	* Divider
+	* Read All
+
+* **Article Feature Section**
+	* Title
+	* Article Block
+		* Image 
+		* Excerpt
+			* link
+		* Date
+			* link
+		* Title
+			* link
+
+**Tooltip For Glossary Items**
+
+* **CTA Section**
+	* Background
+		* Image
+			* Overlay Toggle
+		* Color
+	* Title
+	* Buttons
+		* Link
+		* Text
+
+* **Social Block**
+	* Social Link
+		* Link
+		* Icon
+
+* **Signup Block**
+	* Title
+	* Input
+	* Submit
+	
+
+* **Page Trail**
+
+* **CTA Block*
+	* BG Color
+	* Title
+	* Link
+	* Size
+		* Large
+		* Small
+
+* **Story Section**
+	* Title
+	* Image (L/R)
+	* Paragraph
+	* CTA Block
+
+* **Article Header Section**
+	* Featured Article
+		* Title
+		* Excerpt
+		* BG Image
+			* Default Article Image
+			* Bg Im Option
+			* Bg Color Option
+	* Popular Articles
+		* Featured Article Block
+			* Title
+			* BG Color (nonedit)
+
+* **L/R Display Section** (big numbers next to text on the storytelling block)
+	* Title
+	* 2-Col Large Text or Icon
+	* 6-Col Paragraph
+
+* **Big Image Section**
+	* Title
+	* Image
+
+* **Partner Logo Section**
+	* Partner Logo
+		* Image
+		* Text
+		* Link
+* **Article Card**
+	* Category (sup-title) 
+		* Link *Keys in filters*
+	* Title 
+		* Text
+		* Link full art
+	* Date
+	* Author
+		* link *Keys in filters*
+	* Image
+	* Excerpt
+	* Link
+
+* **2 Column Text**
+	* WYSIWYG
+
+* **Image Grid Section**
+	* Centered Top Block
+		* BG Color
+		* Title
+	* Image-Link Block
+		* Branch Location & Name (icon?)
+			* Link
+		* Event Title (to branch subdomain)
+			* Link
+
+* Find Branch Input
+* Find a Branch Result Card
+* FAQ Half
+	* how we track/rank popularity
+* Glossary Half
+	* how we track/rank popularity
+* Question Card
+* Question Result
+* Story Telling Block
+	* includes other blocks
+	* Centered image with title block
+* Testimonials
+* Knowledge Center Callout
+
+	
+* **Kcenter Cards**
+* Copy Section
+
+* Search Results
+
+* Mortgage Calculator
+* Background Image Section
+	* should be able to accept HTML5 Video w/ poster
+
+
+
+
+  
+* Trusted By Logos
+	* Logos (image)
+	* Who they are (text)
+
+* Contact Form Section
+	* 2-Column
+		* Left
+			* Title
+			* Paragraph
+			* Form
+		* Right
+			* Business Name
+			* Address
+			* Phone
+			* Fax
+
+
+* Contact form
+
+* Locate A Branch
+
+* Join LHFS
+	* Search
+	* 2 col text
+	* testimonials
+	* copy
+
+* Sort/Filter
+
+* Bread Crumbs
+* Pagination
+
+* **License Section**
+	* Pull from sql
+
+* Text-Based Page
+	* Left-aligned
+	* Title
+	* WYSIWYG
+
+#lhfs
+",1,0
+C04565A4-6F29-48FD-B3B9-37AB08ECC2DF,2015-09-23 05:52:21 +0000,-121.3162155151367,38.63828277587891,2015-10-04 08:27:55 +0000,-121.3156967163086,38.63847351074219,2016-07-18 06:11:59 +0000,"# Restaurants 
+
+### Los Angeles
+* Sqirl
+   * [The Food Seen: 248: Jessica Koslow of Sqirl
+](https://overcast.fm/+Bq65R3tFg)
+
+
+New York
+* Dan Barber
+	* blue hill 
+	* blue hill ranch
+* mamas
+* papa poule 
+* The Food Seen: 237: Maman & Papa Poule
+https://overcast.fm/+Bq64lfLi8
+
+# Oakland 
+* Camino
+	* http://www.101cookbooks.com/archives/chicory-soup-camino-photos-recipe.html
+
+Home | Camino
+http://www.caminorestaurant.com/
+
+",1,0
+AF26BE42-3CC6-4D1E-A99E-BFA50DA4412D,2015-09-24 14:13:00 +0000,-121.315788269043,38.63835906982422,2015-09-24 14:13:45 +0000,-121.315788269043,38.63835906982422,2016-07-18 06:30:56 +0000,"In one dream I was going to prison for three months
+It wouldn't dream I was in an airport and had someone take my ID but I was someone else ",1,0
+814DC3E3-61CA-4E03-BECC-585730304560,2015-09-25 04:30:20 +0000,-121.2248001098633,38.74740600585938,2015-09-25 04:30:20 +0000,-121.2253875732422,38.73628997802734,2016-07-18 06:32:44 +0000,"A DIY Wedding Reception for 200: The Menu (With Planning Tips) — Gatherings from The Kitchn | The Kitchn
+http://www.thekitchn.com/a-diy-wedding-reception-for-200-the-menu-and-how-i-planned-it-gatherings-from-the-kitchn-204940
+
+",1,0
+8B86CC06-A5D0-417C-ACCE-53FD62A5C007,2015-09-25 15:53:56 +0000,-121.2882766723633,38.81013488769531,2015-09-25 15:53:56 +0000,-121.2882766723633,38.81013488769531,2016-07-18 06:30:32 +0000, Jesus is for transformation of your heart not confirmation of your head,1,0
+6F88F0B2-2B6C-44E6-A35D-F20A2ABBAED1,2015-09-26 22:10:17 +0000,-122.397834777832,38.46971893310547,2015-09-26 22:13:39 +0000,-122.3978881835938,38.4695930480957,2016-07-17 00:28:04 +0000,"# Caymus
+* 2013 reserve Chardonnay 
+* 2014 Pinot noir, las Alturas 
+* 2013 merlot, Napa valley
+* 2013 Cabernet Sauvignon, Napa valley ",1,0
+73E34A1C-A68D-4D44-BC44-5B1451AFD1A6,2015-09-29 03:57:00 +0000,-121.1770935058594,38.67733001708984,2015-09-29 03:57:11 +0000,-121.1771697998047,38.67733001708984,2016-07-18 06:29:30 +0000,Livin loving she's just a woman ,1,0
+D8D045CF-0C45-4E90-BF2F-BA9ED0CF5520,2015-09-29 04:21:55 +0000,-121.1771469116211,38.67733764648438,2015-09-29 04:21:55 +0000,-121.1771469116211,38.67733764648438,2016-07-18 06:29:07 +0000,Buy some fucking led Zeppelin records and listen to them in stereo you piece of shit,1,0
+0575BDBE-383E-4667-AFD6-690B286120ED,2015-09-29 04:34:09 +0000,-121.1770782470703,38.67739868164062,2015-09-29 04:34:09 +0000,-121.1770782470703,38.67739868164062,2016-07-18 06:29:11 +0000,Or you can always buy plate steel and have a machine shop roll it for you to a length and diameter of your choosing.,1,0
+DBC2B7A4-8A58-4CF5-8460-9F780A17A80E,2015-09-30 15:18:42 +0000,-121.3161697387695,38.63829040527344,2015-09-30 15:22:17 +0000,-121.316162109375,38.63822555541992,2016-07-18 06:29:19 +0000,"* 8.5 ounces of lettuce 
+* 2.5 ounces of chicken
+
+🐻❤️🐱 ",1,0
+3266CF40-BFD8-4FB6-99BC-2EF23E05DFC7,2015-10-12 01:14:04 +0000,-121.1536865234375,38.6435432434082,2015-10-12 01:14:04 +0000,-121.2798843383789,38.59608840942383,2016-07-18 06:28:34 +0000,"It is the mark of an educated mind to be able to entertain a thought without accepting it.""
+
+
+",1,0
+266F8DBD-9A41-4ACE-B5CD-E47674C8DA19,2015-10-14 04:09:38 +0000,-121.3537979125977,38.67712020874023,2015-10-14 04:10:35 +0000,-121.3537979125977,38.67712020874023,2016-07-18 06:27:16 +0000,"# Bamboo
+* bamboo creative - work
+* forefront - social
+* openideas- research 
+",1,0
+35E5622A-5587-420B-BA08-13E1FF707150,2015-10-15 16:23:18 +0000,-121.3159637451172,38.6383056640625,2015-10-15 16:33:59 +0000,-121.3159790039062,38.63830947875977,2016-07-18 06:26:53 +0000,"##### 10:30 - 2423 P st
+
+http://sacramento.craigslist.org/apa/5267530731.html
+
+* Rent: $895
+* Utilities:
+* Sqare Feet:
+* Chris - 916-502-5940
+* Meeting Thursday at 10:30
+
+##### 11:15 - 929 20th and J
+
+http://sacramento.craigslist.org/apa/5264466928.html
+
+* Rent: $990
+* Utilities: 
+* Square Feet: 650ft
+* Above Petes Restaurant
+* Lee Marshal (916) 838-5115
+* Meeting Thursday at 11:15
+
+
+##### 12:15 - 21st & P St
+
+http://sacramento.craigslist.org/apa/5242659331.html
+
+* Rent: 
+* Utilities: 
+* Square Feet: 
+* Mike (916) 847-0579
+* Send email about the place 
+* Studio way small, but there's a larger unit he'll send me — unit not finished cleaning that unit
+* Will send pics of other unit that is similar to larger unit ",1,0
+416A128B-3E77-421B-9A74-71F28A781768,2015-10-15 17:37:47 +0000,-121.4830703735352,38.57022476196289,2015-10-15 17:41:25 +0000,-121.4822845458984,38.57731628417969,2016-07-18 06:22:57 +0000,"fuel creative group, did you deployment
+
+First place – place looks pretty good utilities the probably come to about $60 upstairs I was kind of a Jessup apartments feel – he said that most of the tenants are women (roughly 75%) out of the way of a lot of commotion
+
+ 
+Call Chris after six he technically is the guy that shows apartments but the actual person that owns it is someone that works at a law firm he needs to meet Beulah we will apply with me before and
+
+ Been there since the 80s Chris's been involved in the 80s",1,0
+9B24CE6F-3DE7-4F94-A930-7EDB32ABE55D,2015-10-17 20:51:03 +0000,-121.3163223266602,38.63834381103516,2015-10-17 20:51:48 +0000,-121.3163223266602,38.63834381103516,2016-07-18 06:26:47 +0000,"Manatee Garden Apartments
+* first month's rent
+* security deposit",1,0
+3CAF7B32-BCEF-4612-B1E3-A2B8873EDEAD,2015-10-17 21:29:03 +0000,-121.2499847412109,38.77082824707031,2015-10-17 21:29:03 +0000,-121.2499847412109,38.77082824707031,2016-05-17 20:58:23 +0000,"Feed that monitors your Rdio Spotify or last.fm in this by the timeline with the graph and along the timeline or different music things you listen to the top of the Time on represents what you listening to in my volume (i.e. more of one song would mean that song is a telegraph/that could apply specifically to albums/that could be a separate view for each it opens up) The bottom part of the graph would represent what music you're listening to before that is now in decline based on average of the skilled listen on the other end the graph of that specific song, album, artist. You could then make connections between songs found on playlists and albums and have a ""gateway song"" to represent different connections between songs and",1,0
+CEC41DC7-1116-4157-B009-F50B995855E0,2015-10-19 05:45:46 +0000,-121.12158203125,38.65380859375,2015-10-19 05:45:46 +0000,-121.12158203125,38.65380859375,2016-07-18 06:21:34 +0000,"Leila wedding present
+* anything with monogram
+* madewell tote ",1,0
+BA70D951-E1D5-4790-91BD-4B9F968477C2,2015-10-20 02:43:30 +0000,-121.2249221801758,38.74748229980469,2015-10-20 02:44:29 +0000,-121.2249221801758,38.74748229980469,2016-07-18 06:22:44 +0000,"
+
+When you manage creativity incorrectly we stop being a dreamer and exclusively become a do-er",1,0
+2203F795-1F11-429A-A26B-DA436EA78458,2015-10-20 06:36:32 +0000,-121.327995300293,38.64125442504883,2015-10-20 06:36:32 +0000,-121.327995300293,38.64125442504883,2016-07-18 06:24:48 +0000,"Upstate NY
+Rick Mingus farm",1,0
+AB828BAF-3583-4074-8854-3DE0056C963B,2015-10-22 18:32:01 +0000,-121.2888412475586,38.81143188476562,2015-10-22 20:24:56 +0000,-121.2876434326172,38.81045150756836,2016-07-18 06:27:12 +0000,"# SMUD
+* Coming On 26th
+* Account Number: 6333499
+* can change to paperless online
+
+# All Connect
+* (888) 202-9329
+* Comcast promotional price
+
+# PG&E
+Not sure what appliances are using gas told them:
+* furnace
+* water heater
+* stove/oven",1,0
+9C148D0A-9A33-4788-8B51-613D513D8B64,2015-10-27 19:29:28 +0000,-121.28759765625,38.81061172485352,2015-10-27 19:29:28 +0000,-121.2875442504883,38.81073379516602,2016-07-18 06:22:48 +0000,"* wedding bands (us)
+* Josh meeting with Ryan Rose (Josh)
+* honeymoon (us)
+* Josh telling his groomsmen what he wants them to wear (Josh)
+* buying groomsmen & bridesmaid gifts (us)
+* florals with Deann (Leila)
+* figuring out when we can get in Studio 817 (Leila)
+* timeline of the day (Leila)
+* go get marriage license (us)
+* make nail appointments (Leila)
+* buy sparklers for exit of ceremony (us)
+* find a bridal shower & bachelorette outfit (Leila)
+* sign contract with Jesse Mariut? (Josh)
+* finalize ceremony readings (us)
+* buy cards for our parents (us)
+* make sure wedding party, DesJardin's, and musicians know what is going on (us)
+",1,0
+43249A6B-AAE2-455F-B5BD-6DC36A9F7960,2015-10-28 01:36:04 +0000,-121.4736404418945,38.56642532348633,2015-10-28 01:38:40 +0000,-121.4694137573242,38.56322479248047,2016-07-18 06:23:54 +0000,"Hey Stephanie! Here's Leila and my contact info:
+
+* Josh Reeder-Esparza
+* (916) 862-2294 
+* joshre@me.com
+
+* Leila Morphy
+* (916) 813-9995
+* leilamorphy@me.com",1,0
+493E6DD3-E905-4928-86A8-37EF403EF5F4,2015-11-01 19:57:47 +0000,-121.1467819213867,38.67473602294922,2015-11-01 19:58:03 +0000,-121.1467819213867,38.67473602294922,2017-01-16 03:40:10 +0000,"Instead of improving your standard of living as your means increase, increase your standard of giving ",1,0
+5343EAEE-F36C-40E2-B93F-76852495BEE6,2015-11-03 04:45:51 +0000,-121.4764862060547,38.56870651245117,2015-11-03 05:01:59 +0000,-121.4765472412109,38.56872177124023,2016-07-18 06:25:45 +0000,"Marriage is a restoration to wholeness 
+I'm not head of the household-Christ is",1,0
+0DB2F30F-3D6D-41E2-AA86-7CBB4B8A4190,2015-11-03 16:44:14 +0000,-121.2798080444336,38.73421096801758,2015-11-03 16:47:42 +0000,-121.2461776733398,38.7698974609375,2016-07-25 23:15:54 +0000,"Ambition turns into competition and comparison 
+
+God is in control and I have healed it ambition and yielded dream and yielded desires. That is a safe place and a sane place",1,0
+3D9EF463-10A8-477B-8863-21170D09C682,2015-11-09 03:34:14 +0000,-121.2257308959961,38.74966430664062,2015-11-09 03:40:48 +0000,-121.2257537841797,38.74948501586914,2015-11-09 03:40:48 +0000,"Hey guys - sooooo the wedding is in near-as-makes no difference a month; so stoked for next week 🤘 Sorry for late notice on groomsmen clothes, it totally slipped past me - we're going to have navy pants & cream shirts to match my suit  & the bridesmaids dresses. ASOS is cheap and has everyone's sizes; shoes will be tobacco brown, but there's no specific ones you need. Total is ~ $80, lmk if that's in any way a problem. Links are below 👌👌
+
+Shirt:
+* http://goo.gl/9lHXvN
+
+Pants:
+* http://goo.gl/zLIgFy",1,0
+63081F0D-DACD-4AD0-A14E-DDB63D143659,2015-11-18 04:54:44 +0000,-121.4764633178711,38.56877899169922,2015-11-18 04:58:09 +0000,-121.4764251708984,38.56871795654297,2016-07-18 06:25:42 +0000,"
+- empress is amazing, she hasn't been there but would lose it over the drinks. It's a little expensive, so maybe just coctails (idk about GF there either) but seriously the coolest place in sac 
+- http://empresstavern.com/
+
+- hock farm is great 
+- http://www.paragarys.com/sacramento-restaurants/hock-farm/
+
+- she loves the red rabbit and they've got a little banquet room that's dope (15ish peeps) 
+- https://theredrabbit.net/
+
+- revolution wine is dope, lots of amazing finger food too 
+- http://www.rwwinery.com
+
+- iron horse tavern is right by burgers and brew and is new, lots of good drinks and lots of seating 
+- 
+",1,0
+DCC2E937-F27F-42FC-8422-09D9016D4CF5,2015-11-18 04:59:59 +0000,-121.4763031005859,38.56875228881836,2015-11-18 05:06:35 +0000,-121.476448059082,38.56871795654297,2016-07-17 00:32:10 +0000,"
+- empress is amazing, she hasn't been there but would lose it over the drinks. It's a little expensive, so maybe just coctails (idk about GF there either) but seriously the coolest place in sac 
+- http://empresstavern.com/
+
+- hock farm is great, and it's really well rounded so everyone could easily find something they like
+- http://www.paragarys.com/sacramento-restaurants/hock-farm/
+
+- she loves the red rabbit and they've got a little banquet room that's dope (15ish peeps) 
+- https://theredrabbit.net/
+
+- revolution wine is dope, lots of amazing finger food too 
+- http://www.rwwinery.com
+
+- iron horse tavern is right by burgers and brew and is new, lots of good drinks and lots of seating 
+- http://ironhorsetavern.net/
+
+- Block Butcher Bar has tons of interesting drinks and amazing cheese (next door to lowbrau) she loves cheese. You know this. 
+- http://blockbutcherbar.com/
+
+- Shady Lady Saloon will be like, best drinks you can find
+- http://shadyladybar.com/
+
+",1,0
+673BAF9C-8079-4822-B5E2-FE35358E9573,2015-11-29 00:07:42 +0000,-121.2259368896484,38.74966430664062,2015-11-29 01:01:31 +0000,-121.2258377075195,38.74967956542969,2016-07-18 06:21:23 +0000,"* °Celsius
+* https://appsto.re/us/n7l_y.i
+
+* Tender
+* https://appsto.re/us/2UlP5.i
+
+* SousVide Dash
+* https://appsto.re/us/2bNBC.i
+
+* https://s3.amazonaws.com/chefsteps/static/ChefSteps-Map-of-Sous-Vide.pdf
+
+* Anova Culinary
+* https://appsto.re/us/BYUm5.i
+
+* ChefSteps
+* https://appsto.re/us/ypLRW.i",1,0
+C2074685-7687-49AA-9C58-94BEC06DAC84,2015-11-29 04:16:11 +0000,-121.4763641357422,38.56870651245117,2015-11-29 04:16:17 +0000,-121.4763641357422,38.56870651245117,2017-01-16 03:40:23 +0000,"MSG 29 Walk with me and work with me - watch how I do it. Learn the unforced rhythms of grace. I won't lay anything heavy or ill-fitting on you.
+",1,0
+97D9D7F1-DFE7-4688-BED9-9604AC3D8B89,2015-12-26 03:45:55 +0000,-121.3285369873047,38.61792755126953,2015-12-26 03:52:27 +0000,-121.3286972045898,38.61809539794922,2016-07-18 06:19:11 +0000,"# Classic buttery jack 
+* no onions 
+* no tomato
+* Curly fries. 
+* Chocolate shake. 
+
+# Bacon Ultimate cheeseburger 
+* curly fries 
+* no mustard
+* chocolate shake
+
+# Classic buttery hamburger 
+* no cheese, 
+* no ketchup 
+
+# Medium fries 
+* chocolate shake 🤘🏻
+
+# Chicken teriyaki strips 
+* (make sure they are not breaded)
+* Smothered fries
+* Chocolate shake
+
+# 7 tacos
+* taco sauce 
+* large curly fry
+
+# Double Crispy jalapeño jack
+* Large curly fry
+* Peppermint Oreo shake ",1,0
+EC435C8B-CA1B-45F2-AC31-300A5C9DA624,2016-03-15 18:14:50 +0000,-121.4931564331055,38.57786178588867,2016-03-15 18:25:16 +0000,-121.4931716918945,38.57788467407227,2016-07-18 06:13:37 +0000,"San Francisco Herb Co
+Starwest Botanicals
+
+* details similar to soma in packages
+* what it would be good with 
+* how spices relate, 
+
+Oak town spice shop label
+
+Buy spices grouped by cuisine 
+
+",1,0
+15C80547-D079-40D6-BBB8-570444A09F72,2016-03-24 06:46:17 +0000,-121.1619262695312,38.65007019042969,2016-03-24 06:47:23 +0000,-121.1578826904297,38.64287948608398,2016-07-18 06:13:24 +0000,"When I'm sick or singing: Hot peach tranquility with honey  – Starbucks
+
+When I need caffeine but don't want coffee: green tea w/ honey – Starbucks
+
+When I'm sleepy & want to be sleepier – chamomile tea w/ honey
+
+Overall favorite tea ever: Peach tranquility with honey – Starbucks
+
+",1,0
+66246DE3-6D0D-482E-AD08-38CAF70F28F1,2016-03-27 07:04:11 +0000,-121.4764175415039,38.56874084472656,2016-03-27 07:05:58 +0000,-121.4754943847656,38.57263946533203,2016-07-18 06:13:21 +0000,"People get a field notes book or a library card fill-out as an invite, each envelope has 4 stamps and if you can't make it, you cross out your name and mail it to someone else",1,0
+E3B38355-63FE-415B-A5AA-EF380D56A638,2016-03-30 20:09:24 +0000,-121.4802703857422,38.57625198364258,2016-03-30 20:20:04 +0000,-121.4770812988281,38.57259368896484,2016-04-08 05:30:14 +0000,"We asked everyone in the office what they're *really* into these days, check it out!
+
+Meghan:
+**coupons!!** oh my gosh guys, I've saved
+
+
+This email blast is sponsored by: KRAFT SINGLES
+For their sponsorship spot, craft asked us to see what everyone's favorite recipes were in the office – tuna rolled up into one Kraft single  
+""I like to make them in batches of 40 so I can grab six and throw them in the mircrowave, the best part is that the cheese works sort of like a natural wrapper for the tuna so you can toss them in your backpack and there's no cleanup!"" 
+
+Josh's favorite new product: aluminum computer cleaner 12oz canister
+
+ ",1,0
+7F4DE2BF-EF57-4EC3-A234-E803886C45A7,2016-04-08 04:48:28 +0000,-121.4764175415039,38.56877517700195,2016-04-08 04:55:15 +0000,-121.4764175415039,38.56877517700195,2016-07-18 06:12:25 +0000,"* be at 7801 hazel avenue at 5:40
+* Kaylin R - is going to hand me an envelope w instructions on turning the room around 
+* wedding 6:00
+* after vows, turn the room around 
+* ",1,0
+765EE2C8-CD51-4DF9-91ED-286ECC1C7368,2016-04-12 20:45:26 +0000,-121.4802551269531,38.57624435424805,2016-04-12 20:47:33 +0000,-121.4802856445312,38.57621002197266,2016-07-18 06:14:24 +0000,"### Icons
+
+* Table
+* Planet
+* Cº/Fº
+* code
+* whiskey glass
+* headphones
+
+Earbud 
+
+* podcast listener
+* eater
+* list-maker
+* ",1,0
+83C113F1-EEBB-45F0-A4AF-1B9E90260A6D,2016-05-03 19:25:45 +0000,-121.4763946533203,38.56871795654297,2016-05-03 19:31:29 +0000,-121.4764709472656,38.56876754760742,2016-05-03 19:31:29 +0000,"The way we think about websites and layout on the web is close to making a big change, there are new ways to build for different devices and screens and new methods for displaying content on the web. Since honey values solving problems in unique and meaningful ways, it's important that the team—who will eventually be involved and responsible for how we build websites—have at least a taste of what sorts of things are possible moving forward. 
+
+## CSS Grid
+This is a new way for us to layout the web, I'm interested in breaking out of the normal header, navigation, content, footer layout that is ubiquitous and try some new things. Should we be making things that",1,0
+4D8CD692-49BC-43A1-8FA0-36C33C421829,2016-05-08 20:03:51 +0000,-121.3588790893555,38.60148620605469,2016-05-08 20:06:38 +0000,-121.3628387451172,38.60256958007812,2016-05-08 20:06:40 +0000,"Nugget Market Jobs
+https://jobs.nuggetmarket.com/application/Jobs.aspx
+
+
+Careers | Whole Foods Market
+http://m.wholefoodsmarket.com/careers
+
+",1,0
+2FEDB280-C2AE-47C2-B2B8-A7E344AA11C1,2016-05-10 19:54:04 +0000,-121.4765625,38.56873321533203,2016-05-10 19:54:22 +0000,-121.4765625,38.56873321533203,2016-07-18 06:12:09 +0000,"- Larder
+------
+ 1. Gluten Free Pasta
+ 2. Granola
+ 3. Tomato Sauce
+ 4. Gluten Free Flour
+ 5. White Wine Vinegar
+ 6. Apple Cider Vinegar
+ 7. White Distilled Vinegar
+ 8. Baking Powder
+ 9. Baking Sugar
+ 10. Brown Sugar
+ 11. Cannellini Beans
+ 12. Kidney Beans
+ 13. Black Beans
+ 14. Pinto Beans
+ 15. Basmati Rice
+ 16. Quinoa
+ 17. Steel Cut Oats
+ 18. Soy Sauce
+ 19. Worcestershire Sauce
+ 20. Marmite
+ 21. Olive Oil
+ 22. Local Honey
+ 23. Black Tea
+ 24. Green Tea
+ 25. Low-Caffeine Tea
+ 26. Red Lentils
+ 27. Green Lentils
+ 28. Chipotles in Adobo
+  
+ 29. Brown Rice
+",1,0
+C30BB3A9-9983-4888-B9A5-DFDD87EF8219,2016-05-18 00:39:08 +0000,-121.4765090942383,38.56879806518555,2016-05-18 00:39:20 +0000,-121.476448059082,38.56875228881836,2016-05-18 00:39:20 +0000,"2016-05-17-List-test.md
+---
+layout: share
+title: List test
+---
+
+* shoe
+* test
+* other shoe",1,0
+C860B7D7-6693-4B4B-B996-750A70C42ECD,2016-05-21 18:12:56 +0000,-121.2247619628906,38.74749755859375,2016-05-21 18:12:56 +0000,-121.2247848510742,38.74751663208008,2016-05-21 18:12:56 +0000,"Dear Design Student 
+https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fdeardesignstudent.com%2F
+https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fdeardesignstudent.com%2F
+  ",1,0
+FF1514F3-C97B-4E10-8461-72CA3B2AA1E2,2016-05-31 06:38:18 +0000,-121.4765243530273,38.56877517700195,2016-05-31 06:41:06 +0000,-121.4765243530273,38.56877517700195,2016-07-18 06:09:01 +0000,"Rose and veggies
+Syrah and indian food
+Gewürztraminer saussg
+pocprn Chardonnay 
+Marsala chocolate chip cookies
+Fish light ref wine 
+Beaujolais and hot dogs
+",1,0
+AE84D035-9FE8-4617-A185-B716C44102A7,2016-12-10 06:24:01 +0000,-121.3632125854492,38.58874130249023,2016-12-10 23:06:13 +0000,-121.3050384521484,38.79642486572266,2017-02-07 17:45:10 +0000,"Temp
+Torpedo 
+Grigio 
+Sauv
+Grigio
+Temp 
+3 2oz shots teq
+In the bathroom writing. This about to have 2 oz whisk 
+2 oz
+2oz 
+I just had  shot of whiskey ",1,0
+2C1A1EB1-89CC-4134-B564-00D8059F6FAA,2017-01-20 03:35:03 +0000,-121.4764709472656,38.5697021484375,2017-01-20 03:43:41 +0000,-121.4765243530273,38.56868743896484,2017-02-07 17:44:48 +0000,"160 g onion
+2 cup tomato
+1/3 cup black eye peas 
+1/3 cup black beans
+1/3 cup brown rice
+1/3 cup green lentils
+3 teaspoons salt
+2 cloves garlic 
+1 carrot
+1 head book choi 
+80 g baby Bella mushrooms 🍄 ",1,0
+CE2F60CC-3D3F-45B5-A2CE-9A71486F260F,2017-01-24 05:56:33 +0000,-121.4763031005859,38.56899261474609,2017-01-24 05:58:57 +0000,-121.4763031005859,38.56899261474609,2017-02-07 17:44:44 +0000,"1 red onion
+1 leek
+3 green onions
+6 mushrooms
+2 stalks celery 
+6 cloves garlic
+2 carrots
+1 cup green beans 
+4 radishes 
+1 cup kale 
+1/2 cup brown rice 
+2 tbsp sesame seeds 
+4 tbsp soy sauce
+3/4 box noodles 
+3 tablespoons curry paste
+2 tablespoons olive oil ",1,0
