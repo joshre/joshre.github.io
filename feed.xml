@@ -16,7 +16,7 @@ layout: null
         <description>{{ post.content | remove: titleraw | markdownify | strip_newlines | xml_escape }}</description>
         <pubDate>{{ post.created_at | date_to_rfc822 }}</pubDate>
         <link>{{site.url}}/been-making/#{{ post.uuid }}</link>
-        <guid isPermaLink="true">{{site.url}}/been-making/{{ title | urlencode }}</guid>
+        <guid isPermaLink="true">{{site.url}}/been-making/#{{ post.uuid }}</guid>
       </item>{% endfor %}
   </channel>
 </rss>
