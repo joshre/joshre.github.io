@@ -2,6 +2,30 @@
 layout: been-making
 title: Things I've Been Making
 ---
+# Ketchup
+Saturday April 1, 2017 at 4:39 PM
+* * * 
+
+* 85 Apple cider vinegar
+* 20 ml Raspberry vinegar 
+* 770g canned tomatoes (accidentally got one with basil, hah)
+* Spice Kit
+* 85g brown sugar
+* 2 Cloves Garlic
+* 1 small Diced Yellow onion
+
+
+Spice Kit
+* 4 Cloves
+* 4 Allspice Berries
+* 1/4 teaspoon mustard seeds
+* 4 peppercorns
+
+Ground spices in mortar and pestle.
+
+
+Added vinegar and onion to pan, simmered for 5 minutes, added other ingredients and simmered for about an hour. Blended until smooth.
+
 # Canned Carrots
 Saturday March 25, 2017  
 * * * 
@@ -309,7 +333,7 @@ Monday, 26-12-2016
 # Vacuum Cold Brew
 (1/5 coffee/water)
 
-* [Dave Arnold and Peter Meehan on Cooking Issues](https://overcast.fm/ BrPzFN1AU/03:23)
+* [Dave Arnold and Peter Meehan on Cooking Issues](https://overcast.fm/+BrPzFN1AU/03:23)
 
 Ground coffee and transferred to a mason jar, used foodsealer mason jar attachment to pull out as much air as possible and hopefully remove the CO2 from the beans. Beans roasted 2 days ago. Left under vacuum for 10 min, transferred to swivel-top bottle and added water, plan to leave sitting for ~ 5 hr
 
@@ -326,6 +350,10 @@ Ground coffee and transferred to a mason jar, used foodsealer mason jar attachme
 # Wednesday, 01-03-2017  
 \* 120g coffee - med grind
 * 665 ml water
+
+# Thursday, Mar 30 2017 10:02
+* 85 g coffee
+* 2 mason jars
 
 
 🔬
@@ -377,11 +405,11 @@ Friday, 25-11-2016
 1.5 oz everything else 
 
 .75 acid
-	1/3 lime
-	1/3 grapefruit 
+  1/3 lime
+  1/3 grapefruit 
 .75 sugar
-	1/2 simple
-	Spoon oleo
+  1/2 simple
+  Spoon oleo
 
 Tuesday, 22-11-2016 
 🔬
@@ -528,7 +556,7 @@ Saturday, 23-07-2016
 * 50 g
 * Medium grind 
 * Medium roast 
-	* 226 g P1 behmor hit cool ~ 35s into first crack
+  * 226 g P1 behmor hit cool ~ 35s into first crack
 
 * 1.15 drops per second
 * 1 bottle = ~ 17 oz
