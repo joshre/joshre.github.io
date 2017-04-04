@@ -2,6 +2,7 @@
 layout: been-making
 title: Things I've Been Making
 ---
+
 # Chorizo
 Saturday April 1, 2017 at 4:39 PM
 * * * 
@@ -29,7 +30,10 @@ Spice Kit
 Ground spices in mortar and pestle.
 
 
-Added vinegar and onion to pan, simmered for 5 minutes, added other ingredients and simmered for about an hour. Blended until smooth.By smooth, I mean as smooth as our awful blender can make something smooth. This ketchup is *chunky*
+Added vinegar and onion to pan, simmered for 5 minutes, added other ingredients and simmered for about an hour. Blended until smooth [^1491323800-1].
+
+[^1491323800-1]: By smooth, I mean as smooth as our awful blender can make something smooth. This ketchup is *chunky*
+
 
 # Canned Carrots
 Saturday March 25, 2017  
