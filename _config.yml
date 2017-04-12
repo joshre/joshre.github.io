@@ -17,3 +17,5 @@ collections:
     output: true
   data.things:
     output: true
+  share:
+    output: true
