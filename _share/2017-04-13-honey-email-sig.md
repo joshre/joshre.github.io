@@ -1,9 +1,9 @@
 ---
 layout: share
 tags: 📬📩
-date: 2017-04-12
+date: 2017-04-13
 ---
-
+ 
 ## How to setup your email signature.
 
 Now that you’ve filled your name in, you’re ready to copy and paste your signature into your email. The detail involved in these steps is on purpose. Email signatures are finicky and this is the only freaking way to make it work.
