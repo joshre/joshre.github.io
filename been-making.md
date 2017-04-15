@@ -11,6 +11,8 @@ Poolish mixed @ 12:50 PM
 * 0.06 Yeast
 * 500 Water 92°
 
+Making this for Easter dinner - mixing poolish on Saturday and will mix dough & bake before leaving for church
+
 # Salt Cured Eggs
 April 15, 2017 at 12:23 PM
 * * * 
