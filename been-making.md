@@ -42,7 +42,7 @@ Cut meat into cubes, mixed in salt and transferred to fridge over night.
 * 10 g ancho chiles
 * 11 g chipotle chiles
 * 31 g guajillo chiles
-* 
+	  
 **Spice Kit**  
 * 2 teaspoons peppercorns
 * 6 allspice berries
@@ -61,7 +61,7 @@ Toasted garlic in that cast iron, added to a blender with the vinegar, spice kit
 
 Ground the meat into that mix ☝️ and mixed with the kitchen aid for about 6 min. 
 
-[^ 1270281619-1]: Though I almost choked to death from the fumes, I remembered to buy some surgical gloves this time so I wouldn't wipe my face an hour after and burn myself to death. 
+[^1270281619-1]: Though I almost choked to death from the fumes, I remembered to buy some surgical gloves this time so I wouldn't wipe my face an hour after and burn myself to death. 
 
 # Ketchup
 Saturday April 1, 2017 at 4:39 PM
