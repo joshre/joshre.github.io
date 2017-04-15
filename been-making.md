@@ -4,7 +4,7 @@ title: Things I've Been Making
 ---
 # Salt Cured Eggs
 April 15, 2017 at 12:23 PM
----- 
+* * * 
 
 *  4 egg yolks 
 *  Handfuls of salt
@@ -13,7 +13,7 @@ Placed yolks on bed of salt and covered with salt. Sealed and put in the fridge
 
 # Assorted Veggie Kimchi
 April 9, 2017 at 3:04 PM
----- 
+* * * 
 Assorted Veggie Kimchi
 * 182 Gapping garlic & leeks
 * 900 Assorted lettuce & cabbage 
@@ -21,15 +21,6 @@ Assorted Veggie Kimchi
 1012 g in all
 
 Got lazy abc left for 5 days and it made the house she'll like death
-
-# Sausage
-* 10 Salt
-* 988 Meat
-April 6, 2017 at 1:03 PM
----- 
-Sausage 
-* 10 Salt
-* 988 Meat
 
 # Chorizo
 Saturday April 1, 2017 at 4:39 PM
@@ -777,7 +768,7 @@ Bringing ammt down to adjust for the vessels I have available. Recipe is 14/1 su
 
 # Strawberry Jam
 April 8, 2017 at 10:48 AM
----- 
+* * * 
 Strawberry Jam
 * 1407 Strawberry
 * 1 minneola orange from market 
@@ -787,7 +778,7 @@ Processed a little too long in Sous Vide (189° F) and color faded and flavor is
 
 # Overnight Poolish
 April 15, 2017 at 12:50 PM
----- 
+* * * 
 Poolish mixed @ 12:50 PM
 * 500 Flour
 * 0.06 Yeast
