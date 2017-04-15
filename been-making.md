@@ -13,14 +13,14 @@ Placed yolks on bed of salt and covered with salt. Sealed and put in the fridge
 
 # Assorted Veggie Kimchi
 April 9, 2017 at 3:04 PM
+**abandoned**  
 * * * 
-Assorted Veggie Kimchi
-* 182 Gapping garlic & leeks
+* 182 garlic scapes & leeks
 * 900 Assorted lettuce & cabbage 
 
 1012 g in all
 
-Got lazy abc left for 5 days and it made the house she'll like death
+Got lazy and left this for 5 days and it made the house smell like death, so this got abandoned. 
 
 # Chorizo
 Saturday April 1, 2017 at 4:39 PM
@@ -807,7 +807,6 @@ Bringing ammt down to adjust for the vessels I have available. Recipe is 14/1 su
 # Strawberry Jam
 April 8, 2017 at 10:48 AM
 * * * 
-Strawberry Jam
 * 1407 Strawberry
 * 1 minneola orange from market 
 * 48 g lemon juice 
