@@ -37,12 +37,14 @@ Cut meat into cubes, mixed in salt and transferred to fridge over night.
 * 5 cloves garlic
 * ½ cup raspberry vinegar 
 
+
 **Chile Kit**  
 * 27 g pasilla chiles
 * 10 g ancho chiles
 * 11 g chipotle chiles
 * 31 g guajillo chiles
-	  
+
+
 **Spice Kit**  
 * 2 teaspoons peppercorns
 * 6 allspice berries
