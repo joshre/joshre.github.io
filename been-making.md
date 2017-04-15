@@ -26,6 +26,42 @@ Got lazy abc left for 5 days and it made the house she'll like death
 Saturday April 1, 2017 at 4:39 PM
 * * * 
 
+**Meat Kit**
+* 1204 g (as lean as I could make it) pork shoulder
+* 383g pork shoulder fat 
+* 26 g salt
+
+Cut meat into cubes, mixed in salt and transferred to fridge over night. 
+
+**Wet (ish) ingredients**
+* 5 cloves garlic
+* ½ cup raspberry vinegar 
+
+**Chile Kit**  
+* 27 g pasilla chiles
+* 10 g ancho chiles
+* 11 g chipotle chiles
+* 31 g guajillo chiles
+* 
+**Spice Kit**  
+* 2 teaspoons peppercorns
+* 6 allspice berries
+* 2 tablespoons cumin seeds
+* 4 cloves
+* 1 cinnamon stick
+* 1 teaspoon achiote powder
+
+Toasted spice kit in a cast iron, cooled and ground with a mortar and pestle. 
+
+Toasted the chiles, retreated to the living room coughing and choking on the fumes for the second time of not anticipating it making this recipe 🤦🏻‍♂️
+
+Tore up the chiles [^1270281619-1] and covered them with warm water for about 30 min. 
+
+Toasted garlic in that cast iron, added to a blender with the vinegar, spice kit, & chile kit. Added the herbs and put it all under the grinder. 
+
+Ground the meat into that mix ☝️ and mixed with the kitchen aid for about 6 min. 
+
+[^ 1270281619-1]: Though I almost choked to death from the fumes, I remembered to buy some surgical gloves this time so I wouldn't wipe my face an hour after and burn myself to death. 
 
 # Ketchup
 Saturday April 1, 2017 at 4:39 PM
@@ -49,7 +85,7 @@ Spice Kit
 Ground spices in mortar and pestle.
 
 
-Added vinegar and onion to pan, simmered for 5 minutes, added other ingredients and simmered for about an hour. Blended until smooth [^1491323800-1].
+Added vinegar and onion to pan, simmered for 5 minutes, added other ingredients and simmered for about an hour. Blended until smooth  [^1491323800-1].
 
 [^1491323800-1]: By smooth, I mean as smooth as our awful blender can make something smooth. This ketchup is *chunky*
 
