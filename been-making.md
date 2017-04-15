@@ -2,6 +2,34 @@
 layout: been-making
 title: Things I've Been Making
 ---
+# Salt Cured Eggs
+April 15, 2017 at 12:23 PM
+---- 
+
+*  4 egg yolks 
+*  Handfuls of salt
+
+Placed yolks on bed of salt and covered with salt. Sealed and put in the fridge 
+
+# Assorted Veggie Kimchi
+April 9, 2017 at 3:04 PM
+---- 
+Assorted Veggie Kimchi
+* 182 Gapping garlic & leeks
+* 900 Assorted lettuce & cabbage 
+
+1012 g in all
+
+Got lazy abc left for 5 days and it made the house she'll like death
+
+# Sausage
+* 10 Salt
+* 988 Meat
+April 6, 2017 at 1:03 PM
+---- 
+Sausage 
+* 10 Salt
+* 988 Meat
 
 # Chorizo
 Saturday April 1, 2017 at 4:39 PM
@@ -342,7 +370,7 @@ Monday, 26-12-2016
 # Vacuum Cold Brew
 (1/5 coffee/water)
 
-* [Dave Arnold and Peter Meehan on Cooking Issues](https://overcast.fm/+BrPzFN1AU/03:23)
+* [Dave Arnold and Peter Meehan on Cooking Issues](https://overcast.fm/ BrPzFN1AU/03:23)
 
 Ground coffee and transferred to a mason jar, used foodsealer mason jar attachment to pull out as much air as possible and hopefully remove the CO2 from the beans. Beans roasted 2 days ago. Left under vacuum for 10 min, transferred to swivel-top bottle and added water, plan to leave sitting for ~ 5 hr
 
@@ -414,11 +442,11 @@ Friday, 25-11-2016
 1.5 oz everything else 
 
 .75 acid
-  1/3 lime
-  1/3 grapefruit 
+	1/3 lime
+	1/3 grapefruit 
 .75 sugar
-  1/2 simple
-  Spoon oleo
+	1/2 simple
+	Spoon oleo
 
 Tuesday, 22-11-2016 
 🔬
@@ -565,7 +593,7 @@ Saturday, 23-07-2016
 * 50 g
 * Medium grind 
 * Medium roast 
-  * 226 g P1 behmor hit cool ~ 35s into first crack
+	* 226 g P1 behmor hit cool ~ 35s into first crack
 
 * 1.15 drops per second
 * 1 bottle = ~ 17 oz
@@ -746,3 +774,21 @@ Bringing ammt down to adjust for the vessels I have available. Recipe is 14/1 su
  - 4 dashes fee brothers old fashioned bitters 
 
 🔬🔬
+
+# Strawberry Jam
+April 8, 2017 at 10:48 AM
+---- 
+Strawberry Jam
+* 1407 Strawberry
+* 1 minneola orange from market 
+* 48 g lemon juice 
+
+Processed a little too long in Sous Vide (189° F) and color faded and flavor is dulled. Still great though. 
+
+# Overnight Poolish
+April 15, 2017 at 12:50 PM
+---- 
+Poolish mixed @ 12:50 PM
+* 500 Flour
+* 0.06 Yeast
+* 500 Water 92°
