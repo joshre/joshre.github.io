@@ -2,6 +2,15 @@
 layout: been-making
 title: Things I've Been Making
 ---
+# Overnight Poolish
+April 15, 2017 at 12:50 PM
+* * * 
+
+Poolish mixed @ 12:50 PM 
+* 500 Flour
+* 0.06 Yeast
+* 500 Water 92°
+
 # Salt Cured Eggs
 April 15, 2017 at 12:23 PM
 * * * 
@@ -91,6 +100,15 @@ Added vinegar and onion to pan, simmered for 5 minutes, added other ingredients 
 
 [^1491323800-1]: By smooth, I mean as smooth as our awful blender can make something smooth. This ketchup is *chunky*
 
+
+# Strawberry Jam (v2)
+April 8, 2017 at 10:48 AM  
+* * * 
+* 1407 Strawberry
+* 1 minneola orange from market 
+* 48 g lemon juice 
+
+Processed a little too long in Sous Vide (189° F) and color faded and flavor is dulled. Still great though. 
 
 # Canned Carrots
 Saturday March 25, 2017  
@@ -803,20 +821,3 @@ Bringing ammt down to adjust for the vessels I have available. Recipe is 14/1 su
  - 4 dashes fee brothers old fashioned bitters 
 
 🔬🔬
-
-# Strawberry Jam
-April 8, 2017 at 10:48 AM
-* * * 
-* 1407 Strawberry
-* 1 minneola orange from market 
-* 48 g lemon juice 
-
-Processed a little too long in Sous Vide (189° F) and color faded and flavor is dulled. Still great though. 
-
-# Overnight Poolish
-April 15, 2017 at 12:50 PM
-* * * 
-Poolish mixed @ 12:50 PM 
-* 500 Flour
-* 0.06 Yeast
-* 500 Water 92°
