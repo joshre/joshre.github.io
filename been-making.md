@@ -12,7 +12,7 @@ April 15, 2017 at 12:23 PM
 Placed yolks on bed of salt and covered with salt. Sealed and put in the fridge 
 
 # Assorted Veggie Kimchi
-April 9, 2017 at 3:04 PM
+April 9, 2017 at 3:04 PM  
 **abandoned**  
 * * * 
 * 182 garlic scapes & leeks
@@ -816,7 +816,7 @@ Processed a little too long in Sous Vide (189° F) and color faded and flavor is
 # Overnight Poolish
 April 15, 2017 at 12:50 PM
 * * * 
-Poolish mixed @ 12:50 PM
+Poolish mixed @ 12:50 PM 
 * 500 Flour
 * 0.06 Yeast
 * 500 Water 92°
