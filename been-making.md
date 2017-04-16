@@ -33,6 +33,17 @@ Poolish mixed @ 12:50 PM
 
 Making this for Easter dinner - mixing poolish on Saturday and will mix dough & bake before leaving for church. 
 
+Stalled out the dough by placing in fridge overnight. Poolish came out of the fridge at about 39° F; put in a 100° F oven to bring up to 47° F
+
+**Final Dough**  
+* 500g flour
+* 21 g salt
+* 3 g yeast
+* 250 g 105° F water
+
+**Sunday, Apr 16 2017 06:30**  
+Added water to the poolish and dumped into the flour mix, final temp was 77° F folded 3 times before 7:30. 
+
 # Salt Cured Eggs
 April 15, 2017 at 12:23 PM
 * * * 
