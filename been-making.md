@@ -20,6 +20,8 @@ April 15, 2017 at 10:04 PM
 * 21 g fresh garlic
 * 2 cloves dried garlic 
 
+Covered with a 5% brine and weighed down with a terra-cotta pot saucer. 
+
 # Overnight Poolish
 April 15, 2017 at 12:50 PM
 * * * 
