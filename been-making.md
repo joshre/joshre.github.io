@@ -2,6 +2,24 @@
 layout: been-making
 title: Things I've Been Making
 ---
+# Natural Pickles #1
+April 15, 2017 at 10:04 PM
+* * * 
+
+**Spices**
+* 1 tsp yellow mustard
+* 1 tsp dark mustard 
+* six allspice berries
+* 4 cloves
+* 5 juniper berries 
+* teaspoon black pepper
+
+**Pickles**
+* 376 g carrots 
+* 213 g snap peas 
+* 21 g fresh garlic
+* 2 cloves dried garlic 
+
 # Overnight Poolish
 April 15, 2017 at 12:50 PM
 * * * 
