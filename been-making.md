@@ -2,6 +2,25 @@
 layout: been-making
 title: Things I've Been Making
 ---
+
+# Rhubarb Strawberry Jam
+April 23, 2017
+* * * 
+
+* 1022g Rhubarb
+* 330g Strawberries
+
+Chopped up fruit and left to macerate for a day. Made 2.5 jars.
+
+# Chamomile Infused Gin
+April 30, 2017 at 11:04 AM
+* * * 
+
+* 9 g Dried Chamomile Flowers
+* 10 oz Bombay Sapphire Gin
+
+Pretty dang good — used it in the [Snake Bit Sprout](http://imbibemagazine.com/snake-bit-sprout-chamomile-cocktail/ "Imbibe") that I fund on imbibe from the team at Julep in Houston.
+
 # Natural Pickles #1
 April 15, 2017 at 10:04 PM
 * * * 
@@ -21,6 +40,10 @@ April 15, 2017 at 10:04 PM
 * 2 cloves dried garlic 
 
 Covered with a 5% brine and weighed down with a terra-cotta pot saucer. 
+
+### Update
+
+The juniper was way too much. Flavor was awful. The consistency of the veg was amazing though — super crisp and clean.
 
 # Overnight Poolish
 April 15, 2017 at 12:50 PM
@@ -450,7 +473,7 @@ Monday, 26-12-2016
 # Vacuum Cold Brew
 (1/5 coffee/water)
 
-* [Dave Arnold and Peter Meehan on Cooking Issues](https://overcast.fm/ BrPzFN1AU/03:23)
+* [Dave Arnold and Peter Meehan on Cooking Issues](https://overcast.fm/+BrPzFN1AU/03:23)
 
 Ground coffee and transferred to a mason jar, used foodsealer mason jar attachment to pull out as much air as possible and hopefully remove the CO2 from the beans. Beans roasted 2 days ago. Left under vacuum for 10 min, transferred to swivel-top bottle and added water, plan to leave sitting for ~ 5 hr
 
@@ -522,11 +545,11 @@ Friday, 25-11-2016
 1.5 oz everything else 
 
 .75 acid
-	1/3 lime
-	1/3 grapefruit 
+  1/3 lime
+  1/3 grapefruit 
 .75 sugar
-	1/2 simple
-	Spoon oleo
+  1/2 simple
+  Spoon oleo
 
 Tuesday, 22-11-2016 
 🔬
@@ -673,7 +696,7 @@ Saturday, 23-07-2016
 * 50 g
 * Medium grind 
 * Medium roast 
-	* 226 g P1 behmor hit cool ~ 35s into first crack
+  * 226 g P1 behmor hit cool ~ 35s into first crack
 
 * 1.15 drops per second
 * 1 bottle = ~ 17 oz
