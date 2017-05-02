@@ -8,7 +8,7 @@ links: external
 **Web Developer**  
 Sacramento, California  
   
-Highly productive, fast-learning employee with technical and relational skills to see projects from ideation to production. Seeking a full-time position in a team that moves quickly and encourages growth. 
+Highly productive, fast-learning employee with technical and relational skills to see projects from ideation to production.
 
 
 # Work Experience  
