@@ -13,11 +13,5 @@ layout: null
 <loc>{{site.url}}/feed.xml</loc>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
-</url>{% assign posts = site.data.things | sort:"created_at" | reverse %}{% for post in posts %}{% assign paragraphs = post.content | newline_to_br | split: '<br />' %}{% assign title = paragraphs.first | markdownify | strip_html | strip_newlines %}
-<url>
-<lastmod>{{ post.modified_at | date: "%Y-%m-%d" }}</lastmod>
-<loc>{{site.url}}/been-making/#{{ post.uuid }}</loc>
-<changefreq>weekly</changefreq>
-<priority>0.5</priority>
-</url>{% endfor %}
+</url>
 </urlset>

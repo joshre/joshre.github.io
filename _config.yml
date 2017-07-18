@@ -13,9 +13,7 @@ sass:
   style: :compressed
 
 collections:
-  log:
-    output: true
-  data.things:
+  things:
     output: true
   share:
     output: true

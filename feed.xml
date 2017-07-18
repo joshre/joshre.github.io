@@ -10,13 +10,13 @@ layout: null
     <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>{% assign posts = site.data.things | sort:"created_at" | reverse %}{% for post in posts %}{% assign paragraphs = post.content | newline_to_br | split: '<br />' %}{% assign title = paragraphs.first | markdownify | strip_html | strip_newlines %}{% assign titleraw = paragraphs.first %}
+    <generator>Jekyll v{{ jekyll.version }}</generator>{% assign posts = site.things %}{% for post in posts %}
     <item>
-        <title>{{ title | xml_escape }}</title>
-        <description>{{ post.content | remove: titleraw | markdownify | strip_newlines | xml_escape }}</description>
-        <pubDate>{{ post.created_at | date_to_rfc822 }}</pubDate>
-        <link>{{site.url}}/been-making/#{{ post.uuid }}</link>
-        <guid isPermaLink="true">{{site.url}}/been-making/#{{ post.uuid }}</guid>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | markdownify | strip_newlines | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{site.url}}{{post.url}}</link>
+        <guid isPermaLink="true">{{site.url}}{{post.url}}</guid>
       </item>{% endfor %}
   </channel>
 </rss>

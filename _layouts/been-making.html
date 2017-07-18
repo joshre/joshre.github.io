@@ -17,7 +17,13 @@ layout: compress
 			</section>
 		</article>
 		<article class="outer white">
-		{{ content }}
+
+{% for thing in site.things %}
+<div class="outer">
+{{thing.title}}
+{{thing.content}}
+</div>
+{% endfor %}
 		</article>
 		</main>
 		{% include footer.html %}
