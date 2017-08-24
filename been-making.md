@@ -54,7 +54,7 @@ April 23, 2017
 
 Chopped up fruit and left to macerate for a day. Made 2.5 jars. Rhubarb texture really put me off so this has just been sitting.
 
-# Chamomile Infhused Gin
+# Chamomile Infused Gin
 April 30, 2017 at 11:04 AM
 * * * 
 
@@ -588,11 +588,11 @@ Friday, 25-11-2016
 1.5 oz everything else 
 
 .75 acid
-  1/3 lime
-  1/3 grapefruit 
+    1/3 lime
+    1/3 grapefruit 
 .75 sugar
-  1/2 simple
-  Spoon oleo
+    1/2 simple
+    Spoon oleo
 
 Tuesday, 22-11-2016 
 🔬
@@ -739,7 +739,7 @@ Saturday, 23-07-2016
 * 50 g
 * Medium grind 
 * Medium roast 
-  * 226 g P1 behmor hit cool ~ 35s into first crack
+    * 226 g P1 behmor hit cool ~ 35s into first crack
 
 * 1.15 drops per second
 * 1 bottle = ~ 17 oz
