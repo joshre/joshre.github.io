@@ -8,20 +8,19 @@ layout: compress
 	<body>
 		{% include header.html %}
 		<main class="been-making">
-		<article class="mar-no">
-			<section>
-				<div class="outer">
-					<h1>{{page.title}}</h1>
-					<p>I scribble notes on my phone while I'm making stuff in the kitchen to help me figure out what to change if something goes wrong or what to do again if it works. I'm barely editing this stuff so expect spelling errors and what-not.</p>
-				</div>
-			</section>
-		</article>
-		<article class="outer white">
-
-{% for thing in site.things %}
-{{content}}
-{% endfor %}
-		</article>
+			<article class="mar-no">
+				<section>
+					<div class="outer">
+						<h1>{{page.title}}</h1>
+						<p>I scribble notes on my phone while I'm making stuff in the kitchen to help me figure out what to change if something goes wrong or what to do again if it works. I'm barely editing this stuff so expect spelling errors and what-not.</p>
+					</div>
+				</section>
+			</article>
+			<article class="outer white">
+				{% for thing in site.things %}
+					{{content}}
+				{% endfor %}
+			</article>
 		</main>
 		{% include footer.html %}
 	</body>

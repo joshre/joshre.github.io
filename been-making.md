@@ -3,6 +3,53 @@ layout: been-making
 title: Things I've Been Making
 ---
 
+# Pickles
+June 04 2017
+* * * 
+
+* About 5lbs of Cucumbers
+* 
+
+# Ox blood 
+
+* 235 ml beer juice 
+
+Just sat in the fridge 
+
+# Cherry Soda
+
+* * * 
+
+260 ml Cherry Juice
+53 g Lemon Juice
+2 tbsp Ginger Bug
+40 g Turbinado Sugar
+300 ml water
+
+# Citrus Dew
+
+* * * 
+
+175 ml Orange Juice - strained 
+Zest of 1.5 Lemons
+Zest of 1.5 Limes
+60 ml Lemon Juice
+Juice of 1 Lime
+250 g Organic Cane Sugar
+200 g Turbinado Sugar
+
+Started using this in a rum drink (just this and Flor De Caña 4-year. We call it “Dewing it on the Beach”
+
+# A.C.E
+
+* * * 
+
+700 ml Orange Juice, strained
+67ml Carrot Juice, strained
+1.7l Water
+200g Organic Cane Sugar
+200g Turbinado Sugar
+
 # Rhubarb Strawberry Jam
 April 23, 2017
 * * * 
@@ -12,7 +59,7 @@ April 23, 2017
 
 Chopped up fruit and left to macerate for a day. Made 2.5 jars.
 
-# Chamomile Infused Gin
+# Chamomile Infhused Gin
 April 30, 2017 at 11:04 AM
 * * * 
 
@@ -495,6 +542,7 @@ Ground coffee and transferred to a mason jar, used foodsealer mason jar attachme
 * 85 g coffee
 * 2 mason jars
 
+# Saturday, May 13 2017 3:19 PM
 
 🔬
 
@@ -821,9 +869,7 @@ Bottle w/ water (and CarbaCap)
 * 550 g 
  * 3 hits 521g
 
-
-
-🔬
+🔬 
 
 # Yoghurt
 
@@ -877,3 +923,20 @@ Bringing ammt down to adjust for the vessels I have available. Recipe is 14/1 su
  - 4 dashes fee brothers old fashioned bitters 
 
 🔬🔬
+
+# Ginger beer
+May 6, 2017 at 11:19 AM
+* * * 
+
+Ingredients
+*  Water 934 ml +880ml
+*  Ginger 34 g
+*  lime juice 80 ml
+*  Ginger bug 110 ml
+*  Sugar 370g
+
+Separated into 2 bottles and left in the pantry. Will check back in about 2 weeks.
+
+Wednesday, May 10 2017 11:40
+
+Came into the apartment and a bottle exploded, let pressure off the other one and put it in the fridge 
