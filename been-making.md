@@ -212,7 +212,7 @@ Processed a little too long in Sous Vide (189° F) and color faded and flavor is
 Saturday March 25, 2017  
 * * * 
 
-Used the same brine as the [Canned Leeks](ulysses://x-callback-url/open?id=7stcAAOubTB6WfbV5_flMg). Pulled this recipe from Sherri Brooks Vinton. “Put 'em Up!.” — I used the brine recipe from the pickled spring ramps and then realized after that it’s intended as a non-processed recipe so these might come out a bit odd.
+Used the same brine as the [Canned Leeks](#canned-leeks). Pulled this recipe from Sherri Brooks Vinton. “Put 'em Up!.” — I used the brine recipe from the pickled spring ramps and then realized after that it’s intended as a non-processed recipe so these might come out a bit odd.
 
 **Ingredients**
 * 440 ml vinegar
