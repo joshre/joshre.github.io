@@ -918,20 +918,3 @@ Bringing ammt down to adjust for the vessels I have available. Recipe is 14/1 su
  - 4 dashes fee brothers old fashioned bitters 
 
 🔬🔬
-
-# Ginger beer
-May 6, 2017 at 11:19 AM
-* * * 
-
-**Ingredients**  
-*  Water 934 ml +880ml
-*  Ginger 34 g
-*  lime juice 80 ml
-*  Ginger bug 110 ml
-*  Sugar 370g
-
-Separated into 2 bottles and left in the pantry. Will check back in about 2 weeks.
-
-**Wednesday, May 10 2017 11:40**
-
-Came into the apartment and a bottle exploded, let pressure off the other one and put it in the fridge. *That one* exploded a month later hah. 
