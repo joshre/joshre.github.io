@@ -3,19 +3,6 @@ layout: been-making
 title: Things I've Been Making
 ---
 
-# Pickles
-June 04 2017
-* * * 
-
-* About 5lbs of Cucumbers
-* 
-
-# Ox blood 
-
-* 235 ml beer juice 
-
-Just sat in the fridge 
-
 # Cherry Soda
 
 * * * 
