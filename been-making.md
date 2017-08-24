@@ -2,6 +2,7 @@
 layout: been-making
 title: Things I've Been Making
 ---
+
 # Cherry Soda
 May 6, 2017
 * * * 
@@ -28,7 +29,7 @@ May 6, 2017
 * 250 g Organic Cane Sugar
 * 200 g Turbinado Sugar
 
-Started using this in a rum drink (just this and Flor De Caña 4-year. We call it “Dewing it on the Beach” *AMIRITE*
+This was really good — it’s supposed to be a mountain dew clone, and it was crazy refreshing. We started using it in a rum drink (just this and Flor De Caña 4-year). We call it “Dewing it on the Beach” *AMIRITE*
 
 # A.C.E
 May 6, 2017
@@ -40,6 +41,8 @@ May 6, 2017
 * 1.7l Water
 * 200g Organic Cane Sugar
 * 200g Turbinado Sugar
+
+All I feel like I got out of this was the carrot, but it was refreshing, couldn’t drink a lot though.
 
 # Rhubarb Strawberry Jam
 April 23, 2017
