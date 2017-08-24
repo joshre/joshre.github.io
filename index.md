@@ -10,13 +10,6 @@ I'm a web developer working at [Honey Agency](http://honeyagency.com/) in Sacram
 ---
 {: .lead-paragraph}
 
-## Web Development
-
-As an independent web developer I build websites, email newsletter templates, manage Linux & Debian servers, and have a background building custom WordPress websites. [You can contact me for freelance work here](mailto:jreederesparza@gmail.com?Subject=Web%20Development) & [check out my r&eacute;sum&eacute; here.](/resume/) 
-
----
-{: .lead-paragraph}
-
 ## Hobbies
 
 Most of my time outside of work is spent on food, it's a hobby that started as an interest and bloomed into obsession a few years ago. I usually have 2-3 projects every week or so, and I keep a somewhat updated list here: [Things I've Been Making](/been-making/)
