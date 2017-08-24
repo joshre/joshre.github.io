@@ -2,49 +2,54 @@
 layout: been-making
 title: Things I've Been Making
 ---
-
 # Cherry Soda
-
+May 6, 2017
 * * * 
 
-260 ml Cherry Juice
-53 g Lemon Juice
-2 tbsp Ginger Bug
-40 g Turbinado Sugar
-300 ml water
+**Ingredients**  
+* 260 ml Cherry Juice
+* 53 g Lemon Juice
+* 2 tbsp Ginger Bug
+* 40 g Turbinado Sugar
+* 300 ml water
+
+This was a really small amount (one little 16oz bottle) but it had a dark, funky over-ripe fruit aroma to it and I used it in a few Gin spritzer drinks that were pretty tasty. Needed a lot of bitter to balance out all of the funk.
 
 # Citrus Dew
-
+May 6, 2017
 * * * 
 
-175 ml Orange Juice - strained 
-Zest of 1.5 Lemons
-Zest of 1.5 Limes
-60 ml Lemon Juice
-Juice of 1 Lime
-250 g Organic Cane Sugar
-200 g Turbinado Sugar
+**Ingredients**
+* 175 ml Orange Juice - strained 
+* Zest of 1.5 Lemons
+* Zest of 1.5 Limes
+* 60 ml Lemon Juice
+* Juice of 1 Lime
+* 250 g Organic Cane Sugar
+* 200 g Turbinado Sugar
 
-Started using this in a rum drink (just this and Flor De Caña 4-year. We call it “Dewing it on the Beach”
+Started using this in a rum drink (just this and Flor De Caña 4-year. We call it “Dewing it on the Beach” *AMIRITE*
 
 # A.C.E
-
+May 6, 2017
 * * * 
 
-700 ml Orange Juice, strained
-67ml Carrot Juice, strained
-1.7l Water
-200g Organic Cane Sugar
-200g Turbinado Sugar
+**Ingredients**
+* 700 ml Orange Juice, strained
+* 67ml Carrot Juice, strained
+* 1.7l Water
+* 200g Organic Cane Sugar
+* 200g Turbinado Sugar
 
 # Rhubarb Strawberry Jam
 April 23, 2017
 * * * 
 
+**Ingredients:**
 * 1022g Rhubarb
 * 330g Strawberries
 
-Chopped up fruit and left to macerate for a day. Made 2.5 jars.
+Chopped up fruit and left to macerate for a day. Made 2.5 jars. Rhubarb texture really put me off so this has just been sitting.
 
 # Chamomile Infhused Gin
 April 30, 2017 at 11:04 AM
@@ -915,7 +920,7 @@ Bringing ammt down to adjust for the vessels I have available. Recipe is 14/1 su
 May 6, 2017 at 11:19 AM
 * * * 
 
-Ingredients
+**Ingredients**  
 *  Water 934 ml +880ml
 *  Ginger 34 g
 *  lime juice 80 ml
@@ -924,6 +929,6 @@ Ingredients
 
 Separated into 2 bottles and left in the pantry. Will check back in about 2 weeks.
 
-Wednesday, May 10 2017 11:40
+**Wednesday, May 10 2017 11:40**
 
-Came into the apartment and a bottle exploded, let pressure off the other one and put it in the fridge 
+Came into the apartment and a bottle exploded, let pressure off the other one and put it in the fridge. *That one* exploded a month later hah. 
