@@ -162,7 +162,7 @@ Cut meat into cubes, mixed in salt and transferred to fridge over night.
 
 Toasted spice kit in a cast iron, cooled and ground with a mortar and pestle. 
 
-Toasted the chiles, retreated to the living room coughing and choking on the fumes for the second time of not anticipating it making this recipe 🤦🏻‍♂️
+Toasted the chiles, retreated to the living room coughing and choking on the fumes for the second time of not anticipating it making this recipe 🤦🏻‍♂️.
 
 Tore up the chiles [^1270281619-1] and covered them with warm water for about 30 min. 
 
