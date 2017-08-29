@@ -2,6 +2,15 @@
 layout: been-making
 title: Things I've Been Making
 ---
+# Red Wine Vinegar
+August 26, 2017 at 1:53 PM
+* * * 
+
+**Ingredients**
+* 1500 2011 Cameron Hughes Meritage
+* 750 ml 2007 Petite Syrah
+* 500 Random Napa Cabernet
+* 2 Home made Red Wine Vinegar & mother
 
 # Cherry Soda
 May 6, 2017
