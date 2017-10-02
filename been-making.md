@@ -2,6 +2,36 @@
 layout: been-making
 title: Things I've Been Making
 ---
+
+
+# Quince Syrup
+October 1, 2017 at 10:37 AM
+* * * 
+
+**Ingredients**
+* 794g Quince
+* 1 Star anise
+* 5 Cloves
+* 376 ml Water
+* 366g Sugar
+* 3g Wild cherry bark
+
+
+Put in a zip-close bag, sealed with water method and put in the sous vide at 165º for about 3 1/2 hours.
+
+
+# Sourdough Flatbread
+September 23, 2017 at 12:48 PM
+* * * 
+
+**Ingredients**
+* 100g Community Grains hard red winter whole wheat flour
+* 400g White flour
+* 100g Mature active levian
+* 400ml 97° water
+
+Rose overnight, oven should’ve been a bit hotter it cooked too long and got a bit stiff.
+
 # Red Wine Vinegar
 August 26, 2017 at 1:53 PM
 * * * 
@@ -11,6 +41,26 @@ August 26, 2017 at 1:53 PM
 * 750 ml 2007 Petite Syrah
 * 500 Random Napa Cabernet
 * 2 Home made Red Wine Vinegar & mother
+
+This was from a bunch of wine (2 or 3 cases) that were left after we cleaned out the office a month or so back. 
+
+# Pickled Red Onions
+August 26, 2017 at 1:24 PM
+* * * 
+
+**Ingredients**  
+* 1.5 Apple Cider Vinegar
+* 1 White Wine Vinegar
+* 1 Salt
+* 3 Sugar
+* 2 Bay leaves 
+* 4 Cloves
+* 6 Allspice berries 
+* 1 Coriander Seed
+* 1 Peppercorn
+* 3 Tbsp Home made Red Wine Vinegar
+* 2 Cloves Garlic
+* Onions
 
 # Cherry Soda
 May 6, 2017
@@ -52,6 +102,23 @@ May 6, 2017
 * 200g Turbinado Sugar
 
 All I feel like I got out of this was the carrot, but it was refreshing, couldn’t drink a lot though.
+
+# Ginger beer
+May 6, 2017 at 11:19 AM
+* * * 
+
+**Ingredients**  
+*  Water 934 ml +880ml
+*  Ginger 34 g
+*  lime juice 80 ml
+*  Ginger bug 110 ml
+*  Sugar 370g
+
+Separated into 2 bottles and left in the pantry. Will check back in about 2 weeks.
+
+**Wednesday, May 10 2017 11:40**
+
+Came into the apartment and a bottle exploded, let pressure off the other one and put it in the fridge. *That one* exploded a month later hah. 
 
 # Rhubarb Strawberry Jam
 April 23, 2017
@@ -138,6 +205,15 @@ April 9, 2017 at 3:04 PM
 
 Got lazy and left this for 5 days and it made the house smell like death, so this got abandoned. 
 
+# Strawberry Jam (v2)
+April 8, 2017 at 10:48 AM  
+* * * 
+* 1407 Strawberry
+* 1 minneola orange from market 
+* 48 g lemon juice 
+
+Processed a little too long in Sous Vide (189° F) and color faded and flavor is dulled. Still great though. 
+
 # Chorizo
 Saturday April 1, 2017 at 4:39 PM
 * * * 
@@ -207,15 +283,6 @@ Added vinegar and onion to pan, simmered for 5 minutes, added other ingredients 
 
 [^1491323800-1]: By smooth, I mean as smooth as our awful blender can make something smooth. This ketchup is *chunky*
 
-
-# Strawberry Jam (v2)
-April 8, 2017 at 10:48 AM  
-* * * 
-* 1407 Strawberry
-* 1 minneola orange from market 
-* 48 g lemon juice 
-
-Processed a little too long in Sous Vide (189° F) and color faded and flavor is dulled. Still great though. 
 
 # Canned Carrots
 Saturday March 25, 2017  
