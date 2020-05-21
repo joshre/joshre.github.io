@@ -6,26 +6,18 @@ layout: compress
 	{% include head.html %}
 	
 	<body>
-		{% include header.html %}
+		{% if page.hidemeta != true %}{% include header.html %}{% endif %}
 		<main>
-		<article class="mar-no">
-			<section>
-				<div id="resume-intro" class="outer white">
+			<article>
+				<section>
 					{% if page.hidemeta == true %}
-					<h1>{{page.title}}</h1>
 					{% else %}
-					<h1>{{page.title}}</h1>
-					<br>
-					<h5>
-						<time titemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-						<span class="emoji-tags">{{page.tags}}</span>
-					</h5>
+						<h1>{{page.title}}</h1>
+						<h5><time titemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time><span class="emoji-tags">{{page.tags}}</span></h5>
 					{% endif %}
 					{{ content }}
-				</div>
-			</section>
-
-		</article>
+				</section>
+			</article>
 		</main>
 		{% include footer.html %}
 	</body>
