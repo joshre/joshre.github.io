@@ -26,7 +26,6 @@ You're booked into site # 15 & 16 during May 28th to June 1st 2020
 * ** Wood** ($5 a bundle)
 * ** Ice** ($3 a bag).
 
-![A map of the grounds](../images/campground-map.png)
 ## Campground Details
 * We allow ﬁres in designed ﬁre rings only. Please put your ﬁre dead out when you're away from your site. We ask you kindly to not burn glass bottles & cans.
 * The dumpster is located in the main building parking lot.
@@ -36,6 +35,7 @@ You're booked into site # 15 & 16 during May 28th to June 1st 2020
 * You'll ﬁnd full services such as a grocery store & more restaurants, as well. Restaurant & convenience store will be CLOSED during your visit.
 * If you would like to purchase wood or ice then please leave money in the **Blue Mailbox** by the front door of the lodge. 
 
+![A map of the grounds](../images/campground-map.png)
 
 If you must use a card then please knock upon arrival & we can assist you. We apologize for the inconvenience this may cause. We live in the main building & can be reached any time of day. Please let us know if you have any concerns or questions. We ask for a one week cancellation before your date of check in to avoid a one night charge of your stay. Additionally, we'll charge your card on ﬁle for your reservation. 
 
