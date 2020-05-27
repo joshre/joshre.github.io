@@ -44,4 +44,7 @@ Jillian & Joe from Mill Creek Resort
 
 ## Lassen
 
+* [NPS Lassen Conditions](https://www.nps.gov/lavo/planyourvisit/conditions.htm)
+* [Lassen Volcanic National Park California](https://www.nps.gov/lavo/planyourvisit/basicinfo.htm)
+
 ![the volcano](../images/volcano-map.png)
