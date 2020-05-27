@@ -40,4 +40,8 @@ You're booked into site # 15 & 16 during May 28th to June 1st 2020
 If you must use a card then please knock upon arrival & we can assist you. We apologize for the inconvenience this may cause. We live in the main building & can be reached any time of day. Please let us know if you have any concerns or questions. We ask for a one week cancellation before your date of check in to avoid a one night charge of your stay. Additionally, we'll charge your card on ﬁle for your reservation. 
 
 Jillian & Joe from Mill Creek Resort 
-Let's be friends! & tag us in your adventures! @millcreekresort 
+
+
+## Lassen
+
+![the volcano](../images/volcano-map.png)
