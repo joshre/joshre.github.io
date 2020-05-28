@@ -10,8 +10,9 @@ You're booked into site # 15 & 16 during May 28th to June 1st 2020
 
 ### Address
 `Mill Creek Resort 40271 HWY 172 Mill Creek CA 96061 `
-* [Google Maps](https://www.google.com/maps/place/Mill+Creek+Resort/@40.3236882,-121.5286495,17z/data=!3m1!4b1!4m8!3m7!1s0x809d51687b55c0cd:0x55a8ca806bd13678!5m2!4m1!1i2!8m2!3d40.3236882!4d-121.5264608)
-* [Apple Maps](https://maps.apple.com/?address=40271%20CA-172,%20Mill%20Creek,%20CA%20%2096061,%20United%20States&auid=69099969819570590&ll=40.323330,-121.525710&lsp=9902&q=Mill%20Creek%20Resort&_ext=ChkKBQgEEOIBCgQIBRADCgQIBhALCgQIChAAEiQpxTZOrzkpREAxhel7DcFhXsA59FcjFowpREBBYC7zZ4lhXsA%3D)
+* [🗺 Google Maps](https://www.google.com/maps/place/Mill+Creek+Resort/@40.3236882,-121.5286495,17z/data=!3m1!4b1!4m8!3m7!1s0x809d51687b55c0cd:0x55a8ca806bd13678!5m2!4m1!1i2!8m2!3d40.3236882!4d-121.5264608)
+* [🗺 Apple Maps](https://maps.apple.com/?address=40271%20CA-172,%20Mill%20Creek,%20CA%20%2096061,%20United%20States&auid=69099969819570590&ll=40.323330,-121.525710&lsp=9902&q=Mill%20Creek%20Resort&_ext=ChkKBQgEEOIBCgQIBRADCgQIBhALCgQIChAAEiQpxTZOrzkpREAxhel7DcFhXsA59FcjFowpREBBYC7zZ4lhXsA%3D)
+* [🌐 Mill Creek Website](https://www.millcreekresort.net/)
 
 > Please be advised that the closest gas is 25 miles from us in the town of Chester.
 
