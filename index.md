@@ -9,7 +9,7 @@ Hello there, my name is Josh. I’m a freelance web developer and designer in <s
 ## Here are some websites I’ve built.
 
 ### Where I currently work
-[MxU](https://getmxu.com/features) - Custom Wordpress build for a successful SaaS company integrating Stripe, HubSpot, and .
+[MxU](https://getmxu.com/features) - Custom Wordpress build for a successful SaaS company integrating Stripe, HubSpot, and advanced analytics.
 
 ### Built with the design team at Honey (employer from 2016 to 2020)
 * [Lange Twins Winery](https://langetwins.com/) - Custom Wordpress build with a Winedirect integration for a fifth-generation California Winery.
