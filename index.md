@@ -6,7 +6,7 @@ Hello there, my name is Josh. I’m a freelance web developer and designer in <s
 
 [Reach out](mailto:hello@joshre.com)
 
-## Here are some websites I’ve built.
+## Here are some websites I’ve built ↓
 
 ### Where I currently work
 [MxU](https://getmxu.com/features) - Custom Wordpress build for a successful SaaS company integrating Stripe, HubSpot, and advanced analytics.
