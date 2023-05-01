@@ -4,7 +4,7 @@ layout: home
 Hello there, my name is Josh. I’m a freelance web developer and designer in <span style="color:#ff8200;">Knoxville</span>, Tennessee. I have over a decade of experience building highly performant websites for multiple disciplines.
 {: .lead-paragraph}
 
-[Reach out](mailto:hello@joshre.com)
+[Reach out](mailto:joshre@me.com)
 
 ## Here are some websites I’ve built ↓
 
