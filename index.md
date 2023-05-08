@@ -21,4 +21,4 @@ Hello there, my name is Josh. I’m a freelance web developer and designer in <s
 * [Lei Back](https://drinkleiback.com/) - Custom Shopify build with full e-commerce buildout.
 * [Everlee Skincare](https://everleeskincare.shop/) - Custom Shopify build with full e-commerce buildout.
 
-Interested in working with me? [Reach out here](mailto:hello@joshre.com).
+Interested in working with me? [Reach out here](mailto:joshre@me.com).
