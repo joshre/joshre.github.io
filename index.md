@@ -5,7 +5,3 @@ Hello there, my name is Josh. I’m a web developer and designer in <span style=
 {: .lead-paragraph}
 
 [Reach out](mailto:joshre@me.com)
-
-
-### Where I currently work
-[MxU](https://getmxu.com)
