@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@tailwindcss/typography": "*",
+    "concurrently": "^8.0.1",
+    "tailwindcss": "*"
+  },
+  "scripts": {
+    "watch": "concurrently \"bundle exec jekyll serve --livereload\" \"yarn tailwindcss -i _css/input.css -o css/output.css --minify --watch\""
+  },
+  "name": "joshre.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/joshre/joshre.github.io.git",
+  "author": "Josh Reeder-Esparza <joshre@me.com>",
+  "license": "MIT",
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
+}

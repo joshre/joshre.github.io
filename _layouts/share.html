@@ -1,24 +1,14 @@
 ---
-layout: compress
+layout: default
 ---
-<!DOCTYPE html>
-<html lang="en">
-	{% include head.html %}
-	
-	<body>
-		{% if page.hidemeta != true %}{% include header.html %}{% endif %}
-		<main>
-			<article>
-				<section>
-					{% if page.hidemeta == true %}
-					{% else %}
-						<h1>{{page.title}}</h1>
-						<h5><time titemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time><span class="emoji-tags">{{page.tags}}</span></h5>
-					{% endif %}
-					{{ content }}
-				</section>
-			</article>
-		</main>
-		{% include footer.html %}
-	</body>
-</html>
+
+<section
+	class="prose prose-lg prose-a:decoration-transparent px-4 sm:px-6 prose-h2:leading-snug prose-a:text-green  hover:prose-a:decoration-green hover:prose-a:decoration-solid prose-a:transition-colors prose-a:duration-100 prose-a:ease-easy active:prose-a:decoration-transparent py-24 mx-auto [&>p]:text-balance">
+	{% if page.hidemeta == true %}
+	{% else %}
+	<h1>{{page.title}}</h1>
+	<h5><time titemprop="datePublished">{{ page.date | date: "%b %-d, %Y"
+			}}</time><span class="emoji-tags">{{page.tags}}</span></h5>
+	{% endif %}
+	{{ content }}
+</section>

@@ -1,0 +1,301 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "InterVar";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  src: url("../fonts/InterVariable.woff2") format("woff2-variations"),
+    url("../fonts/InterVariable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "InterVar";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+  src: url("../fonts/InterVariable-Italic.woff2") format("woff2-variations"),
+    url("../fonts/InterVariable-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Vulf";
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+  src: url("../fonts/vulfsans-black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "VulfJust";
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  src: url("../fonts/vulfsans-just.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "VulfMono";
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  src: url("../fonts/vulfmono-italic.woff2") format("woff2");
+}
+
+.font-vulf-mono {
+  font-family: "VulfMono";
+}
+
+.font-vulf {
+  font-family: "VulfJust";
+  font-weight: 400;
+}
+
+:root {
+  --base-animation: cubic-bezier(0.4, 0.01, 0.165, 0.99);
+  --green: #1c5f4a;
+
+  /* --gradient-stops: color(display-p3 1 0.901 0.541 / 0) 0%,
+    color(display-p3 0.984 0.573 0.235) 32.29%,
+    color(display-p3 0.231 0.51 0.965 / 0.5) 67.19%,
+    color(display-p3 0.231 0.51 0.965 / 0) 100%; */
+
+  /* --gradient-stops: color(display-p3 0.639 0.902 0.208 / 0) 0%,
+    color(display-p3 0.984 0.749 0.141) 32.29%,
+    color(display-p3 0.063 0.725 0.506 / 0.5) 67.19%,
+    color(display-p3 0.063 0.725 0.506 / 0) 100%; */
+
+  /* --gradient-stops: color(display-p3 0.988 0.647 0.647 / 0) 0%,
+    color(display-p3 0.984 0.573 0.235) 32.29%,
+    color(display-p3 0.078 0.722 0.651 / 0.5) 67.19%,
+    color(display-p3 0.078 0.722 0.651 / 0) 100%; */
+
+  --gradient-stops: color(display-p3 0.988 0.647 0.647 / 0) 0%,
+    color(display-p3 0.984 0.573 0.235) 32.29%,
+    color(display-p3 0.078 0.722 0.651 / 0.5) 67.19%,
+    color(display-p3 0.078 0.722 0.651 / 0) 100%;
+
+  /* --gradient-stops: color(display-p3 0.753 0.518 0.988 / 0) 0%,
+    color(display-p3 0.388 0.4 0.945) 32.29%,
+    color(display-p3 0.957 0.447 0.714 / 0.5) 67.19%,
+    color(display-p3 0.957 0.447 0.714 / 0) 100%; */
+
+  /* --gradient-stops: color(display-p3 0.851 0.275 0.937 / 0) 0%,
+    color(display-p3 0.263 0.22 0.792) 32.29%,
+    color(display-p3 0.973 0.443 0.443 / 0.5) 67.19%,
+    color(display-p3 0.973 0.443 0.443 / 0) 100%; */
+
+  /* --gradient-stops: color(display-p3 0.82 0.835 0.859 / 0) 0%,
+    color(display-p3 0.294 0.333 0.388) 32.29%,
+    color(display-p3 0.937 0.267 0.267 / 0.5) 67.19%,
+    color(display-p3 0.937 0.267 0.267 / 0) 100%; */
+
+  /* --gradient-stops: color(display-p3 0.655 0.953 0.816 / 0) 0%,
+    color(display-p3 0.576 0.773 0.992) 32.29%,
+    color(display-p3 0.914 0.835 1 / 0.5) 67.19%,
+    color(display-p3 0.914 0.835 1 / 0) 100%; */
+}
+
+body {
+  /* font-feature-settings: "ss07", "dlig"; */
+}
+
+.rocky-top-bg {
+  background-size: 70px;
+  animation-name: vols;
+  animation-duration: 0.4s;
+  animation-timing-function: var(--base-animation);
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  background-image: none;
+  animation-play-state: paused;
+}
+
+.vols:hover {
+  cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAAAVCAYAAADPTVnBAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQSSURBVHgB7Vk9U1NBFL0wzJiOWCUdsUErgYqhIaSx9KPRTkKhpYQf4BDG0kIYf4BBOhsEK2lIaBhtECulIXRYGSpipffwWN/d+/Ylvq8hhWdmk/c2+/bj7Nmzd/OGiKjGKU/pYZVTR9yXOFUpPbQ5NVRe9bKdtNC4bMcA/NQoPXSG+OO4NkOlfI4SY3Wfa+zSDbI7PVfK0251ihKjzdPZOKAmX1bUT6gf7SRG4wu38/Oi/qbIBj/gKTGYH/DUHsHN4gxqpsRAp1GxRuk60XKFEqPZviDeifkpzDCl0gYTHwCEmcYYIB4IdMTKnV4kKkz699+3OL23nxwtEZWX7bztBYqFsTmiiXnv2+CsTXS4zj1setdxcfM+p3v+/cclol8dSh3oO9rBd+5Svej3Kavw01roGGziz8+YiKpdQhNfnLTLYHKi4hp38NGmTbhBvuTld9pEO0vB9v8VBdXPvZX0iZ9lAZbrwXwzBrQPUTrGMGzdHakCUI2GVBEQh5inB27SJdD5h5v9y10VQKqLdAmsgLtvPKEp2MR3O94Slw+CAAlpRcBJkyIBKpF1QtlbrIrXvCe/rXg2IxHS8SvH7Xn/GmNA319wrPKSN7TWiv8bONQuQtpqgCO2jtKcfz/Oqv+86l3D34uCeJCORqNAd2Kj4teBb9SZG/VXGybpFl8fNmigIMUDwRoB4nqv7hGOcQAOixsO5OgBykkoKrVrdfYDVovsMNpyTRw2JYmxMg00wAtWpnSDnZrn70gO0QSJ13YjB639ParNaNs6PXSXQ71doRJtb4MALTqsZOxdz38TPTkIToTCsDP3pOVfY8mYCuRGh3Apqs1or+4VZUjicwPo8bATvTINTOSHibjzylnETfzXhn0PwuHvlk1EtJmokGQnieezBOzEBAQQogvTNWf0M+IsDCUjGaLh81qdRzHCyB+qc2FLEfmS+O4ZDSxgi9JyTfw+IaKecbboVt16zK14QCoaPi+93kxMVIB4aSHoHFaSBk7QEnEPUVkBopit+6mgIr3tqr0CHFbpVrypgJb9B+VhKs5p1QC+WBb1Pt71dn60hxUG0mXIiQn+lgLxIMc1ySAozolW/m2CoOPdA98SoXoZATqssjfxUKeZLTlrSRSIMwGUbmwM3yA/DGkd9XEKdgEHt6j1m8jPhNog+dmx7wI6enPsh+FWE/LA30NOXKDT8tDUqxz+2Bq0g5PBh4XgGEC4Jh3CcYwhXPEAlF2YsPNkqBkX6DCUBkvB0bsoNlP8BivDyoizjxhgecvzSBjOY66mfmOAOCHcEJH2Jh4PbTQpM0AJWSk6y7pTaOeC+LV974/+pOicu/PxYmFllxKj3UOc63xWaR1TZm3gBU8aYzAvivDqjyP8/+9cFRqU8TvXP1bPhBh/WbjGAAAAAElFTkSuQmCC"),
+    auto;
+}
+
+.rocky-top-bg.run {
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='10' height='10' x='0' y='0' fill='%23FF8200' /%3E%3Crect width='10' height='10' x='10' y='10' fill='%23FF8200' /%3E%3Crect width='10' height='10' x='10' y='0' fill='white' /%3E%3Crect width='10' height='10' x='0' y='10' fill='white' /%3E%3C/svg%3E");
+  animation-play-state: running;
+}
+
+.rocky-top-bg.run * {
+  color: white !important;
+  background: none;
+  border-color: transparent;
+  box-shadow: none;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.235);
+}
+@keyframes vols {
+  0% {
+    background-position: 0px 0px;
+  }
+
+  100% {
+    background-position: 35px 35px;
+  }
+}
+
+.prose h2 {
+  /* @apply pt-28 pb-16 before:left-0 before:absolute before:bg-green before:h-full before:w-full before:z-0 z-10 relative; */
+}
+
+.ease-easy {
+  transition-timing-function: var(--base-animation);
+}
+
+.menu--trigger {
+  width: 30px;
+  height: 23px;
+  position: relative;
+  z-index: 99999999;
+  display: block;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+.menu--trigger span {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -ms-perspective: 1000;
+  perspective: 1000;
+  transform: translateZ(0);
+  transform-origin: 50% 50%;
+  will-change: opacity, color;
+  height: 1px;
+  width: 100%;
+  border-bottom: 3px solid;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  display: block;
+  opacity: 1;
+  color: inherit;
+  border-radius: 1px;
+  transition: opacity 0.4s var(--base-animation),
+    color 0.4s var(--base-animation);
+}
+
+.menu--trigger:after,
+.menu--trigger:before {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -ms-perspective: 1000;
+  perspective: 1000;
+  transform: translateZ(0);
+  transform-origin: 50% 50%;
+  will-change: transform, color;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  content: " ";
+  border-radius: 1px;
+  transform: translateY(0) rotate(0);
+  color: inherit;
+  transition: transform 0.4s var(--base-animation),
+    color 0.4s var(--base-animation);
+}
+
+.menu--trigger:before {
+  border-top: 3px solid;
+  top: 0;
+}
+
+.menu--trigger:after {
+  border-bottom: 3px solid;
+  bottom: 0;
+}
+.menu--trigger-button {
+  @apply bg-lawn-50;
+}
+.nav {
+  transition: width 0.4s var(--base-animation),
+    max-height 0.4s var(--base-animation),
+    border-radius 0.2s var(--base-animation);
+}
+body nav {
+  @apply max-xl-2xl:bg-gradient-to-bl max-xl-2xl:from-lawn-50 max-xl-2xl:via-lawn-50 max-xl-2xl:dark:from-lawn-700 max-xl-2xl:dark:via-lawn-700 max-xl-2xl:to-transparent max-xl-2xl:via-50% max-xl-2xl:to-50%;
+  background-size: 200% 200%;
+  background-position: 0% 100%;
+  transition: background-position 0.8s var(--base-animation);
+}
+body.navopen nav {
+  @apply max-xl-2xl:bg-gradient-to-bl max-xl-2xl:from-lawn-50 max-xl-2xl:via-lawn-50 max-xl-2xl:dark:from-lawn-700 max-xl-2xl:dark:via-lawn-700 max-xl-2xl:to-transparent max-xl-2xl:via-50% max-xl-2xl:to-50%;
+  transition: background-position 0.4s var(--base-animation);
+  background-position: 100% 0%;
+}
+
+body.navopen .nav {
+  @apply w-full pointer-events-auto max-h-[14.5rem];
+}
+
+body.navopen .menu--trigger-button {
+  @apply bg-lawn-900 ring-lawn-50 dark:ring-lawn-700 transition-colors duration-300 ease-easy;
+}
+body.navopen .menu--trigger {
+  background-color: transparent;
+}
+
+body.navopen .menu--trigger:after,
+body.navopen .menu--trigger:before {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -ms-perspective: 1000;
+  perspective: 1000;
+  transform: translateZ(0);
+  will-change: transform, color;
+  color: #efede7;
+  transition: transform 0.4s var(--base-animation),
+    color 0.4s var(--base-animation);
+}
+
+body.navopen .menu--trigger:before {
+  transform: translateY(10px) rotate(45deg);
+}
+
+body.navopen .menu--trigger:after {
+  transform: rotate(45deg);
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+body.navopen .menu--trigger span {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -ms-perspective: 1000;
+  perspective: 1000;
+  transform: translateZ(0);
+  will-change: opacity, color;
+  transform: translateY(-50%);
+  transition: opacity 0.2s var(--base-animation),
+    color 0.2s var(--base-animation);
+  opacity: 0;
+}
+
+body .nav li:not(.button) a {
+  @apply flex w-full items-center gap-3  px-2 py-2.5 text-left text-base/6 font-medium text-zinc-950 sm:py-2 sm:text-sm/5 data-[slot=icon]:*:size-6 data-[slot=icon]:*:shrink-0 data-[slot=icon]:*:fill-zinc-500 sm:data-[slot=icon]:*:size-5 data-[slot=icon]:last:*:ml-auto data-[slot=icon]:last:*:size-5 sm:data-[slot=icon]:last:*:size-4 hover:bg-zinc-950/5 data-[slot=icon]:*:hover:fill-zinc-950 active:bg-zinc-950/5 data-[slot=icon]:*:active:fill-zinc-950 data-[slot=icon]:*:data-[current]:fill-zinc-950 dark:text-zinc-50 dark:data-[slot=icon]:*:fill-zinc-400 dark:hover:bg-zinc-50/5 dark:data-[slot=icon]:*:hover:fill-zinc-50 dark:active:bg-zinc-50/5 dark:data-[slot=icon]:*:active:fill-zinc-50 dark:data-[slot=icon]:*:data-[current]:fill-zinc-50 xl-2xl:rounded-lg active:ring-blue-400/50 focus:ring-blue-400/50 focus:outline-none ring-1 ring-transparent;
+}
+body .nav li:not(.button):nth-of-type(2) {
+  @apply max-xl-2xl:-skew-x-2 max-xl-2xl:opacity-0 max-xl-2xl:translate-y-6 max-xl-2xl:delay-75;
+}
+body .nav li:not(.button):nth-of-type(3) {
+  @apply max-xl-2xl:-skew-x-2 max-xl-2xl:opacity-0 max-xl-2xl:translate-y-8 max-xl-2xl:delay-100;
+}
+body .nav li:not(.button):nth-of-type(4) {
+  @apply max-xl-2xl:-skew-x-2 max-xl-2xl:opacity-0 max-xl-2xl:translate-y-10 max-xl-2xl:delay-150;
+}
+body .nav li:not(.button):nth-of-type(5) {
+  @apply max-xl-2xl:-skew-x-2 max-xl-2xl:opacity-0 max-xl-2xl:translate-y-12 max-xl-2xl:delay-200;
+}
+body .nav li:not(.button) {
+  transition: opacity 0.1s var(--base-animation),
+    transform 0.5s var(--base-animation);
+}
+body.navopen .nav li:not(.button) {
+  @apply translate-y-0 skew-x-0 opacity-100;
+  transition: opacity 0.4s var(--base-animation),
+    transform 0.5s var(--base-animation);
+}
