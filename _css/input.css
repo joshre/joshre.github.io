@@ -36,13 +36,13 @@
   src: url("../fonts/vulfsans-just.woff2") format("woff2");
 }
 
-@font-face {
+/* @font-face {
   font-family: "VulfMono";
   font-weight: 400;
   font-display: swap;
   font-style: normal;
   src: url("../fonts/vulfmono-italic.woff2") format("woff2");
-}
+} */
 
 .font-vulf-mono {
   font-family: "VulfMono";
@@ -276,7 +276,7 @@ body.navopen .menu--trigger span {
 }
 
 body .nav li:not(.button) a {
-  @apply flex w-full items-center gap-3  px-2 py-2.5 text-left text-base/6 font-medium text-zinc-950 sm:py-2 sm:text-sm/5 data-[slot=icon]:*:size-6 data-[slot=icon]:*:shrink-0 data-[slot=icon]:*:fill-zinc-500 sm:data-[slot=icon]:*:size-5 data-[slot=icon]:last:*:ml-auto data-[slot=icon]:last:*:size-5 sm:data-[slot=icon]:last:*:size-4 hover:bg-zinc-950/5 data-[slot=icon]:*:hover:fill-zinc-950 active:bg-zinc-950/5 data-[slot=icon]:*:active:fill-zinc-950 data-[slot=icon]:*:data-[current]:fill-zinc-950 dark:text-zinc-50 dark:data-[slot=icon]:*:fill-zinc-400 dark:hover:bg-zinc-50/5 dark:data-[slot=icon]:*:hover:fill-zinc-50 dark:active:bg-zinc-50/5 dark:data-[slot=icon]:*:active:fill-zinc-50 dark:data-[slot=icon]:*:data-[current]:fill-zinc-50 xl-2xl:rounded-lg active:ring-blue-400/50 focus:ring-blue-400/50 focus:outline-none ring-1 ring-transparent;
+  @apply flex w-full items-center gap-3  px-2 py-2.5 text-left text-base/6 font-medium text-soil-950 sm:py-2 sm:text-sm/5 data-[slot=icon]:*:size-4 data-[slot=icon]:*:shrink-0 data-[slot=icon]:*:fill-soil-500 sm:data-[slot=icon]:*:size-4 data-[slot=icon]:last:*:ml-auto data-[slot=icon]:last:*:size-4 sm:data-[slot=icon]:last:*:size-4 hover:bg-soil-950/5 data-[slot=icon]:*:hover:fill-soil-950 active:bg-soil-950/5 data-[slot=icon]:*:active:fill-soil-950 data-[slot=icon]:*:data-[current]:fill-soil-950 dark:text-soil-50 dark:data-[slot=icon]:*:fill-soil-400 dark:hover:bg-soil-50/5 dark:data-[slot=icon]:*:hover:fill-soil-50 dark:active:bg-soil-50/5 dark:data-[slot=icon]:*:active:fill-soil-50 dark:data-[slot=icon]:*:data-[current]:fill-soil-50 xl-2xl:rounded-lg active:ring-blue-400/50 focus:ring-blue-400/50 focus:outline-none ring-1 ring-transparent;
 }
 body .nav li:not(.button):nth-of-type(2) {
   @apply max-xl-2xl:-skew-x-2 max-xl-2xl:opacity-0 max-xl-2xl:translate-y-6 max-xl-2xl:delay-75;

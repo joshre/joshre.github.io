@@ -1,8 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './_site/**/*.html',
-  ],
+  content: ["./_site/**/*.html"],
   theme: {
     extend: {
       screens: {
@@ -17,17 +15,16 @@ module.exports = {
         xl: "1280px",
         "xl-2xl": "1336px",
         "3xl": "1860px",
-        "4xl": "2250px"
+        "4xl": "2250px",
       },
       fontFamily: {
         display: "Vulf",
         sans: [
           "InterVar",
           {
-            fontFeatureSettings: "\"cv11\", \"ss01\""
-          }
-        ]
-
+            fontFeatureSettings: '"cv11", "ss01"',
+          },
+        ],
       },
       colors: {
         green: "#1C5F4A",
@@ -62,104 +59,113 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: theme('colors.soil.700'),
+            color: theme("colors.soil.700"),
             a: {
-              color: theme('colors.lawn.500'),
-              '&:hover': {
-                color: theme('colors.lawn.600'),
+              color: theme("colors.lawn.500"),
+              "&:hover": {
+                color: theme("colors.lawn.600"),
               },
-              '&:visited': {
-                color: theme('colors.lawn.700'),
+              "&:visited": {
+                color: theme("colors.lawn.700"),
               },
             },
             strong: {
-              color: theme('colors.soil.800'),
+              color: theme("colors.soil.800"),
             },
             h1: {
-              color: theme('colors.soil.800'),
+              color: theme("colors.soil.800"),
             },
             h2: {
-              color: theme('colors.soil.800'),
+              color: theme("colors.soil.800"),
             },
             h3: {
-              color: theme('colors.soil.800'),
+              color: theme("colors.soil.800"),
             },
             h4: {
-              color: theme('colors.soil.800'),
+              color: theme("colors.soil.800"),
             },
             blockquote: {
-              color: theme('colors.soil.600'),
-              borderLeftColor: theme('colors.soil.300'),
+              color: theme("colors.soil.600"),
+              borderLeftColor: theme("colors.soil.300"),
             },
             code: {
-              color: theme('colors.soil.800'),
+              color: theme("colors.soil.800"),
             },
-            'a code': {
-              color: theme('colors.lawn.500'),
+            "a code": {
+              color: theme("colors.lawn.500"),
             },
             pre: {
-              color: theme('colors.soil.200'),
-              backgroundColor: theme('colors.soil.800'),
+              color: theme("colors.soil.200"),
+              backgroundColor: theme("colors.soil.800"),
             },
             thead: {
-              color: theme('colors.soil.900'),
-              borderBottomColor: theme('colors.soil.300'),
+              color: theme("colors.soil.900"),
+              borderBottomColor: theme("colors.soil.300"),
             },
             tbody: {
               tr: {
-                borderBottomColor: theme('colors.soil.200'),
+                borderBottomColor: theme("colors.soil.200"),
               },
             },
           },
         },
         invert: {
           css: {
-            color: theme('colors.soil.200'),
+            color: theme("colors.soil.200"),
             a: {
-              color: theme('colors.lawn.300'),
-              '&:hover': {
-                color: theme('colors.lawn.200'),
+              color: theme("colors.lawn.300"),
+              "&:hover": {
+                color: theme("colors.lawn.200"),
               },
-              '&:visited': {
-                color: theme('colors.lawn.400'),
+              "&:visited": {
+                color: theme("colors.lawn.400"),
               },
             },
             strong: {
-              color: theme('colors.soil.100'),
+              color: theme("colors.soil.100"),
+            },
+            "a > strong": {
+              color: theme("colors.lawn.300"),
+              "&:hover": {
+                color: theme("colors.lawn.200"),
+              },
+              "&:visited": {
+                color: theme("colors.lawn.400"),
+              },
             },
             h1: {
-              color: theme('colors.soil.100'),
+              color: theme("colors.soil.100"),
             },
             h2: {
-              color: theme('colors.soil.100'),
+              color: theme("colors.soil.100"),
             },
             h3: {
-              color: theme('colors.soil.100'),
+              color: theme("colors.soil.100"),
             },
             h4: {
-              color: theme('colors.soil.100'),
+              color: theme("colors.soil.100"),
             },
             blockquote: {
-              color: theme('colors.soil.300'),
-              borderLeftColor: theme('colors.soil.600'),
+              color: theme("colors.soil.300"),
+              borderLeftColor: theme("colors.soil.600"),
             },
             code: {
-              color: theme('colors.soil.100'),
+              color: theme("colors.soil.100"),
             },
-            'a code': {
-              color: theme('colors.lawn.300'),
+            "a code": {
+              color: theme("colors.lawn.300"),
             },
             pre: {
-              color: theme('colors.soil.900'),
-              backgroundColor: theme('colors.soil.200'),
+              color: theme("colors.soil.900"),
+              backgroundColor: theme("colors.soil.200"),
             },
             thead: {
-              color: theme('colors.soil.50'),
-              borderBottomColor: theme('colors.soil.600'),
+              color: theme("colors.soil.50"),
+              borderBottomColor: theme("colors.soil.600"),
             },
             tbody: {
               tr: {
-                borderBottomColor: theme('colors.soil.800'),
+                borderBottomColor: theme("colors.soil.800"),
               },
             },
           },

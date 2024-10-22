@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-<div class="fixed inset-0 flex justify-center md:px-8">
+<div class="flex fixed inset-0 justify-center md:px-8">
   <div class="flex w-full max-w-5xl lg:px-8">
     <div
-      class="w-full relative bg-white dark:bg-zinc-900 dark:ring-zinc-300/20">
-      <div class="absolute inset-y-0 left-0 w-[2px] overflow-hidden flex">
+      class="relative w-full bg-white dark:bg-zinc-900 dark:ring-zinc-300/20">
+      <div class="flex overflow-hidden absolute inset-y-0 left-0 w-[2px]">
         <div
           class="h-full w-px flex-none blur-sm [background-image:linear-gradient(180deg,var(--gradient-stops))]">
         </div>
@@ -13,7 +13,7 @@ layout: default
           class="-mt-[100%] h-full w-px flex-none blur-[1px] [background-image:linear-gradient(180deg,var(--gradient-stops))]">
         </div>
       </div>
-      <div class="absolute inset-y-0 right-0 w-[2px] overflow-hidden flex">
+      <div class="flex overflow-hidden absolute inset-y-0 right-0 w-[2px]">
         <div
           class="h-full w-px flex-none blur-sm [background-image:linear-gradient(180deg,var(--gradient-stops))]">
         </div>
@@ -26,37 +26,60 @@ layout: default
 </div>
 
 <header
-  class="relative  overflow-hidden bg-gradient-to-b from-soil-50 to-soil-100 dark:from-zinc-900/90 dark:to-zinc-900">
+  class="overflow-hidden relative bg-gradient-to-b from-soil-50 to-soil-100 dark:from-zinc-900/90 dark:to-zinc-900">
 
   <div
-    class="sm:flex items-center gap-2 px-4 pt-24 pb-12 sm:gap-8 lg:gap-16 max-w-5xl mx-auto sm:pt-0 sm:pl-0 lg:py-16">
+    class="gap-2 items-center px-4 pt-24 pb-12 mx-auto max-w-5xl sm:flex sm:gap-8 sm:pt-0 sm:pl-0 lg:gap-16 lg:py-16">
     <div
-      class="max-w-sm size-20 sm:size-auto relative sm:-mt-24 sm:-ml-16 md:m-0">
+      class="relative max-w-sm wfu sm:-mt-24 sm:-ml-16 md:m-0 size-20 sm:h-auto sm:w-full">
       <div
-        class=" overflow-hidden -inset-[2px] absolute rounded-full sm:rounded-2xl dark:opacity-50">
+        class="overflow-hidden absolute rounded-full sm:rounded-[calc(1rem+2px)] dark:opacity-50 -inset-[3px]">
         <div
           class="absolute w-[calc(100%+1rem)] h-[calc(100%+1rem)] blur-sm  z-0 [background-image:radial-gradient(circle,_rgba(255,_255,_255,_0)_50%,_var(--gradient-stops)_100%)]">
         </div>
+        <div
+          class="bg-soil-100 inset-2 rounded-full sm:rounded-2xl absolute z-10"></div>
       </div>
-      <img src="../../images/i-am-a-real-person.jpeg"
-        class=" relative z-10 hidden sm:block rounded-br-2xl lg:rounded-2xl">
-      <img src="../../images/i-am-a-real-person-circle.jpeg"
-        class=" relative size-20 z-10 sm:hidden rounded-full">
+
+      <picture>
+        <source type="image/webp"
+          srcset="../../images/i-am-a-real-person.webp">
+        <source type="image/jpeg"
+          srcset="../../images/i-am-a-real-person.jpg">
+        <img
+          loading="lazy"
+          src="../../images/i-am-a-real-person-small.jpg"
+          class="hidden relative aspect-[3/4] w-full z-10 rounded-br-2xl sm:block lg:rounded-2xl "
+          alt="An image of me, so you know that i exist.">
+      </picture>
+
+      <picture>
+        <source type="image/webp"
+          srcset="../../images/i-am-a-real-person-circle.webp">
+        <source type="image/jpeg"
+          srcset="../../images/i-am-a-real-person-circle.jpg">
+        <img
+          loading="lazy"
+          src="../../images/i-am-a-real-person-circle-small.jpg"
+          class="relative z-10 rounded-full overflow-hidden sm:hidden size-20"
+          alt="An circular image of me, so you know that i exist.">
+      </picture>
+
     </div>
     <div class="max-w-2xl">
       <h1
-        class="text-soil-950 dark:text-soil-100 font-black mt-4 mb-2 sm:mt-0 sm:mb-4 text-4xl sm:text-3xl mdl:text-4xl lg:text-5xl tracking-tight font-display">Josh
+        class="mt-4 mb-2 text-4xl font-black tracking-tight sm:mt-0 sm:mb-4 sm:text-3xl lg:text-5xl text-soil-950 font-display mdl:text-4xl dark:text-soil-100">Josh
         Reeder-Esparza</h1>
       <p
-        class="text-xl sm:text-lg text-balance lg:text-xl text-soil-700 dark:text-soil-300">Full-stack
+        class="text-xl sm:text-lg lg:text-xl text-balance text-soil-700 dark:text-soil-300">Full-stack
         Developer,
         Engineer, Designer
       </p>
     </div>
   </div>
   <div
-    class="absolute bottom-[2px] -inset-x-10 -mb-px flex items-end overflow-hidden">
-    <div class="flex -mb-px h-[2px] w-full">
+    class="flex overflow-hidden absolute -inset-x-10 items-end -mb-px bottom-[2px]">
+    <div class="flex -mb-px w-full h-[2px]">
       <div
         class="w-full flex-none blur-sm [background-image:linear-gradient(90deg,var(--gradient-stops))]"></div>
       <div
@@ -65,9 +88,9 @@ layout: default
   </div>
 </header>
 <nav
-  class="flex sm:max-w-96 xl-2xl:w-56 fixed xl-2xl:sticky inset-x-0  sm:left-[unset] sm:w-full  top-2 z-10 xl-2xl:top-8 xl-2xl:left-8 xl-2xl:mt-8 xl-2xl:-mb-64 mx-4 xl-2xl:mx-0 p1 rounded-2xl ">
+  class="flex fixed inset-x-0 top-2 z-10 mx-4 rounded-2xl sm:w-full p1 sm:max-w-96 sm:left-[unset] xl-2xl:w-56 xl-2xl:sticky xl-2xl:top-8 xl-2xl:left-8 xl-2xl:mt-8 xl-2xl:-mb-64 xl-2xl:mx-0">
   <div
-    class=" hidden dark:hidden xl-2xl:block overflow-hidden -inset-[2px] absolute rounded-3xl">
+    class="hidden overflow-hidden absolute rounded-3xl dark:hidden -inset-[2px] xl-2xl:block">
     <div
       class="absolute w-[calc(100%+0.5rem)] h-[calc(100%+0.5rem)] blur-sm z-0 bg-gradient-to-br from-teal-700/10 to-indigo-700/10">
     </div>
@@ -75,9 +98,9 @@ layout: default
   <ul
     class="xl-2xl:bg-gradient-to-b rela max-h-16 xl-2xl:max-h-none xl-2xl:w-full w-16 ml-auto  overflow-hidden  xl-2xl:ml-0  from-white to-soil-50 dark:from-zinc-900 dark:to-zinc-900  xl-2xl:p-2 flex-col flex xl-2xl:gap-1  pointer-events-none xl-2xl:pointer-events-auto  xl-2xl:rounded-[calc(1.5rem-2px)] relative nav  xl-2xl:dark:shadow-[0px_0px_0px_1px_rgba(255,255,255,0.1)] xl-2xl:dark:before:pointer-events-none xl-2xl:dark:before:absolute xl-2xl:dark:before:-inset-px xl-2xl:dark:before:rounded-xl xl-2xl:dark:before:shadow-[0px_2px_8px_0px_rgba(0,_0,_0,_0.20),_0px_1px_0px_0px_rgba(255,_255,_255,_0.06)_inset] xl-2xl:">
     <li
-      class="button ml-auto xl-2xl:hidden mr-2 mt-2">
+      class="mt-2 mr-2 ml-auto button xl-2xl:hidden">
       <button
-        class="rounded-full pointer-events-auto ring-8 ring-lawn-100 dark:ring-lawn-900 p-2 aspect-square flex items-center menu--trigger-button duration-300 transition-colors ease-easy active:border-sky-300 border border-transparent justify-center"
+        class="flex justify-center items-center p-2 rounded-full border border-transparent ring-8 transition-colors duration-300 pointer-events-auto ring-lawn-100 aspect-square menu--trigger-button ease-easy dark:ring-lawn-900 active:border-sky-300"
         onclick="document.querySelector('body').classList.toggle('navopen')">
         <label class="menu--trigger"><span></span></label>
       </button>
@@ -132,6 +155,6 @@ layout: default
   </ul>
 </nav>
 <section
-  class="relative prose dark:prose-invert prose-lg prose-a:decoration-transparent px-4 sm:px-6 prose-h2:leading-snug prose-a:text-green  hover:prose-a:decoration-green dark:prose-a:text-lawn-300  hover:dark:prose-a:decoration-lawn-300  hover:prose-a:decoration-solid prose-a:transition-colors prose-a:duration-100 prose-a:ease-easy active:prose-a:decoration-transparent xl-2xl:py-20 mx-auto prose-p:text-pretty">
+  class="relative px-4 mx-auto sm:px-6 prose prose-lg prose-a:decoration-transparent prose-h2:leading-snug prose-a:text-green prose-a:transition-colors prose-a:duration-100 prose-a:ease-easy prose-p:text-pretty xl-2xl:py-20 dark:prose-invert  hover:prose-a:decoration-green hover:prose-a:decoration-solid active:prose-a:decoration-transparent">
   {{ content }}
 </section>

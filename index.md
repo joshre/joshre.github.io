@@ -1,28 +1,10 @@
 ---
 layout: home
+bg: "bg-soil-50 dark:bg-zinc-900"
 ---
 
-## Hello there, my name is Josh. I’m a web developer and designer in <span style="color:#ff8200;" class="vols" onmouseover="document.querySelector('.rocky-top-bg').classList.add('run')" onmouseout="setTimeout(function() { document.querySelector('.rocky-top-bg').classList.remove('run'); }, 1000)">Knoxville</span>, Tennessee. I have over a decade of experience building highly performant websites for multiple disciplines.
+## Hello there, my name is Josh. I’m a full-stack developer, engineer, and designer in <span style="color:#ff8200;" class="vols" onmouseover="document.querySelector('.rocky-top-bg').classList.add('run')" onmouseout="setTimeout(function() { document.querySelector('.rocky-top-bg').classList.remove('run'); }, 1000)">Knoxville</span>, Tennessee. I have over a decade of experience building highly performant websites for multiple disciplines.
 
 {: .lead-paragraph}
 
-[Reach out](mailto:joshre@me.com)
-
-## Below are some websites I’ve built
-
-### Where I currently work
-
-[MxU](https://getmxu.com/features) - Custom Wordpress build for a successful SaaS company integrating Stripe, HubSpot, and advanced analytics.
-
-### Built with the design team at Honey (employer from 2016 to 2020)
-
-- [Lange Twins Winery](https://langetwins.com/) - Custom Wordpress build with a Winedirect integration for a fifth-generation California Winery.
-- [The Central Kitchen](https://thecentralkitchen.org/) - Custom Wordpress build for a state-of-the-art district-wide kitchen in Sacramento, CA.
-- [Canon East Sac](https://canoneastsac.com/) - Custom Wordpress build for a 2 x Michelin Bib Gourmand restaurant.
-- [Honey](https://workbyhoney.com/) - Custom Wordpress build for Honey to show off their work.
-- [29 Palms Inn](https://29palmsinn.com/) - Custom Wordpress build for a historic Inn just outside Joshua Tree, CA
-- [Pressley Vineyards](https://pressleyvineyards.com/) - Custom Wordpress build with a Shopify integration for an up-and-coming California Winery
-- [Lei Back](https://drinkleiback.com/) - Custom Shopify build with full e-commerce buildout.
-- [Everlee Skincare](https://everleeskincare.shop/) - Custom Shopify build with full e-commerce buildout.
-
-Interested in working with me? [Reach out here](mailto:joshre@me.com).
+<a href="{{site.url}}/share/resume" class="not-prose active:ring-blue-400 focus:ring-blue-400 focus:outline-none ring-1 ring-transparent relative isolate inline-flex items-center justify-center gap-x-2 rounded-lg border text-base/6 font-semibold px-[calc(theme(spacing[3.5])-1px)] py-[calc(theme(spacing[2.5])-1px)] sm:px-[calc(theme(spacing.3)-1px)] sm:py-[calc(theme(spacing[1.5])-1px)] sm:text-sm/6 focus:outline-none data-[focus]:outline data-[focus]:outline-2 data-[focus]:outline-offset-2 data-[focus]:outline-blue-500 data-[disabled]:opacity-50 [&amp;>[data-slot=icon]]:-mx-0.5 [&amp;>[data-slot=icon]]:my-0.5 [&amp;>[data-slot=icon]]:size-5 [&amp;>[data-slot=icon]]:shrink-0 [&amp;>[data-slot=icon]]:text-[--btn-icon] [&amp;>[data-slot=icon]]:sm:my-1 [&amp;>[data-slot=icon]]:sm:size-4 forced-colors:[--btn-icon:ButtonText] forced-colors:data-[hover]:[--btn-icon:ButtonText] border-transparent bg-[--btn-border] dark:bg-[--btn-bg] before:absolute before:inset-0 before:-z-10 before:rounded-[calc(theme(borderRadius.lg)-1px)] before:bg-[--btn-bg] before:shadow dark:before:hidden dark:border-white/5 after:absolute after:inset-0 after:-z-10 after:rounded-[calc(theme(borderRadius.lg)-1px)] after:shadow-[shadow:inset_0_1px_theme(colors.white/15%)] after:data-[active]:bg-[--btn-hover-overlay] after:data-[hover]:bg-[--btn-hover-overlay] dark:after:-inset-px dark:after:rounded-lg before:data-[disabled]:shadow-none after:data-[disabled]:shadow-none text-white [--btn-bg:theme(colors.zinc.900)] [--btn-border:theme(colors.zinc.950/90%)] [--btn-hover-overlay:theme(colors.white/10%)] dark:text-white dark:[--btn-bg:theme(colors.zinc.600)] dark:[--btn-hover-overlay:theme(colors.white/5%)] [--btn-icon:theme(colors.zinc.400)] data-[active]:[--btn-icon:theme(colors.zinc.300)] data-[hover]:[--btn-icon:theme(colors.zinc.300)] cursor-default">Read My Resume</a>
