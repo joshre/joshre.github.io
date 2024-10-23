@@ -3,7 +3,7 @@ layout: resume
 title: Josh Reeder-Esparza&rsquo;s R&eacute;sum&eacute;
 hidemeta: true
 links: external
-bg: "bg-soil-50 dark:bg-zinc-900"
+bg: "bg-soil-50 dark:bg-zinc-800"
 ---
 
 <div class="lg:-mx-16">
@@ -35,7 +35,7 @@ bg: "bg-soil-50 dark:bg-zinc-900"
 My strength is not just in full-stack development. Due to years in agencies and a fascination with design, I have a high capacity for it—from interpreting and executing the work of designers to filling in gaps that inevitably come up in the process of making a thing. **Words matter,** especially when you're publishing something on the internet, and I don't shy away from writing as an engineer.
 <span id="skill-set" class="block"></span>
 
-<div class="top-0 px-2 -mx-2 bg-gradient-to-b from-white sm:px-6 sm:-mx-8 sticky lg:px-8 lg:-mx-8 to-white/80 backdrop-blur-sm dark:from-zinc-900 dark:to-zinc-900/80">
+<div class="top-0 px-2 -mx-2 bg-gradient-to-b from-white sm:px-6 sm:-mx-8 sticky lg:px-8 lg:-mx-8 to-white/80 backdrop-blur-sm dark:from-zinc-800 dark:to-zinc-800/80">
   <h2 class="py-2 mb-0 text-3xl tracking-tight font-vulf">Skill Set</h2>
   <div
       class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
@@ -117,7 +117,7 @@ Similarly, I enjoy working with and communicating with clients; I always present
 
 <span id="spare-me-ill-take-the-links" class="block"></span>
 
-<div class="top-0 px-2 -mx-2 bg-gradient-to-b before:h-16 before:w-full before:bg-white before:absolute before:-top-16 from-white sm:px-6 sm:-mx-8 sticky lg:px-8 lg:-mx-8 to-white/80 backdrop-blur-sm dark:from-zinc-900 dark:to-zinc-900/80">
+<div class="top-0 px-2 -mx-2 bg-gradient-to-b before:h-16 before:w-full before:bg-white dark:before:bg-zinc-800 before:absolute before:-top-16 from-white sm:px-6 sm:-mx-8 sticky lg:px-8 lg:-mx-8 to-white/80 backdrop-blur-sm dark:from-zinc-800 dark:to-zinc-800/80">
   <h2 class="py-2 mb-0 text-3xl tracking-tight font-vulf">Things I've Built</h2>
   <div
       class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
@@ -150,7 +150,7 @@ Built with the design team at Honey (employer from 2016 to 2020)
 
 <span id="work-history" class="block"></span>
 
-<div class="top-0 px-2 -mx-2 bg-gradient-to-b from-white before:h-16 before:w-full before:bg-white before:absolute before:-top-16 sm:px-6 sm:-mx-8 sticky lg:px-8 lg:-mx-8 to-white/80 backdrop-blur-sm dark:from-zinc-900 dark:to-zinc-900/80">
+<div class="top-0 px-2 -mx-2 bg-gradient-to-b from-white before:h-16 before:w-full before:bg-white dark:before:bg-zinc-800 before:absolute before:-top-16 sm:px-6 sm:-mx-8 sticky lg:px-8 lg:-mx-8 to-white/80 backdrop-blur-sm dark:from-zinc-800 dark:to-zinc-800/80">
   <h2 class="py-2 mb-0 text-3xl tracking-tight font-vulf">Work History</h2>
   <div
       class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
