@@ -27,9 +27,15 @@ layout: default
 
 <header
   class="overflow-hidden relative bg-gradient-to-b from-soil-50 to-soil-100 dark:from-zinc-800/90 dark:to-zinc-800">
-
   <div
-    class="gap-2 items-center px-4 pt-24 pb-12 mx-auto max-w-5xl sm:flex sm:gap-8 sm:pt-0 sm:pl-0 lg:gap-16 lg:py-16">
+    class="absolute lg:hidden size-[calc(100%+4rem)] left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 bg-center blur-xl saturate-150   z-0 [background-image:radial-gradient(circle,_rgba(255,_255,_255,_0)_50%,_var(--gradient-stops)_100%)]">
+  </div>
+  <div
+    class="bg-soil-100 lg:hidden inset-px absolute z-0 dark:bg-zinc-700"></div>
+  <div
+    class="absolute inset-px z-10 bg-gradient-to-b from-soil-50 to-soil-100 dark:from-zinc-800/90 dark:to-zinc-800 lg:hidden"></div>
+  <div
+    class="gap-2 relative z-10 items-center px-4 pt-24 pb-12 mx-auto max-w-5xl sm:flex sm:gap-8 sm:pt-0 sm:pl-0 lg:gap-16 lg:py-16">
     <div
       class="relative max-w-sm sm:-mt-24 sm:-ml-16 sm:w-full sm:h-auto md:m-0 wfu size-20">
       <div
@@ -38,7 +44,7 @@ layout: default
           class="absolute w-[calc(100%+1rem)] h-[calc(100%+1rem)] blur-sm  z-0 [background-image:radial-gradient(circle,_rgba(255,_255,_255,_0)_50%,_var(--gradient-stops)_100%)]">
         </div>
         <div
-          class="absolute inset-2 z-10 rounded-full sm:rounded-2xl bg-soil-100"></div>
+          class="absolute inset-2 z-10 rounded-full sm:rounded-2xl bg-soil-100 dark:bg-zinc-800"></div>
       </div>
 
       <picture>
