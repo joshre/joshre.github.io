@@ -32,5 +32,21 @@ layout: compress
       }, 1000);
     });
   });
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const targetClass = entry.target.getAttribute('data-class');
+        entry.target.classList.add(targetClass);
+        observer.unobserve(entry.target); 
+      }
+    });
+  });
+
+
+  document.querySelectorAll('.observe').forEach((element) => {
+
+    observer.observe(element);
+  });
 </script>
 </html>

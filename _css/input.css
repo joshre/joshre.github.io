@@ -210,7 +210,10 @@ body {
   bottom: 0;
 }
 .menu--trigger-button {
-  @apply bg-lawn-50;
+  @apply bg-lawn-50 cursor-pointer;
+}
+.menu--trigger-button * {
+  @apply cursor-pointer;
 }
 .nav {
   transition: width 0.4s var(--base-animation),
@@ -315,4 +318,164 @@ body.navopen .nav li:not(.button) {
   @apply translate-y-0 skew-x-0 opacity-100;
   transition: opacity 0.4s var(--base-animation),
     transform 0.5s var(--base-animation);
+}
+
+.skew-self {
+  --extra-delay: 0.45s;
+  --duration: 0.85s;
+  animation-name: fadeInSkewUp;
+  animation-duration: var(--duration);
+  animation-delay: var(--extra-delay);
+  animation-timing-function: var(--base-animation);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-play-state: paused;
+}
+
+.lg\:skew-self {
+  --extra-delay: 0.45s;
+  --duration: 0.85s;
+  animation-name: fadeInSkewUp;
+  animation-duration: var(--duration);
+  animation-delay: var(--extra-delay);
+  animation-timing-function: var(--base-animation);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-play-state: paused;
+}
+
+.lg\:skew-self.run,
+.skew-self.run {
+  animation-play-state: running;
+}
+
+.skew-children {
+  --extra-delay: 0.05s;
+  --duration: 0.4s;
+}
+
+.skew-children.delay {
+  --extra-delay: 0.15s;
+}
+
+.skew-children.slow {
+  --duration: 0.3s;
+}
+
+.skew-children.slower {
+  --extra-delay: 0.25s;
+  --duration: 0.5s;
+}
+
+.skew-children.slowest {
+  --extra-delay: 0.45s;
+  --duration: 0.85s;
+}
+
+@keyframes fadeInSkewUp {
+  0% {
+    transform: skewY(1.5deg) translateY(1rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: skewY(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInSkewUpForward {
+  0% {
+    transform: scale(0.97) rotateX(20deg) skewY(0.5deg) translateY(1rem);
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1) rotateX(0deg) skewY(0) translateY(0);
+  }
+}
+
+@keyframes fadeInSkewDown {
+  0% {
+    transform: skewY(-1deg) translateY(-1rem);
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: skewY(0) translateY(0);
+  }
+}
+
+.skew-children .child {
+  animation-duration: var(--duration);
+  animation-delay: var(--extra-delay);
+  animation-timing-function: var(--base-animation);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-play-state: paused;
+}
+
+.skew-children.up .child {
+  animation-name: fadeInSkewUp;
+}
+
+.skew-children.down .child {
+  animation-name: fadeInSkewDown;
+}
+
+.skew-children.run .child {
+  animation-play-state: running;
+}
+.skew-children.run .skew-children.norun .child {
+  animation-play-state: paused;
+}
+.skew-children.run .skew-children.run .child {
+  animation-play-state: running;
+}
+.skew-children:nth-child(1) {
+  animation-delay: calc(var(--extra-delay) * 0.5);
+}
+
+.skew-children:nth-child(2) {
+  animation-delay: calc(var(--extra-delay) * 1);
+}
+
+.skew-children:nth-child(3) {
+  animation-delay: calc(var(--extra-delay) * 1.5);
+}
+
+.skew-children:nth-child(4) {
+  animation-delay: calc(var(--extra-delay) * 2);
+}
+
+.skew-children:nth-child(5) {
+  animation-delay: calc(var(--extra-delay) * 2.5);
+}
+
+.skew-children:nth-child(6) {
+  animation-delay: calc(var(--extra-delay) * 3);
+}
+
+.skew-children:nth-child(7) {
+  animation-delay: calc(var(--extra-delay) * 3.5);
+}
+
+.skew-children:nth-child(8) {
+  animation-delay: calc(var(--extra-delay) * 4);
+}
+
+.skew-children:nth-child(9) {
+  animation-delay: calc(var(--extra-delay) * 4.5);
+}
+
+.skew-children:nth-child(10) {
+  animation-delay: calc(var(--extra-delay) * 5);
 }
