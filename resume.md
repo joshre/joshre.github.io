@@ -139,7 +139,7 @@ butter-smooth transitions between pages and states to the more detailed
 implementation working with After Effects exports for SVG animation, it's all a
 treat.
 
-<video muted autoplay loop class="float-right mx-auto mr-4 ml-4 -mt-2 w-1/5 rounded-xl ring-1 transform-gpu rotate-2 sm:ml-6 sm:w-2/5 lg:ml-8 lg:rounded-2xl ring-soil-900 bg-soil-50" >
+<video muted autoplay loop class="float-right mx-auto mr-4 ml-4 -mt-2 w-2/5 -mb-2 sm:mb-0 rounded-xl ring-1 transform-gpu rotate-2 sm:ml-6 sm:w-2/5 lg:ml-8 lg:rounded-2xl ring-soil-900 bg-soil-50 max-xs:hidden">
   <source src="../../images/family-guy-css.mp4" >
 </video>
 
@@ -167,7 +167,7 @@ ends up creating benefits for folks that don't need any assistive technology in
 the first place, and usually, it just looks like building things with valid
 syntax. Additionally, we experienced numerous hotels that would get drive-by ADA
 lawsuits because of a failed lighthouse test, or government contracts that had
-an extremely high standards based on what the de rigueur WCAG was at the time.
+an high standards based on what WCAG was at the time.
 
 ### Servers / DevOps
 
@@ -240,7 +240,7 @@ Word, Google Sheets, Notion, Pages, Basecamp, Jira, Slack etc.
 <span id="spare-me-ill-take-the-links" class="block"></span>
 
 <div
-  class="sticky top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white dark:before:to-zinc-800 dark:before:from-zinc-800/80 before:bg-gradient-to-b before:to-white before:from-white/80 to-90%  lg:px-8 lg:-mx-8 before:h-16 before:w-full  before:absolute before:-top-16 to-white/80 backdrop-blur-sm  dark:from-zinc-800 dark:to-zinc-800/80">
+  class="sticky mt-16 top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white dark:before:to-zinc-800 dark:before:from-zinc-800/80 before:bg-gradient-to-b before:to-white before:from-white/80 to-90%  lg:px-8 lg:-mx-8 before:h-16 before:w-full  before:absolute before:-top-16 to-white/80 backdrop-blur-sm  dark:from-zinc-800 dark:to-zinc-800/80">
   <div class="flex not-prose justify-between items-center">
     <h2 class="py-2 mb-0 text-3xl tracking-tight font-vulf">Things I've Built</h2>
     <a href="mailto:joshre@me.com" class="jre-button mr-12 md:mr-4 mdl:mr-0">Reach Out</a>
@@ -285,10 +285,10 @@ Built with the design team at Honey (employer from 2016 to 2020)
 <span id="work-history" class="block"></span>
 
 <div
-  class="sticky top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white dark:before:to-zinc-800 dark:before:from-zinc-800/80 before:bg-gradient-to-b before:to-white before:from-white/80 to-90% lg:px-8 lg:-mx-8 before:h-16 before:w-full  before:absolute before:-top-16 to-white/80 backdrop-blur-sm  dark:from-zinc-800 dark:to-zinc-800/80">
+  class="sticky mt-16 top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white dark:before:to-zinc-800 dark:before:from-zinc-800/80 before:bg-gradient-to-b before:to-white before:from-white/80 to-90% lg:px-8 lg:-mx-8 before:h-16 before:w-full  before:absolute before:-top-16 to-white/80 backdrop-blur-sm  dark:from-zinc-800 dark:to-zinc-800/80">
   <div class="flex not-prose justify-between items-center">
     <h2 class="py-2 mb-0 text-3xl tracking-tight font-vulf">Work History</h2>
-    <a href="mailto:joshre@me.com" class="jre-button mr-12 md:mr-4 mdl:mr-0">Reach Out</a>
+    <a href="mailto:joshre@me.com" class="jre-button mr-12 md:mr-[calc(1vw)] mdl:mr-0">Reach Out</a>
   </div>
   <div
     class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
@@ -389,4 +389,4 @@ anxiety in a way I’d rather keep buried in cold storage.
 
 Secondly, and maybe more importantly: I have years of experience folding shirts.
 Regardless of industry, ever company I’ve worked at _at some point_ decided the
-best thing to do that month was print some t-shirts—it’s payed dividends.
+best thing to do that month was print some t-shirts—it’s paid dividends.
