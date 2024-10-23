@@ -56,7 +56,7 @@
 :root {
   --base-animation: cubic-bezier(0.4, 0.01, 0.165, 0.99);
   --green: #1c5f4a;
-
+  --golden: 1.618;
   /* --gradient-stops: color(display-p3 1 0.901 0.541 / 0) 0%,
     color(display-p3 0.984 0.573 0.235) 32.29%,
     color(display-p3 0.231 0.51 0.965 / 0.5) 67.19%,

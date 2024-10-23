@@ -8,7 +8,7 @@ bg: "bg-soil-50 dark:bg-zinc-900"
 
 <div class="lg:-mx-16">
   <div class="prose">
-    <h2 id="about-me" class="-mb-3 text-3xl tracking-tight font-vulf">About Me</h2>
+    <h2 id="about-me"  class="-mb-3 text-3xl tracking-tight font-vulf">About Me</h2>
   </div>
   <div class="flex flex-wrap gap-8 items-center lg:flex-nowrap dark:gap-slate">
     <p>I live in <strong class="font-medium"><span style="color:#ff8200;" class="vols" onmouseover="document.querySelector('.rocky-top-bg').classList.add('run')" onmouseout=" document.querySelector('.rocky-top-bg').classList.remove('run')">Knoxville</span>, Tennessee</strong> with my wonderful wife Leila and a couple of kiddos. We avidly garden—saving seeds and seeking out new varieties—and our family's best time is spent together cooking. I also serve as an elder at our church. 
@@ -33,9 +33,10 @@ bg: "bg-soil-50 dark:bg-zinc-900"
 **I have been working on the web for over a decade and have experience in every discipline relevant to putting ideas on the internet.** From design briefs, wire-frames & mock-ups, content management, project management, _building the thing_, server management, _shipping the thing_ and maintaining sites; to working long-term in product shipping features, managing a bug system, and handling support requests. I've worked with restaurants, the wine industry, churches, hotels, farms, large-scale commodity boards, and e-commerce shops. Most recently, I dedicated several years to a single product, where I led and collaborated on the development of features informed by user needs and direct&nbsp;feedback.
 
 My strength is not just in full-stack development. Due to years in agencies and a fascination with design, I have a high capacity for it—from interpreting and executing the work of designers to filling in gaps that inevitably come up in the process of making a thing. **Words matter,** especially when you're publishing something on the internet, and I don't shy away from writing as an engineer.
+<span id="skill-set" class="block"></span>
 
-<div class="top-0 px-4 -mx-4 bg-gradient-to-b from-white sm:px-6 sm:-mx-8 lg:sticky lg:px-8 lg:-mx-8 to-white/80 backdrop-blur-sm dark:from-zinc-900 dark:to-zinc-900/80">
-  <h2 id="skill-set" class="py-2 mb-0 text-3xl tracking-tight font-vulf">Skill Set</h2>
+<div class="top-0 px-2 -mx-2 bg-gradient-to-b from-white sm:px-6 sm:-mx-8 sticky lg:px-8 lg:-mx-8 to-white/80 backdrop-blur-sm dark:from-zinc-900 dark:to-zinc-900/80">
+  <h2 class="py-2 mb-0 text-3xl tracking-tight font-vulf">Skill Set</h2>
   <div
       class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
       <div
@@ -114,8 +115,10 @@ Everywhere I've worked, I've enjoyed writing. Either in lieu of Lorem Ipsum, or 
 
 Similarly, I enjoy working with and communicating with clients; I always presented my own work and would train clients directly—whatever their skill set—on how to use the things we built. I've worked in teams where extreme detail was beloved as well as teams where minimal communication was extolled, I thrive in each. I've worked for years at a time in-person and for years at a time remote, I believe both have their advantages. It feels odd to note but, yes: Word, Google Sheets, Notion, Pages, Basecamp, Jira, Slack etc.
 
-<div class="top-0 px-4 -mx-4 bg-gradient-to-b from-white sm:px-6 sm:-mx-8 lg:sticky lg:px-8 lg:-mx-8 to-white/80 backdrop-blur-sm dark:from-zinc-900 dark:to-zinc-900/80">
-  <h2 id="spare-me-ill-take-the-links" class="py-2 mb-0 text-3xl tracking-tight font-vulf">Things I've Built</h2>
+<span id="spare-me-ill-take-the-links" class="block"></span>
+
+<div class="top-0 px-2 -mx-2 bg-gradient-to-b before:h-16 before:w-full before:bg-white before:absolute before:-top-16 from-white sm:px-6 sm:-mx-8 sticky lg:px-8 lg:-mx-8 to-white/80 backdrop-blur-sm dark:from-zinc-900 dark:to-zinc-900/80">
+  <h2 class="py-2 mb-0 text-3xl tracking-tight font-vulf">Things I've Built</h2>
   <div
       class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
       <div
@@ -145,8 +148,10 @@ Built with the design team at Honey (employer from 2016 to 2020)
 - [**Lei Back**](https://drinkleiback.com/) — Shopify site.
 - [**Everlee Skincare**](https://everleeskincare.shop/) — Shopify site.
 
-<div class="top-0 px-4 -mx-4 bg-gradient-to-b from-white sm:px-6 sm:-mx-8 lg:sticky lg:px-8 lg:-mx-8 to-white/80 backdrop-blur-sm dark:from-zinc-900 dark:to-zinc-900/80">
-  <h2 id="work-history" class="py-2 mb-0 text-3xl tracking-tight font-vulf">Work History</h2>
+<span id="work-history" class="block"></span>
+
+<div class="top-0 px-2 -mx-2 bg-gradient-to-b from-white before:h-16 before:w-full before:bg-white before:absolute before:-top-16 sm:px-6 sm:-mx-8 sticky lg:px-8 lg:-mx-8 to-white/80 backdrop-blur-sm dark:from-zinc-900 dark:to-zinc-900/80">
+  <h2 class="py-2 mb-0 text-3xl tracking-tight font-vulf">Work History</h2>
   <div
       class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
       <div
@@ -163,7 +168,7 @@ Built with the design team at Honey (employer from 2016 to 2020)
 
 <span class="font-mono text-base font-medium tracking-tight"><strong>Engineer</strong> \| October 2020 - August 2024</span>
 
-MxU’s core product is a Rails app used to train worship and tech teams in video, audio, lighting, and leadership. We built and maintained a product that helped folks in charge of making the weekend happen train volunteers in local churches across the world. **In my 4 years there I saw MRR more than triple**, saw ARR hit major milestones, and worked within a team that grew from 2 to 12.
+MxU’s core product is a Rails app used to train worship and tech teams in video, audio, lighting, and leadership. We built and maintained a product that helped folks in charge of making the weekend happen train volunteers in local churches across the world. **In my 4 years there we more than tripled MRR**, saw ARR hit major milestones, and worked within a team that grew from 2 to 12.
 
 I came on as the first employee and was solely responsible for product for a short period, later working with two other engineers in varying capacities.
 
@@ -202,7 +207,7 @@ I ran an Etsy shop that sold belts and wallets in the last part of high school, 
 
 I can sense you're backing away.
 
-I can hear you thinking to yourself: “how is that remotely relevant to a software engineer?” While this is a valid question, it misses two crucial points.
+I can hear you thinking to yourself: “how is this remotely relevant to a software engineer?” While this is a valid question, it misses two crucial points.
 
 Firstly, it means I hate the mall now. Just the smell Gordon Biersch fries or a glimpse of an Auntie Annes is enough to bring back the smell of the oil leak on my ’96 Oldsmobile Cutlass Supreme, left unlocked in the parking lot as I ran in 5 minutes late—a memory that vacillates between nostalgia and my at-the-time anxiety in a way I’d rather keep buried in cold storage.
 

@@ -31,14 +31,14 @@ layout: default
   <div
     class="gap-2 items-center px-4 pt-24 pb-12 mx-auto max-w-5xl sm:flex sm:gap-8 sm:pt-0 sm:pl-0 lg:gap-16 lg:py-16">
     <div
-      class="relative max-w-sm wfu sm:-mt-24 sm:-ml-16 md:m-0 size-20 sm:h-auto sm:w-full">
+      class="relative max-w-sm sm:-mt-24 sm:-ml-16 sm:w-full sm:h-auto md:m-0 wfu size-20">
       <div
         class="overflow-hidden absolute rounded-full sm:rounded-[calc(1rem+2px)] dark:opacity-50 -inset-[3px]">
         <div
           class="absolute w-[calc(100%+1rem)] h-[calc(100%+1rem)] blur-sm  z-0 [background-image:radial-gradient(circle,_rgba(255,_255,_255,_0)_50%,_var(--gradient-stops)_100%)]">
         </div>
         <div
-          class="bg-soil-100 inset-2 rounded-full sm:rounded-2xl absolute z-10"></div>
+          class="absolute inset-2 z-10 rounded-full sm:rounded-2xl bg-soil-100"></div>
       </div>
 
       <picture>
@@ -49,7 +49,7 @@ layout: default
         <img
           loading="lazy"
           src="../../images/i-am-a-real-person-small.jpg"
-          class="hidden relative aspect-[3/4] w-full z-10 rounded-br-2xl sm:block lg:rounded-2xl "
+          class="hidden relative z-10 w-full rounded-br-2xl sm:block lg:rounded-2xl aspect-[3/4]"
           alt="An image of me, so you know that i exist.">
       </picture>
 
@@ -61,7 +61,7 @@ layout: default
         <img
           loading="lazy"
           src="../../images/i-am-a-real-person-circle-small.jpg"
-          class="relative z-10 rounded-full overflow-hidden sm:hidden size-20"
+          class="overflow-hidden relative z-10 rounded-full sm:hidden size-20"
           alt="An circular image of me, so you know that i exist.">
       </picture>
 
@@ -75,6 +75,10 @@ layout: default
         Developer,
         Engineer, Designer
       </p>
+      <a href="#spare-me-ill-take-the-links"
+        class="not-prose mt-4 transition-opacity duration-100 ease-easy active:ring-blue-400 focus:ring-blue-400 ring-1 ring-transparent relative isolate inline-flex items-center justify-center gap-x-2 rounded-lg border text-base/6 font-semibold px-[calc(theme(spacing[3.5])-1px)] py-[calc(theme(spacing[2.5])-1px)] sm:px-[calc(theme(spacing.3)-1px)] sm:py-[calc(theme(spacing[1.5])-1px)] sm:text-sm/6 focus:outline-none data-[focus]:outline data-[focus]:outline-2 data-[focus]:outline-offset-2 data-[focus]:outline-blue-500 data-[disabled]:opacity-50 [&amp;>[data-slot=icon]]:-mx-0.5 [&amp;>[data-slot=icon]]:my-0.5 [&amp;>[data-slot=icon]]:size-5 [&amp;>[data-slot=icon]]:shrink-0 [&amp;>[data-slot=icon]]:text-[--btn-icon] [&amp;>[data-slot=icon]]:sm:my-1 [&amp;>[data-slot=icon]]:sm:size-4 forced-colors:[--btn-icon:ButtonText] forced-colors:data-[hover]:[--btn-icon:ButtonText] border-transparent bg-[--btn-border] dark:bg-[--btn-bg] before:absolute before:inset-0 before:-z-10 before:rounded-[calc(theme(borderRadius.lg)-1px)] before:bg-[--btn-bg] before:shadow dark:before:hidden ] dark:border-white/5 after:absolute after:transition-opacity after:duration-100 after:ease-easy active:after:opacity-0 after:inset-0 after:-z-10 after:rounded-[calc(theme(borderRadius.lg)-1px)] after:shadow-[shadow:inset_0_1px_theme(colors.white/15%)] after:data-[active]:bg-[--btn-hover-overlay] after:data-[hover]:bg-[--btn-hover-overlay] dark:after:-inset-px dark:after:rounded-lg before:data-[disabled]:shadow-none after:data-[disabled]:shadow-none text-white [--btn-bg:theme(colors.zinc.900)] [--btn-border:theme(colors.zinc.950/90%)] [--btn-hover-overlay:theme(colors.white/10%)] dark:text-white dark:[--btn-bg:theme(colors.zinc.600)] dark:[--btn-hover-overlay:theme(colors.white/5%)] [--btn-icon:theme(colors.zinc.400)] data-[active]:[--btn-icon:theme(colors.zinc.300)] data-[hover]:[--btn-icon:theme(colors.zinc.300)] cursor-default">Spare
+        Me The Saga, I've Read 10 of These</a>
+
     </div>
   </div>
   <div
@@ -138,7 +142,7 @@ layout: default
           <path
             d="M3.75 3A1.75 1.75 0 0 0 2 4.75v3.26a3.235 3.235 0 0 1 1.75-.51h12.5c.644 0 1.245.188 1.75.51V6.75A1.75 1.75 0 0 0 16.25 5h-4.836a.25.25 0 0 1-.177-.073L9.823 3.513A1.75 1.75 0 0 0 8.586 3H3.75ZM3.75 9A1.75 1.75 0 0 0 2 10.75v4.5c0 .966.784 1.75 1.75 1.75h12.5A1.75 1.75 0 0 0 18 15.25v-4.5A1.75 1.75 0 0 0 16.25 9H3.75Z" />
         </svg>
-        Portfolio</a></li>
+        Things I've Built</a></li>
     <li onclick="document.querySelector('body').classList.toggle('navopen')"><a
         class
         href="#work-history">
@@ -155,6 +159,6 @@ layout: default
   </ul>
 </nav>
 <section
-  class="relative px-4 mx-auto sm:px-6 prose prose-lg prose-a:decoration-transparent prose-h2:leading-snug prose-a:text-green prose-a:transition-colors prose-a:duration-100 prose-a:ease-easy prose-p:text-pretty xl-2xl:py-20 dark:prose-invert  hover:prose-a:decoration-green hover:prose-a:decoration-solid active:prose-a:decoration-transparent">
+  class="relative px-4 mx-auto sm:px-6 prose prose-lg prose-a:decoration-transparent prose-h2:leading-snug prose-a:text-green prose-a:transition-colors prose-a:duration-100 prose-a:ease-easy prose-p:text-pretty xl-2xl:py-20 dark:prose-invert hover:prose-a:decoration-green hover:prose-a:decoration-solid active:prose-a:decoration-transparent">
   {{ content }}
 </section>
