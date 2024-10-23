@@ -117,13 +117,13 @@ layout: default
         class="flex justify-center items-center p-2 origin-center active:scale-[.98] rounded-xl border  transition-[colors,transform] duration-300 pointer-events-auto aspect-square menu--trigger-button skew-self ease-easy text-lawn-600 dark:ring-lawn-900 active:border-lawn-300/50 border-lawn-100/10 observe"
         data-class="run"
         onclick="document.querySelector('body').classList.toggle('navopen')"
-        ontouchend="document.querySelector('body').classList.toggle('navopen')">
+        ontouchstart="document.querySelector('body').classList.toggle('navopen')">
         <label class="menu--trigger"><span></span></label>
       </button>
     </li>
     <li
       onclick="document.querySelector('body').classList.toggle('navopen')"
-      class="relative">
+      class="relative ">
       <a
         href="#about-me">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"

@@ -296,7 +296,7 @@ body.navopen .menu--trigger span {
 }
 
 body .nav li:not(.button) a {
-  @apply flex w-full items-center gap-3  px-2 py-2.5 text-left text-base/6 font-medium text-soil-950 sm:py-2 sm:text-sm/5 data-[slot=icon]:*:size-4 data-[slot=icon]:*:shrink-0 data-[slot=icon]:*:fill-soil-500 sm:data-[slot=icon]:*:size-4 data-[slot=icon]:last:*:ml-auto data-[slot=icon]:last:*:size-4 sm:data-[slot=icon]:last:*:size-4 hover:bg-soil-950/5 data-[slot=icon]:*:hover:fill-soil-950 active:bg-soil-950/5 data-[slot=icon]:*:active:fill-soil-950 data-[slot=icon]:*:data-[current]:fill-soil-950 dark:text-soil-50 dark:data-[slot=icon]:*:fill-soil-400 dark:hover:bg-soil-50/5 dark:data-[slot=icon]:*:hover:fill-soil-50 dark:active:bg-soil-50/5 dark:data-[slot=icon]:*:active:fill-soil-50 dark:data-[slot=icon]:*:data-[current]:fill-soil-50 xl-2xl:rounded-lg active:ring-blue-400/50 focus:ring-blue-400/50 focus:outline-none ring-1 ring-transparent;
+  @apply flex w-full items-center gap-3  px-2 py-2.5 text-left text-base/6 font-medium text-soil-800 sm:py-2 sm:text-sm/5 data-[slot=icon]:*:size-4 data-[slot=icon]:*:shrink-0 data-[slot=icon]:*:fill-soil-500 sm:data-[slot=icon]:*:size-4 data-[slot=icon]:last:*:ml-auto data-[slot=icon]:last:*:size-4 sm:data-[slot=icon]:last:*:size-4 hover:bg-soil-950/5 data-[slot=icon]:*:hover:fill-soil-950 active:bg-soil-950/5 data-[slot=icon]:*:active:fill-soil-950 data-[slot=icon]:*:data-[current]:fill-soil-950 dark:text-soil-50 dark:data-[slot=icon]:*:fill-soil-400 dark:hover:bg-soil-50/5 dark:data-[slot=icon]:*:hover:fill-soil-50 dark:active:bg-soil-50/5 dark:data-[slot=icon]:*:active:fill-soil-50 dark:data-[slot=icon]:*:data-[current]:fill-soil-50 xl-2xl:rounded-lg active:ring-blue-400/50 focus:ring-blue-400/50 focus:outline-none ring-1 ring-transparent;
 }
 body .nav li:not(.button):nth-of-type(2) {
   @apply max-xl-2xl:-skew-x-2 max-xl-2xl:opacity-0 max-xl-2xl:translate-y-6 max-xl-2xl:delay-75;
@@ -478,4 +478,70 @@ body.navopen .nav li:not(.button) {
 
 .skew-children:nth-child(10) {
   animation-delay: calc(var(--extra-delay) * 5);
+}
+
+.my-family path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  --extra-delay: 3s;
+  --duration: 3s;
+  animation-name: draw;
+  animation-duration: var(--duration);
+  animation-delay: var(--extra-delay);
+  animation-timing-function: var(--base-animation);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-play-state: paused;
+}
+.my-family .me path {
+}
+.my-family .lil path {
+  --extra-delay: 5s;
+}
+.my-family .lel path {
+  --extra-delay: 4s;
+}
+.my-family .jam path {
+  --extra-delay: 5.5s;
+}
+.my-family.run path {
+  animation-play-state: running;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 500;
+  }
+}
+
+.my-family .torso {
+  animation-delay: var(--extra-delay);
+}
+.my-family .head {
+  animation-delay: calc(var(--extra-delay) + 0.2s);
+}
+.my-family .leg {
+  animation-delay: calc(var(--extra-delay) + 0.4s);
+}
+.my-family .arms {
+  animation-delay: calc(var(--extra-delay) + 0.6s);
+}
+.my-family .eye {
+  animation-delay: calc(var(--extra-delay) + 0.8s);
+}
+.my-family .nose {
+  animation-delay: calc(var(--extra-delay) + 1s);
+}
+.my-family .mouth {
+  animation-delay: calc(var(--extra-delay) + 1.2s);
+}
+.my-family .hair {
+  animation-delay: calc(var(--extra-delay) + 1.4s);
+}
+.my-family .bangs {
+  animation-delay: calc(var(--extra-delay) + 2.6s);
+}
+.my-family .blanket {
+  animation-delay: calc(var(--extra-delay) + 1.2s);
+  animation-duration: calc(var(--duration) + 3s);
 }

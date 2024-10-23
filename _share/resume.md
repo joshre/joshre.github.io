@@ -11,15 +11,12 @@ bg: "bg-soil-50 dark:bg-zinc-800"
     <h2 id="about-me" class="-mb-3 text-3xl tracking-tight font-vulf">About
       Me</h2>
   </div>
-  <div class="flex flex-wrap gap-8 items-center lg:flex-nowrap dark:gap-slate">
-    <p>I live in <strong class="font-medium"><span
-          class="vols text-rocky-top">Knoxville</span>, Tennessee</strong> with
-      my wonderful wife Leila and a couple of kiddos. We avidly garden—saving
-      seeds and seeking out new varieties—and our family's best time is spent
-      together cooking. I also serve as an elder at our church.
-      I'd rather not put a picture of my family on GitHub, so I've conveniently provided an approximation—<em>just look how happy we are.</em>
+  <div class="flex flex-wrap gap-8 items-center lg:flex-nowrap dark:gap-2">
+    <p>I live in <strong class="font-medium"><span class="vols text-rocky-top">Knoxville</span>, Tennessee</strong> with my wonderful wife Leila and a couple of kiddos. We avidly garden—saving seeds and seeking out new varieties—and our family's best time is spent together cooking. I also serve as an elder at our church. I'd rather not put a picture of my family on GitHub, so I've conveniently provided an approximation—<em>just look how happy we are.</em>
     </p>
-    <img src="../../images/image.png" class="mx-auto rounded-lg border opacity-80 sm:w-1/3 border-soil-200 slate-1/2 -rota 3 bg-soil-50 lg:rounded- dark:invert dark:bg-slate dark:border-slate">
+    <div class="mx-auto rounded-lg border opacity-80 grow w-72 border-soil-200 left-1/2 -rotate-3 bg-soil-50 ">
+      {% include my-family.html %}
+    </div>
   </div>
 </div>
 
