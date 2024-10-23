@@ -28,14 +28,14 @@ layout: default
 <header
   class="overflow-hidden relative bg-gradient-to-b from-soil-50 to-soil-100 dark:from-zinc-800/90 dark:to-zinc-800">
   <div
-    class="absolute lg:hidden size-[calc(100%+4rem)] left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 bg-center blur-xl saturate-150   z-0 [background-image:radial-gradient(circle,_rgba(255,_255,_255,_0)_50%,_var(--gradient-stops)_100%)]">
+    class="absolute lg:hidden size-[calc(100%+4rem)] left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 bg-center blur-xl saturate-150 z-0 [background-image:radial-gradient(circle,_rgba(255,_255,_255,_0)_50%,_var(--gradient-stops)_100%)]">
   </div>
   <div
-    class="bg-soil-100 lg:hidden inset-px absolute z-0 dark:bg-zinc-700"></div>
+    class="absolute inset-px z-0 lg:hidden bg-soil-100 dark:bg-zinc-700"></div>
   <div
-    class="absolute inset-px z-10 bg-gradient-to-b from-soil-50 to-soil-100 dark:from-zinc-800/90 dark:to-zinc-800 lg:hidden"></div>
+    class="absolute inset-px z-10 bg-gradient-to-b lg:hidden from-soil-50 to-soil-100 dark:from-zinc-800/90 dark:to-zinc-800"></div>
   <div
-    class="gap-2 relative z-10 items-center px-4 pt-24 pb-12 mx-auto max-w-5xl sm:flex sm:gap-8 sm:pt-0 sm:pl-0 lg:gap-16 lg:py-16">
+    class="relative z-10 gap-2 items-center px-4 pt-24 pb-12 mx-auto max-w-5xl sm:flex sm:gap-8 sm:pt-0 sm:pl-0 lg:gap-16 lg:py-16">
     <div
       class="relative max-w-sm sm:-mt-24 sm:-ml-16 sm:w-full sm:h-auto md:m-0 wfu size-20">
       <div
@@ -98,6 +98,7 @@ layout: default
   </div>
 </header>
 <nav
+  id="nav"
   class="flex fixed inset-x-0 top-2 z-10 mx-4 rounded-2xl sm:w-full p1 sm:max-w-96 sm:left-[unset] xl-2xl:w-56 xl-2xl:sticky xl-2xl:top-8 xl-2xl:left-8 xl-2xl:mt-8 xl-2xl:-mb-64 xl-2xl:mx-0">
   <div
     class="hidden overflow-hidden absolute rounded-3xl dark:hidden -inset-[2px] xl-2xl:block">
@@ -106,12 +107,15 @@ layout: default
     </div>
   </div>
   <ul
-    class="xl-2xl:bg-gradient-to-b rela max-h-16 xl-2xl:max-h-none xl-2xl:w-full w-16 ml-auto  overflow-hidden  xl-2xl:ml-0  from-white to-soil-50 dark:from-zinc-800 dark:to-zinc-800  xl-2xl:p-2 flex-col flex xl-2xl:gap-1  pointer-events-none xl-2xl:pointer-events-auto  xl-2xl:rounded-[calc(1.5rem-2px)] relative nav  xl-2xl:dark:shadow-[0px_0px_0px_1px_rgba(255,255,255,0.1)] xl-2xl:dark:before:pointer-events-none xl-2xl:dark:before:absolute xl-2xl:dark:before:-inset-px xl-2xl:dark:before:rounded-xl xl-2xl:dark:before:shadow-[0px_2px_8px_0px_rgba(0,_0,_0,_0.20),_0px_1px_0px_0px_rgba(255,_255,_255,_0.06)_inset] xl-2xl:">
+    class="xl-2xl:bg-gradient-to-b rela max-h-16 xl-2xl:max-h-none xl-2xl:w-full w-16 ml-auto overflow-hidden xl-2xl:ml-0 from-white to-soil-50 dark:from-zinc-800 dark:to-zinc-800 xl-2xl:p-2 flex-col flex xl-2xl:gap-1 pointer-events-none xl-2xl:pointer-events-auto  xl-2xl:rounded-[calc(1.5rem-2px)] relative nav  xl-2xl:dark:shadow-[0px_0px_0px_1px_rgba(255,255,255,0.1)] xl-2xl:dark:before:pointer-events-none xl-2xl:dark:before:absolute xl-2xl:dark:before:-inset-px xl-2xl:dark:before:rounded-xl xl-2xl:dark:before:shadow-[0px_2px_8px_0px_rgba(0,_0,_0,_0.20),_0px_1px_0px_0px_rgba(255,_255,_255,_0.06)_inset] xl-2xl:">
     <li
       class="mt-2 mr-2 ml-auto button xl-2xl:hidden">
       <button
-        class="flex justify-center items-center p-2 rounded-full border border-transparent ring-8 transition-colors duration-300 pointer-events-auto ring-lawn-100 aspect-square menu--trigger-button ease-easy dark:ring-lawn-900 active:border-sky-300"
-        onclick="document.querySelector('body').classList.toggle('navopen')">
+        aria-controls="nav"
+        aria-pressed="false"
+        class="flex justify-center items-center p-2 origin-center active:scale-[.98] rounded-full border  transition-[colors,transform] duration-300 pointer-events-auto aspect-square menu--trigger-button ease-easy text-lawn-600 dark:ring-lawn-900 active:border-lawn-300/50 border-lawn-100/10"
+        onclick="document.querySelector('body').classList.toggle('navopen')"
+        ontouchend="document.querySelector('body').classList.toggle('navopen')">
         <label class="menu--trigger"><span></span></label>
       </button>
     </li>

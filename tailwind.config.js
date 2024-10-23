@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        xxs: "390px",
         xs: "414px",
         xsm: "475px",
         sm: "640px",
@@ -27,6 +28,7 @@ module.exports = {
         ],
       },
       colors: {
+        "rocky-top": "#ff8200",
         green: "#1C5F4A",
         soil: {
           50: "#f9f6f5",

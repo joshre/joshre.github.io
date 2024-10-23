@@ -149,8 +149,8 @@ body {
 }
 
 .menu--trigger {
-  width: 30px;
-  height: 23px;
+  width: 24px;
+  height: 16px;
   position: relative;
   z-index: 99999999;
   display: block;
@@ -167,7 +167,7 @@ body {
   will-change: opacity, color;
   height: 1px;
   width: 100%;
-  border-bottom: 3px solid;
+  border-bottom: 2px solid;
   top: 50%;
   position: relative;
   transform: translateY(-50%);
@@ -201,12 +201,12 @@ body {
 }
 
 .menu--trigger:before {
-  border-top: 3px solid;
+  border-top: 2px solid;
   top: 0;
 }
 
 .menu--trigger:after {
-  border-bottom: 3px solid;
+  border-bottom: 2px solid;
   bottom: 0;
 }
 .menu--trigger-button {
@@ -218,17 +218,34 @@ body {
     border-radius 0.2s var(--base-animation);
 }
 body nav {
-  @apply max-xl-2xl:bg-gradient-to-bl max-xl-2xl:from-lawn-50 max-xl-2xl:via-lawn-50 max-xl-2xl:dark:from-lawn-700 max-xl-2xl:dark:via-lawn-700 max-xl-2xl:to-transparent max-xl-2xl:via-50% max-xl-2xl:to-50%;
+  @apply max-xl-2xl:bg-none; /* Remove existing gradient utilities */
+  background: radial-gradient(
+    circle at top right,
+    var(--tw-gradient-from),
+    var(--tw-gradient-via) 50%,
+    transparent 50%
+  );
   background-size: 200% 200%;
   background-position: 0% 100%;
-  transition: background-position 0.8s var(--base-animation);
+  transition: background-position 0.6s var(--base-animation);
+  --tw-gradient-from: theme("colors.lawn.50");
+  --tw-gradient-via: theme("colors.lawn.50");
+  --tw-gradient-to: transparent;
+  @apply dark:from-lawn-700 dark:via-lawn-700; /* Applying dark mode */
 }
+
 body.navopen nav {
-  @apply max-xl-2xl:bg-gradient-to-bl max-xl-2xl:from-lawn-50 max-xl-2xl:via-lawn-50 max-xl-2xl:dark:from-lawn-700 max-xl-2xl:dark:via-lawn-700 max-xl-2xl:to-transparent max-xl-2xl:via-50% max-xl-2xl:to-50%;
+  @apply max-xl-2xl:bg-none; /* Remove existing gradient utilities */
+  background: radial-gradient(
+    circle at top right,
+    var(--tw-gradient-from),
+    var(--tw-gradient-via) 50%,
+    transparent 50%
+  );
+  background-size: 200% 200%;
   transition: background-position 0.4s var(--base-animation);
   background-position: 100% 0%;
 }
-
 body.navopen .nav {
   @apply w-full pointer-events-auto max-h-[14.5rem];
 }
@@ -254,12 +271,12 @@ body.navopen .menu--trigger:before {
 }
 
 body.navopen .menu--trigger:before {
-  transform: translateY(10px) rotate(45deg);
+  transform: translateY(7px) rotate(45deg);
 }
 
 body.navopen .menu--trigger:after {
   transform: rotate(45deg);
-  transform: translateY(-10px) rotate(-45deg);
+  transform: translateY(-7px) rotate(-45deg);
 }
 
 body.navopen .menu--trigger span {

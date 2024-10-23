@@ -12,4 +12,25 @@ layout: compress
     </main>
     {% include footer.html %}
   </body>
+
+  <script>
+  function handleTouchClick(element, callback) {
+    element.addEventListener("click", callback);
+    element.addEventListener("touchstart", callback);
+  }
+
+  let vols = document.querySelectorAll(".vols");
+  let rockyTopBg = document.querySelector(".rocky-top-bg");
+
+  vols.forEach((el) => {
+    handleTouchClick(el, () => {
+      rockyTopBg.classList.add("run");
+
+
+      setTimeout(() => {
+        rockyTopBg.classList.remove("run");
+      }, 1000);
+    });
+  });
+</script>
 </html>

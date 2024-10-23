@@ -11,7 +11,7 @@ bg: "bg-soil-50 dark:bg-zinc-800"
     <h2 id="about-me"  class="-mb-3 text-3xl tracking-tight font-vulf">About Me</h2>
   </div>
   <div class="flex flex-wrap gap-8 items-center lg:flex-nowrap dark:gap-slate">
-    <p>I live in <strong class="font-medium"><span style="color:#ff8200;" class="vols" onmouseover="document.querySelector('.rocky-top-bg').classList.add('run')" onmouseout=" document.querySelector('.rocky-top-bg').classList.remove('run')">Knoxville</span>, Tennessee</strong> with my wonderful wife Leila and a couple of kiddos. We avidly garden—saving seeds and seeking out new varieties—and our family's best time is spent together cooking. I also serve as an elder at our church. 
+    <p>I live in <strong class="font-medium"><span class="vols text-rocky-top">Knoxville</span>, Tennessee</strong> with my wonderful wife Leila and a couple of kiddos. We avidly garden—saving seeds and seeking out new varieties—and our family's best time is spent together cooking. I also serve as an elder at our church. 
     <!-- I'd rather not put a picture of my family on GitHub, so I've conveniently provided an approximation—<em>just look how happy we are.</em> -->
     </p>
   <!-- <img src="../../images/image.png" class="mx-auto rounded-lg border opacity-80 sm:w-1/3 border-soil-200 slate-1/2 -rota 3 bg-soil-50 lg:rounded- dark:invert dark:bg-slate dark:border-slate"> -->
@@ -30,12 +30,12 @@ bg: "bg-soil-50 dark:bg-zinc-800"
     </div>
 </div>
 </div>
-**I have been working on the web for over a decade and have experience in every discipline relevant to putting ideas on the internet.** From design briefs, wire-frames & mock-ups, content management, project management, _building the thing_, server management, _shipping the thing_ and maintaining sites; to working long-term in product shipping features, managing a bug system, and handling support requests. I've worked with restaurants, the wine industry, churches, hotels, farms, large-scale commodity boards, and e-commerce shops. Most recently, I dedicated several years to a single product, where I led and collaborated on the development of features informed by user needs and direct&nbsp;feedback.
+**I have been working on the web for over a decade, with experience in every discipline relevant to putting ideas on the internet.** From design briefs, wireframes, and mockups to content management, project management, server administration, shipping, and maintaining websites. I’ve worked with restaurants, the wine industry, churches, hotels, farms, large-scale commodity boards, and e-commerce shops. Most recently, I focused on a single product, leading feature development informed by user needs and feedback.
 
 My strength is not just in full-stack development. Due to years in agencies and a fascination with design, I have a high capacity for it—from interpreting and executing the work of designers to filling in gaps that inevitably come up in the process of making a thing. **Words matter,** especially when you're publishing something on the internet, and I don't shy away from writing as an engineer.
 <span id="skill-set" class="block"></span>
 
-<div class="top-0 px-2 -mx-2 bg-gradient-to-b from-white sm:px-6 sm:-mx-8 sticky lg:px-8 lg:-mx-8 to-white/80 backdrop-blur-sm dark:from-zinc-800 dark:to-zinc-800/80">
+<div class="sticky top-0 px-2 -mx-2 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 to-white/80 backdrop-blur-sm dark:from-zinc-800 dark:to-zinc-800/80">
   <h2 class="py-2 mb-0 text-3xl tracking-tight font-vulf">Skill Set</h2>
   <div
       class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
@@ -49,16 +49,41 @@ My strength is not just in full-stack development. Due to years in agencies and 
   </div>
 </div>
 <div class="flex flex-col gap-3 mt-8 not-prose">
-  <span class="flex flex-wrap gap-1"><span class="text-sm font-semibold">Engineering:</span> {% assign color="lawn" %} {% assign text="JavaScript" %} {% include tag.html  %} {% assign text="Ruby" %} {% include tag.html  %} {% assign text="PHP" %} {% include tag.html  %} {% assign text="Liquid" %} {% include tag.html  %} {% assign text="CSS" %} {% include tag.html  %} {% assign text="HTML" %} {% include tag.html  %} {% assign text="Lottie" %} {% include tag.html  %}</span>
-  <span class="flex flex-wrap gap-1"><span class="text-sm font-semibold">Frameworks/CMS:</span>{% assign color="teal" %} {% assign text="Ruby on Rails" %} {% include tag.html  %} {% assign text="WordPress" %} {% include tag.html  %} {% assign text="Shopify" %} {% include tag.html  %} </span>
-  <span class="flex flex-wrap gap-1"><span class="text-sm font-semibold">Tools/Platforms:</span>{% assign color="indigo" %} {% assign text="Git" %} {% include tag.html  %} {% assign text="Heroku" %} {% include tag.html  %} {% assign text="AWS" %} {% include tag.html  %}{% assign text="Postgres" %} {% include tag.html  %} {% assign text="MySQL" %} {% include tag.html  %}</span>
-  <span class="flex flex-wrap gap-1"><span class="text-sm font-semibold">Design:</span>{% assign color="amber" %} {% assign text="Figma" %} {% include tag.html  %} {% assign text="Illustrator" %} {% include tag.html  %} {% assign text="Photoshop" %} {% include tag.html  %}</span>
-  <span class="flex flex-wrap gap-1"><span class="text-sm font-semibold">DevOps:</span>{% assign color="slate" %} {% assign text="Linux" %} {% include tag.html  %} {% assign text="DNS Management" %} {% include tag.html  %} {% assign text="server setup" %} {% include tag.html  %} {% assign text="CI/CD" %} {% include tag.html  %}</span>
+  <div class="grid gap-2 items-baseline md:flex xxs:grid-cols-4">
+    <span class="col-span-1 text-sm font-semibold">Engineering</span>
+    <div class="col-span-3">
+      {% assign color="lawn" %} {% assign text="JavaScript" %} {% include tag.html  %} {% assign text="Ruby" %} {% include tag.html  %} {% assign text="PHP" %} {% include tag.html  %} {% assign text="Liquid" %} {% include tag.html  %} {% assign text="CSS" %} {% include tag.html  %} {% assign text="HTML" %} {% include tag.html  %} {% assign text="Lottie" %} {% include tag.html  %}
+    </div>
+  </div>
+  <div class="grid gap-2 items-baseline md:flex xxs:grid-cols-4">
+    <span class="col-span-1 text-sm font-semibold">Frameworks</span>
+    <div class="col-span-3">
+      {% assign color="teal" %} {% assign text="Ruby on Rails" %} {% include tag.html  %} {% assign text="WordPress" %} {% include tag.html  %} {% assign text="Shopify" %} {% include tag.html  %}
+    </div>
+  </div>
+  <div class="grid gap-2 items-baseline md:flex xxs:grid-cols-4">
+    <span class="col-span-1 text-sm font-semibold">Tools</span>
+    <div class="col-span-3">
+      {% assign color="indigo" %} {% assign text="Git" %} {% include tag.html  %} {% assign text="Heroku" %} {% include tag.html  %} {% assign text="AWS" %} {% include tag.html  %}{% assign text="Postgres" %} {% include tag.html  %} {% assign text="MySQL" %} {% include tag.html  %}
+    </div>
+  </div>
+  <div class="grid gap-2 items-baseline md:flex xxs:grid-cols-4">
+    <span class="col-span-1 text-sm font-semibold">Design</span>
+    <div class="col-span-3">
+      {% assign color="amber" %} {% assign text="Figma" %} {% include tag.html  %} {% assign text="Illustrator" %} {% include tag.html  %} {% assign text="Photoshop" %} {% include tag.html  %}
+    </div>
+  </div>
+  <div class="grid gap-2 items-baseline md:flex xxs:grid-cols-4">
+    <span class="col-span-1 text-sm font-semibold">DevOps</span>
+    <div class="col-span-3">
+      {% assign color="slate" %} {% assign text="Linux" %} {% include tag.html  %} {% assign text="DNS Management" %} {% include tag.html  %} {% assign text="server setup" %} {% include tag.html  %} {% assign text="CI/CD" %} {% include tag.html  %}
+    </div>
+  </div>
 </div>
 
 ### Engineering
 
-I've worked with countless CMS platforms, web frameworks, and languages; enough that picking up a new RESTful architecture is pretty simple and a fun endeavor.
+I've worked with countless languages, web frameworks, and CMS platforms; enough that picking up a new RESTful architecture is pretty simple and a fun endeavor.
 
 In my agency time, I built websites that worked _for_ our clients. Not GPU-hungry webpage builders, but custom-tailored CMS dashboards that had the flexibility to adapt and grow with their business, while being rigid enough to not overload someone less technically savvy. The goal was to build something that wouldn't later require an engineer to make something look good and remain accessible.
 
@@ -117,7 +142,7 @@ Similarly, I enjoy working with and communicating with clients; I always present
 
 <span id="spare-me-ill-take-the-links" class="block"></span>
 
-<div class="top-0 px-2 -mx-2 bg-gradient-to-b before:h-16 before:w-full before:bg-white dark:before:bg-zinc-800 before:absolute before:-top-16 from-white sm:px-6 sm:-mx-8 sticky lg:px-8 lg:-mx-8 to-white/80 backdrop-blur-sm dark:from-zinc-800 dark:to-zinc-800/80">
+<div class="sticky top-0 px-2 -mx-2 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 before:h-16 before:w-full before:bg-white before:absolute before:-top-16 to-white/80 backdrop-blur-sm dark:before:bg-zinc-800 dark:from-zinc-800 dark:to-zinc-800/80">
   <h2 class="py-2 mb-0 text-3xl tracking-tight font-vulf">Things I've Built</h2>
   <div
       class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
@@ -150,7 +175,7 @@ Built with the design team at Honey (employer from 2016 to 2020)
 
 <span id="work-history" class="block"></span>
 
-<div class="top-0 px-2 -mx-2 bg-gradient-to-b from-white before:h-16 before:w-full before:bg-white dark:before:bg-zinc-800 before:absolute before:-top-16 sm:px-6 sm:-mx-8 sticky lg:px-8 lg:-mx-8 to-white/80 backdrop-blur-sm dark:from-zinc-800 dark:to-zinc-800/80">
+<div class="sticky top-0 px-2 -mx-2 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 before:h-16 before:w-full before:bg-white before:absolute before:-top-16 to-white/80 backdrop-blur-sm dark:before:bg-zinc-800 dark:from-zinc-800 dark:to-zinc-800/80">
   <h2 class="py-2 mb-0 text-3xl tracking-tight font-vulf">Work History</h2>
   <div
       class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
