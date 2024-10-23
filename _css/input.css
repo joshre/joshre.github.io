@@ -483,8 +483,8 @@ body.navopen .nav li:not(.button) {
 .my-family path {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  --extra-delay: 3s;
-  --duration: 3s;
+  --extra-delay: 2s;
+  --duration: 2s;
   animation-name: draw;
   animation-duration: var(--duration);
   animation-delay: var(--extra-delay);
@@ -496,13 +496,13 @@ body.navopen .nav li:not(.button) {
 .my-family .me path {
 }
 .my-family .lil path {
-  --extra-delay: 5s;
-}
-.my-family .lel path {
   --extra-delay: 4s;
 }
+.my-family .lel path {
+  --extra-delay: 3s;
+}
 .my-family .jam path {
-  --extra-delay: 5.5s;
+  --extra-delay: 4.5s;
 }
 .my-family.run path {
   animation-play-state: running;
@@ -543,7 +543,6 @@ body.navopen .nav li:not(.button) {
 }
 .my-family .blanket {
   animation-delay: calc(var(--extra-delay) + 1.2s);
-  animation-duration: calc(var(--duration) + 3s);
 }
 
 .jre-button {
