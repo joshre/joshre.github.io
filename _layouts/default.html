@@ -12,41 +12,4 @@ layout: compress
     </main>
     {% include footer.html %}
   </body>
-
-  <script>
-  function handleTouchClick(element, callback) {
-    element.addEventListener("click", callback);
-    element.addEventListener("touchstart", callback);
-  }
-
-  let vols = document.querySelectorAll(".vols");
-  let rockyTopBg = document.querySelector(".rocky-top-bg");
-
-  vols.forEach((el) => {
-    handleTouchClick(el, () => {
-      rockyTopBg.classList.add("run");
-
-
-      setTimeout(() => {
-        rockyTopBg.classList.remove("run");
-      }, 1000);
-    });
-  });
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        const targetClass = entry.target.getAttribute('data-class');
-        entry.target.classList.add(targetClass);
-        observer.unobserve(entry.target); 
-      }
-    });
-  });
-
-
-  document.querySelectorAll('.observe').forEach((element) => {
-
-    observer.observe(element);
-  });
-</script>
 </html>

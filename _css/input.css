@@ -210,7 +210,7 @@ body {
   bottom: 0;
 }
 .menu--trigger-button {
-  @apply bg-lawn-50 cursor-pointer;
+  @apply bg-lawn-50 cursor-pointer transition-[colors,transform,margin] duration-300 ease-easy;
 }
 .menu--trigger-button * {
   @apply cursor-pointer;
@@ -254,7 +254,7 @@ body.navopen .nav {
 }
 
 body.navopen .menu--trigger-button {
-  @apply bg-lawn-900 ring-lawn-50 dark:ring-lawn-700 transition-colors duration-300 ease-easy;
+  @apply bg-lawn-900 ring-lawn-50 dark:ring-lawn-700 transition-[colors,transform,margin] m-0 duration-300 ease-easy;
 }
 body.navopen .menu--trigger {
   background-color: transparent;
@@ -544,4 +544,72 @@ body.navopen .nav li:not(.button) {
 .my-family .blanket {
   animation-delay: calc(var(--extra-delay) + 1.2s);
   animation-duration: calc(var(--duration) + 3s);
+}
+
+.jre-button {
+  @apply transition-opacity;
+  @apply duration-100;
+  @apply ease-easy;
+  @apply active:ring-blue-400;
+  @apply focus:ring-blue-400;
+  @apply ring-1;
+  @apply ring-transparent;
+  @apply relative;
+  @apply isolate;
+  @apply inline-flex;
+  @apply items-center;
+  @apply justify-center;
+  @apply gap-x-2;
+  @apply rounded-lg;
+  @apply border;
+  @apply text-base/6;
+  @apply font-semibold;
+  @apply px-[calc(theme(spacing.3)-1px)];
+  @apply py-[calc(theme(spacing[1.5])-1px)];
+  @apply text-sm/6;
+  @apply focus:outline-none;
+  @apply data-[focus]:outline;
+  @apply data-[focus]:outline-2;
+  @apply data-[focus]:outline-offset-2;
+  @apply data-[focus]:outline-blue-500;
+  @apply data-[disabled]:opacity-50;
+  @apply forced-colors:[--btn-icon:ButtonText];
+  @apply forced-colors:data-[hover]:[--btn-icon:ButtonText];
+  @apply border-transparent;
+  @apply bg-[--btn-border];
+  @apply dark:bg-[--btn-bg];
+  @apply before:absolute;
+  @apply before:inset-0;
+  @apply before:-z-10;
+  @apply before:rounded-[calc(theme(borderRadius.lg)-1px)];
+  @apply before:bg-[--btn-bg];
+  @apply before:shadow;
+  @apply dark:before:hidden;
+  @apply dark:border-white/5;
+  @apply after:absolute;
+  @apply after:transition-opacity;
+  @apply after:duration-100;
+  @apply active:after:opacity-0;
+  @apply after:inset-0;
+  @apply after:-z-10;
+  @apply after:rounded-[calc(theme(borderRadius.lg)-1px)];
+  @apply after:shadow-[shadow:inset_0_1px_theme(colors.white/15%)];
+  @apply after:data-[active]:bg-[--btn-hover-overlay];
+  @apply after:data-[hover]:bg-[--btn-hover-overlay];
+  @apply dark:after:-inset-px;
+  @apply dark:after:rounded-lg;
+  @apply before:data-[disabled]:shadow-none;
+  @apply after:data-[disabled]:shadow-none;
+  @apply text-white;
+  @apply [--btn-bg:theme(colors.zinc.900)];
+  @apply [--btn-border:theme(colors.zinc.950/90%)];
+  @apply [--btn-hover-overlay:theme(colors.white/10%)];
+  @apply dark:text-white;
+  @apply dark:[--btn-bg:theme(colors.zinc.600)];
+  @apply dark:[--btn-hover-overlay:theme(colors.white/5%)];
+  @apply [--btn-icon:theme(colors.zinc.400)];
+  @apply data-[active]:[--btn-icon:theme(colors.zinc.300)];
+  @apply data-[hover]:[--btn-icon:theme(colors.zinc.300)];
+  @apply cursor-default;
+  @apply origin-left;
 }

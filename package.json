@@ -2,10 +2,11 @@
   "dependencies": {
     "@tailwindcss/typography": "*",
     "concurrently": "^8.0.1",
+    "estrella": "^1.4.1",
     "tailwindcss": "*"
   },
   "scripts": {
-    "watch": "concurrently \"bundle exec jekyll serve --livereload\" \"yarn tailwindcss -i _css/input.css -o css/output.css --minify --watch\""
+    "watch": "concurrently \"./build.js --watch\" \"bundle exec jekyll serve --livereload\" \"yarn tailwindcss -i _css/input.css -o css/output.css --minify --watch\" "
   },
   "name": "joshre.github.io",
   "version": "1.0.0",

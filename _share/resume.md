@@ -11,10 +11,10 @@ bg: "bg-soil-50 dark:bg-zinc-800"
     <h2 id="about-me" class="-mb-3 text-3xl tracking-tight font-vulf">About
       Me</h2>
   </div>
-  <div class="flex flex-wrap gap-8 items-center lg:flex-nowrap dark:gap-2">
+  <div class="flex flex-wrap lg:gap-8 items-center md:gap-6 md:flex-nowrap dark:gap-2">
     <p>I live in <strong class="font-medium"><span class="vols text-rocky-top">Knoxville</span>, Tennessee</strong> with my wonderful wife Leila and a couple of kiddos. We avidly garden—saving seeds and seeking out new varieties—and our family's best time is spent together cooking. I also serve as an elder at our church. I'd rather not put a picture of my family on GitHub, so I've conveniently provided an approximation—<em>just look how happy we are.</em>
     </p>
-    <div class="mx-auto rounded-lg border opacity-80 grow w-72 border-soil-200 left-1/2 -rotate-3 bg-soil-50 ">
+    <div class="mx-auto rounded-lg border opacity-80 mb-4 md:mb-0 md:grow md:w-72 border-soil-200 left-1/2 -rotate-3 bg-soil-50 ">
       {% include my-family.html %}
     </div>
   </div>
@@ -49,8 +49,11 @@ engineer.
 <span id="skill-set" class="block"></span>
 
 <div
-  class="sticky top-0 px-2 -mx-2 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 before:bg-gradient-to-b before:to-white before:from-white/80 to-white/80 backdrop-blur-sm dark:before:to-zinc-800 dark:before:from-zinc-800/80 dark:from-zinc-800 dark:to-zinc-800/80">
-  <h2 class="py-2 mb-0 text-3xl tracking-tight font-vulf">Skill Set</h2>
+  class="sticky top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 before:bg-gradient-to-b before:to-white before:from-white/80 to-white/80 backdrop-blur-sm  dark:before:to-zinc-800 dark:before:from-zinc-800/80 dark:from-zinc-800 dark:to-zinc-800/80">
+  <div class="flex not-prose justify-between items-center">
+    <h2 class="py-2 mb-0 text-3xl tracking-tight font-vulf">Skill Set</h2>
+    <a href="mailto:joshre@me.com" class="jre-button mr-12 md:mr-4 mdl:mr-0">Reach Out</a>
+  </div>
   <div
     class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
     <div
@@ -137,7 +140,6 @@ implementation working with After Effects exports for SVG animation, it's all a
 treat.
 
 <video muted autoplay loop class="float-right mx-auto mr-4 ml-4 -mt-2 w-1/5 rounded-xl ring-1 transform-gpu rotate-2 sm:ml-6 sm:w-2/5 lg:ml-8 lg:rounded-2xl ring-soil-900 bg-soil-50" >
-
   <source src="../../images/family-guy-css.mp4" >
 </video>
 
@@ -238,8 +240,11 @@ Word, Google Sheets, Notion, Pages, Basecamp, Jira, Slack etc.
 <span id="spare-me-ill-take-the-links" class="block"></span>
 
 <div
-  class="sticky top-0 px-2 -mx-2 bg-gradient-to-b from-white dark:before:to-zinc-800 dark:before:from-zinc-800/80 before:bg-gradient-to-b before:to-white before:from-white/80 to-90%  lg:px-8 lg:-mx-8 before:h-16 before:w-full  before:absolute before:-top-16 to-white/80 backdrop-blur-sm  dark:from-zinc-800 dark:to-zinc-800/80">
-  <h2 class="py-2 mb-0 text-3xl tracking-tight font-vulf">Things I've Built</h2>
+  class="sticky top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white dark:before:to-zinc-800 dark:before:from-zinc-800/80 before:bg-gradient-to-b before:to-white before:from-white/80 to-90%  lg:px-8 lg:-mx-8 before:h-16 before:w-full  before:absolute before:-top-16 to-white/80 backdrop-blur-sm  dark:from-zinc-800 dark:to-zinc-800/80">
+  <div class="flex not-prose justify-between items-center">
+    <h2 class="py-2 mb-0 text-3xl tracking-tight font-vulf">Things I've Built</h2>
+    <a href="mailto:joshre@me.com" class="jre-button mr-12 md:mr-4 mdl:mr-0">Reach Out</a>
+  </div>
   <div
     class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
     <div
@@ -280,8 +285,11 @@ Built with the design team at Honey (employer from 2016 to 2020)
 <span id="work-history" class="block"></span>
 
 <div
-  class="sticky top-0 px-2 -mx-2 bg-gradient-to-b from-white dark:before:to-zinc-800 dark:before:from-zinc-800/80 before:bg-gradient-to-b before:to-white before:from-white/80 to-90% lg:px-8 lg:-mx-8 before:h-16 before:w-full  before:absolute before:-top-16 to-white/80 backdrop-blur-sm  dark:from-zinc-800 dark:to-zinc-800/80">
-  <h2 class="py-2 mb-0 text-3xl tracking-tight font-vulf">Work History</h2>
+  class="sticky top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white dark:before:to-zinc-800 dark:before:from-zinc-800/80 before:bg-gradient-to-b before:to-white before:from-white/80 to-90% lg:px-8 lg:-mx-8 before:h-16 before:w-full  before:absolute before:-top-16 to-white/80 backdrop-blur-sm  dark:from-zinc-800 dark:to-zinc-800/80">
+  <div class="flex not-prose justify-between items-center">
+    <h2 class="py-2 mb-0 text-3xl tracking-tight font-vulf">Work History</h2>
+    <a href="mailto:joshre@me.com" class="jre-button mr-12 md:mr-4 mdl:mr-0">Reach Out</a>
+  </div>
   <div
     class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
     <div
@@ -303,7 +311,7 @@ Built with the design team at Honey (employer from 2016 to 2020)
 MxU’s core product is a Rails app used to train worship and tech teams in video,
 audio, lighting, and leadership. We built and maintained a product that helped
 folks in charge of making the weekend happen train volunteers in local churches
-across the world. **In my 4 years there we more than tripled MRR**, saw ARR hit
+across the world. **In my 4 years there MRR more than tripled**, I saw ARR hit
 major milestones, and worked within a team that grew from 2 to 12.
 
 I came on as the first employee and was solely responsible for product for a
@@ -311,8 +319,8 @@ short period, later working with two other engineers in varying capacities.
 
 In my time at MxU, I wore many hats. I built a few marketing sites, developed
 numerous marketing pages for business partnerships, tightly integrated business
-logic and marketing functions between HubSpot and our application, created a
-merch site on Shopify, and built an annual conference site that tied into
+logic and marketing functions between HubSpot and our application, spun up
+merch on Shopify, and annually built an event site that tied into
 eventbrite.
 
 **I’m most proud of my design contributions to MxU**. Though we had a dedicated
@@ -329,7 +337,7 @@ Honey is an agency I worked at in Sacramento, CA whose niche is catering to
 food, beverage, and agriculture clients. They do everything from branding,
 packaging, marketing campaigns, to website development. Often it included
 everything. I frequently referred to myself as the online print shop. I worked
-with the design team early in the process to bring client ideas to life. Years
+with the design team early in the process to bring client ideas to life. I regularly presented my work, contributed in client meetings for discovery and design briefs, and managed sites for our maintenance contract offering. Years
 later many of the sites we built are heavily used with little change, which I'm
 quite proud of.
 
