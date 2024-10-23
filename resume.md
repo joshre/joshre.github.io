@@ -134,8 +134,8 @@ systems before we started to build them. It was rewarding work.
 
 #### Front End
 
-When a project allows for it, I love working with in-browser animation. From
-butter-smooth transitions between pages and states to the more detailed
+When a project allows for it, I love working with in-browser animation. If I didn't get motion sickness building it, _the project suffered_. From
+<span class="butter max-md:before:hidden before:absolute before:inset-0 before:size-16 before:top-1/2 before:-translate-y-1/2 before:-translate-x-1/2 before:left-1/2 relative text-[#FFB300] ">butter</span>-smooth transitions between pages and states to the more detailed
 implementation working with After Effects exports for SVG animation, it's all a
 treat.
 
@@ -144,7 +144,7 @@ treat.
 </video>
 
 <span class="font-medium">I'm the guy that still likes CSS</span>, and I'm
-comfortable making it do whatever is needed. Good semantic CSS & HTML are like
+comfortable bending <span class="bend cursor-wait underline decoration-dotted relative  hover:text-white  before:pointer-events-none  hover:shadow-xl hover:shadow-white hover:z-50 hover:before:fixed hover:before:-z-10 hover:before:bg-black hover:before:size-screen hover:before:inset-0 before:[background-image:linear-gradient(45deg,theme('colors.red.500')_33%,_theme('colors.zinc.900')_33%,theme('colors.zinc.900')_66%,theme('colors.red.500')_66%,theme('colors.zinc.900')_66%,theme('colors.red.500')_66%)] before:[background-size:300%_300%]"> it to my will</span> when necessary. Good semantic CSS & HTML are like
 cleaning the sink before you go to bed or brushing your teeth: it separates us
 from the animals.
 
@@ -176,7 +176,7 @@ an high standards based on what WCAG was at the time.
 - **CI** — I've worked with various systems—with and without a test suite.
   Heroku, Beanstalk, GitHub actions.
 - **Servers** — Setting up, managing, and maintaining servers was my
-  bread-and-butter for agency work. Linux, AWS, Heroku, Linode, all the WordPress
+  bread-and-<span class="butter">butter</span> for agency work. Linux, AWS, Heroku, Linode, all the WordPress
   ones. Doing it ourselves meant low-cost, which helped to make maintenance
   contracts viable.
 - **DNS / CDNs** — Similarly, agency work gives any developer their fair-share
@@ -189,7 +189,7 @@ While I wouldn't claim expertise at something like brand development, I'm very
 comfortable designing interfaces and webpages. 10 years of needing to develop an
 eye for typography and color, as well as the early days of <span
   class="text-nowrap"><span
-    class="font-vulf">&ldquo;</span><em>pixel-perfect</em><span
+    class="font-vulf">&ldquo;</span><em class="cursor-crosshair">pixel-perfect</em><span
     class="inline-flex relative translate-x-px font-vulf -translate-y-[0.5px]">&rdquo;</span></span>
 project scopes, taught me how to build according to a design and interpret the
 designer's intent. I’ve collaborated extensively with designers to realize their
@@ -375,7 +375,7 @@ product timing.
 <span class="font-mono text-base font-medium tracking-tight"><strong>Team
 Member</strong> Sep, 2010 – Jan, 2012</span>
 
-I can sense you're backing away.
+I can sense you're backing away. <span class="">This</span> will get rid of it
 
 I can hear you thinking to yourself: “how is this remotely relevant to a
 software engineer?” While this is a valid question, it misses two crucial

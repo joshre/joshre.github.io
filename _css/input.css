@@ -117,6 +117,10 @@ body {
   cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAAAVCAYAAADPTVnBAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQSSURBVHgB7Vk9U1NBFL0wzJiOWCUdsUErgYqhIaSx9KPRTkKhpYQf4BDG0kIYf4BBOhsEK2lIaBhtECulIXRYGSpipffwWN/d+/Ylvq8hhWdmk/c2+/bj7Nmzd/OGiKjGKU/pYZVTR9yXOFUpPbQ5NVRe9bKdtNC4bMcA/NQoPXSG+OO4NkOlfI4SY3Wfa+zSDbI7PVfK0251ihKjzdPZOKAmX1bUT6gf7SRG4wu38/Oi/qbIBj/gKTGYH/DUHsHN4gxqpsRAp1GxRuk60XKFEqPZviDeifkpzDCl0gYTHwCEmcYYIB4IdMTKnV4kKkz699+3OL23nxwtEZWX7bztBYqFsTmiiXnv2+CsTXS4zj1setdxcfM+p3v+/cclol8dSh3oO9rBd+5Svej3Kavw01roGGziz8+YiKpdQhNfnLTLYHKi4hp38NGmTbhBvuTld9pEO0vB9v8VBdXPvZX0iZ9lAZbrwXwzBrQPUTrGMGzdHakCUI2GVBEQh5inB27SJdD5h5v9y10VQKqLdAmsgLtvPKEp2MR3O94Slw+CAAlpRcBJkyIBKpF1QtlbrIrXvCe/rXg2IxHS8SvH7Xn/GmNA319wrPKSN7TWiv8bONQuQtpqgCO2jtKcfz/Oqv+86l3D34uCeJCORqNAd2Kj4teBb9SZG/VXGybpFl8fNmigIMUDwRoB4nqv7hGOcQAOixsO5OgBykkoKrVrdfYDVovsMNpyTRw2JYmxMg00wAtWpnSDnZrn70gO0QSJ13YjB639ParNaNs6PXSXQ71doRJtb4MALTqsZOxdz38TPTkIToTCsDP3pOVfY8mYCuRGh3Apqs1or+4VZUjicwPo8bATvTINTOSHibjzylnETfzXhn0PwuHvlk1EtJmokGQnieezBOzEBAQQogvTNWf0M+IsDCUjGaLh81qdRzHCyB+qc2FLEfmS+O4ZDSxgi9JyTfw+IaKecbboVt16zK14QCoaPi+93kxMVIB4aSHoHFaSBk7QEnEPUVkBopit+6mgIr3tqr0CHFbpVrypgJb9B+VhKs5p1QC+WBb1Pt71dn60hxUG0mXIiQn+lgLxIMc1ySAozolW/m2CoOPdA98SoXoZATqssjfxUKeZLTlrSRSIMwGUbmwM3yA/DGkd9XEKdgEHt6j1m8jPhNog+dmx7wI6enPsh+FWE/LA30NOXKDT8tDUqxz+2Bq0g5PBh4XgGEC4Jh3CcYwhXPEAlF2YsPNkqBkX6DCUBkvB0bsoNlP8BivDyoizjxhgecvzSBjOY66mfmOAOCHcEJH2Jh4PbTQpM0AJWSk6y7pTaOeC+LV974/+pOicu/PxYmFllxKj3UOc63xWaR1TZm3gBU8aYzAvivDqjyP8/+9cFRqU8TvXP1bPhBh/WbjGAAAAAElFTkSuQmCC"),
     auto;
 }
+.butter:hover {
+  cursor: url("data:image/png;base64,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"),
+    auto;
+}
 
 .rocky-top-bg.run {
   background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='10' height='10' x='0' y='0' fill='%23FF8200' /%3E%3Crect width='10' height='10' x='10' y='10' fill='%23FF8200' /%3E%3Crect width='10' height='10' x='10' y='0' fill='white' /%3E%3Crect width='10' height='10' x='0' y='10' fill='white' /%3E%3C/svg%3E");
@@ -611,4 +615,47 @@ body.navopen .nav li:not(.button) {
   @apply data-[hover]:[--btn-icon:theme(colors.zinc.300)];
   @apply cursor-default;
   @apply origin-left;
+}
+
+.bend {
+  background-size: 300% 100%;
+}
+.bend:hover {
+  --duration: 0.6s;
+  animation-name: makeItBigger;
+  animation-duration: var(--duration);
+  animation-delay: 0;
+  animation-timing-function: var(--base-animation);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+
+  animation-play-state: running;
+}
+.bend:hover:before {
+  --duration: 0.5s;
+  animation-name: makeMeSick;
+  animation-duration: var(--duration);
+  animation-delay: 0;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+
+  animation-play-state: running;
+}
+@keyframes makeItBigger {
+  from {
+    font-weight: 100;
+  }
+  to {
+    font-weight: 900;
+    color: theme("colors.red.50");
+  }
+}
+@keyframes makeMeSick {
+  from {
+    background-position: 0% 300%;
+  }
+  to {
+    background-position: 0% 0%;
+  }
 }
