@@ -302,6 +302,13 @@ Built with the design team at Honey (employer from 2016 to 2020)
   </div>
 </div>
 
+<div class="relative mt-8 rounded-3xl bg-white p-2 shadow-md shadow-lawn-900/5 ring-1 ring-lawn-900/5">
+  <div class="flex flex-1 flex-col p-8 bg-lawn-50 text-lawn-900 rounded-2xl">
+    <div class=" text-base/7 font-medium" >Please reach out for a list of references.</div>
+     <div class="mt-2 text-sm/6 text-lawn-700">If I've sent you an abridged PDF copy of this resume, you can find them there.</div>
+  </div>
+</div>
+
 ### MxU
 
 <span
