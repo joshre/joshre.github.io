@@ -214,7 +214,7 @@ body {
   bottom: 0;
 }
 .menu--trigger-button {
-  @apply bg-lawn-50 cursor-pointer transition-[colors,transform,margin] duration-300 ease-easy;
+  @apply bg-lawn-50 dark:bg-lawn-700 dark:border-lawn-600/30 dark:text-lawn-100 cursor-pointer transition-[colors,transform,margin] duration-300 ease-easy;
 }
 .menu--trigger-button * {
   @apply cursor-pointer;
@@ -225,7 +225,7 @@ body {
     border-radius 0.2s var(--base-animation);
 }
 body nav {
-  @apply max-xl-2xl:bg-none; /* Remove existing gradient utilities */
+  @apply max-xl-2xl:bg-none;
   background: radial-gradient(
     circle at top right,
     var(--tw-gradient-from),
@@ -238,11 +238,11 @@ body nav {
   --tw-gradient-from: theme("colors.lawn.50");
   --tw-gradient-via: theme("colors.lawn.50");
   --tw-gradient-to: transparent;
-  @apply dark:from-lawn-700 dark:via-lawn-700; /* Applying dark mode */
+  @apply dark:from-lawn-700 dark:via-lawn-700;
 }
 
 body.navopen nav {
-  @apply max-xl-2xl:bg-none; /* Remove existing gradient utilities */
+  @apply max-xl-2xl:bg-none;
   background: radial-gradient(
     circle at top right,
     var(--tw-gradient-from),
@@ -252,6 +252,18 @@ body.navopen nav {
   background-size: 200% 200%;
   transition: background-position 0.4s var(--base-animation);
   background-position: 100% 0%;
+}
+
+@media (prefers-color-scheme: dark) {
+  body nav {
+    --tw-gradient-from: theme("colors.lawn.800");
+    --tw-gradient-via: theme("colors.lawn.800");
+  }
+
+  body.navopen nav {
+    --tw-gradient-from: theme("colors.lawn.700");
+    --tw-gradient-via: theme("colors.lawn.700");
+  }
 }
 body.navopen .nav {
   @apply w-full pointer-events-auto max-h-[14.5rem];
