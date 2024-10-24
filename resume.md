@@ -50,10 +50,11 @@ engineer.
 <span id="skill-set" class="block"></span>
 
 <div
-  class="sticky top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 before:bg-gradient-to-b before:to-white bg-white sm:bg-transparent before:from-white/80 to-white/80 backdrop-blur-sm  dark:before:to-zinc-800 dark:before:from-zinc-800/80 dark:from-zinc-800 dark:to-zinc-800/80">
+  class="sticky sticky--header top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 before:bg-gradient-to-b before:to-white bg-white sm:bg-transparent before:from-white/80 to-white/80 backdrop-blur-sm  dark:before:to-zinc-800 dark:before:from-zinc-800/80 dark:from-zinc-800 dark:to-zinc-800/80">
   <div class="flex not-prose justify-between items-center">
     <h2 class="py-2 mb-0 text-2xl sm:text-3xl tracking-tight font-vulf">Skill Set</h2>
-    <a href="mailto:joshre@me.com" class="jre-button mr-12 md:mr-4 mdl:mr-0">Reach Out</a>
+        <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0" data-class="-translate-x-12 md:-translate-x-[calc(1vw)]">Reach Out</a>
+
   </div>
   <div
     class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
@@ -241,10 +242,10 @@ Word, Google Sheets, Notion, Pages, Basecamp, Jira, Slack etc.
 <span id="spare-me-ill-take-the-links" class="block"></span>
 
 <div
-  class="sticky mt-16 top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white dark:before:to-zinc-800 dark:before:from-zinc-800/80 sm:before:bg-gradient-to-b before:to-white before:bg-white sm:before:bg-transparent before:from-white/80 to-90% lg:px-8 lg:-mx-8 before:h-16 before:w-full  before:absolute before:-top-16 to-white/80 backdrop-blur-sm  dark:from-zinc-800 dark:to-zinc-800/80">
+  class="sticky sticky--header mt-16 top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white dark:before:to-zinc-800 dark:before:from-zinc-800/80 sm:before:bg-gradient-to-b before:to-white before:bg-white sm:before:bg-transparent before:from-white/80 to-90% lg:px-8 lg:-mx-8 before:h-16 before:w-full  before:absolute before:-top-16 to-white/80 backdrop-blur-sm  dark:from-zinc-800 dark:to-zinc-800/80">
   <div class="flex not-prose justify-between items-center">
     <h2 class="py-2 mb-0 text-2xl sm:text-3xl tracking-tight font-vulf">Things I've Built</h2>
-    <a href="mailto:joshre@me.com" class="jre-button mr-12 mt-px md:mr-4 mdl:mr-0">Reach Out</a>
+        <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0" data-class="-translate-x-12 md:-translate-x-[calc(1vw)]">Reach Out</a>
   </div>
   <div
     class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
@@ -286,10 +287,10 @@ Built with the design team at Honey (employer from 2016 to 2020)
 <span id="work-history" class="block"></span>
 
 <div
-  class="sticky mt-16 top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white dark:before:to-zinc-800 dark:before:from-zinc-800/80 sm:before:bg-gradient-to-b before:to-white before:bg-white sm:before:bg-transparent before:from-white/80 to-90% lg:px-8 lg:-mx-8 before:h-16 before:w-full  before:absolute before:-top-16 to-white/80 backdrop-blur-sm  dark:from-zinc-800 dark:to-zinc-800/80">
+  class="sticky sticky--header mt-16 top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white dark:before:to-zinc-800 dark:before:from-zinc-800/80 sm:before:bg-gradient-to-b before:to-white before:bg-white sm:before:bg-transparent before:from-white/80 to-90% lg:px-8 lg:-mx-8 before:h-16 before:w-full  before:absolute before:-top-16 to-white/80 backdrop-blur-sm  dark:from-zinc-800 dark:to-zinc-800/80">
   <div class="flex not-prose justify-between items-center">
     <h2 class="py-2 mb-0 text-2xl sm:text-3xl tracking-tight font-vulf">Work History</h2>
-    <a href="mailto:joshre@me.com" class="jre-button mr-12 md:mr-[calc(1vw)] mdl:mr-0">Reach Out</a>
+    <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0" data-class="-translate-x-12 md:-translate-x-[calc(1vw)]">Reach Out</a>
   </div>
   <div
     class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
