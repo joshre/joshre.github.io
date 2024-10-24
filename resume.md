@@ -6,6 +6,7 @@ links: external
 bg: "bg-soil-50 dark:bg-zinc-800"
 ---
 
+<base target="_blank">
 <div class="lg:-mx-16">
   <div class="prose">
     <h2 id="about-me" class="-mb-3 text-3xl tracking-tight font-vulf">About
