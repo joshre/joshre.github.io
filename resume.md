@@ -74,7 +74,7 @@ engineer.
       text="PHP" %} {% include tag.html %} {% assign text="Liquid" %} {% include
       tag.html %} {% assign text="CSS" %} {% include tag.html %} {% assign
       text="HTML" %} {% include tag.html %} {% assign text="Lottie" %} {%
-      include tag.html %}
+      include tag.html %} 
     </div>
   </div>
   <div class="grid gap-2 items-baseline md:flex xxs:grid-cols-4">
@@ -82,7 +82,8 @@ engineer.
     <div class="col-span-3">
       {% assign color="teal" %} {% assign text="Ruby on Rails" %} {% include
       tag.html %} {% assign text="WordPress" %} {% include tag.html %} {% assign
-      text="Shopify" %} {% include tag.html %}
+      text="Shopify" %} {% include tag.html %} {% assign text="TailwindCSS" %} {% include tag.html %}
+      {% assign text="Hotwire Stimulus" %} {% include tag.html %}
     </div>
   </div>
   <div class="grid gap-2 items-baseline md:flex xxs:grid-cols-4">
