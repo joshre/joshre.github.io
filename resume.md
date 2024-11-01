@@ -378,24 +378,3 @@ I started with raw materials and successfully shipped products for a little over
 a year and a half. I shipped products to the USA, Germany, Australia, and Japan;
 managed a budget and expenses, learning how to leverage bulk purchases and
 product timing.
-
-### Hollister co.
-
-<span class="font-mono text-base font-medium tracking-tight"><strong>Team
-Member</strong> Sep, 2010 – Jan, 2012</span>
-
-I can sense you're backing away.
-
-I can hear you thinking to yourself: “how is this remotely relevant to a
-software engineer?” While this is a valid question, it misses two crucial
-points.
-
-Firstly, it means I hate the mall now. Just the smell Gordon Biersch fries or a
-glimpse of an Auntie Annes is enough to bring back the smell of the oil leak on
-my ’96 Oldsmobile Cutlass Supreme, left unlocked in the parking lot as I ran in
-5 minutes late—a memory that vacillates between nostalgia and my at-the-time
-anxiety in a way I’d rather keep buried in cold storage.
-
-Secondly, and maybe more importantly: I have years of experience folding shirts.
-Regardless of industry, ever company I’ve worked at _at some point_ decided the
-best thing to do that month was print some t-shirts—it’s paid dividends.
