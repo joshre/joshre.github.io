@@ -9,7 +9,7 @@ bg: "bg-soil-50 dark:bg-zinc-800"
 <base target="_blank">
 <div class="lg:-mx-16">
   <div class="prose">
-    <h2 id="about-me" class="-mb-3 pt-6 text-3xl tracking-tight font-vulf">About
+    <h2 id="about-me" class="-mb-3 pt-6  text-3xl tracking-tight font-vulf">About
       Me</h2>
   </div>
   <div class="flex flex-wrap lg:gap-8 items-center md:gap-6 text-lg md:flex-nowrap dark:gap-2">
@@ -64,7 +64,6 @@ While my core strength lies in full-stack development, my background in agencies
 <div class="relative mt-8 rounded-3xl bg-white dark:bg-zinc-600 p-2 shadow-md dark:shadow-none dark:ring-0 shadow-lawn-900/5 ring-1 ring-lawn-900/5">
   <div class="flex flex-1 flex-col p-8 bg-lawn-50 dark:bg-zinc-700 dark:ring-zinc-800/60 dark:ring-1 text-lawn-900 dark:text-zinc-200 rounded-2xl">
     <div class=" text-base/6 font-medium" >Please reach out for a list of references.</div>
-     <div class="mt-2 text-sm/6 text-lawn-700 dark:text-zinc-300">If I've sent you an abridged PDF copy of this resume, you can find them there.</div>
   </div>
 </div>
 
