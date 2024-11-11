@@ -9,10 +9,10 @@ bg: "bg-soil-50 dark:bg-zinc-800"
 <base target="_blank">
 <div class="lg:-mx-16">
   <div class="prose">
-    <h2 id="about-me" class="-mb-3 text-3xl tracking-tight font-vulf">About
+    <h2 id="about-me" class="-mb-3 mt-2 text-3xl tracking-tight font-vulf">About
       Me</h2>
   </div>
-  <div class="flex flex-wrap lg:gap-8 items-center md:gap-6 text-xl/9 md:flex-nowrap dark:gap-2">
+  <div class="flex flex-wrap lg:gap-8 items-center md:gap-6 text-lg md:flex-nowrap dark:gap-2">
     <p>I live in <strong class="font-medium"><span class="vols text-rocky-top">Knoxville</span>, Tennessee</strong> with my wonderful wife Leila and a couple of kiddos. We avidly garden—saving seeds and seeking out new varieties—and our family's best time is spent together cooking. I also serve as an elder at our church.
     </p>
 
@@ -39,12 +39,79 @@ restaurants, the wine industry, churches, hotels, farms, large-scale commodity
 boards, and e-commerce shops. Most recently, I focused on a single product,
 leading feature development informed by user needs and feedback.
 
-My strength is not just in full-stack development. Due to years in agencies and
-a fascination with design, I have a high capacity for it—from interpreting and
-executing the work of designers to filling in gaps that inevitably come up in
-the process of making a thing. **Words matter,** especially when you're
-publishing something on the internet, and I don't shy away from writing as an
-engineer.
+While my core strength lies in full-stack development, my background in agencies and a strong understanding of design allow me to collaborate effectively with designers and address gaps that arise during development. I also value clear communication and attention to detail, which extends to writing—whether it’s crafting clean code or ensuring the content published on the web is impactful and precise.
+
+<span id="work-history" class="block"></span>
+
+<div
+  class="sticky sticky--header mt-16 top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white dark:before:to-zinc-800 dark:before:from-zinc-800/80 sm:before:bg-gradient-to-b before:to-white before:bg-white sm:before:bg-transparent before:from-white/80 to-90% lg:px-8 lg:-mx-8 before:h-16 before:w-full  before:absolute before:-top-16 to-white/80 backdrop-blur-sm  dark:from-zinc-800 dark:to-zinc-800/80">
+  <div class="flex not-prose justify-between items-center">
+    <h2 class="py-2 mb-0 text-2xl sm:text-3xl tracking-tight font-vulf">Work History</h2>
+    <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0" data-class="-translate-x-12 md:-translate-x-[calc(1vw)]">Reach Out</a>
+  </div>
+  <div
+    class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
+    <div
+      class="flex -mb-px w-full h-[2px]">
+      <div
+        class="w-full flex-none blur-sm [background-image:linear-gradient(90deg,var(--gradient-stops))]"></div>
+      <div
+        class="-ml-[100%] w-full flex-none blur-[1px] [background-image:linear-gradient(90deg,var(--gradient-stops))]"></div>
+    </div>
+  </div>
+</div>
+
+<div class="relative mt-8 rounded-3xl bg-white dark:bg-zinc-600 p-2 shadow-md dark:shadow-none dark:ring-0 shadow-lawn-900/5 ring-1 ring-lawn-900/5">
+  <div class="flex flex-1 flex-col p-8 bg-lawn-50 dark:bg-zinc-700 dark:ring-zinc-800/60 dark:ring-1 text-lawn-900 dark:text-zinc-200 rounded-2xl">
+    <div class=" text-base/6 font-medium" >Please reach out for a list of references.</div>
+     <div class="mt-2 text-sm/6 text-lawn-700 dark:text-zinc-300">If I've sent you an abridged PDF copy of this resume, you can find them there.</div>
+  </div>
+</div>
+
+### MxU
+
+<span class="inline-flex gap-2.5 items-center border rounded-full py-2 px-4 text-sm"><strong>Full Stack Engineer
+</strong> <svg  viewBox="0 0 2 2" aria-hidden="true" class="w-1 fill-current"><circle cx="1" cy="1" r="1"></circle></svg> Oct 2020 - Aug 2024</span>
+
+MxU’s core product is a Rails app used to train worship and tech teams in video,
+audio, lighting, and leadership. We built and maintained a product that helped
+folks in charge of making the weekend happen train volunteers in local churches
+across the world. **In my 4 years there MRR more than tripled**, I saw ARR hit
+major milestones, and worked within a team that grew from 2 to 12.
+
+I came on as the first employee and was solely responsible for product for a
+short period, later working with two other engineers in varying capacities.
+
+In my time at MxU, I wore many hats. I worked extensively in our product (Ruby on Rails), built a numerous marketing sites (WordPress Jekyll, etc), developed
+numerous marketing pages for business partnerships (HubSpot Landing Pages with a Static-site generator backend), tightly integrated business
+logic and marketing functions between HubSpot and our application, spun up
+merch on Shopify, and annually built an event site that tied into eventbrite.
+
+Though we had a dedicated designer for branding and asset creation—such as video thumbnails and social
+media content—as a development team we worked on our own, sketching and
+designing in the browser as we went.
+
+### Honey
+
+<span class="inline-flex gap-2.5 items-center border rounded-full py-2 px-4 text-sm"><strong>Senior
+Developer</strong> <svg  viewBox="0 0 2 2" aria-hidden="true" class="w-1 fill-current"><circle cx="1" cy="1" r="1"></circle></svg> Feb 2016 - Oct 2020</span>
+
+As the sole developer, I built custom client websites from scratch, often managing 2–3 projects simultaneously while collaborating closely with the design team to transform creative concepts into functional websites. I actively participated in client discovery sessions, contributed to design briefs, and presented technical solutions, completed websites, and training documentation to stakeholders. Beyond leading development, I oversaw ongoing maintenance contracts to ensure long-term functionality and performance. Many of the websites I developed remain heavily used with minimal changes years later—an accomplishment I take great pride in.
+
+### Bamboo Creative
+
+<span class="inline-flex gap-2.5 items-center border rounded-full py-2 px-4 text-sm"><strong>Web
+Developer</strong> <svg  viewBox="0 0 2 2" aria-hidden="true" class="w-1 fill-current"><circle cx="1" cy="1" r="1"></circle></svg> Jan 2012 – Jan 2016</span>
+
+At Bamboo, I built websites from the ground up, managing the entire process from sketching and wireframing to deployment and ongoing maintenance. I set up and configured LAMP stacks, managed Git-based deployments, and developed custom WordPress themes for multisite networks. In addition to building new sites, I maintained a portfolio of 20+ client websites, ensuring updates, security, and reliable performance.
+
+### Feif Ties / Trestle Leather Co
+
+<span class="inline-flex gap-2.5 items-center border rounded-full py-2 px-4 text-sm"><strong>Owner
+</strong> <svg  viewBox="0 0 2 2" aria-hidden="true" class="w-1 fill-current"><circle cx="1" cy="1" r="1"></circle></svg>Jun 2010 – Jan, 2013</span>
+
+During high school, I launched and ran several Etsy shops, designing and handcrafting ties, belts, and wallets from raw materials. In just a few years, I shipped products to customers across the USA, Germany, Australia, and Japan. I managed budgets and expenses, gaining experience in leveraging bulk purchases and optimizing product timing. This venture provided valuable lessons in entrepreneurship, operations, and customer service.
+
 <span id="skill-set" class="block"></span>
 
 <div
@@ -65,51 +132,58 @@ engineer.
     </div>
   </div>
 </div>
-<div class="flex flex-col gap-3 mt-8 not-prose">
-  <div class="grid gap-2 items-baseline md:flex xxs:grid-cols-4">
-    <span class="col-span-1 text-sm font-semibold">Engineering</span>
+<div class="flex flex-col mt-8 not-prose divide-y divide-dotted">
+  <div class="grid gap-2 pt-2 pb-4 items-baseline grid-cols-4">
+    <span class="col-span-1 text-sm font-semibold shrink-0">Backend Development</span>
     <div class="col-span-3">
-      {% assign color="lawn" %} {% assign text="JavaScript" %} {% include
-      tag.html %} {% assign text="Ruby" %} {% include tag.html %} {% assign
-      text="PHP" %} {% include tag.html %} {% assign text="Liquid" %} {% include
-      tag.html %} {% assign text="CSS" %} {% include tag.html %} {% assign
-      text="HTML" %} {% include tag.html %} {% assign text="Lottie" %} {%
-      include tag.html %} 
+      {% assign color="teal" %} {% assign text="Ruby on Rails" %} {% include tag.html %}
+      {% assign text="PHP" %} {% include tag.html %} {% assign text="Liquid" %} {% include tag.html %}
+      {% assign text="SQL (Postgres & MySQL)" %} {% include tag.html %} {% assign text="REST API Development" %} {% include tag.html %}
+      {% assign text="TDD" %} {% include tag.html %} {% assign text="MiniTest" %} {% include tag.html %}
     </div>
   </div>
-  <div class="grid gap-2 items-baseline md:flex xxs:grid-cols-4">
-    <span class="col-span-1 text-sm font-semibold">Frameworks</span>
+  <div class="grid gap-2 pt-2 pb-4 items-baseline grid-cols-4">
+    <span class="col-span-1 text-sm font-semibold">Frontend Development</span>
     <div class="col-span-3">
-      {% assign color="teal" %} {% assign text="Ruby on Rails" %} {% include
-      tag.html %} {% assign text="WordPress" %} {% include tag.html %} {% assign
-      text="Shopify" %} {% include tag.html %} {% assign text="TailwindCSS" %} {% include tag.html %}
+      {% assign color="lawn" %} {% assign text="JavaScript" %} {% include tag.html %}
+      {% assign text="CSS" %} {% include tag.html %} {% assign text="HTML" %} {% include tag.html %}
+      {% assign text="TailwindCSS" %} {% include tag.html %} {% assign text="Lottie" %} {% include tag.html %}
       {% assign text="Hotwire Stimulus" %} {% include tag.html %}
+      {% assign text="Next.js" %} {% include tag.html %}
     </div>
   </div>
-  <div class="grid gap-2 items-baseline md:flex xxs:grid-cols-4">
-    <span class="col-span-1 text-sm font-semibold">Tools</span>
-    <div class="col-span-3">
-      {% assign color="indigo" %} {% assign text="Git" %} {% include tag.html %}
-      {% assign text="Heroku" %} {% include tag.html %} {% assign text="AWS" %}
-      {% include tag.html %}{% assign text="Postgres" %} {% include tag.html %}
-      {% assign text="MySQL" %} {% include tag.html %}
-    </div>
-  </div>
-  <div class="grid gap-2 items-baseline md:flex xxs:grid-cols-4">
-    <span class="col-span-1 text-sm font-semibold">Design</span>
-    <div class="col-span-3">
-      {% assign color="amber" %} {% assign text="Figma" %} {% include tag.html
-      %} {% assign text="Illustrator" %} {% include tag.html %} {% assign
-      text="Photoshop" %} {% include tag.html %}
-    </div>
-  </div>
-  <div class="grid gap-2 items-baseline md:flex xxs:grid-cols-4">
+  <div class="grid gap-2 pt-2 pb-4 items-baseline grid-cols-4">
     <span class="col-span-1 text-sm font-semibold">DevOps</span>
     <div class="col-span-3">
-      {% assign color="slate" %} {% assign text="Linux" %} {% include tag.html
-      %} {% assign text="DNS Management" %} {% include tag.html %} {% assign
-      text="server setup" %} {% include tag.html %} {% assign text="CI/CD" %} {%
-      include tag.html %}
+      {% assign color="slate" %} {% assign text="Linux" %} {% include tag.html %}
+      {% assign text="Git" %} {% include tag.html %} {% assign text="Heroku" %} {% include tag.html %}
+      {% assign text="AWS" %} {% include tag.html %} {% assign text="DNS Management" %} {% include tag.html %}
+      {% assign text="CI/CD Pipelines" %} {% include tag.html %} {% assign text="Server Setup" %} {% include tag.html %}
+    </div>
+  </div>
+  <div class="grid gap-2 pt-2 pb-4 items-baseline grid-cols-4">
+    <span class="col-span-1 text-sm font-semibold">Design</span>
+    <div class="col-span-3">
+      {% assign color="amber" %} {% assign text="Figma" %} {% include tag.html %}
+      {% assign text="Illustrator" %} {% include tag.html %} {% assign text="Photoshop" %} {% include tag.html %}
+    </div>
+  </div>
+  <div class="grid gap-2 pt-2 pb-4 items-baseline grid-cols-4">
+    <span class="col-span-1 text-sm font-semibold">SaaS KPIs</span>
+    <div class="col-span-3">
+      {% assign color="violet" %} {% assign text="Churn" %} {% include tag.html %}
+      {% assign text="Retention" %} {% include tag.html %}
+      {% assign text="MRR Milestones" %} {% include tag.html %}
+      {% assign text="NPS" %} {% include tag.html %}
+    </div>
+  </div>
+  <div class="grid gap-2 pt-2 pb-4 items-baseline grid-cols-4">
+    <span class="col-span-1 text-sm font-semibold">Marketing</span>
+    <div class="col-span-3">
+      {% assign color="indigo" %} {% assign text="CRM Management / Integration" %} {% include tag.html %}
+      {% assign text="Inbound Marketing" %} {% include tag.html %}
+      {% assign text="HTML Email Development" %} {% include tag.html %}
+      {% assign text="Analytics & Pixel Tracking" %} {% include tag.html %}
     </div>
   </div>
 </div>
@@ -139,15 +213,6 @@ When a project allows for it, I love working with in-browser animation. If I did
 <span class="butter max-md:before:hidden before:absolute before:inset-0 before:size-16 before:top-1/2 before:-translate-y-1/2 before:-translate-x-1/2 before:left-1/2 relative text-[#FFB300] ">butter</span>-smooth transitions between pages and states to the more detailed
 implementation working with After Effects exports for SVG animation, it's all a
 treat.
-
-<video muted autoplay loop class="float-right mx-auto mr-4 ml-4 -mt-2 w-2/5 -mb-2 sm:mb-0 rounded-xl ring-1 transform-gpu rotate-2 sm:ml-6 sm:w-2/5 lg:ml-8 lg:rounded-2xl ring-soil-900 bg-soil-50 max-xs:hidden">
-  <source src="../../images/family-guy-css.mp4" >
-</video>
-
-<span class="font-medium">I'm the guy that still likes CSS</span>, and I'm
-comfortable bending <span class="bend cursor-wait underline decoration-dotted relative  hover:text-white  before:pointer-events-none  hover:shadow-xl hover:shadow-white hover:z-50 hover:before:fixed hover:before:-z-10 hover:before:bg-black hover:before:size-screen hover:before:inset-0 before:[background-image:linear-gradient(45deg,theme('colors.red.500')_33%,_theme('colors.zinc.900')_33%,theme('colors.zinc.900')_66%,theme('colors.red.500')_66%,theme('colors.zinc.900')_66%,theme('colors.red.500')_66%)] before:[background-size:300%_300%]"> it to my will</span> when necessary. Good semantic CSS & HTML are like
-cleaning the sink before you go to bed or brushing your teeth: it separates us
-from the animals.
 
 #### Performance
 
@@ -282,98 +347,3 @@ Built with the design team at Honey (employer from 2016 to 2020)
   Shopify integration for an up-and-coming California Winery
 - [**Lei Back**](https://drinkleiback.com/) — Shopify site.
 - [**Everlee Skincare**](https://everleeskincare.shop/) — Shopify site.
-
-<span id="work-history" class="block"></span>
-
-<div
-  class="sticky sticky--header mt-16 top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white dark:before:to-zinc-800 dark:before:from-zinc-800/80 sm:before:bg-gradient-to-b before:to-white before:bg-white sm:before:bg-transparent before:from-white/80 to-90% lg:px-8 lg:-mx-8 before:h-16 before:w-full  before:absolute before:-top-16 to-white/80 backdrop-blur-sm  dark:from-zinc-800 dark:to-zinc-800/80">
-  <div class="flex not-prose justify-between items-center">
-    <h2 class="py-2 mb-0 text-2xl sm:text-3xl tracking-tight font-vulf">Work History</h2>
-    <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0" data-class="-translate-x-12 md:-translate-x-[calc(1vw)]">Reach Out</a>
-  </div>
-  <div
-    class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
-    <div
-      class="flex -mb-px w-full h-[2px]">
-      <div
-        class="w-full flex-none blur-sm [background-image:linear-gradient(90deg,var(--gradient-stops))]"></div>
-      <div
-        class="-ml-[100%] w-full flex-none blur-[1px] [background-image:linear-gradient(90deg,var(--gradient-stops))]"></div>
-    </div>
-  </div>
-</div>
-
-<div class="relative mt-8 rounded-3xl bg-white dark:bg-zinc-600 p-2 shadow-md dark:shadow-none dark:ring-0 shadow-lawn-900/5 ring-1 ring-lawn-900/5">
-  <div class="flex flex-1 flex-col p-8 bg-lawn-50 dark:bg-zinc-700 dark:ring-zinc-800/60 dark:ring-1 text-lawn-900 dark:text-zinc-200 rounded-2xl">
-    <div class=" text-base/6 font-medium" >Please reach out for a list of references.</div>
-     <div class="mt-2 text-sm/6 text-lawn-700 dark:text-zinc-300">If I've sent you an abridged PDF copy of this resume, you can find them there.</div>
-  </div>
-</div>
-
-### MxU
-
-<span
-  class="font-mono text-base font-medium tracking-tight"><strong>Engineer</strong>
-\| October 2020 - August 2024</span>
-
-MxU’s core product is a Rails app used to train worship and tech teams in video,
-audio, lighting, and leadership. We built and maintained a product that helped
-folks in charge of making the weekend happen train volunteers in local churches
-across the world. **In my 4 years there MRR more than tripled**, I saw ARR hit
-major milestones, and worked within a team that grew from 2 to 12.
-
-I came on as the first employee and was solely responsible for product for a
-short period, later working with two other engineers in varying capacities.
-
-In my time at MxU, I wore many hats. I built a few marketing sites, developed
-numerous marketing pages for business partnerships, tightly integrated business
-logic and marketing functions between HubSpot and our application, spun up
-merch on Shopify, and annually built an event site that tied into
-eventbrite.
-
-**I’m most proud of my design contributions to MxU**. Though we had a dedicated
-designer for branding and asset creation—such as video thumbnails and social
-media content—as a development team we worked on our own, sketching and
-designing in the browser as we went.
-
-### Honey
-
-<span class="font-mono text-base font-medium tracking-tight"><strong>Senior
-Developer</strong> \| Feb 2016 - October 2020</span>
-
-Honey is an agency I worked at in Sacramento, CA whose niche is catering to
-food, beverage, and agriculture clients. They do everything from branding,
-packaging, marketing campaigns, to website development. Often it included
-everything. I frequently referred to myself as the online print shop. I worked
-with the design team early in the process to bring client ideas to life. I regularly presented my work, contributed in client meetings for discovery and design briefs, and managed sites for our maintenance contract offering. Years
-later many of the sites we built are heavily used with little change, which I'm
-quite proud of.
-
-### Bamboo Creative
-
-<span class="font-mono text-base font-medium tracking-tight"><strong>Web
-Developer</strong> Jan, 2012 – Jan, 2016</span>
-
-Bamboo is where I cut my teeth as a web developer.
-
-Responsibilities Included: Sketching, wire-framing, building, deploying, and
-maintaining websites for Bamboo's clients start-to-finish. Work ranged from
-small single-page sites to custom WordPress themes built on WordPress Multisite
-Networks.
-
-- Setting up LAMP stacks and integrating deployment based on git.
-- Building CSS pattern-libraries for sites.
-- Writing site documentation.
-- Managing and monitoring over 20 client sites at a time.
-
-### Trestle Leather Co
-
-<span
-  class="font-mono text-base font-medium tracking-tight"><strong>Owner</strong>
-Jun, 2010 – Jan, 2013</span>
-
-I ran an Etsy shop that sold belts and wallets in the last part of high school,
-I started with raw materials and successfully shipped products for a little over
-a year and a half. I shipped products to the USA, Germany, Australia, and Japan;
-managed a budget and expenses, learning how to leverage bulk purchases and
-product timing.
