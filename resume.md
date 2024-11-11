@@ -9,7 +9,7 @@ bg: "bg-soil-50 dark:bg-zinc-800"
 <base target="_blank">
 <div class="lg:-mx-16">
   <div class="prose">
-    <h2 id="about-me" class="-mb-3 text-3xl tracking-tight font-vulf">About
+    <h2 id="about-me" class="-mb-3 pt-6 text-3xl tracking-tight font-vulf">About
       Me</h2>
   </div>
   <div class="flex flex-wrap lg:gap-8 items-center md:gap-6 text-lg md:flex-nowrap dark:gap-2">
