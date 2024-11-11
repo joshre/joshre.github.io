@@ -9,7 +9,7 @@ bg: "bg-soil-50 dark:bg-zinc-800"
 <base target="_blank">
 <div class="lg:-mx-16">
   <div class="prose">
-    <h2 id="about-me" class="-mb-3 mt-2 text-3xl tracking-tight font-vulf">About
+    <h2 id="about-me" class="-mb-3 text-3xl tracking-tight font-vulf">About
       Me</h2>
   </div>
   <div class="flex flex-wrap lg:gap-8 items-center md:gap-6 text-lg md:flex-nowrap dark:gap-2">
@@ -133,18 +133,18 @@ During high school, I launched and ran several Etsy shops, designing and handcra
   </div>
 </div>
 <div class="flex flex-col mt-8 not-prose divide-y divide-dotted">
-  <div class="grid gap-2 pt-2 pb-4 items-baseline grid-cols-4">
-    <span class="col-span-1 text-sm font-semibold shrink-0">Backend Development</span>
-    <div class="col-span-3">
+  <div class="grid gap-3 sm:gap-2 pt-2 pb-4 items-baseline sm:grid-cols-4">
+    <span class="col-span-1 text-sm font-semibold shrink-0">Backend</span>
+    <div class="col-span-3 flex flex-wrap gap-2">
       {% assign color="teal" %} {% assign text="Ruby on Rails" %} {% include tag.html %}
       {% assign text="PHP" %} {% include tag.html %} {% assign text="Liquid" %} {% include tag.html %}
       {% assign text="SQL (Postgres & MySQL)" %} {% include tag.html %} {% assign text="REST API Development" %} {% include tag.html %}
       {% assign text="TDD" %} {% include tag.html %} {% assign text="MiniTest" %} {% include tag.html %}
     </div>
   </div>
-  <div class="grid gap-2 pt-2 pb-4 items-baseline grid-cols-4">
-    <span class="col-span-1 text-sm font-semibold">Frontend Development</span>
-    <div class="col-span-3">
+  <div class="grid gap-3 sm:gap-2 pt-2 pb-4 items-baseline sm:grid-cols-4">
+    <span class="col-span-1 text-sm font-semibold">Frontend</span>
+    <div class="col-span-3 flex flex-wrap gap-2">
       {% assign color="lawn" %} {% assign text="JavaScript" %} {% include tag.html %}
       {% assign text="CSS" %} {% include tag.html %} {% assign text="HTML" %} {% include tag.html %}
       {% assign text="TailwindCSS" %} {% include tag.html %} {% assign text="Lottie" %} {% include tag.html %}
@@ -152,34 +152,34 @@ During high school, I launched and ran several Etsy shops, designing and handcra
       {% assign text="Next.js" %} {% include tag.html %}
     </div>
   </div>
-  <div class="grid gap-2 pt-2 pb-4 items-baseline grid-cols-4">
+  <div class="grid gap-3 sm:gap-2 pt-2 pb-4 items-baseline sm:grid-cols-4">
     <span class="col-span-1 text-sm font-semibold">DevOps</span>
-    <div class="col-span-3">
+    <div class="col-span-3 flex flex-wrap gap-2">
       {% assign color="slate" %} {% assign text="Linux" %} {% include tag.html %}
       {% assign text="Git" %} {% include tag.html %} {% assign text="Heroku" %} {% include tag.html %}
       {% assign text="AWS" %} {% include tag.html %} {% assign text="DNS Management" %} {% include tag.html %}
       {% assign text="CI/CD Pipelines" %} {% include tag.html %} {% assign text="Server Setup" %} {% include tag.html %}
     </div>
   </div>
-  <div class="grid gap-2 pt-2 pb-4 items-baseline grid-cols-4">
+  <div class="grid gap-3 sm:gap-2 pt-2 pb-4 items-baseline sm:grid-cols-4">
     <span class="col-span-1 text-sm font-semibold">Design</span>
-    <div class="col-span-3">
+    <div class="col-span-3 flex flex-wrap gap-2">
       {% assign color="amber" %} {% assign text="Figma" %} {% include tag.html %}
       {% assign text="Illustrator" %} {% include tag.html %} {% assign text="Photoshop" %} {% include tag.html %}
     </div>
   </div>
-  <div class="grid gap-2 pt-2 pb-4 items-baseline grid-cols-4">
+  <div class="grid gap-3 sm:gap-2 pt-2 pb-4 items-baseline sm:grid-cols-4">
     <span class="col-span-1 text-sm font-semibold">SaaS KPIs</span>
-    <div class="col-span-3">
+    <div class="col-span-3 flex flex-wrap gap-2">
       {% assign color="violet" %} {% assign text="Churn" %} {% include tag.html %}
       {% assign text="Retention" %} {% include tag.html %}
       {% assign text="MRR Milestones" %} {% include tag.html %}
       {% assign text="NPS" %} {% include tag.html %}
     </div>
   </div>
-  <div class="grid gap-2 pt-2 pb-4 items-baseline grid-cols-4">
+  <div class="grid gap-3 sm:gap-2 pt-2 pb-4 items-baseline sm:grid-cols-4">
     <span class="col-span-1 text-sm font-semibold">Marketing</span>
-    <div class="col-span-3">
+    <div class="col-span-3 flex flex-wrap gap-2">
       {% assign color="indigo" %} {% assign text="CRM Management / Integration" %} {% include tag.html %}
       {% assign text="Inbound Marketing" %} {% include tag.html %}
       {% assign text="HTML Email Development" %} {% include tag.html %}
