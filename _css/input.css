@@ -57,10 +57,10 @@
   --base-animation: cubic-bezier(0.4, 0.01, 0.165, 0.99);
   --green: #1c5f4a;
   --golden: 1.618;
-  /* --gradient-stops: color(display-p3 1 0.901 0.541 / 0) 0%,
+  --gradient-stops: color(display-p3 1 0.901 0.541 / 0) 0%,
     color(display-p3 0.984 0.573 0.235) 32.29%,
     color(display-p3 0.231 0.51 0.965 / 0.5) 67.19%,
-    color(display-p3 0.231 0.51 0.965 / 0) 100%; */
+    color(display-p3 0.231 0.51 0.965 / 0) 100%;
 
   /* --gradient-stops: color(display-p3 0.639 0.902 0.208 / 0) 0%,
     color(display-p3 0.984 0.749 0.141) 32.29%,
@@ -72,10 +72,10 @@
     color(display-p3 0.078 0.722 0.651 / 0.5) 67.19%,
     color(display-p3 0.078 0.722 0.651 / 0) 100%; */
 
-  --gradient-stops: color(display-p3 0.988 0.647 0.647 / 0) 0%,
+  /* --gradient-stops: color(display-p3 0.988 0.647 0.647 / 0) 0%,
     color(display-p3 0.984 0.573 0.235) 32.29%,
     color(display-p3 0.078 0.722 0.651 / 0.5) 67.19%,
-    color(display-p3 0.078 0.722 0.651 / 0) 100%;
+    color(display-p3 0.078 0.722 0.651 / 0) 100%; */
 
   /* --gradient-stops: color(display-p3 0.753 0.518 0.988 / 0) 0%,
     color(display-p3 0.388 0.4 0.945) 32.29%,

@@ -3,7 +3,7 @@ title: Josh Reeder-Esparza
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://joshre.com" # the base hostname & protocol for your site
 twitter_username: jawshre
-github_username:  joshre
+github_username: joshre
 description: Josh Reeder-Esparza is combines my first name and also my last name.
 permalink: /blog/:title/
 # Build settings

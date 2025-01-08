@@ -61,15 +61,9 @@ While my core strength lies in full-stack development, my background in agencies
   </div>
 </div>
 
-<div class="relative mt-8 rounded-3xl bg-white dark:bg-zinc-600 p-2 shadow-md dark:shadow-none dark:ring-0 shadow-lawn-900/5 ring-1 ring-lawn-900/5">
-  <div class="flex flex-1 flex-col p-8 bg-lawn-50 dark:bg-zinc-700 dark:ring-zinc-800/60 dark:ring-1 text-lawn-900 dark:text-zinc-200 rounded-2xl">
-    <div class=" text-base/6 font-medium" >Please reach out for a list of references.</div>
-  </div>
-</div>
-
 ### MxU
 
-<span class="inline-flex gap-2.5 items-center border rounded-full py-2 px-4 text-sm"><strong>Full Stack Engineer
+<span class="inline-flex md:float-right -mt-11 relative gap-2.5 items-center border bg-soil-100 rounded-full py-1.5 px-3 text-sm"><strong>Full Stack Engineer
 </strong> <svg  viewBox="0 0 2 2" aria-hidden="true" class="w-1 fill-current"><circle cx="1" cy="1" r="1"></circle></svg> Oct 2020 - Aug 2024</span>
 
 MxU’s core product is a Rails app used to train worship and tech teams in video,
@@ -92,21 +86,21 @@ designing in the browser as we went.
 
 ### Honey
 
-<span class="inline-flex gap-2.5 items-center border rounded-full py-2 px-4 text-sm"><strong>Senior
+<span class="inline-flex md:float-right -mt-11 relative gap-2.5 items-center border bg-soil-100 rounded-full py-1.5 px-3 text-sm"><strong>Senior
 Developer</strong> <svg  viewBox="0 0 2 2" aria-hidden="true" class="w-1 fill-current"><circle cx="1" cy="1" r="1"></circle></svg> Feb 2016 - Oct 2020</span>
 
 As the sole developer, I built custom client websites from scratch, often managing 2–3 projects simultaneously while collaborating closely with the design team to transform creative concepts into functional websites. I actively participated in client discovery sessions, contributed to design briefs, and presented technical solutions, completed websites, and training documentation to stakeholders. Beyond leading development, I oversaw ongoing maintenance contracts to ensure long-term functionality and performance. Many of the websites I developed remain heavily used with minimal changes years later—an accomplishment I take great pride in.
 
 ### Bamboo Creative
 
-<span class="inline-flex gap-2.5 items-center border rounded-full py-2 px-4 text-sm"><strong>Web
+<span class="inline-flex md:float-right -mt-11 relative gap-2.5 items-center border bg-soil-100 rounded-full py-1.5 px-3 text-sm"><strong>Web
 Developer</strong> <svg  viewBox="0 0 2 2" aria-hidden="true" class="w-1 fill-current"><circle cx="1" cy="1" r="1"></circle></svg> Jan 2012 – Jan 2016</span>
 
 At Bamboo, I built websites from the ground up, managing the entire process from sketching and wireframing to deployment and ongoing maintenance. I set up and configured LAMP stacks, managed Git-based deployments, and developed custom WordPress themes for multisite networks. In addition to building new sites, I maintained a portfolio of 20+ client websites, ensuring updates, security, and reliable performance.
 
 ### Feif Ties / Trestle Leather Co
 
-<span class="inline-flex gap-2.5 items-center border rounded-full py-2 px-4 text-sm"><strong>Owner
+<span class="inline-flex md:float-right -mt-11 relative gap-2.5 items-center border bg-soil-100 rounded-full py-1.5 px-3 text-sm"><strong>Owner
 </strong> <svg  viewBox="0 0 2 2" aria-hidden="true" class="w-1 fill-current"><circle cx="1" cy="1" r="1"></circle></svg>Jun 2010 – Jan, 2013</span>
 
 During high school, I launched and ran several Etsy shops, designing and handcrafting ties, belts, and wallets from raw materials. In just a few years, I shipped products to customers across the USA, Germany, Australia, and Japan. I managed budgets and expenses, gaining experience in leveraging bulk purchases and optimizing product timing. This venture provided valuable lessons in entrepreneurship, operations, and customer service.
