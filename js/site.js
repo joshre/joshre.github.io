@@ -36,6 +36,7 @@ makeAnObservation = function () {
 
 mobileNavHandler = function () {
   let button = document.querySelector(".menu--trigger-button");
+  if (!button) return false;
   let body = document.querySelector("body");
   let nav = document.querySelector(".nav");
   let links = Array.from(nav.querySelectorAll("a"));
@@ -109,9 +110,13 @@ slideButtonsOverOnMobile = function () {
           }
         });
         if (anyIntersecting) {
-          window.addEventListener("scroll", () => handleScroll(stickyButtons, globalSticky));
+          window.addEventListener("scroll", () =>
+            handleScroll(stickyButtons, globalSticky)
+          );
         } else {
-          window.removeEventListener("scroll", () => handleScroll(stickyButtons, globalSticky));
+          window.removeEventListener("scroll", () =>
+            handleScroll(stickyButtons, globalSticky)
+          );
         }
       },
       { root: null, threshold: [0] }
@@ -122,8 +127,6 @@ slideButtonsOverOnMobile = function () {
     checkOverlap(stickyButtons, globalSticky); // Initial check on load
   }
 };
-
-
 
 document.addEventListener("DOMContentLoaded", function (event) {
   makeAnObservation();
