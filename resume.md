@@ -9,20 +9,17 @@ bg: "bg-soil-50 dark:bg-zinc-800"
 <div class="prose">
   <h2 id="about-me" class="pt-6 -mb-3 text-3xl tracking-tight font-vulf">About Me</h2>
 </div>
-<div class="flex flex-wrap items-center text-lg md:gap-6 lg:gap-8 xl:text-xl dark:gap-2 md:flex-nowrap">
+<div class="flex flex-wrap items-center text-lg/relaxed md:gap-6 lg:gap-8 xl:text-xl/relaxed -mb-6 relative dark:gap-2 md:flex-nowrap">
   <p>I live in <strong class="font-medium"><span class="vols text-rocky-top">Knoxville</span>, Tennessee</strong> with my wonderful wife Leila and a couple of kiddos. We avidly garden—saving seeds and seeking out new varieties—and our family's best time is spent together cooking. I also serve as an elder at our church.</p>
 </div>
 
-**I have been working on the web for over a decade, with experience in every
-discipline relevant to putting ideas on the internet.** From design briefs,
-wireframes, and mockups to content management, project management, server
-administration, shipping, and maintaining websites. I’ve worked with
-restaurants, the wine industry, churches, hotels, farms, large-scale commodity
-boards, and e-commerce shops. Most recently, I focused on a single product,
-leading feature development informed by user needs and feedback.
+**I have been working on the web for over a decade, with experience in every discipline relevant to putting ideas on the internet.** From design briefs, wireframes, and mockups to content management, project management, server administration, shipping, and maintaining websites. I’ve worked with restaurants, the wine industry, churches, hotels, farms, large-scale commodity boards, and e-commerce shops. Most recently, I focused on a single product, leading feature development informed by user needs and feedback.
 
 
 While my core strength lies in full-stack development, my background in agencies and a strong understanding of design allow me to collaborate effectively with designers and address gaps that arise during development. I also value clear communication and attention to detail, which extends to writing—whether it’s crafting clean code or ensuring the content published on the web is impactful and precise.
+
+Currently, I run Sola Co, a consulting firm that helps businesses and teams build better digital experiences. If you're interested in working with me, reach out.
+
 <span id="work-history" class="block"></span>
 
 <div class="sticky sticky--header mt-16 top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white dark:from-zinc-800 dark:to-zinc-800/80 to-white/80 backdrop-blur-sm lg:px-8 lg:-mx-8 before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16">
