@@ -1,6 +1,24 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@config '../tailwind.config.js';
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
 
 @font-face {
   font-family: "InterVar";
@@ -152,6 +170,10 @@ body {
   transition-timing-function: var(--base-animation);
 }
 
+@utility ease-easy {
+  transition-timing-function: var(--base-animation);
+}
+
 .menu--trigger {
   width: 24px;
   height: 16px;
@@ -235,8 +257,8 @@ body nav {
   background-size: 200% 200%;
   background-position: 0% 100%;
   transition: background-position 0.6s var(--base-animation);
-  --tw-gradient-from: theme("colors.lawn.50");
-  --tw-gradient-via: theme("colors.lawn.50");
+  --tw-gradient-from: var(--color-lawn-50);
+  --tw-gradient-via: var(--color-lawn-50);
   --tw-gradient-to: transparent;
   @apply dark:from-lawn-700 dark:via-lawn-700;
 }
@@ -256,13 +278,13 @@ body.navopen nav {
 
 @media (prefers-color-scheme: dark) {
   body nav {
-    --tw-gradient-from: theme("colors.lawn.800");
-    --tw-gradient-via: theme("colors.lawn.800");
+    --tw-gradient-from: var(--color-lawn-800);
+    --tw-gradient-via: var(--color-lawn-800);
   }
 
   body.navopen nav {
-    --tw-gradient-from: theme("colors.lawn.700");
-    --tw-gradient-via: theme("colors.lawn.700");
+    --tw-gradient-from: var(--color-lawn-700);
+    --tw-gradient-via: var(--color-lawn-700);
   }
 }
 body.navopen .nav {
@@ -312,7 +334,7 @@ body.navopen .menu--trigger span {
 }
 
 body .nav li:not(.button) a {
-  @apply flex w-full items-center gap-3  px-2 py-2.5 text-left text-base/6 font-medium text-soil-800 sm:py-2 sm:text-sm/5 data-[slot=icon]:*:size-4 data-[slot=icon]:*:shrink-0 data-[slot=icon]:*:fill-soil-500 sm:data-[slot=icon]:*:size-4 data-[slot=icon]:last:*:ml-auto data-[slot=icon]:last:*:size-4 sm:data-[slot=icon]:last:*:size-4 hover:bg-soil-950/5 data-[slot=icon]:*:hover:fill-soil-950 active:bg-soil-950/5 data-[slot=icon]:*:active:fill-soil-950 data-[slot=icon]:*:data-[current]:fill-soil-950 dark:text-soil-50 dark:data-[slot=icon]:*:fill-soil-400 dark:hover:bg-soil-50/5 dark:data-[slot=icon]:*:hover:fill-soil-50 dark:active:bg-soil-50/5 dark:data-[slot=icon]:*:active:fill-soil-50 dark:data-[slot=icon]:*:data-[current]:fill-soil-50 xl-2xl:rounded-lg active:ring-blue-400/50 focus:ring-blue-400/50 focus:outline-none ring-1 ring-transparent;
+  @apply flex w-full items-center gap-3  px-2 py-2.5 text-left text-base/6 font-medium text-soil-800 sm:py-2 sm:text-sm/5 *:data-[slot=icon]:size-4 *:data-[slot=icon]:shrink-0 *:data-[slot=icon]:fill-soil-500 sm:*:data-[slot=icon]:size-4 *:last:data-[slot=icon]:ml-auto *:last:data-[slot=icon]:size-4 sm:*:last:data-[slot=icon]:size-4 hover:bg-soil-950/5 hover:*:data-[slot=icon]:fill-soil-950 active:bg-soil-950/5 active:*:data-[slot=icon]:fill-soil-950 data-current:*:data-[slot=icon]:fill-soil-950 dark:text-soil-50 dark:*:data-[slot=icon]:fill-soil-400 dark:hover:bg-soil-50/5 dark:hover:*:data-[slot=icon]:fill-soil-50 dark:active:bg-soil-50/5 dark:active:*:data-[slot=icon]:fill-soil-50 dark:data-current:*:data-[slot=icon]:fill-soil-50 xl-2xl:rounded-lg active:ring-blue-400/50 focus:ring-blue-400/50 focus:outline-hidden ring-1 ring-transparent;
 }
 body .nav li:not(.button):nth-of-type(2) {
   @apply max-xl-2xl:-skew-x-2 max-xl-2xl:opacity-0 max-xl-2xl:translate-y-6 max-xl-2xl:delay-75;
@@ -579,26 +601,26 @@ body.navopen .nav li:not(.button) {
   @apply border;
   @apply text-base/6;
   @apply font-semibold;
-  @apply px-[calc(theme(spacing.3)-1px)];
-  @apply py-[calc(theme(spacing[1.5])-1px)];
+  @apply px-[calc(--spacing(3)-1px)];
+  @apply py-[calc(--spacing(1.5)-1px)];
   @apply text-sm/6;
-  @apply focus:outline-none;
-  @apply data-[focus]:outline;
-  @apply data-[focus]:outline-2;
-  @apply data-[focus]:outline-offset-2;
-  @apply data-[focus]:outline-blue-500;
-  @apply data-[disabled]:opacity-50;
+  @apply focus:outline-hidden;
+  @apply data-focus:outline;
+  @apply data-focus:outline-2;
+  @apply data-focus:outline-offset-2;
+  @apply data-focus:outline-blue-500;
+  @apply data-disabled:opacity-50;
   @apply forced-colors:[--btn-icon:ButtonText];
-  @apply forced-colors:data-[hover]:[--btn-icon:ButtonText];
+  @apply forced-colors:data-hover:[--btn-icon:ButtonText];
   @apply border-transparent;
-  @apply bg-[--btn-border];
-  @apply dark:bg-[--btn-bg];
+  @apply bg-(--btn-border);
+  @apply dark:bg-(--btn-bg);
   @apply before:absolute;
   @apply before:inset-0;
   @apply before:-z-10;
-  @apply before:rounded-[calc(theme(borderRadius.lg)-1px)];
-  @apply before:bg-[--btn-bg];
-  @apply before:shadow;
+  @apply before:rounded-[calc(var(--radius-lg)-1px)];
+  @apply before:bg-(--btn-bg);
+  @apply before:shadow-sm;
   @apply dark:before:hidden;
   @apply dark:border-white/5;
   @apply after:absolute;
@@ -607,24 +629,24 @@ body.navopen .nav li:not(.button) {
   @apply active:after:opacity-0;
   @apply after:inset-0;
   @apply after:-z-10;
-  @apply after:rounded-[calc(theme(borderRadius.lg)-1px)];
-  @apply after:shadow-[shadow:inset_0_1px_theme(colors.white/15%)];
-  @apply after:data-[active]:bg-[--btn-hover-overlay];
-  @apply after:data-[hover]:bg-[--btn-hover-overlay];
+  @apply after:rounded-[calc(var(--radius-lg)-1px)];
+  @apply after:shadow-[shadow:inset_0_1px_--theme(--color-white/15%)];
+  @apply data-active:after:bg-(--btn-hover-overlay);
+  @apply data-hover:after:bg-(--btn-hover-overlay);
   @apply dark:after:-inset-px;
   @apply dark:after:rounded-lg;
-  @apply before:data-[disabled]:shadow-none;
-  @apply after:data-[disabled]:shadow-none;
+  @apply data-disabled:before:shadow-none;
+  @apply data-disabled:after:shadow-none;
   @apply text-white;
-  @apply [--btn-bg:theme(colors.zinc.900)];
-  @apply [--btn-border:theme(colors.zinc.950/90%)];
-  @apply [--btn-hover-overlay:theme(colors.white/10%)];
+  @apply [--btn-bg:var(--color-zinc-900)];
+  @apply [--btn-border:var(--color-zinc-950)]/90;
+  @apply [--btn-hover-overlay:var(--color-white)]/10;
   @apply dark:text-white;
-  @apply dark:[--btn-bg:theme(colors.zinc.600)];
-  @apply dark:[--btn-hover-overlay:theme(colors.white/5%)];
-  @apply [--btn-icon:theme(colors.zinc.400)];
-  @apply data-[active]:[--btn-icon:theme(colors.zinc.300)];
-  @apply data-[hover]:[--btn-icon:theme(colors.zinc.300)];
+  @apply dark:[--btn-bg:var(--color-zinc-600)];
+  @apply dark:[--btn-hover-overlay:var(--color-white)]/5;
+  @apply [--btn-icon:var(--color-zinc-400)];
+  @apply data-active:[--btn-icon:var(--color-zinc-300)];
+  @apply data-hover:[--btn-icon:var(--color-zinc-300)];
   @apply cursor-default;
   @apply origin-left;
 }
@@ -660,7 +682,7 @@ body.navopen .nav li:not(.button) {
   }
   to {
     font-weight: 900;
-    color: theme("colors.red.50");
+    color: var(--color-red-50);
   }
 }
 @keyframes makeMeSick {

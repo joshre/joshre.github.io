@@ -3,22 +3,22 @@ layout: resume
 title: Josh Reeder-Esparza's Résumé
 hidemeta: true
 links: external
-bg: "bg-soil-50 dark:bg-zinc-800"
+bg: "bg-stone-50 dark:bg-zinc-800"
 ---
 
 <div class="prose">
   <h2 id="about-me" class="pt-6 -mb-3 text-3xl tracking-tight font-vulf">About Me</h2>
 </div>
-<div class="flex flex-wrap items-center text-lg/relaxed md:gap-6 lg:gap-8 xl:text-xl/relaxed -mb-6 relative dark:gap-2 md:flex-nowrap">
-  <p>I live in <strong class="font-medium"><span class="vols text-rocky-top">Knoxville</span>, Tennessee</strong> with my wonderful wife Leila and a couple of kiddos. We avidly garden—saving seeds and seeking out new varieties—and our family's best time is spent together cooking. I also serve as an elder at our church.</p>
+<div class="flex flex-wrap items-center text-lg/relaxed md:gap-6 lg:gap-8 text-pretty xl:text-xl/relaxed -mb-6 relative dark:gap-2 md:flex-nowrap">
+  <p>I live in <strong class="font-medium"><span class="vols text-rocky-top">Knoxville</span>, Tennessee</strong> with my wonderful wife Leila and a couple of kiddos. We avidly garden—saving seeds and seeking out new varieties—and our family's best time is spent together cooking. I also have the privilege of serving as an elder at our&nbsp;church.</p>
 </div>
 
 **I have been working on the web for over a decade, with experience in every discipline relevant to putting ideas on the internet.** From design briefs, wireframes, and mockups to content management, project management, server administration, shipping, and maintaining websites. I’ve worked with restaurants, the wine industry, churches, hotels, farms, large-scale commodity boards, and e-commerce shops. Most recently, I focused on a single product, leading feature development informed by user needs and feedback.
 
-
-While my core strength lies in full-stack development, my background in agencies and a strong understanding of design allow me to collaborate effectively with designers and address gaps that arise during development. I also value clear communication and attention to detail, which extends to writing—whether it’s crafting clean code or ensuring the content published on the web is impactful and precise.
-
-Currently, I run Sola Co, a consulting firm that helps businesses and teams build better digital experiences. If you're interested in working with me, reach out.
+<p class="bg-[#5D6046] px-8 py-6 rounded-xl text-white flex flex-wrap lg:flex-nowrap justify-between items-start sm:gap-2 lg:gap-4">
+{% include svg/sola-logo.svg class="rounded-full w-12 sm:w-16 md:w-20 lg:w-36 bg-[#5D6046]" %}
+<span>Currently, I run <span class="font-medium">Sola Co</span>, a consulting firm that helps businesses and teams build better digital experiences. If you're interested in working with me, reach out.</span>
+</p>
 
 <span id="work-history" class="block"></span>
 
@@ -38,26 +38,26 @@ Currently, I run Sola Co, a consulting firm that helps businesses and teams buil
 <h3 class="flex gap-3 items-center">
   {% include svg/alttext-logo.svg class="rounded-full bg-[#1C64F2] size-12" %}
   AltText.AI
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-soil-100"><strong>Head of Engineering</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Aug 2024 - Present</span>
+  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100"><strong>Head of Engineering</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Late '24 - Present</span>
 </h3>
 
 Leading engineering efforts at AltText.AI, where we're making the web more accessible through AI-powered image descriptions. I joined the team after the initial platform was built and now focus on scaling our infrastructure to support 70,000+ users while expanding our integration ecosystem. Our platform helps businesses improve SEO and meet accessibility standards by automatically generating high-quality alt text. My responsibilities include enhancing our Ruby on Rails application, implementing OpenAI and Azure Computer Vision APIs, optimizing image processing pipelines, managing cloud infrastructure with AWS, and ensuring system reliability through comprehensive testing and monitoring.
 
-<hr class="border-t border-dotted border-y-0 border-soil-400">
+<hr class="border-t border-dotted border-y-0 border-stone-300">
  
 <h3 class="flex gap-3 items-center">
   {% include svg/sola-logo.svg class="rounded-full size-12 bg-[#5D6046]" %}
   Sola Co
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-soil-100"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} 2024 - Present</span>
+  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} 2024 - Present</span>
 </h3>
 
-Through Sola Co, I help businesses and teams build better digital experiences. My work spans Ruby on Rails, JavaScript, WordPress, and AI integration projects. I specialize in implementing AI solutions that enhance user experiences, including LLM integrations, computer vision applications, and custom AI workflows. My technical expertise includes full-stack development with modern frameworks, API design and integration, cloud infrastructure optimization, and performance tuning. I enjoy collaborating with clients to understand their unique challenges and craft solutions that align with their goals. If you're looking for help with a project—whether it's building something new, improving what you have, or exploring how AI can enhance your product—I'd love to chat about how we might work together.
+Through Sola Co, I work with teams that need help building and maintaining web applications. While I specialize in Ruby on Rails, I'm comfortable across the full stack and with various frameworks. I enjoy solving performance issues, implementing solid architecture, and helping teams deliver quality code. My day-to-day work spans database optimization, API design, frontend development, and DevOps. I've spent years working with Postgres, Redis, JavaScript, and modern CSS frameworks, along with setting up reliable deployment pipelines. Whether it's diving into legacy codebases to fix technical debt or building new features from scratch, I focus on delivering maintainable solutions. If you're looking for someone who can jump in and contribute quickly to your tech stack, let's talk.
 
-<hr class="border-t border-dotted border-y-0 border-soil-400">
+<hr class="border-t border-dotted border-y-0 border-stone-300">
 <h3 class="flex gap-3 items-center">
   {% include svg/mxu-logo.svg class="size-12" %}
   MxU
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-soil-100"><strong>Full Stack Engineer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Oct 2020 - Aug 2024</span>
+  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100"><strong>Full Stack Engineer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Oct 2020 - Aug 2024</span>
 </h3>
 
 MxU's core product is a Rails app used to train worship and tech teams in video,
@@ -71,28 +71,28 @@ short period, later working with two other engineers in varying capacities.
 
 In my time at MxU, I wore many hats. I worked extensively on our Ruby on Rails product, implementing Hotwire Stimulus and Turbo for interactive features, building custom video player integrations with Mux and Vimeo, and optimizing database queries for performance. I also developed numerous marketing sites using WordPress, Jekyll, and other static site generators, created HubSpot landing pages for business partnerships, integrated CRM functionality between HubSpot and our application, set up e-commerce on Shopify, and built annual event sites integrated with Eventbrite. Our tech stack included PostgreSQL, Redis for caching, Sidekiq for background processing, and TailwindCSS for styling.
 
-<hr class="border-t border-dotted border-y-0 border-soil-400">
+<hr class="border-t border-dotted border-y-0 border-stone-300">
  
 <h3 class="flex gap-3 items-center">
   <span class="flex justify-center items-center p-3 rounded-full size-12 bg-[#231f20]">
     {% include svg/honey-logo.svg class="size-full" %}
   </span>
   Honey
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-soil-100"><strong>Senior Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Feb 2016 - Oct 2020</span>
+  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100"><strong>Senior Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Feb 2016 - Oct 2020</span>
 </h3>
 As the sole developer, I built custom client websites from scratch, often managing 2–3 projects simultaneously while collaborating closely with the design team to transform creative concepts into functional websites. I actively participated in client discovery sessions, contributed to design briefs, and presented technical solutions, completed websites, and training documentation to stakeholders. Beyond leading development, I oversaw ongoing maintenance contracts to ensure long-term functionality and performance. Many of the websites I developed remain heavily used with minimal changes years later—an accomplishment I take great pride in.
 
-<hr class="border-t border-dotted border-y-0 border-soil-400">
+<hr class="border-t border-dotted border-y-0 border-stone-300">
 <h3 class="flex gap-3 items-center">
   Bamboo Creative
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-soil-100"><strong>Web Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jan 2012 – Jan 2016</span>
+  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100"><strong>Web Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jan 2012 – Jan 2016</span>
 </h3>
 At Bamboo, I built websites from the ground up, managing the entire process from sketching and wireframing to deployment and ongoing maintenance. I set up and configured LAMP stacks, managed Git-based deployments, and developed custom WordPress themes for multisite networks. In addition to building new sites, I maintained a portfolio of 20+ client websites, ensuring updates, security, and reliable performance.
 
-<hr class="border-t border-dotted border-y-0 border-soil-400">
+<hr class="border-t border-dotted border-y-0 border-stone-300">
 <h3 class="flex gap-3 items-center">
   Feif Ties / Trestle Leather Co
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-soil-100"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jun 2010 – Jan, 2013</span>
+  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jun 2010 – Jan, 2013</span>
 </h3>
 Years ago, I launched and ran several Etsy shops, designing and handcrafting ties, belts, and wallets from raw materials. In just a few years, I shipped products to customers across the USA, Germany, Australia, and Japan. I managed budgets and expenses, gaining experience in leveraging bulk purchases and optimizing product timing. This venture provided valuable lessons in entrepreneurship, operations, and customer service.
 
@@ -252,7 +252,7 @@ Built with the design team at Honey (employer from 2016 to 2020)
 - [**Lei Back**](https://drinkleiback.com/) — Shopify site.
 - [**Everlee Skincare**](https://everleeskincare.shop/) — Shopify site.
 
-<hr class="border-t border-dotted border-y-0 border-soil-400">
+<hr class="border-t border-dotted border-y-0 border-stone-300">
 
 
 <span id="more-about-me" class="block"></span>
