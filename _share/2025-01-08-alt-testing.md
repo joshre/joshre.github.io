@@ -7,6 +7,7 @@ permalink: /testing-alt/
 
 ![](../images/alt-01.jpg)
 ![](../images/alt-02.jpg)
+![](../images/sola-logo.svg)
 ![](../images/alt-03.jpg)
 ![](../images/alt-03.jpg)
 ![](../images/alt-03.jpg)
