@@ -5,11 +5,11 @@ hidemeta: true
 permalink: /testing-alt/
 ---
 
-![](../images/alt-01.jpg)
-![](../images/alt-02.jpg)
+![](../images/zalt-01.jpg)
+![](../images/zalt-02.jpg)
 ![](../images/sola-logo.svg)
-![](../images/alt-03.jpg)
-![](../images/alt-03.jpg)
-![](../images/alt-03.jpg)
-![](../images/alt-03.jpg)
-![](../images/alt-04.jpg)
+![](../images/zalt-03.jpg)
+![](../images/zalt-03.jpg)
+![](../images/zalt-03.jpg)
+![](../images/zalt-03.jpg)
+![](../images/zalt-04.jpg)
