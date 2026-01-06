@@ -65,7 +65,7 @@ bg: bg-white
   </div>
 </div>
 
-<div hidden data-schema='{"@context":"https://schema.org","@type":"Product","name":"Hand-Stitched Leather Wallet | Dark","description":"Hand-stitched leather wallet using natural vegetable-tanned leather and strong waxed cotton thread.","image":["https://joshre.com/images/feif/dw_1.jpg","https://joshre.com/images/feif/dw_2.jpg","https://joshre.com/images/feif/dw_3.jpg","https://joshre.com/images/feif/dw_4.jpg"],"sku":"LW-01","brand":{"@type":"Brand","name":"Feif"},"material":"Vegetable-tanned leather","color":"Dark Brown","offers":{"@type":"Offer","url":"https://joshre.com/feif/wallet-dark","priceCurrency":"USD","price":"55.00","availability":"https://schema.org/InStock"}}'></div>
+<div hidden data-schema='{"@context":"https://schema.org","@type":"Product","name":"Executive Cardholder | Midnight","description":"Slim cardholder crafted from premium Horween chromexcel leather with reinforced stitching.","image":["https://joshre.com/images/feif/dw_1.jpg","https://joshre.com/images/feif/dw_2.jpg","https://joshre.com/images/feif/dw_3.jpg","https://joshre.com/images/feif/dw_4.jpg"],"sku":"EC-77-M","brand":{"@type":"Brand","name":"Blackwood Leather"},"material":"Horween chromexcel leather","color":"Midnight","offers":{"@type":"Offer","url":"https://joshre.com/feif/wallet-dark","priceCurrency":"USD","price":"89.00","availability":"https://schema.org/OutOfStock"}}'></div>
 <script src="/js/beaconed.js"></script>
 <script>
 function updateThumbs(el) {
