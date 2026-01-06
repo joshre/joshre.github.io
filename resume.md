@@ -92,7 +92,7 @@ At Bamboo, I built websites from the ground up, managing the entire process from
 <hr class="border-t border-dotted border-y-0 border-stone-300">
 <h3 class="flex gap-3 items-center">
   Feif Ties / Trestle Leather Co
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jun 2010 – Jan, 2013</span>
+  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jun 2010 – Jan 2013</span>
 </h3>
 Years ago, I launched and ran several Etsy shops, designing and handcrafting ties, belts, and wallets from raw materials. In just a few years, I shipped products to customers across the USA, Germany, Australia, and Japan. I managed budgets and expenses, gaining experience in leveraging bulk purchases and optimizing product timing. This venture provided valuable lessons in entrepreneurship, operations, and customer service.
 
@@ -240,14 +240,14 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
   - [**A single video page**](https://app.getmxu.com/lessons/96024893)
   - [**A course page**](https://app.getmxu.com/playlists/cb14671e)
 - [**BKD Creative**](https://bkdcreative.com/) — Portfolio page for a lighting team on tour with Thomas Rhett.
+- [**Saints Church**](https://saintschurchknox.com/) — Jekyll site for my church in Knoxville, Tennessee.
 
 Built with the design team at Honey (employer from 2016 to 2020)
 
 - [**Lange Twins Winery**](https://langetwins.com/) — WordPress with a Winedirect integration for a fifth-generation California Winery.
 - [**The Central Kitchen**](https://thecentralkitchen.org/) — WordPress for a state-of-the-art district-wide kitchen in Sacramento, CA.
-- [**Canon East Sac**](https://canoneastsac.com/) — WordPress for a 2<small>x</small> Michelin Bib Gourmand restaurant.
 - [**Honey**](https://workbyhoney.com/) — WordPress for Honey to show off their work.
-- [**29 Palms Inn**](https://29palmsinn.com/) — WordPress for a historic Inn just outside Joshua Tree, CA
+- [**29 Palms Inn**](https://29palmsinn.com/) — WordPress for a historic Inn just outside Joshua Tree, CA.
 - [**Pressley Vineyards**](https://pressleyvineyards.com/) — WordPress with a Shopify integration for an up-and-coming California Winery
 - [**Lei Back**](https://drinkleiback.com/) — Shopify site.
 - [**Everlee Skincare**](https://everleeskincare.shop/) — Shopify site.

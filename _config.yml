@@ -1,10 +1,9 @@
 # Site settings
 title: Josh Reeder-Esparza
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://joshre.com" # the base hostname & protocol for your site
-twitter_username: jawshre
+url: "https://joshre.com" # the base hostname & protocol for your site
 github_username: joshre
-description: Josh Reeder-Esparza is combines my first name and also my last name.
+description: Full-stack developer, engineer, and designer with over a decade of experience building highly performant websites.
 permalink: /blog/:title/
 # Build settings
 markdown: kramdown
