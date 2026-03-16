@@ -693,11 +693,11 @@ body.navopen .nav li:not(.button) {
   @apply dark:after:rounded-lg;
   @apply data-disabled:before:shadow-none;
   @apply data-disabled:after:shadow-none;
-  @apply text-white;
+  @apply text-white!;
   @apply [--btn-bg:var(--color-zinc-900)];
   @apply [--btn-border:var(--color-zinc-950)]/90;
   @apply [--btn-hover-overlay:var(--color-white)]/10;
-  @apply dark:text-white;
+  @apply dark:text-white!;
   @apply dark:[--btn-bg:var(--color-zinc-600)];
   @apply dark:[--btn-hover-overlay:var(--color-white)]/5;
   @apply [--btn-icon:var(--color-zinc-400)];
