@@ -59,6 +59,9 @@
   --tw-prose-pre-bg: var(--color-soil-800);
   --tw-prose-th-borders: var(--color-soil-300);
   --tw-prose-td-borders: var(--color-soil-200);
+  --tw-prose-hr: var(--color-soil-300);
+  --tw-prose-counters: var(--color-soil-500);
+  --tw-prose-bullets: var(--color-soil-400);
 
   & a:hover { color: var(--color-lawn-600); }
   & a:visited { color: var(--color-lawn-700); }
@@ -77,6 +80,9 @@
   --tw-prose-pre-bg: var(--color-soil-200);
   --tw-prose-th-borders: var(--color-soil-600);
   --tw-prose-td-borders: var(--color-soil-800);
+  --tw-prose-hr: var(--color-zinc-600);
+  --tw-prose-counters: var(--color-soil-400);
+  --tw-prose-bullets: var(--color-soil-500);
 
   & a:hover { color: var(--color-lawn-200); }
   & a:visited { color: var(--color-lawn-400); }

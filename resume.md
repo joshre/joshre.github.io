@@ -9,7 +9,7 @@ bg: "bg-stone-50 dark:bg-zinc-800"
 <div class="prose">
   <h2 id="about-me" class="pt-6 -mb-3 text-3xl tracking-tight font-vulf">About Me</h2>
 </div>
-<div class="flex relative flex-wrap items-center -mb-6 md:flex-nowrap md:gap-6 lg:gap-8 dark:gap-2 text-lg/relaxed text-pretty xl:text-xl/relaxed">
+<div class="flex relative flex-wrap items-center -mb-6 md:flex-nowrap md:gap-6 lg:gap-8 text-lg/relaxed text-pretty xl:text-xl/relaxed">
   <p>I live in <strong class="font-medium"><span class="vols text-rocky-top">Knoxville</span>, Tennessee</strong> with my wonderful wife Leila and a couple of kiddos. We avidly garden—saving seeds and seeking out new varieties—and our family's best time is spent together cooking. I also have the privilege of serving as an elder at our&nbsp;church.</p>
 </div>
 
@@ -22,7 +22,7 @@ bg: "bg-stone-50 dark:bg-zinc-800"
 
 <span id="work-history" class="block"></span>
 
-<div class="sticky top-0 z-10 px-2 -mx-2 mt-16 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 sticky--header to-white/80 backdrop-blur-sm before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16 dark:from-zinc-800 dark:to-zinc-800/80">
+<div class="sticky top-0 z-10 px-2 -mx-2 mt-16 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 sticky--header to-white/80 backdrop-blur-sm before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16 dark:from-zinc-800 dark:to-zinc-800/80 dark:before:from-zinc-800/80 dark:before:to-zinc-800">
   <div class="flex justify-between items-center not-prose">
     <h2 class="py-2 mb-0 text-2xl tracking-tight sm:text-3xl font-vulf">Work History</h2>
     <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0" data-class="-translate-x-12 md:-translate-x-[calc(1vw)]">Reach Out</a>
@@ -38,7 +38,7 @@ bg: "bg-stone-50 dark:bg-zinc-800"
 <h3 class="flex gap-3 items-center">
   {% include svg/alttext-logo.svg class="rounded-full bg-[#1C64F2] size-12" %}
   AltText.AI
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100"><strong>Head of Engineering</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Late '24 - Present</span>
+  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100 dark:bg-zinc-700 dark:border-zinc-600"><strong>Head of Engineering</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Late '24 - Present</span>
 </h3>
 
 Leading engineering efforts at AltText.AI, where we're making the web more accessible through AI-powered image descriptions. I joined the team after the initial platform was built and now focus on scaling our infrastructure to support 70,000+ users while expanding our integration ecosystem. Our platform helps businesses improve SEO and meet accessibility standards by automatically generating high-quality alt text. My responsibilities include enhancing our Ruby on Rails application, implementing OpenAI and Azure Computer Vision APIs, optimizing image processing pipelines, managing cloud infrastructure with AWS, and ensuring system reliability through comprehensive testing and monitoring.
@@ -48,7 +48,7 @@ Leading engineering efforts at AltText.AI, where we're making the web more acces
 <h3 class="flex gap-3 items-center">
   {% include svg/sola-logo.svg class="rounded-full size-12 bg-[#5D6046]" %}
   Sola Co
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} 2024 - Present</span>
+  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100 dark:bg-zinc-700 dark:border-zinc-600"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} 2024 - Present</span>
 </h3>
 
 Through Sola Co, I work with teams that need help building and maintaining web applications. While I specialize in Ruby on Rails, I'm comfortable across the full stack and with various frameworks. I enjoy solving performance issues, implementing solid architecture, and helping teams deliver quality code. My day-to-day work spans database optimization, API design, frontend development, and DevOps. I've spent years working with Postgres, Redis, JavaScript, and modern CSS frameworks, along with setting up reliable deployment pipelines. Whether it's diving into legacy codebases to fix technical debt or building new features from scratch, I focus on delivering maintainable solutions. If you're looking for someone who can jump in and contribute quickly to your tech stack, let's talk.
@@ -57,7 +57,7 @@ Through Sola Co, I work with teams that need help building and maintaining web a
 <h3 class="flex gap-3 items-center">
   {% include svg/mxu-logo.svg class="size-12" %}
   MxU
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100"><strong>Full Stack Engineer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Oct 2020 - Aug 2024</span>
+  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100 dark:bg-zinc-700 dark:border-zinc-600"><strong>Full Stack Engineer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Oct 2020 - Aug 2024</span>
 </h3>
 
 MxU's core product is a Rails app used to train worship and tech teams in video,
@@ -78,27 +78,27 @@ In my time at MxU, I wore many hats. I worked extensively on our Ruby on Rails p
     {% include svg/honey-logo.svg class="size-full" %}
   </span>
   Honey
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100"><strong>Senior Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Feb 2016 - Oct 2020</span>
+  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100 dark:bg-zinc-700 dark:border-zinc-600"><strong>Senior Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Feb 2016 - Oct 2020</span>
 </h3>
 As the sole developer, I built custom client websites from scratch, often managing 2–3 projects simultaneously while collaborating closely with the design team to transform creative concepts into functional websites. I actively participated in client discovery sessions, contributed to design briefs, and presented technical solutions, completed websites, and training documentation to stakeholders. Beyond leading development, I oversaw ongoing maintenance contracts to ensure long-term functionality and performance. Many of the websites I developed remain heavily used with minimal changes years later—an accomplishment I take great pride in.
 
 <hr class="border-t border-dotted border-y-0 border-stone-300">
 <h3 class="flex gap-3 items-center">
   Bamboo Creative
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100"><strong>Web Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jan 2012 – Jan 2016</span>
+  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100 dark:bg-zinc-700 dark:border-zinc-600"><strong>Web Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jan 2012 – Jan 2016</span>
 </h3>
 At Bamboo, I built websites from the ground up, managing the entire process from sketching and wireframing to deployment and ongoing maintenance. I set up and configured LAMP stacks, managed Git-based deployments, and developed custom WordPress themes for multisite networks. In addition to building new sites, I maintained a portfolio of 20+ client websites, ensuring updates, security, and reliable performance.
 
 <hr class="border-t border-dotted border-y-0 border-stone-300">
 <h3 class="flex gap-3 items-center">
   Feif Ties / Trestle Leather Co
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jun 2010 – Jan 2013</span>
+  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-stone-100 dark:bg-zinc-700 dark:border-zinc-600"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jun 2010 – Jan 2013</span>
 </h3>
 Years ago, I launched and ran several Etsy shops, designing and handcrafting ties, belts, and wallets from raw materials. In just a few years, I shipped products to customers across the USA, Germany, Australia, and Japan. I managed budgets and expenses, gaining experience in leveraging bulk purchases and optimizing product timing. This venture provided valuable lessons in entrepreneurship, operations, and customer service.
 
 <span id="skill-set" class="block"></span>
 
-<div class="sticky top-0 z-10 px-2 -mx-2 mt-16 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 sticky--header to-white/80 backdrop-blur-sm before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16 dark:from-zinc-800 dark:to-zinc-800/80">
+<div class="sticky top-0 z-10 px-2 -mx-2 mt-16 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 sticky--header to-white/80 backdrop-blur-sm before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16 dark:from-zinc-800 dark:to-zinc-800/80 dark:before:from-zinc-800/80 dark:before:to-zinc-800">
   <div class="flex justify-between items-center not-prose">
     <h2 class="py-2 mb-0 text-2xl tracking-tight sm:text-3xl font-vulf">Skill Set</h2>
     <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0" data-class="-translate-x-12 md:-translate-x-[calc(1vw)]">Reach Out</a>
@@ -111,7 +111,7 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
   </div>
 </div>
 
-<div class="flex flex-col mt-8 divide-y divide-dotted not-prose">
+<div class="flex flex-col mt-8 divide-y divide-dotted not-prose dark:divide-zinc-600">
   <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
     <span class="col-span-1 text-sm font-semibold shrink-0">Backend</span>
     <div class="flex flex-wrap col-span-3 gap-2">
@@ -221,7 +221,7 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
 
 <span id="spare-me-ill-take-the-links" class="block"></span>
 
-<div class="sticky top-0 z-10 px-2 -mx-2 mt-16 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 sticky--header to-white/80 backdrop-blur-sm before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16 dark:from-zinc-800 dark:to-zinc-800/80">
+<div class="sticky top-0 z-10 px-2 -mx-2 mt-16 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 sticky--header to-white/80 backdrop-blur-sm before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16 dark:from-zinc-800 dark:to-zinc-800/80 dark:before:from-zinc-800/80 dark:before:to-zinc-800">
   <div class="flex justify-between items-center not-prose">
     <h2 class="py-2 mb-0 text-2xl tracking-tight sm:text-3xl font-vulf">Things Built & Worked On</h2>
     <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0" data-class="-translate-x-12 md:-translate-x-[calc(1vw)]">Reach Out</a>
@@ -257,7 +257,7 @@ Built with the design team at Honey (employer from 2016 to 2020)
 
 <span id="more-about-me" class="block"></span>
 
-<div class="sticky top-0 z-10 px-2 -mx-2 mt-16 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 sticky--header to-white/80 backdrop-blur-sm before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16 dark:from-zinc-800 dark:to-zinc-800/80">
+<div class="sticky top-0 z-10 px-2 -mx-2 mt-16 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 sticky--header to-white/80 backdrop-blur-sm before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16 dark:from-zinc-800 dark:to-zinc-800/80 dark:before:from-zinc-800/80 dark:before:to-zinc-800">
   <div class="flex justify-between items-center not-prose">
     <h2 class="py-2 mb-0 text-2xl tracking-tight sm:text-3xl font-vulf">More About Me</h2>
     <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0" data-class="-translate-x-12 md:-translate-x-[calc(1vw)]">Reach Out</a>
