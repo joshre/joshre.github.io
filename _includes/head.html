@@ -2,13 +2,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% if page.type == "post" %}
-  <title>Josh RE | {{page.title}}</title>
+  {% if page.title %}
+  <title>{{ page.title }} | Josh Reeder-Esparza</title>
   {% else %}
-  <title>Josh Reeder-Esparza</title>
+  <title>Josh Reeder-Esparza — Full-Stack Developer, Engineer, Designer in Knoxville, TN</title>
   {% endif %}
   <meta name="description"
     content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="Josh Reeder-Esparza">
 
   <!-- Open Graph -->
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
@@ -20,23 +21,32 @@
   <meta property="og:image:type" content="image/jpeg">
 
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.url }}/images/josh.jpg{% endif %}">
+  <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.url }}/images/josh-facebook.jpg{% endif %}">
 
-  <link rel="stylesheet" href="{{ "/css/output.css" | prepend: site.baseurl
-    }}?ver=1.2">
+  <link rel="preconnect" href="https://plausible.io" crossorigin>
+  <link rel="stylesheet" href="{{ "/css/output.css" | prepend: site.baseurl }}">
   <link rel="canonical"
     href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
     href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-  <script src="{{ '/js/site.min.js' | prepend: site.url }}?ver=1.2"></script>
+  <script src="{{ '/js/site.min.js' | prepend: site.url }}" defer></script>
 
   {% include favicon.html %}
   <script defer data-domain="joshre.com" src="https://plausible.io/js/script.js"></script>
 
   <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Josh Reeder-Esparza",
+    "url": "https://joshre.com",
+    "description": "{{ site.description }}"
+  }
+  </script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -63,7 +73,7 @@
       "addressRegion": "TN",
       "addressCountry": "US"
     },
-    "knowsAbout": ["Ruby on Rails", "Web Development", "AI Integration", "Web Accessibility", "PostgreSQL", "Web Performance"],
+    "knowsAbout": ["Ruby on Rails", "Web Development", "AI Integration", "Web Accessibility", "PostgreSQL", "Web Performance", "Shopify", "WordPress"],
     "sameAs": [
       "https://github.com/joshre"
     ]
