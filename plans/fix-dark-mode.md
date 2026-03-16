@@ -14,16 +14,16 @@ Use individual `dark:` utility classes — not semantic tokens. This is a small 
 | `before:from-white/80 before:to-white` | `dark:before:from-zinc-800/80 dark:before:to-zinc-800` |
 | `border-stone-200`, `border-stone-300` | `dark:border-zinc-600` |
 | `text-stone-700` | `dark:text-stone-300` |
-| `bg-soil-50` | `dark:bg-soil-950` |
-| `text-lawn-600` | `dark:text-lawn-300` |
+| `bg-taupe-50` | `dark:bg-taupe-950` |
+| `text-olive-600` | `dark:text-olive-300` |
 
 ## Tasks
 
 ### Phase 1: Homepage (index.md + home.html)
 
-- `index.md:3` — Change `bg: "bg-soil-50"` to `bg: "bg-soil-50 dark:bg-soil-950"`
+- `index.md:3` — Change `bg: "bg-taupe-50"` to `bg: "bg-taupe-50 dark:bg-taupe-950"`
 - `home.html:8` — Add `dark:prose-invert` to the prose div
-- `home.html:11` — Add `dark:text-lawn-300` to the H1
+- `home.html:11` — Add `dark:text-olive-300` to the H1
 
 ### Phase 2: Resume — Sticky Header before: Pseudo (resume.md)
 
