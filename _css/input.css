@@ -102,6 +102,12 @@
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  .bg-soil-50 {
+    background-color: var(--color-soil-950);
+  }
+}
+
 @font-face {
   font-family: "InterVar";
   font-weight: 100 900;
