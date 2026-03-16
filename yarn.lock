@@ -163,7 +163,7 @@
     "@parcel/watcher-win32-ia32" "2.5.6"
     "@parcel/watcher-win32-x64" "2.5.6"
 
-"@tailwindcss/cli@^4.0.14":
+"@tailwindcss/cli@^4.2.1":
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/@tailwindcss/cli/-/cli-4.2.1.tgz#a61addb3c4935e3a3f6169cd3e5fb941a6404632"
   integrity sha512-b7MGn51IA80oSG+7fuAgzfQ+7pZBgjzbqwmiv6NO7/+a1sev32cGqnwhscT7h0EcAvMa9r7gjRylqOH8Xhc4DA==
@@ -659,7 +659,7 @@ supports-color@^8.1.1:
   dependencies:
     has-flag "^4.0.0"
 
-tailwindcss@4.2.1, tailwindcss@^4.0.14:
+tailwindcss@4.2.1, tailwindcss@^4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-4.2.1.tgz#018c4720b58baf98a6bf56b0a12aa797c6cfef1d"
   integrity sha512-/tBrSQ36vCleJkAOsy9kbNTgaxvGbyOamC30PRePTQe/o1MFwEKHQk4Cn7BNGaPtjp+PuUrByJehM1hgxfq4sw==
