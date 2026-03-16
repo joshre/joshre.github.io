@@ -42,6 +42,24 @@
   --tw-prose-pre-bg: var(--color-taupe-900);
   --tw-prose-th-borders: var(--color-taupe-300);
   --tw-prose-td-borders: var(--color-taupe-200);
+  --tw-prose-invert-body: var(--color-taupe-200);
+  --tw-prose-invert-headings: var(--color-taupe-50);
+  --tw-prose-invert-lead: var(--color-taupe-300);
+  --tw-prose-invert-links: var(--color-olive-300);
+  --tw-prose-invert-bold: var(--color-taupe-50);
+  --tw-prose-invert-counters: var(--color-taupe-300);
+  --tw-prose-invert-bullets: var(--color-taupe-400);
+  --tw-prose-invert-hr: var(--color-taupe-600);
+  --tw-prose-invert-quotes: var(--color-taupe-100);
+  --tw-prose-invert-quote-borders: var(--color-taupe-600);
+  --tw-prose-invert-captions: var(--color-taupe-300);
+  --tw-prose-invert-kbd: var(--color-taupe-50);
+  --tw-prose-invert-kbd-shadows: var(--color-taupe-50);
+  --tw-prose-invert-code: var(--color-taupe-50);
+  --tw-prose-invert-pre-code: var(--color-taupe-200);
+  --tw-prose-invert-pre-bg: var(--color-taupe-900);
+  --tw-prose-invert-th-borders: var(--color-taupe-500);
+  --tw-prose-invert-td-borders: var(--color-taupe-600);
 
   & a:hover { color: var(--color-olive-700); }
   & a:visited { color: var(--color-olive-800); }
