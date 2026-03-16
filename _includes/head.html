@@ -16,6 +16,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.url }}/images/josh-facebook.jpg{% endif %}">
+  <meta property="og:image:type" content="image/jpeg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.url }}/images/josh.jpg{% endif %}">
 
   <link rel="stylesheet" href="{{ "/css/output.css" | prepend: site.baseurl
     }}?ver=1.2">
@@ -27,4 +35,38 @@
 
   {% include favicon.html %}
   <script defer data-domain="joshre.com" src="https://plausible.io/js/script.js"></script>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Josh Reeder-Esparza",
+    "url": "https://joshre.com",
+    "image": "https://joshre.com/images/i-am-a-real-person.jpg",
+    "jobTitle": "Head of Engineering",
+    "worksFor": [
+      {
+        "@type": "Organization",
+        "name": "AltText.ai",
+        "url": "https://alttext.ai"
+      },
+      {
+        "@type": "Organization",
+        "name": "Sola Co",
+        "url": "https://joshre.com"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Knoxville",
+      "addressRegion": "TN",
+      "addressCountry": "US"
+    },
+    "knowsAbout": ["Ruby on Rails", "Web Development", "AI Integration", "Web Accessibility", "PostgreSQL", "Web Performance"],
+    "sameAs": [
+      "https://github.com/joshre"
+    ]
+  }
+  </script>
 </head>

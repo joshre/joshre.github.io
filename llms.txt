@@ -1,0 +1,22 @@
+# Josh Reeder-Esparza
+
+> Full-stack developer, engineer, and designer based in Knoxville, Tennessee. Over a decade of experience building highly performant websites across multiple disciplines. Currently Head of Engineering at AltText.ai and owner of Sola Co, a consulting firm.
+
+Josh specializes in Ruby on Rails, PostgreSQL, Sidekiq, and modern frontend development with TailwindCSS and Hotwire (Stimulus + Turbo). He has deep experience with AI integration (OpenAI, Azure Computer Vision), accessibility (WCAG standards, alt text optimization), and web performance.
+
+At AltText.ai, he leads engineering for a platform that serves 70,000+ users, helping businesses improve SEO and meet accessibility standards through AI-powered image descriptions. Previously at MxU, he was the first employee and helped triple MRR over four years while building a Rails-based video training platform.
+
+Through Sola Co, he consults with teams on web application development, performance optimization, database tuning, API design, and DevOps. He is comfortable across the full stack and with various frameworks.
+
+Josh has agency experience building custom WordPress sites for restaurants, wineries, hotels, farms, and commodity boards. He also has e-commerce experience with Shopify and various payment/CRM integrations (Stripe, HubSpot, Intercom).
+
+## Links
+
+- [Resume](https://joshre.com/resume): Full work history, skill set, and portfolio of built projects
+- [AltText.ai](https://alttext.ai): AI-powered image alt text platform where Josh leads engineering
+- [GitHub](https://github.com/joshre): Open source and personal projects
+
+## Optional
+
+- [Feif Leather Goods](https://joshre.com/feif/): A past project — handmade leather belts and wallets shipped internationally
+- [RSS Feed](https://joshre.com/feed.xml): Site feed

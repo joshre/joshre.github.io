@@ -1,4 +1,19 @@
 {
+  "name": "joshre.github.io",
+  "version": "1.0.0",
+  "repository": "https://github.com/joshre/joshre.github.io.git",
+  "author": "Josh Reeder-Esparza <joshre@me.com>",
+  "license": "MIT",
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72",
+  "scripts": {
+    "build": "yarn tailwindcss -i _css/input.css -o css/output.css --minify && node build.js && bundle exec jekyll build",
+    "watch": "concurrently \"./build.js --watch\" \"bundle exec jekyll serve --livereload\" \"yarn tailwindcss -i _css/input.css -o css/output.css --minify --watch\"",
+    "lint": "concurrently \"yarn lint:tw\" \"yarn lint:format\"",
+    "lint:tw": "rustywind --check-formatted '_layouts/**/*.html' '_includes/**/*.html' '_css/**/*.css'",
+    "lint:tw:fix": "rustywind '_layouts/**/*.html' '_includes/**/*.html' '_css/**/*.css'",
+    "lint:format": "prettier --check '**/*.{html,css,js,json,md}' --ignore-path .gitignore",
+    "format": "prettier --write '**/*.{html,css,js,json,md}' --ignore-path .gitignore"
+  },
   "dependencies": {
     "@tailwindcss/cli": "^4.0.14",
     "@tailwindcss/typography": "*",
@@ -6,14 +21,9 @@
     "estrella": "^1.4.1",
     "tailwindcss": "^4.0.14"
   },
-  "scripts": {
-    "watch": "concurrently \"./build.js --watch\" \"bundle exec jekyll serve --livereload\" \"yarn tailwindcss -i _css/input.css -o css/output.css --minify --watch\" "
-  },
-  "name": "joshre.github.io",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/joshre/joshre.github.io.git",
-  "author": "Josh Reeder-Esparza <joshre@me.com>",
-  "license": "MIT",
-  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "rustywind": "^0.22.0"
+  }
 }

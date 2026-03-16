@@ -101,6 +101,8 @@ slideButtonsOverOnMobile = function () {
     const stickyButtons = document.querySelectorAll(".sticky-button");
     const globalSticky = document.querySelector("#nav");
 
+    const scrollHandler = () => handleScroll(stickyButtons, globalSticky);
+
     const observer = new IntersectionObserver(
       (entries) => {
         let anyIntersecting = false;
@@ -110,13 +112,9 @@ slideButtonsOverOnMobile = function () {
           }
         });
         if (anyIntersecting) {
-          window.addEventListener("scroll", () =>
-            handleScroll(stickyButtons, globalSticky)
-          );
+          window.addEventListener("scroll", scrollHandler);
         } else {
-          window.removeEventListener("scroll", () =>
-            handleScroll(stickyButtons, globalSticky)
-          );
+          window.removeEventListener("scroll", scrollHandler);
         }
       },
       { root: null, threshold: [0] }

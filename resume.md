@@ -9,20 +9,20 @@ bg: "bg-stone-50 dark:bg-zinc-800"
 <div class="prose">
   <h2 id="about-me" class="pt-6 -mb-3 text-3xl tracking-tight font-vulf">About Me</h2>
 </div>
-<div class="flex flex-wrap items-center text-lg/relaxed md:gap-6 lg:gap-8 text-pretty xl:text-xl/relaxed -mb-6 relative dark:gap-2 md:flex-nowrap">
+<div class="flex relative flex-wrap items-center -mb-6 md:flex-nowrap md:gap-6 lg:gap-8 dark:gap-2 text-lg/relaxed text-pretty xl:text-xl/relaxed">
   <p>I live in <strong class="font-medium"><span class="vols text-rocky-top">Knoxville</span>, Tennessee</strong> with my wonderful wife Leila and a couple of kiddos. We avidly garden—saving seeds and seeking out new varieties—and our family's best time is spent together cooking. I also have the privilege of serving as an elder at our&nbsp;church.</p>
 </div>
 
 **I have been working on the web for over a decade, with experience in every discipline relevant to putting ideas on the internet.** From design briefs, wireframes, and mockups to content management, project management, server administration, shipping, and maintaining websites. I’ve worked with restaurants, the wine industry, churches, hotels, farms, large-scale commodity boards, and e-commerce shops. Most recently, I focused on a single product, leading feature development informed by user needs and feedback.
 
-<p class="bg-[#5D6046] px-8 py-6 rounded-xl text-white flex flex-wrap lg:flex-nowrap justify-between items-start sm:gap-2 lg:gap-4">
-{% include svg/sola-logo.svg class="rounded-full w-12 sm:w-16 md:w-20 lg:w-36 bg-[#5D6046]" %}
+<p class="flex flex-wrap justify-between items-start py-6 px-8 text-white rounded-xl sm:gap-2 lg:flex-nowrap lg:gap-4 bg-[#5D6046]">
+{% include svg/sola-logo.svg class="w-12 rounded-full sm:w-16 md:w-20 lg:w-36 bg-[#5D6046]" %}
 <span>Currently, I run <span class="font-medium">Sola Co</span>, a consulting firm that helps businesses and teams build better digital experiences. If you're interested in working with me, reach out.</span>
 </p>
 
 <span id="work-history" class="block"></span>
 
-<div class="sticky sticky--header mt-16 top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white dark:from-zinc-800 dark:to-zinc-800/80 to-white/80 backdrop-blur-sm lg:px-8 lg:-mx-8 before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16">
+<div class="sticky top-0 z-10 px-2 -mx-2 mt-16 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 sticky--header to-white/80 backdrop-blur-sm before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16 dark:from-zinc-800 dark:to-zinc-800/80">
   <div class="flex justify-between items-center not-prose">
     <h2 class="py-2 mb-0 text-2xl tracking-tight sm:text-3xl font-vulf">Work History</h2>
     <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0" data-class="-translate-x-12 md:-translate-x-[calc(1vw)]">Reach Out</a>
@@ -98,7 +98,7 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
 
 <span id="skill-set" class="block"></span>
 
-<div class="sticky sticky--header mt-16 top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white dark:from-zinc-800 dark:to-zinc-800/80 to-white/80 backdrop-blur-sm lg:px-8 lg:-mx-8 before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16">
+<div class="sticky top-0 z-10 px-2 -mx-2 mt-16 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 sticky--header to-white/80 backdrop-blur-sm before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16 dark:from-zinc-800 dark:to-zinc-800/80">
   <div class="flex justify-between items-center not-prose">
     <h2 class="py-2 mb-0 text-2xl tracking-tight sm:text-3xl font-vulf">Skill Set</h2>
     <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0" data-class="-translate-x-12 md:-translate-x-[calc(1vw)]">Reach Out</a>
@@ -221,7 +221,7 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
 
 <span id="spare-me-ill-take-the-links" class="block"></span>
 
-<div class="sticky sticky--header mt-16 top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white dark:from-zinc-800 dark:to-zinc-800/80 to-white/80 backdrop-blur-sm lg:px-8 lg:-mx-8 before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16">
+<div class="sticky top-0 z-10 px-2 -mx-2 mt-16 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 sticky--header to-white/80 backdrop-blur-sm before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16 dark:from-zinc-800 dark:to-zinc-800/80">
   <div class="flex justify-between items-center not-prose">
     <h2 class="py-2 mb-0 text-2xl tracking-tight sm:text-3xl font-vulf">Things Built & Worked On</h2>
     <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0" data-class="-translate-x-12 md:-translate-x-[calc(1vw)]">Reach Out</a>
@@ -257,7 +257,7 @@ Built with the design team at Honey (employer from 2016 to 2020)
 
 <span id="more-about-me" class="block"></span>
 
-<div class="sticky sticky--header mt-16 top-0 px-2 z-10 -mx-2 bg-gradient-to-b from-white dark:from-zinc-800 dark:to-zinc-800/80 to-white/80 backdrop-blur-sm lg:px-8 lg:-mx-8 before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16">
+<div class="sticky top-0 z-10 px-2 -mx-2 mt-16 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 sticky--header to-white/80 backdrop-blur-sm before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16 dark:from-zinc-800 dark:to-zinc-800/80">
   <div class="flex justify-between items-center not-prose">
     <h2 class="py-2 mb-0 text-2xl tracking-tight sm:text-3xl font-vulf">More About Me</h2>
     <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0" data-class="-translate-x-12 md:-translate-x-[calc(1vw)]">Reach Out</a>

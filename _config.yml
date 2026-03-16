@@ -12,7 +12,5 @@ sass:
   style: :compressed
 
 collections:
-  things:
-    output: false
   share:
     output: true

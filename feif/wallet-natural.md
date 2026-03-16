@@ -4,46 +4,46 @@ title: Hand-Stitched Leather Wallet | Natural - Feif
 bg: bg-white
 ---
 
-<div class="max-w-6xl mx-auto px-6 py-16">
+<div class="py-16 px-6 mx-auto max-w-6xl">
 
   <nav class="mb-12">
-    <a href="/feif" class="text-sm text-neutral-400 hover:text-neutral-600 transition-colors">← Back</a>
+    <a href="/feif" class="text-sm transition-colors text-neutral-400 hover:text-neutral-600">← Back</a>
   </nav>
 
-  <div class="grid lg:grid-cols-2 gap-12 lg:gap-20">
+  <div class="grid gap-12 lg:grid-cols-2 lg:gap-20">
 
     <div>
-      <div class="aspect-square bg-neutral-50 mb-4">
-        <img src="/images/feif/nw_1.jpg" alt="Natural vegetable-tanned leather wallet with hand stitching" class="w-full h-full object-cover" id="main-image">
+      <div class="mb-4 aspect-square bg-neutral-50">
+        <img src="/images/feif/nw_1.jpg" alt="Natural vegetable-tanned leather wallet with hand stitching" class="object-cover w-full h-full" id="main-image">
       </div>
       <div class="grid grid-cols-4 gap-3">
-        <button class="aspect-square bg-neutral-50 ring-2 ring-neutral-900 ring-offset-2" onclick="document.getElementById('main-image').src='/images/feif/nw_1.jpg'; updateThumbs(this)">
-          <img src="/images/feif/nw_1.jpg" alt="Open view" class="w-full h-full object-cover">
+        <button class="ring-2 ring-offset-2 aspect-square bg-neutral-50 ring-neutral-900" onclick="document.getElementById('main-image').src='/images/feif/nw_1.jpg'; updateThumbs(this)">
+          <img src="/images/feif/nw_1.jpg" alt="Open view" class="object-cover w-full h-full">
         </button>
         <button class="aspect-square bg-neutral-50" onclick="document.getElementById('main-image').src='/images/feif/nw_2.jpg'; updateThumbs(this)">
-          <img src="/images/feif/nw_2.jpg" alt="Closed" class="w-full h-full object-cover">
+          <img src="/images/feif/nw_2.jpg" alt="Closed" class="object-cover w-full h-full">
         </button>
         <button class="aspect-square bg-neutral-50" onclick="document.getElementById('main-image').src='/images/feif/nw_3.jpg'; updateThumbs(this)">
-          <img src="/images/feif/nw_3.jpg" alt="Stitching" class="w-full h-full object-cover">
+          <img src="/images/feif/nw_3.jpg" alt="Stitching" class="object-cover w-full h-full">
         </button>
         <button class="aspect-square bg-neutral-50" onclick="document.getElementById('main-image').src='/images/feif/nw_4.jpg'; updateThumbs(this)">
-          <img src="/images/feif/nw_4.jpg" alt="Interior" class="w-full h-full object-cover">
+          <img src="/images/feif/nw_4.jpg" alt="Interior" class="object-cover w-full h-full">
         </button>
       </div>
     </div>
 
     <div class="lg:py-8">
-      <p class="text-sm text-neutral-400 uppercase tracking-widest">Feif</p>
-      <h1 class="text-3xl font-normal text-neutral-900 mt-3">Hand-Stitched Wallet</h1>
-      <p class="text-neutral-500 mt-1">Natural Leather</p>
+      <p class="text-sm tracking-widest uppercase text-neutral-400">Feif</p>
+      <h1 class="mt-3 text-3xl font-normal text-neutral-900">Hand-Stitched Wallet</h1>
+      <p class="mt-1 text-neutral-500">Natural Leather</p>
 
-      <p class="text-2xl text-neutral-900 mt-8">$55</p>
+      <p class="mt-8 text-2xl text-neutral-900">$55</p>
 
-      <p class="text-neutral-600 leading-relaxed mt-8">
+      <p class="mt-8 leading-relaxed text-neutral-600">
         Hand-stitched leather wallet using natural vegetable-tanned leather and strong waxed cotton thread.
       </p>
 
-      <dl class="grid grid-cols-2 gap-4 mt-10 pt-10 border-t border-neutral-100 text-sm">
+      <dl class="grid grid-cols-2 gap-4 pt-10 mt-10 text-sm border-t border-neutral-100">
         <dt class="text-neutral-400">Material</dt>
         <dd class="text-neutral-900">Vegetable-tanned leather</dd>
         <dt class="text-neutral-400">Stitching</dt>
@@ -54,11 +54,11 @@ bg: bg-white
         <dd class="text-neutral-900">Knoxville, TN</dd>
       </dl>
 
-      <button class="w-full bg-neutral-900 text-white py-4 mt-10 text-sm tracking-wide hover:bg-neutral-800 transition-colors">
+      <button class="py-4 mt-10 w-full text-sm tracking-wide text-white transition-colors bg-neutral-900 hover:bg-neutral-800">
         Add to Cart
       </button>
 
-      <p class="text-center text-xs text-neutral-400 mt-4">
+      <p class="mt-4 text-xs text-center text-neutral-400">
         Free shipping · 14-day returns
       </p>
     </div>
@@ -70,6 +70,6 @@ bg: bg-white
 <script>
 function updateThumbs(el) {
   document.querySelectorAll('[onclick*="updateThumbs"]').forEach(b => b.className = 'aspect-square bg-neutral-50');
-  el.className = 'aspect-square bg-neutral-50 ring-2 ring-neutral-900 ring-offset-2';
+  el.className = 'ring-2 ring-offset-2 aspect-square bg-neutral-50 ring-neutral-900';
 }
 </script>

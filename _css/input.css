@@ -1,15 +1,91 @@
 @import 'tailwindcss';
+@plugin "@tailwindcss/typography";
 
-@config '../tailwind.config.js';
+@theme {
+  /* Screens */
+  --breakpoint-xxs: 390px;
+  --breakpoint-xs: 414px;
+  --breakpoint-xsm: 475px;
+  --breakpoint-smd: 690px;
+  --breakpoint-mdl: 960px;
+  --breakpoint-2lg: 1112px;
+  --breakpoint-xl-2xl: 1336px;
+  --breakpoint-3xl: 1860px;
+  --breakpoint-4xl: 2250px;
 
-/*
-  The default border color has changed to `currentColor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
+  /* Font families */
+  --font-display: "Vulf";
+  --font-sans: "InterVar", ui-sans-serif, system-ui, sans-serif;
 
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
+  /* Colors */
+  --color-rocky-top: #ff8200;
+  --color-green: #1C5F4A;
+
+  --color-soil-50: #f9f6f5;
+  --color-soil-100: #f4eceb;
+  --color-soil-200: #e9e0de;
+  --color-soil-300: #d8d4d1;
+  --color-soil-400: #b8a8a1;
+  --color-soil-500: #8a756e;
+  --color-soil-600: #725e56;
+  --color-soil-700: #5b4740;
+  --color-soil-800: #46332d;
+  --color-soil-900: #2e221e;
+  --color-soil-950: #1f1512;
+
+  --color-lawn-50: #e5ecea;
+  --color-lawn-100: #c2d3c9;
+  --color-lawn-200: #9fbba8;
+  --color-lawn-300: #7ca287;
+  --color-lawn-400: #598966;
+  --color-lawn-500: #3a7050;
+  --color-lawn-600: #2f5a44;
+  --color-lawn-700: #234437;
+  --color-lawn-800: #1a4131;
+  --color-lawn-900: #122e23;
+  --color-lawn-950: #0d2219;
+}
+
+/* Typography prose theming */
+.prose {
+  --tw-prose-body: var(--color-soil-700);
+  --tw-prose-headings: var(--color-soil-800);
+  --tw-prose-links: var(--color-lawn-500);
+  --tw-prose-bold: var(--color-soil-800);
+  --tw-prose-quotes: var(--color-soil-600);
+  --tw-prose-quote-borders: var(--color-soil-300);
+  --tw-prose-code: var(--color-soil-800);
+  --tw-prose-pre-code: var(--color-soil-200);
+  --tw-prose-pre-bg: var(--color-soil-800);
+  --tw-prose-th-borders: var(--color-soil-300);
+  --tw-prose-td-borders: var(--color-soil-200);
+
+  & a:hover { color: var(--color-lawn-600); }
+  & a:visited { color: var(--color-lawn-700); }
+  & a code { color: var(--color-lawn-500); }
+}
+
+.prose-invert {
+  --tw-prose-body: var(--color-soil-200);
+  --tw-prose-headings: var(--color-soil-100);
+  --tw-prose-links: var(--color-lawn-300);
+  --tw-prose-bold: var(--color-soil-100);
+  --tw-prose-quotes: var(--color-soil-300);
+  --tw-prose-quote-borders: var(--color-soil-600);
+  --tw-prose-code: var(--color-soil-100);
+  --tw-prose-pre-code: var(--color-soil-900);
+  --tw-prose-pre-bg: var(--color-soil-200);
+  --tw-prose-th-borders: var(--color-soil-600);
+  --tw-prose-td-borders: var(--color-soil-800);
+
+  & a:hover { color: var(--color-lawn-200); }
+  & a:visited { color: var(--color-lawn-400); }
+  & a code { color: var(--color-lawn-300); }
+  & a > strong { color: var(--color-lawn-300); }
+  & a > strong:hover { color: var(--color-lawn-200); }
+  & a > strong:visited { color: var(--color-lawn-400); }
+}
+
 @layer base {
   *,
   ::after,
@@ -52,18 +128,6 @@
   font-display: swap;
   font-style: normal;
   src: url("../fonts/vulfsans-just.woff2") format("woff2");
-}
-
-/* @font-face {
-  font-family: "VulfMono";
-  font-weight: 400;
-  font-display: swap;
-  font-style: normal;
-  src: url("../fonts/vulfmono-italic.woff2") format("woff2");
-} */
-
-.font-vulf-mono {
-  font-family: "VulfMono";
 }
 
 .font-vulf {
@@ -116,10 +180,6 @@
     color(display-p3 0.914 0.835 1 / 0) 100%; */
 }
 
-body {
-  /* font-feature-settings: "ss07", "dlig"; */
-}
-
 .rocky-top-bg {
   background-size: 70px;
   animation-name: vols;
@@ -160,10 +220,6 @@ body {
   100% {
     background-position: 35px 35px;
   }
-}
-
-.prose h2 {
-  /* @apply pt-28 pb-16 before:left-0 before:absolute before:bg-green before:h-full before:w-full before:z-0 z-10 relative; */
 }
 
 .ease-easy {
