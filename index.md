@@ -1,6 +1,7 @@
 ---
 layout: home
 bg: "bg-taupe-50"
+title: "Full-Stack Developer & Designer in Knoxville"
 ---
 
 ## Hello there, my name is Josh. I’m a full-stack developer, engineer, and designer in <span class="vols text-rocky-top">Knoxville</span>, Tennessee I have over a decade of experience building highly performant websites for multiple disciplines.

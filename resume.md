@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Josh Reeder-Esparza's Résumé
+title: Résumé
 hidemeta: true
 links: external
 bg: "bg-taupe-50"
