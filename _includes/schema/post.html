@@ -1,0 +1,47 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "{{ page.url | prepend: site.url }}#webpage",
+      "url": "{{ page.url | prepend: site.url }}",
+      "name": "{{ page.title | escape }}",
+      "isPartOf": { "@id": "https://joshre.com/#website" },
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "{{ page.url | prepend: site.url }}#blogposting",
+      "mainEntityOfPage": { "@id": "{{ page.url | prepend: site.url }}#webpage" },
+      "headline": "{{ page.title | escape }}",
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+      "author": { "@id": "https://joshre.com/#me" },
+      "publisher": { "@id": "https://joshre.com/#me" },
+      "isPartOf": { "@id": "https://joshre.com/#website" }{% if page.excerpt %},
+      "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 160 | escape }}"{% endif %}{% if page.image %},
+      "image": "{{ page.image }}"{% endif %}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ page.url | prepend: site.url }}#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://joshre.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "{{ page.title | escape }}",
+          "item": "{{ page.url | prepend: site.url }}"
+        }
+      ]
+    }
+  ]
+}
+</script>

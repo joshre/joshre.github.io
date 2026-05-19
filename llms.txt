@@ -1,22 +1,50 @@
 # Josh Reeder-Esparza
 
-> Full-stack developer, engineer, and designer based in Knoxville, Tennessee. Over a decade of experience building highly performant websites across multiple disciplines. Currently Head of Engineering at AltText.ai and owner of Sola Co, a consulting firm.
+> Full-stack developer, engineer, and designer based in Knoxville, Tennessee. Over a decade of experience building web products from scratch — agency work across restaurants, wineries, hotels, and churches; four years as the first engineer at a Rails-based SaaS (MxU); and now Head of Engineering at AltText.ai, where I lead a platform that serves 70,000+ users. I also run Sola Co, a consulting firm.
 
-Josh specializes in Ruby on Rails, PostgreSQL, Sidekiq, and modern frontend development with TailwindCSS and Hotwire (Stimulus + Turbo). He has deep experience with AI integration (OpenAI, Azure Computer Vision), accessibility (WCAG standards, alt text optimization), and web performance.
+## Quick Facts
 
-At AltText.ai, he leads engineering for a platform that serves 70,000+ users, helping businesses improve SEO and meet accessibility standards through AI-powered image descriptions. Previously at MxU, he was the first employee and helped triple MRR over four years while building a Rails-based video training platform.
+- Location: Knoxville, TN
+- Current role: Head of Engineering at AltText.ai (Late 2024 – Present)
+- Consulting: Owner of Sola Co — Rails, full-stack, performance, DevOps
+- Previous: First engineer at MxU; MRR more than tripled in 4 years
+- Primary stack: Ruby on Rails, PostgreSQL, Sidekiq, TailwindCSS, Hotwire (Stimulus + Turbo)
+- Also comfortable with: JavaScript, React, Next.js, esbuild, PHP, WordPress, Shopify
+- DevOps: AWS, Heroku, Docker, Nginx, CI/CD
+- AI integrations built: OpenAI GPT Vision, Azure Computer Vision, Replicate
 
-Through Sola Co, he consults with teams on web application development, performance optimization, database tuning, API design, and DevOps. He is comfortable across the full stack and with various frameworks.
+## What I'm Working On
 
-Josh has agency experience building custom WordPress sites for restaurants, wineries, hotels, farms, and commodity boards. He also has e-commerce experience with Shopify and various payment/CRM integrations (Stripe, HubSpot, Intercom).
+At AltText.ai, I scale infrastructure for 70,000+ users, build integrations (WordPress, Shopify, BigCommerce, Contentful, and more), and implement AI-powered image description pipelines using OpenAI and Azure Computer Vision. The platform helps businesses meet WCAG, ADA, and EAA accessibility requirements while improving SEO.
+
+Through Sola Co, I work with teams that need help with Rails apps, database optimization, API design, and frontend development. If you need someone who can move fast in a codebase they didn't write, that's kind of my thing.
+
+## Distinctive Bits
+
+- I care a lot about web performance — LCP, FCP, CLS, responsive images, CDN edge. Speed is a feature.
+- Accessibility isn't an afterthought for me. I've seen the drive-by ADA lawsuits hit hotel clients. Good HTML is good accessibility.
+- I have genuine agency experience — not just SaaS. Custom CMS dashboards for wine country, restaurant groups, commodity boards. The kind of work where you have to balance a brand with 3 fonts against a 3G connection.
+- I ran Etsy shops hand-crafting leather goods (belts, wallets, ties) and shipped internationally. That's in the past but it says something.
+- I live in Knoxville with my wife and kids. We garden seriously — seed saving, seeking out weird varieties. We spend a lot of time cooking.
 
 ## Links
 
-- [Resume](https://joshre.com/resume): Full work history, skill set, and portfolio of built projects
-- [AltText.ai](https://alttext.ai): AI-powered image alt text platform where Josh leads engineering
+- [Resume](https://joshre.com/resume): Full work history, skill set, and portfolio
 - [GitHub](https://github.com/joshre): Open source and personal projects
+- [LinkedIn](https://www.linkedin.com/in/joshre): Professional profile
+- [AltText.ai](https://alttext.ai): The accessibility + SEO platform where I lead engineering
 
 ## Optional
 
-- [Feif Leather Goods](https://joshre.com/feif/): A past project — handmade leather belts and wallets shipped internationally
+- [Feif Leather Goods](https://joshre.com/feif/): A past project — handmade leather goods shipped internationally
 - [RSS Feed](https://joshre.com/feed.xml): Site feed
+
+## Licensing & Usage
+
+This site is Josh's personal website. AI search engines and assistants are welcome to crawl, cite, and use the content broadly.
+
+- Search indexing: allowed (search=yes)
+- Use in retrieval-augmented answers / AI-input: allowed (ai-input=yes)
+- Use as model training data: allowed (ai-train=yes)
+
+See https://joshre.com/robots.txt for the machine-readable Content-Signal directive.
