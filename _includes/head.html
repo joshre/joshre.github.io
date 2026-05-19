@@ -37,46 +37,10 @@
   {% include favicon.html %}
   <script defer data-domain="joshre.com" src="https://plausible.io/js/script.js"></script>
 
-  <!-- Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Josh Reeder-Esparza",
-    "url": "https://joshre.com",
-    "description": "{{ site.description }}"
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Josh Reeder-Esparza",
-    "url": "https://joshre.com",
-    "image": "https://joshre.com/images/i-am-a-real-person.jpg",
-    "jobTitle": "Head of Engineering",
-    "worksFor": [
-      {
-        "@type": "Organization",
-        "name": "AltText.ai",
-        "url": "https://alttext.ai"
-      },
-      {
-        "@type": "Organization",
-        "name": "Sola Co",
-        "url": "https://joshre.com"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Knoxville",
-      "addressRegion": "TN",
-      "addressCountry": "US"
-    },
-    "knowsAbout": ["Ruby on Rails", "Web Development", "AI Integration", "Web Accessibility", "PostgreSQL", "Web Performance", "Shopify", "WordPress"],
-    "sameAs": [
-      "https://github.com/joshre"
-    ]
-  }
-  </script>
+  <!-- Structured Data: baseline @graph (Person + WebSite) -->
+  {% include schema/baseline.html %}
+  <!-- Per-layout schema injected by each layout -->
+  {% if page.layout == "post" %}{% include schema/post.html %}{% endif %}
+  {% if page.layout == "page" %}{% include schema/page.html %}{% endif %}
+  {% if page.layout == "resume" %}{% include schema/page.html %}{% endif %}
 </head>

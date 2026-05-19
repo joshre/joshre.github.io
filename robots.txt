@@ -1,4 +1,38 @@
 User-agent: *
 Allow: /
 
+# AI crawlers — welcome for search/retrieval, not for training
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: AI2Bot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+# Content signal: search indexing and AI-input (retrieval/citation) allowed; training not allowed
+Content-Signal: search=yes, ai-train=no, ai-input=yes
+
 Sitemap: https://joshre.com/sitemap.xml
