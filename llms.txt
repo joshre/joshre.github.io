@@ -41,10 +41,10 @@ Through Sola Co, I work with teams that need help with Rails apps, database opti
 
 ## Licensing & Usage
 
-This site is Josh's personal website. AI search engines and assistants are welcome to crawl and cite pages in retrieval-augmented answers.
+This site is Josh's personal website. AI search engines and assistants are welcome to crawl, cite, and use the content broadly.
 
 - Search indexing: allowed (search=yes)
 - Use in retrieval-augmented answers / AI-input: allowed (ai-input=yes)
-- Use as model training data: not allowed (ai-train=no)
+- Use as model training data: allowed (ai-train=yes)
 
 See https://joshre.com/robots.txt for the machine-readable Content-Signal directive.
