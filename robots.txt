@@ -3,44 +3,45 @@ Allow: /
 
 # Policy:
 # - Search and on-demand AI retrieval/citation bots: allowed
-# - Training crawlers (corpus builders): disallowed
+# - Training crawlers (corpus builders): allowed (we want distribution
+#   via parametric memory, not just retrieval)
 #
 # Per-bot User-agent groups override the User-agent: * group entirely (RFC).
 
-# --- Training-only crawlers ---
+# --- Training crawlers ---
 
 User-agent: GPTBot
-Disallow: /
+Allow: /
 
 User-agent: Google-Extended
-Disallow: /
+Allow: /
 
 User-agent: CCBot
-Disallow: /
+Allow: /
 
 User-agent: Applebot-Extended
-Disallow: /
+Allow: /
 
 User-agent: AI2Bot
-Disallow: /
+Allow: /
 
 User-agent: ClaudeBot
-Disallow: /
+Allow: /
 
 User-agent: anthropic-ai
-Disallow: /
+Allow: /
 
 User-agent: Bytespider
-Disallow: /
+Allow: /
 
 User-agent: Meta-ExternalAgent
-Disallow: /
+Allow: /
 
 User-agent: FacebookBot
-Disallow: /
+Allow: /
 
 User-agent: Omgilibot
-Disallow: /
+Allow: /
 
 # --- Search and on-demand retrieval crawlers ---
 
@@ -66,8 +67,8 @@ User-agent: Diffbot
 Allow: /
 
 # Aspirational/experimental signal — not yet honored by any crawler.
-# Documented here so operator intent (allow citation, disallow training) is explicit.
+# Documented here so operator intent (allow both search and training) is explicit.
 # See https://contentsignal.org/ for the emerging proposal.
-Content-Signal: search=yes, ai-train=no, ai-input=yes
+Content-Signal: search=yes, ai-train=yes, ai-input=yes
 
 Sitemap: https://joshre.com/sitemap.xml
