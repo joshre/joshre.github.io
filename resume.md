@@ -13,7 +13,7 @@ bg: "bg-taupe-50"
   <p>I live in <strong class="font-medium"><span class="vols text-rocky-top">Knoxville</span>, Tennessee</strong> with my wonderful wife Leila and a couple of kiddos. We avidly garden—saving seeds and seeking out new varieties—and our family's best time is spent together cooking. I also have the privilege of serving as an elder at our&nbsp;church.</p>
 </div>
 
-**I have been working on the web for over a decade, with experience in every discipline relevant to putting ideas on the internet.** From design briefs, wireframes, and mockups to content management, project management, server administration, shipping, and maintaining websites. I’ve worked with restaurants, the wine industry, churches, hotels, farms, large-scale commodity boards, and e-commerce shops. Most recently, I focused on a single product, leading feature development informed by user needs and feedback.
+**I've spent over a decade working on the web, with experience across every discipline involved in putting ideas online.** From design briefs, wireframes, and mockups to content management, project management, server administration, shipping, and maintaining websites. I’ve worked with restaurants, the wine industry, churches, hotels, farms, large-scale commodity boards, and e-commerce shops. Most recently, I focused on a single product, leading feature development informed by user needs and feedback.
 
 <p class="flex flex-wrap justify-between items-start py-6 px-8 text-white rounded-xl sm:gap-2 lg:flex-nowrap lg:gap-4 bg-[#5D6046]">
 {% include svg/sola-logo.svg class="w-12 rounded-full sm:w-16 md:w-20 lg:w-36 bg-[#5D6046]" %}
@@ -41,7 +41,7 @@ bg: "bg-taupe-50"
   <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Head of Engineering</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Late '24 - Present</span>
 </h3>
 
-Leading engineering efforts at AltText.AI, where we're making the web more accessible through AI-powered image descriptions. I joined the team after the initial platform was built and now focus on scaling our infrastructure to support 70,000+ users while expanding our integration ecosystem. Our platform helps businesses improve SEO and meet accessibility standards by automatically generating high-quality alt text. My responsibilities include enhancing our Ruby on Rails application, implementing OpenAI and Azure Computer Vision APIs, optimizing image processing pipelines, managing cloud infrastructure with AWS, and ensuring system reliability through comprehensive testing and monitoring.
+Leading engineering efforts at AltText.AI, where we make the web more accessible through AI-powered image descriptions. I joined after the initial platform was built and now focus on scaling infrastructure to support 70,000+ users while expanding our integration ecosystem. Our platform helps businesses improve SEO and meet accessibility standards by automatically generating high-quality alt text. My responsibilities include enhancing our Ruby on Rails application, implementing OpenAI and Azure Computer Vision APIs, optimizing image processing pipelines, managing cloud infrastructure on AWS, and ensuring system reliability through comprehensive testing and monitoring.
 
 <hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
  
@@ -51,7 +51,11 @@ Leading engineering efforts at AltText.AI, where we're making the web more acces
   <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} 2024 - Present</span>
 </h3>
 
-Through Sola Co, I work with teams that need help building and maintaining web applications. While I specialize in Ruby on Rails, I'm comfortable across the full stack and with various frameworks. I enjoy solving performance issues, implementing solid architecture, and helping teams deliver quality code. My day-to-day work spans database optimization, API design, frontend development, and DevOps. I've spent years working with Postgres, Redis, JavaScript, and modern CSS frameworks, along with setting up reliable deployment pipelines. Whether it's diving into legacy codebases to fix technical debt or building new features from scratch, I focus on delivering maintainable solutions. If you're looking for someone who can jump in and contribute quickly to your tech stack, let's talk.
+Through Sola Co, I partner with teams that need help building and maintaining web applications. I specialize in Ruby on Rails but work comfortably across the full stack and with a range of frameworks. I enjoy solving performance problems, implementing solid architecture, and helping teams ship quality code. Day-to-day, that means database optimization, API design, frontend development, and DevOps.
+
+Over the years I've worked extensively with Postgres, Redis, JavaScript, and modern CSS frameworks, and I've built reliable deployment pipelines along the way. Whether I'm untangling a legacy codebase to address technical debt or building new features from scratch, my focus is on delivering solutions that are maintainable long after the work is done.
+
+If you need someone who can jump in and contribute quickly to your tech stack, let's talk.
 
 <hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
 <h3 class="flex gap-3 items-center">
@@ -61,15 +65,15 @@ Through Sola Co, I work with teams that need help building and maintaining web a
 </h3>
 
 MxU's core product is a Rails app used to train worship and tech teams in video,
-audio, lighting, and leadership. I built and maintained a robust platform that helped
-folks in charge of making the weekend happen train volunteers in local churches
-across the world. **In my 4 years there MRR more than tripled**, I saw ARR hit
-major milestones, and worked within a team that grew from 2 to 12.
+audio, lighting, and leadership. I built and maintained a robust platform helping
+those responsible for weekend services train volunteers in local churches around
+the world. **Over my 4 years there, MRR more than tripled**, ARR hit major
+milestones, and the team grew from 2 to 12.
 
-I came on as the first employee and was solely responsible for product for a
-short period, later working with two other engineers in varying capacities.
+I came on as the first employee and was solely responsible for the product for a
+period, later collaborating with two other engineers in varying capacities.
 
-In my time at MxU, I wore many hats. I worked extensively on our Ruby on Rails product, implementing Hotwire Stimulus and Turbo for interactive features, building custom video player integrations with Mux and Vimeo, and optimizing database queries for performance. I also developed numerous marketing sites using WordPress, Jekyll, and other static site generators, created HubSpot landing pages for business partnerships, integrated CRM functionality between HubSpot and our application, set up e-commerce on Shopify, and built annual event sites integrated with Eventbrite. Our tech stack included PostgreSQL, Redis for caching, Sidekiq for background processing, and TailwindCSS for styling.
+I wore many hats at MxU. On the Rails side, I implemented Hotwire Stimulus and Turbo for interactive features, built custom video player integrations with Mux and Vimeo, and optimized database queries for performance. Beyond the core app, I developed marketing sites using WordPress, Jekyll, and other static site generators, created HubSpot landing pages for business partnerships, integrated CRM functionality between HubSpot and our application, set up e-commerce on Shopify, and built annual event sites integrated with Eventbrite. Our stack included PostgreSQL, Redis for caching, Sidekiq for background processing, and TailwindCSS for styling.
 
 <hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
  
@@ -80,21 +84,21 @@ In my time at MxU, I wore many hats. I worked extensively on our Ruby on Rails p
   Honey
   <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Senior Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Feb 2016 - Oct 2020</span>
 </h3>
-As the sole developer, I built custom client websites from scratch, often managing 2–3 projects simultaneously while collaborating closely with the design team to transform creative concepts into functional websites. I actively participated in client discovery sessions, contributed to design briefs, and presented technical solutions, completed websites, and training documentation to stakeholders. Beyond leading development, I oversaw ongoing maintenance contracts to ensure long-term functionality and performance. Many of the websites I developed remain heavily used with minimal changes years later—an accomplishment I take great pride in.
+As the sole developer, I built custom client websites from scratch, often managing 2–3 projects simultaneously while working closely with the design team to bring creative concepts to life. I took an active role in client discovery sessions, contributed to design briefs, and presented technical solutions, completed websites, and training documentation to stakeholders. In addition to leading development, I managed ongoing maintenance contracts to ensure long-term functionality and performance. Many of the websites I built continue to see heavy use with minimal changes years later—something I'm genuinely proud of.
 
 <hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
 <h3 class="flex gap-3 items-center">
   Bamboo Creative
   <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Web Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jan 2012 – Jan 2016</span>
 </h3>
-At Bamboo, I built websites from the ground up, managing the entire process from sketching and wireframing to deployment and ongoing maintenance. I set up and configured LAMP stacks, managed Git-based deployments, and developed custom WordPress themes for multisite networks. In addition to building new sites, I maintained a portfolio of 20+ client websites, ensuring updates, security, and reliable performance.
+At Bamboo, I built websites from the ground up, handling everything from initial sketches and wireframes through to deployment and ongoing maintenance. I set up and configured LAMP stacks, managed Git-based deployments, and developed custom WordPress themes for multisite networks. Beyond new builds, I maintained a portfolio of 20+ client websites, keeping them updated, secure, and performing reliably.
 
 <hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
 <h3 class="flex gap-3 items-center">
   Feif Ties / Trestle Leather Co
   <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jun 2010 – Jan 2013</span>
 </h3>
-Years ago, I launched and ran several Etsy shops, designing and handcrafting ties, belts, and wallets from raw materials. In just a few years, I shipped products to customers across the USA, Germany, Australia, and Japan. I managed budgets and expenses, gaining experience in leveraging bulk purchases and optimizing product timing. This venture provided valuable lessons in entrepreneurship, operations, and customer service.
+Years ago, I launched and ran several Etsy shops, designing and handcrafting ties, belts, and wallets from raw materials. Within a few years, I was shipping products to customers across the USA, Germany, Australia, and Japan. I managed budgets and expenses, learning how to make bulk purchases and optimize product timing. The experience offered valuable lessons in entrepreneurship, operations, and customer service.
 
 <span id="skill-set" class="block"></span>
 
