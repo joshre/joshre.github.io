@@ -12,5 +12,6 @@ layout: compress
     </main>
     {% include footer.html %}
   </body>
-  <script type="module" defer id="alttextai-ujs" src="https://ujs.alttext.ai/alttextai-ujs.js?site-key=668e2bc50104e9fc"></script>
+  <!-- data-cfasync=false: Rocket Loader rewrites type="module" and the module never executes -->
+  <script data-cfasync="false" type="module" defer id="alttextai-ujs" src="https://ujs.alttext.ai/alttextai-ujs.js?site-key=544666970648abbb"></script>
 </html>
