@@ -23,9 +23,9 @@ bg: "bg-taupe-50"
 <span id="work-history" class="block"></span>
 
 <div class="sticky--header dark:from-taupe-900 dark:to-taupe-900/80 dark:before:from-taupe-900/80 dark:before:to-taupe-900 sticky top-0 z-10 -mx-2 mt-16 bg-gradient-to-b from-white to-white/80 px-2 backdrop-blur-sm before:absolute before:-top-16 before:h-16 before:w-full before:bg-gradient-to-b before:from-white/80 before:to-white lg:-mx-8 lg:px-8">
-  <div class="not-prose flex items-center justify-between">
-    <h2 class="mb-0 py-2 font-vulf text-2xl tracking-tight sm:text-3xl">Work History</h2>
-    <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0">Reach Out</a>
+  <div class="not-prose flex items-center justify-between gap-4">
+    <h2 class="mb-0 py-2 font-vulf text-balance text-2xl tracking-tight sm:text-3xl">Work History</h2>
+    <a href="mailto:joshre@me.com" class="sticky-button jre-button shrink-0 whitespace-nowrap !transition-transform !duration-300 ease-easy mdl:-translate-x-0">Reach Out</a>
   </div>
   <div class="-inset-x-10 bottom-[2px] -mb-px flex items-end overflow-hidden">
     <div class="-mb-px flex h-[2px] w-full">
@@ -98,9 +98,9 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
 <span id="skill-set" class="block"></span>
 
 <div class="sticky--header dark:from-taupe-900 dark:to-taupe-900/80 dark:before:from-taupe-900/80 dark:before:to-taupe-900 sticky top-0 z-10 -mx-2 mt-16 bg-gradient-to-b from-white to-white/80 px-2 backdrop-blur-sm before:absolute before:-top-16 before:h-16 before:w-full before:bg-gradient-to-b before:from-white/80 before:to-white lg:-mx-8 lg:px-8">
-  <div class="not-prose flex items-center justify-between">
-    <h2 class="mb-0 py-2 font-vulf text-2xl tracking-tight sm:text-3xl">Skill Set</h2>
-    <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0">Reach Out</a>
+  <div class="not-prose flex items-center justify-between gap-4">
+    <h2 class="mb-0 py-2 font-vulf text-balance text-2xl tracking-tight sm:text-3xl">Skill Set</h2>
+    <a href="mailto:joshre@me.com" class="sticky-button jre-button shrink-0 whitespace-nowrap !transition-transform !duration-300 ease-easy mdl:-translate-x-0">Reach Out</a>
   </div>
   <div class="-inset-x-10 bottom-[2px] -mb-px flex items-end overflow-hidden">
     <div class="-mb-px flex h-[2px] w-full">
@@ -231,9 +231,9 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
 <span id="spare-me-ill-take-the-links" class="block"></span>
 
 <div class="sticky--header dark:from-taupe-900 dark:to-taupe-900/80 dark:before:from-taupe-900/80 dark:before:to-taupe-900 sticky top-0 z-10 -mx-2 mt-16 bg-gradient-to-b from-white to-white/80 px-2 backdrop-blur-sm before:absolute before:-top-16 before:h-16 before:w-full before:bg-gradient-to-b before:from-white/80 before:to-white lg:-mx-8 lg:px-8">
-  <div class="not-prose flex items-center justify-between">
-    <h2 class="mb-0 py-2 font-vulf text-2xl tracking-tight sm:text-3xl">Things Built & Worked On</h2>
-    <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0">Reach Out</a>
+  <div class="not-prose flex items-center justify-between gap-4">
+    <h2 class="mb-0 py-2 font-vulf text-balance text-2xl tracking-tight sm:text-3xl">Things Built & Worked On</h2>
+    <a href="mailto:joshre@me.com" class="sticky-button jre-button shrink-0 whitespace-nowrap !transition-transform !duration-300 ease-easy mdl:-translate-x-0">Reach Out</a>
   </div>
   <div class="-inset-x-10 bottom-[2px] -mb-px flex items-end overflow-hidden">
     <div class="-mb-px flex h-[2px] w-full">
@@ -310,9 +310,9 @@ A weekly meal-planning service that builds a personalized dinner plan around eac
 <span id="more-about-me" class="block"></span>
 
 <div class="sticky--header dark:from-taupe-900 dark:to-taupe-900/80 dark:before:from-taupe-900/80 dark:before:to-taupe-900 sticky top-0 z-10 -mx-2 mt-16 bg-gradient-to-b from-white to-white/80 px-2 backdrop-blur-sm before:absolute before:-top-16 before:h-16 before:w-full before:bg-gradient-to-b before:from-white/80 before:to-white lg:-mx-8 lg:px-8">
-  <div class="not-prose flex items-center justify-between">
-    <h2 class="mb-0 py-2 font-vulf text-2xl tracking-tight sm:text-3xl">More About Me</h2>
-    <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0">Reach Out</a>
+  <div class="not-prose flex items-center justify-between gap-4">
+    <h2 class="mb-0 py-2 font-vulf text-balance text-2xl tracking-tight sm:text-3xl">More About Me</h2>
+    <a href="mailto:joshre@me.com" class="sticky-button jre-button shrink-0 whitespace-nowrap !transition-transform !duration-300 ease-easy mdl:-translate-x-0">Reach Out</a>
   </div>
   <div class="-inset-x-10 bottom-[2px] -mb-px flex items-end overflow-hidden">
     <div class="-mb-px flex h-[2px] w-full">
