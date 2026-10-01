@@ -15,8 +15,8 @@ bg: "bg-taupe-50"
 
 **I've spent over a decade working on the web, with experience across every discipline involved in putting ideas online.** From design briefs, wireframes, and mockups to content management, project management, server administration, shipping, and maintaining websites. I’ve worked with restaurants, the wine industry, churches, hotels, farms, large-scale commodity boards, and e-commerce shops. Most recently, I focused on a single product, leading feature development informed by user needs and feedback.
 
-<p class="flex flex-wrap justify-between items-start py-6 px-8 text-white rounded-xl sm:gap-2 lg:flex-nowrap lg:gap-4 bg-[#5D6046]">
-{% include svg/sola-logo.svg class="w-12 rounded-full sm:w-16 md:w-20 lg:w-36 bg-[#5D6046]" %}
+<p class="flex flex-col gap-4 items-start p-6 text-white rounded-xl sm:flex-row sm:gap-3 sm:items-center lg:gap-4 lg:pr-8 bg-[#5D6046]">
+{% include svg/sola-logo.svg class="flex-none w-16 rounded-full sm:w-24 lg:w-36 bg-[#5D6046]" %}
 <span>Currently, I run <span class="font-medium">Sola Co</span>, a consulting firm that helps businesses and teams build better digital experiences. If you're interested in working with me, reach out.</span>
 </p>
 
@@ -35,20 +35,20 @@ bg: "bg-taupe-50"
   </div>
 </div>
 
-<h3 class="flex gap-3 items-center">
+<h3 class="flex flex-wrap gap-3 items-center">
   {% include svg/alttext-logo.svg class="rounded-full bg-[#1C64F2] size-12" %}
   AltText.AI
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Head of Engineering</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Late '24 - Present</span>
+  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Head of Engineering</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Late '24 – Present</span>
 </h3>
 
 Leading engineering efforts at AltText.AI, where we make the web more accessible through AI-powered image descriptions. I joined after the initial platform was built and now focus on scaling infrastructure to support 70,000+ users while expanding our integration ecosystem. Our platform helps businesses improve SEO and meet accessibility standards by automatically generating high-quality alt text. My responsibilities include enhancing our Ruby on Rails application, implementing OpenAI and Azure Computer Vision APIs, optimizing image processing pipelines, managing cloud infrastructure on AWS, and ensuring system reliability through comprehensive testing and monitoring.
 
 <hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
  
-<h3 class="flex gap-3 items-center">
+<h3 class="flex flex-wrap gap-3 items-center">
   {% include svg/sola-logo.svg class="rounded-full size-12 bg-[#5D6046]" %}
   Sola Co
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} 2024 - Present</span>
+  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} 2024 – Present</span>
 </h3>
 
 Through Sola Co, I partner with teams that need help building and maintaining web applications. I specialize in Ruby on Rails but work comfortably across the full stack and with a range of frameworks. I enjoy solving performance problems, implementing solid architecture, and helping teams ship quality code. Day-to-day, that means database optimization, API design, frontend development, and DevOps.
@@ -58,45 +58,40 @@ Over the years I've worked extensively with Postgres, Redis, JavaScript, and mod
 If you need someone who can jump in and contribute quickly to your tech stack, let's talk.
 
 <hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
-<h3 class="flex gap-3 items-center">
+<h3 class="flex flex-wrap gap-3 items-center">
   {% include svg/mxu-logo.svg class="size-12" %}
   MxU
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Full Stack Engineer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Oct 2020 - Aug 2024</span>
+  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Full Stack Engineer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Oct 2020 – Aug 2024</span>
 </h3>
 
-MxU's core product is a Rails app used to train worship and tech teams in video,
-audio, lighting, and leadership. I built and maintained a robust platform helping
-those responsible for weekend services train volunteers in local churches around
-the world. **Over my 4 years there, MRR more than tripled**, ARR hit major
-milestones, and the team grew from 2 to 12.
+MxU's core product is a Rails app used to train worship and tech teams in video, audio, lighting, and leadership. I built and maintained a robust platform helping those responsible for weekend services train volunteers in local churches around the world. **Over my 4 years there, MRR more than tripled**, ARR hit major milestones, and the team grew from 2 to 12.
 
-I came on as the first employee and was solely responsible for the product for a
-period, later collaborating with two other engineers in varying capacities.
+I came on as the first employee and was solely responsible for the product for a period, later collaborating with two other engineers in varying capacities.
 
 I wore many hats at MxU. On the Rails side, I implemented Hotwire Stimulus and Turbo for interactive features, built custom video player integrations with Mux and Vimeo, and optimized database queries for performance. Beyond the core app, I developed marketing sites using WordPress, Jekyll, and other static site generators, created HubSpot landing pages for business partnerships, integrated CRM functionality between HubSpot and our application, set up e-commerce on Shopify, and built annual event sites integrated with Eventbrite. Our stack included PostgreSQL, Redis for caching, Sidekiq for background processing, and TailwindCSS for styling.
 
 <hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
  
-<h3 class="flex gap-3 items-center">
+<h3 class="flex flex-wrap gap-3 items-center">
   <span class="flex justify-center items-center p-3 rounded-full size-12 bg-[#231f20]">
     {% include svg/honey-logo.svg class="size-full" %}
   </span>
   Honey
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Senior Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Feb 2016 - Oct 2020</span>
+  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Senior Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Feb 2016 – Oct 2020</span>
 </h3>
 As the sole developer, I built custom client websites from scratch, often managing 2–3 projects simultaneously while working closely with the design team to bring creative concepts to life. I took an active role in client discovery sessions, contributed to design briefs, and presented technical solutions, completed websites, and training documentation to stakeholders. In addition to leading development, I managed ongoing maintenance contracts to ensure long-term functionality and performance. Many of the websites I built continue to see heavy use with minimal changes years later—something I'm genuinely proud of.
 
 <hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
-<h3 class="flex gap-3 items-center">
+<h3 class="flex flex-wrap gap-3 items-center">
   Bamboo Creative
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Web Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jan 2012 – Jan 2016</span>
+  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Web Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jan 2012 – Jan 2016</span>
 </h3>
 At Bamboo, I built websites from the ground up, handling everything from initial sketches and wireframes through to deployment and ongoing maintenance. I set up and configured LAMP stacks, managed Git-based deployments, and developed custom WordPress themes for multisite networks. Beyond new builds, I maintained a portfolio of 20+ client websites, keeping them updated, secure, and performing reliably.
 
 <hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
-<h3 class="flex gap-3 items-center">
+<h3 class="flex flex-wrap gap-3 items-center">
   Feif Ties / Trestle Leather Co
-  <span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jun 2010 – Jan 2013</span>
+  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jun 2010 – Jan 2013</span>
 </h3>
 Years ago, I launched and ran several Etsy shops, designing and handcrafting ties, belts, and wallets from raw materials. Within a few years, I was shipping products to customers across the USA, Germany, Australia, and Japan. I managed budgets and expenses, learning how to make bulk purchases and optimize product timing. The experience offered valuable lessons in entrepreneurship, operations, and customer service.
 
@@ -133,7 +128,7 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
   <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
     <span class="col-span-1 text-sm font-semibold">Frontend</span>
     <div class="flex flex-wrap col-span-3 gap-2">
-      {% assign color="lawn" %} {% assign text="JavaScript" %} {% include tag.html %}
+      {% assign color="green" %} {% assign text="JavaScript" %} {% include tag.html %}
       {% assign text="CSS" %} {% include tag.html %}
       {% assign text="HTML" %} {% include tag.html %}
       {% assign text="TailwindCSS" %} {% include tag.html %}
@@ -238,6 +233,9 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
   </div>
 </div>
 
+- [**Beaconed**](https://beaconed.ai) — A Shopify and WooCommerce app for stores with more products than time. It finds incomplete listings, drafts improvements from each product’s own details in the store’s voice, and nothing publishes until the merchant approves it. Rails 8, Hotwire, Solid Queue, and Anthropic and OpenAI models, running on AWS ECS Fargate.
+- [**Hearsay**](https://checkhearsay.com) — Shows Shopify merchants what Shopify’s catalog tells AI shopping agents about their products. It flags claims the merchant never made or directly contradicts, lists products the agents can’t find, and alerts when any of that changes. Rails, deployed on Fly.io.
+- [**Dinner Letter**](https://dinnerletter.com) — A weekly meal-planning service that builds a personalized dinner plan around each household's tastes and schedule. A project of Sola Co.
 - [**AltText.AI**](https://alttext.ai) — Leading engineering and support for this accessibility platform. I joined after the initial build to scale the infrastructure and enhance reliability. Working with Ruby on Rails, PostgreSQL, Sidekiq, and AI technologies (OpenAI GPT Vision and Azure Computer Vision). I implemented front-end designs from [Philippe Bosshart](https://www.philippebossh.art).
 - [**MxU**](https://getmxu.com) — A few things have changed since I left, but here are some pages showing the design direction I helped move the product toward:
   - [**Videos**](https://app.getmxu.com/lessons)
@@ -246,7 +244,7 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
 - [**BKD Creative**](https://bkdcreative.com/) — Portfolio page for a lighting team on tour with Thomas Rhett.
 - [**Saints Church**](https://saintschurchknox.com/) — Jekyll site for my church in Knoxville, Tennessee.
 
-Built with the design team at Honey (employer from 2016 to 2020)
+<p class="mt-10 mb-4 text-sm/5 font-semibold tracking-[.08em] uppercase text-taupe-500 dark:text-taupe-400">Built with the design team at Honey (employer from 2016 to 2020)</p>
 
 - [**Lange Twins Winery**](https://langetwins.com/) — WordPress with a Winedirect integration for a fifth-generation California Winery.
 - [**The Central Kitchen**](https://thecentralkitchen.org/) — WordPress for a state-of-the-art district-wide kitchen in Sacramento, CA.

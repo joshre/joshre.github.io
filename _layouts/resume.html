@@ -8,13 +8,12 @@ layout: default
 </div>
 
 <header class="overflow-hidden relative bg-gradient-to-b border-b border-taupe-200 from-taupe-50 to-taupe-100 dark:border-taupe-800 dark:from-taupe-900/90 dark:to-taupe-900">
-  <div class="absolute lg:hidden size-[calc(100%+4rem)] left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 bg-center blur-xl saturate-150 z-0"></div>
-  <div class="absolute inset-px z-0 lg:hidden bg-taupe-100 dark:bg-taupe-800"></div>
-  <div class="absolute inset-px z-10 bg-gradient-to-b lg:hidden from-taupe-50 to-taupe-100 dark:from-taupe-900/90 dark:to-taupe-900"></div>
+  <div class="absolute sm:hidden size-[calc(100%+4rem)] left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 bg-cover bg-center blur-xl saturate-150 z-0 bg-[url(/images/i-am-a-real-person-circle-small.jpg)]"></div>
+  <div class="absolute inset-0 z-10 bg-gradient-to-b sm:hidden from-taupe-50/90 to-taupe-100 dark:from-taupe-900/90 dark:to-taupe-900"></div>
   <div class="relative z-10 gap-2 items-center py-12 px-4 mx-auto max-w-5xl sm:flex sm:gap-8 sm:pt-0 sm:pl-0 lg:gap-16 lg:py-16">
     <div class="relative sm:-mt-24 sm:-ml-16 sm:w-full sm:h-auto md:m-0 max-w-72 size-20">
       <div class="overflow-hidden absolute rounded-full sm:rounded-[calc(1rem+2px)] dark:opacity-50 -inset-[3px]">
-        <div class="absolute w-[calc(100%+1rem)] h-[calc(100%+1rem)] blur-sm z-0"></div>
+        <div class="absolute -inset-2 bg-cover blur-sm z-0 bg-[center_20%] bg-[url(/images/i-am-a-real-person-small.jpg)]"></div>
         <div class="absolute inset-2 z-10 rounded-full sm:rounded-2xl bg-taupe-100 dark:bg-taupe-900"></div>
       </div>
 
@@ -39,6 +38,7 @@ layout: default
       <p class="text-base sm:text-lg lg:text-xl child text-balance text-taupe-700 dark:text-taupe-200">Full-stack Developer, Engineer, Designer</p>
       <div class="flex gap-2 items-center mt-5 child">
         <a target="_self" href="#spare-me-ill-take-the-links" class="jre-button">Jump To My Work</a>
+        <a href="{{ site.url }}/" class="jre-button-outline">Back Home</a>
       </div>
     </div>
   </div>
