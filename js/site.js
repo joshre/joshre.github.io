@@ -1,134 +1,26 @@
-handleTouchClick = function (element, callback) {
-  element.addEventListener("click", callback);
-  element.addEventListener("touchstart", callback);
-};
+const playRockyTop = () => {
+  const background = document.querySelector(".rocky-top-bg");
+  if (!background) return;
 
-homeSweetHomeToMe = function () {
-  let vols = document.querySelectorAll(".vols");
-  let rockyTopBg = document.querySelector(".rocky-top-bg");
-
-  vols.forEach((el) => {
-    handleTouchClick(el, () => {
-      rockyTopBg.classList.add("run");
-
-      setTimeout(() => {
-        rockyTopBg.classList.remove("run");
-      }, 1000);
-    });
-  });
-};
-
-makeAnObservation = function () {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        const targetClass = entry.target.getAttribute("data-class");
-        entry.target.classList.add(targetClass);
-        observer.unobserve(entry.target);
-      }
-    });
-  });
-
-  document.querySelectorAll(".observe").forEach((element) => {
-    observer.observe(element);
-  });
-};
-
-mobileNavHandler = function () {
-  let button = document.querySelector(".menu--trigger-button");
-  if (!button) return false;
-  let body = document.querySelector("body");
-  let nav = document.querySelector(".nav");
-  let links = Array.from(nav.querySelectorAll("a"));
-
-  links.push(button);
-
-  const toggleNav = (el) => {
-    body.classList.toggle("navopen");
-    let isNavOpen = body.classList.contains("navopen");
-
-    button.setAttribute("aria-expanded", isNavOpen);
-    nav.setAttribute("aria-hidden", !isNavOpen);
-
-    if (isNavOpen) {
-      nav.classList.remove("pointer-events-none");
-      nav.classList.add("pointer-events-auto");
-    } else {
-      nav.classList.remove("pointer-events-auto");
-      nav.classList.add("pointer-events-none");
-    }
-  };
-
-  links.forEach((el) => {
+  document.querySelectorAll(".vols").forEach((el) => {
     el.addEventListener("click", () => {
-      toggleNav(el);
+      background.classList.add("run");
+      setTimeout(() => background.classList.remove("run"), 1000);
     });
   });
 };
 
-slideButtonsOverOnMobile = function () {
-  let ticking = false;
-
-  const checkOverlap = (stickyButtons, globalSticky) => {
-    stickyButtons.forEach((button) => {
-      const targetClasses = button.getAttribute("data-class").split(" ");
-      const globalStickyRect = globalSticky.getBoundingClientRect();
-      const buttonRect = button.getBoundingClientRect();
-
-      const isOverlapping =
-        buttonRect.top < globalStickyRect.bottom &&
-        buttonRect.bottom > globalStickyRect.top;
-
-      if (isOverlapping) {
-        button.classList.add(...targetClasses);
-      } else {
-        button.classList.remove(...targetClasses);
-      }
-    });
-  };
-
-  const handleScroll = (stickyButtons, globalSticky) => {
-    if (!ticking) {
-      window.requestAnimationFrame(() => {
-        checkOverlap(stickyButtons, globalSticky);
-        ticking = false;
-      });
-      ticking = true;
+const revealOnScroll = () => {
+  const observer = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      if (!entry.isIntersecting) continue;
+      entry.target.classList.add(entry.target.dataset.class);
+      observer.unobserve(entry.target);
     }
-  };
+  });
 
-  if (window.innerWidth < 830) {
-    const stickyButtons = document.querySelectorAll(".sticky-button");
-    const globalSticky = document.querySelector("#nav");
-
-    const scrollHandler = () => handleScroll(stickyButtons, globalSticky);
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        let anyIntersecting = false;
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            anyIntersecting = true;
-          }
-        });
-        if (anyIntersecting) {
-          window.addEventListener("scroll", scrollHandler);
-        } else {
-          window.removeEventListener("scroll", scrollHandler);
-        }
-      },
-      { root: null, threshold: [0] }
-    );
-
-    stickyButtons.forEach((button) => observer.observe(button));
-
-    checkOverlap(stickyButtons, globalSticky); // Initial check on load
-  }
+  for (const el of document.querySelectorAll(".observe")) observer.observe(el);
 };
 
-document.addEventListener("DOMContentLoaded", function (event) {
-  makeAnObservation();
-  homeSweetHomeToMe();
-  mobileNavHandler();
-  slideButtonsOverOnMobile();
-});
+playRockyTop();
+revealOnScroll();
