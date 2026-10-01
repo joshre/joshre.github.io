@@ -449,35 +449,6 @@ body.navopen .nav li:not(.button) {
     transform 0.5s var(--base-animation);
 }
 
-.skew-self {
-  --extra-delay: 0.45s;
-  --duration: 0.85s;
-  animation-name: fadeInSkewUp;
-  animation-duration: var(--duration);
-  animation-delay: var(--extra-delay);
-  animation-timing-function: var(--base-animation);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-  animation-play-state: paused;
-}
-
-.lg\:skew-self {
-  --extra-delay: 0.45s;
-  --duration: 0.85s;
-  animation-name: fadeInSkewUp;
-  animation-duration: var(--duration);
-  animation-delay: var(--extra-delay);
-  animation-timing-function: var(--base-animation);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-  animation-play-state: paused;
-}
-
-.lg\:skew-self.run,
-.skew-self.run {
-  animation-play-state: running;
-}
-
 .skew-children {
   --extra-delay: 0.05s;
   --duration: 0.4s;
@@ -510,21 +481,6 @@ body.navopen .nav li:not(.button) {
   100% {
     transform: skewY(0) translateY(0);
     opacity: 1;
-  }
-}
-
-@keyframes fadeInSkewUpForward {
-  0% {
-    transform: scale(0.97) rotateX(20deg) skewY(0.5deg) translateY(1rem);
-    opacity: 0;
-  }
-
-  60% {
-    opacity: 1;
-  }
-
-  100% {
-    transform: scale(1) rotateX(0deg) skewY(0) translateY(0);
   }
 }
 
@@ -609,71 +565,6 @@ body.navopen .nav li:not(.button) {
   animation-delay: calc(var(--extra-delay) * 5);
 }
 
-.my-family path {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  --extra-delay: 2s;
-  --duration: 2s;
-  animation-name: draw;
-  animation-duration: var(--duration);
-  animation-delay: var(--extra-delay);
-  animation-timing-function: var(--base-animation);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-  animation-play-state: paused;
-}
-.my-family .me path {
-}
-.my-family .lil path {
-  --extra-delay: 4s;
-}
-.my-family .lel path {
-  --extra-delay: 3s;
-}
-.my-family .jam path {
-  --extra-delay: 4.5s;
-}
-.my-family.run path {
-  animation-play-state: running;
-}
-
-@keyframes draw {
-  to {
-    stroke-dashoffset: 500;
-  }
-}
-
-.my-family .torso {
-  animation-delay: var(--extra-delay);
-}
-.my-family .head {
-  animation-delay: calc(var(--extra-delay) + 0.2s);
-}
-.my-family .leg {
-  animation-delay: calc(var(--extra-delay) + 0.4s);
-}
-.my-family .arms {
-  animation-delay: calc(var(--extra-delay) + 0.6s);
-}
-.my-family .eye {
-  animation-delay: calc(var(--extra-delay) + 0.8s);
-}
-.my-family .nose {
-  animation-delay: calc(var(--extra-delay) + 1s);
-}
-.my-family .mouth {
-  animation-delay: calc(var(--extra-delay) + 1.2s);
-}
-.my-family .hair {
-  animation-delay: calc(var(--extra-delay) + 1.4s);
-}
-.my-family .bangs {
-  animation-delay: calc(var(--extra-delay) + 2.6s);
-}
-.my-family .blanket {
-  animation-delay: calc(var(--extra-delay) + 1.2s);
-}
-
 .jre-button {
   @apply transition-opacity;
   @apply duration-100;
@@ -740,49 +631,6 @@ body.navopen .nav li:not(.button) {
   @apply data-hover:[--btn-icon:var(--color-zinc-300)];
   @apply cursor-default;
   @apply origin-left;
-}
-
-.bend {
-  background-size: 300% 100%;
-}
-.bend:hover {
-  --duration: 0.6s;
-  animation-name: makeItBigger;
-  animation-duration: var(--duration);
-  animation-delay: 0;
-  animation-timing-function: var(--base-animation);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-
-  animation-play-state: running;
-}
-.bend:hover:before {
-  --duration: 0.5s;
-  animation-name: makeMeSick;
-  animation-duration: var(--duration);
-  animation-delay: 0;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-fill-mode: both;
-
-  animation-play-state: running;
-}
-@keyframes makeItBigger {
-  from {
-    font-weight: 100;
-  }
-  to {
-    font-weight: 900;
-    color: var(--color-red-50);
-  }
-}
-@keyframes makeMeSick {
-  from {
-    background-position: 0% 300%;
-  }
-  to {
-    background-position: 0% 0%;
-  }
 }
 
 /* rounded-square icon mask shared by the homepage project list */
