@@ -36,25 +36,25 @@ projects:
     description: a parochial index that I built and maintain to filter Knoxville restaurants for date nights.
 ---
 
-<h2 class="mt-6 mb-0 font-normal sm:mt-8 text-[clamp(19px,2.9vw,22px)]/[1.5] tracking-[-.011em] text-pretty text-taupe-900 dark:text-taupe-50">Hello there, my name is Josh. I’m a full-stack developer, engineer, and designer in <span class="vols text-rocky-top">Knoxville</span>, Tennessee. I have over a decade of experience building highly performant websites for multiple disciplines.</h2>
+<h2 class="text-taupe-900 dark:text-taupe-50 mt-6 mb-0 text-[clamp(19px,2.9vw,22px)]/[1.5] font-normal tracking-[-.011em] text-pretty sm:mt-8">Hello there, my name is Josh. I’m a full-stack developer, engineer, and designer in <span class="vols text-rocky-top">Knoxville</span>, Tennessee. I have over a decade of experience building highly performant websites for multiple disciplines.</h2>
 
-<h4 class="mt-12 mb-4 font-semibold tracking-[.08em] uppercase sm:mt-14 text-[13px]/5 text-taupe-500 dark:text-taupe-400">Lately, I’ve been building</h4>
+<h4 class="text-taupe-500 dark:text-taupe-400 mt-12 mb-4 text-[13px]/5 font-semibold tracking-[.08em] uppercase sm:mt-14">Lately, I’ve been building</h4>
 
-<ul class="grid gap-4 p-0 m-0 list-none">
+<ul class="m-0 grid list-none gap-4 p-0">
   {%- for project in page.projects %}
   <li class="grid grid-cols-[20px_minmax(0,1fr)] gap-x-3 text-pretty">
     {%- if project.vols %}
-    <span class="block mt-1 size-5 drop-shadow-[0_0_.5px_rgb(0_0_0/.3)]" aria-hidden="true"><span class="block size-5 squircle vols-checker"></span></span>
+    <span class="mt-1 block size-5 drop-shadow-[0_0_.5px_rgb(0_0_0/.3)]" aria-hidden="true"><span class="squircle vols-checker block size-5"></span></span>
     {%- elsif project.bare %}
-    <img class="block object-contain mt-1 size-5" src="{{ project.icon }}" alt="" aria-hidden="true">
+    <img class="mt-1 block size-5 object-contain" src="{{ project.icon }}" alt="" aria-hidden="true">
     {%- else %}
-    <img class="block object-cover mt-1 size-5 squircle" src="{{ project.icon }}" alt="" aria-hidden="true">
+    <img class="squircle mt-1 block size-5 object-cover" src="{{ project.icon }}" alt="" aria-hidden="true">
     {%- endif %}
     <span><a class="font-[650] no-underline text-taupe-900 plausible-event-name=Outbound+Link plausible-event-destination={{ project.event }} dark:text-taupe-50 hover:text-olive-700 dark:hover:text-olive-300" href="{% if project.url contains '://' %}{{ project.url }}{% else %}{{ site.url }}{{ project.url }}{% endif %}" target="_blank" rel="noopener">{{ project.name }}</a><span class="text-taupe-400 dark:text-taupe-600"> —</span> {{ project.description }}</span>
   </li>
   {%- endfor %}
 </ul>
 
-<p class="mt-10 mb-8 text-pretty">I also head up engineering at <a class="font-[650] text-olive-700 dark:text-olive-300 hover:text-olive-900 dark:hover:text-olive-200" href="https://alttext.ai" target="_blank" rel="noopener">AltText.AI</a>, where we make the web more accessible with AI-generated image descriptions.</p>
+<p class="mt-10 mb-8 text-pretty">I also head up engineering at <a class="text-olive-700 dark:text-olive-300 hover:text-olive-900 dark:hover:text-olive-200 font-[650]" href="https://alttext.ai" target="_blank" rel="noopener">AltText.AI</a>, where we make the web more accessible with AI-generated image descriptions.</p>
 
 <a href="{{site.url}}/resume" class="jre-button">Read My Resume</a>

@@ -7,48 +7,48 @@ bg: "bg-taupe-50"
 ---
 
 <div class="prose">
-  <h2 id="about-me" class="pt-6 -mb-3 text-3xl tracking-tight font-vulf">About Me</h2>
+  <h2 id="about-me" class="-mb-3 pt-6 font-vulf text-3xl tracking-tight">About Me</h2>
 </div>
-<div class="flex relative flex-wrap items-center -mb-6 md:flex-nowrap md:gap-6 lg:gap-8 text-lg/relaxed text-pretty xl:text-xl/relaxed">
+<div class="relative -mb-6 flex flex-wrap items-center text-lg/relaxed text-pretty md:flex-nowrap md:gap-6 lg:gap-8 xl:text-xl/relaxed">
   <p>I live in <strong class="font-medium"><span class="vols text-rocky-top">Knoxville</span>, Tennessee</strong> with my wonderful wife Leila and a couple of kids. We avidly garden—saving seeds and seeking out new varieties—and our family's best time is spent together cooking. I also have the privilege of serving as an elder at our&nbsp;church.</p>
 </div>
 
 **I've spent over a decade working on the web, with experience across every discipline involved in putting ideas online.** I’ve worked with restaurants, the wine industry, churches, hotels, farms, large-scale commodity boards, and e-commerce shops. Right now I lead engineering at AltText.AI and build my own products through Sola Co.
 
-<p class="flex flex-col gap-4 items-start p-6 text-white rounded-xl sm:flex-row sm:gap-3 sm:items-center lg:gap-4 lg:pr-8 bg-[#5D6046]">
-{% include svg/sola-logo.svg class="flex-none w-16 rounded-full sm:w-24 lg:w-36 bg-[#5D6046]" %}
+<p class="flex flex-col items-start gap-4 rounded-xl bg-[#5D6046] p-6 text-white sm:flex-row sm:items-center sm:gap-3 lg:gap-4 lg:pr-8">
+{% include svg/sola-logo.svg class="w-16 flex-none rounded-full bg-[#5D6046] sm:w-24 lg:w-36" %}
 <span>Currently, I run <span class="font-medium">Sola Co</span>, a consulting firm that helps businesses and teams build better digital experiences. If you're interested in working with me, reach out.</span>
 </p>
 
 <span id="work-history" class="block"></span>
 
-<div class="sticky top-0 z-10 px-2 -mx-2 mt-16 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 sticky--header to-white/80 backdrop-blur-sm before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16 dark:from-taupe-900 dark:to-taupe-900/80 dark:before:from-taupe-900/80 dark:before:to-taupe-900">
-  <div class="flex justify-between items-center not-prose">
-    <h2 class="py-2 mb-0 text-2xl tracking-tight sm:text-3xl font-vulf">Work History</h2>
+<div class="sticky--header dark:from-taupe-900 dark:to-taupe-900/80 dark:before:from-taupe-900/80 dark:before:to-taupe-900 sticky top-0 z-10 -mx-2 mt-16 bg-gradient-to-b from-white to-white/80 px-2 backdrop-blur-sm before:absolute before:-top-16 before:h-16 before:w-full before:bg-gradient-to-b before:from-white/80 before:to-white lg:-mx-8 lg:px-8">
+  <div class="not-prose flex items-center justify-between">
+    <h2 class="mb-0 py-2 font-vulf text-2xl tracking-tight sm:text-3xl">Work History</h2>
     <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0" data-class="-translate-x-12 md:-translate-x-[calc(1vw)]">Reach Out</a>
   </div>
-  <div class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
-    <div class="flex -mb-px w-full h-[2px]">
-      <div class="flex-none w-full blur-sm [background-image:linear-gradient(90deg,var(--gradient-stops))]"></div>
-      <div class="-ml-[100%] w-full flex-none blur-[1px] [background-image:linear-gradient(90deg,var(--gradient-stops))]"></div>
+  <div class="-inset-x-10 bottom-[2px] -mb-px flex items-end overflow-hidden">
+    <div class="-mb-px flex h-[2px] w-full">
+      <div class="w-full flex-none [background-image:linear-gradient(90deg,var(--gradient-stops))] blur-sm"></div>
+      <div class="-ml-[100%] w-full flex-none [background-image:linear-gradient(90deg,var(--gradient-stops))] blur-[1px]"></div>
     </div>
   </div>
 </div>
 
-<h3 class="flex flex-wrap gap-3 items-center">
-  {% include svg/alttext-logo.svg class="rounded-full bg-[#1C64F2] size-12" %}
+<h3 class="flex flex-wrap items-center gap-3">
+  {% include svg/alttext-logo.svg class="size-12 rounded-full bg-[#1C64F2]" %}
   AltText.AI
-  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Head of Engineering</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Late '24 – Present</span>
+  <span class="h-0 basis-full sm:hidden"></span><span class="bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700 ml-auto inline-flex items-center gap-2.5 rounded-full border px-3 py-1.5 text-sm whitespace-nowrap max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px]"><strong>Head of Engineering</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Late '24 – Present</span>
 </h3>
 
 Leading engineering efforts at AltText.AI, where we make the web more accessible through AI-powered image descriptions. I joined after the initial platform was built and now focus on scaling infrastructure to support 70,000+ users while expanding our integration ecosystem. Most of my work there is running AI at volume. That means queues and rate limits, batching and caching to keep costs down, running OpenAI, Anthropic, and Gemini side by side, and testing a new model against the current one before we switch.
 
-<hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
+<hr class="border-taupe-300 dark:border-taupe-700 border-y-0 border-t border-dotted">
  
-<h3 class="flex flex-wrap gap-3 items-center">
-  {% include svg/sola-logo.svg class="rounded-full size-12 bg-[#5D6046]" %}
+<h3 class="flex flex-wrap items-center gap-3">
+  {% include svg/sola-logo.svg class="size-12 rounded-full bg-[#5D6046]" %}
   Sola Co
-  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} 2024 – Present</span>
+  <span class="h-0 basis-full sm:hidden"></span><span class="bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700 ml-auto inline-flex items-center gap-2.5 rounded-full border px-3 py-1.5 text-sm whitespace-nowrap max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px]"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} 2024 – Present</span>
 </h3>
 
 Through Sola Co, I partner with teams that need help building and maintaining web applications. I specialize in Ruby on Rails but work comfortably across the full stack and with a range of frameworks. Day-to-day, that means database optimization, API design, frontend development, and DevOps.
@@ -57,11 +57,11 @@ It's also where I build my own products: Clementine CSA, Dinner Letter, and Hear
 
 If you need someone who can jump in and contribute quickly to your tech stack, let's talk.
 
-<hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
-<h3 class="flex flex-wrap gap-3 items-center">
+<hr class="border-taupe-300 dark:border-taupe-700 border-y-0 border-t border-dotted">
+<h3 class="flex flex-wrap items-center gap-3">
   {% include svg/mxu-logo.svg class="size-12" %}
   MxU
-  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Full Stack Engineer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Oct 2020 – Aug 2024</span>
+  <span class="h-0 basis-full sm:hidden"></span><span class="bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700 ml-auto inline-flex items-center gap-2.5 rounded-full border px-3 py-1.5 text-sm whitespace-nowrap max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px]"><strong>Full Stack Engineer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Oct 2020 – Aug 2024</span>
 </h3>
 
 MxU's core product is a Rails app used to train worship and tech teams in video, audio, lighting, and leadership. I built and maintained a robust platform helping those responsible for weekend services train volunteers in local churches around the world. **Over my 4 years there, MRR more than tripled**, ARR hit major milestones, and the team grew from 2 to 12.
@@ -70,50 +70,50 @@ I came on as the first employee and was solely responsible for the product for a
 
 I wore many hats at MxU. On the Rails side, I implemented Hotwire Stimulus and Turbo for interactive features, built custom video player integrations with Mux and Vimeo, and optimized database queries for performance. Beyond the core app, I developed marketing sites using WordPress, Jekyll, and other static site generators, created HubSpot landing pages for business partnerships, integrated CRM functionality between HubSpot and our application, set up e-commerce on Shopify, and built annual event sites integrated with Eventbrite. Our stack included PostgreSQL, Redis for caching, Sidekiq for background processing, and TailwindCSS for styling.
 
-<hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
+<hr class="border-taupe-300 dark:border-taupe-700 border-y-0 border-t border-dotted">
  
-<h3 class="flex flex-wrap gap-3 items-center">
-  <span class="flex justify-center items-center p-3 rounded-full size-12 bg-[#231f20]">
+<h3 class="flex flex-wrap items-center gap-3">
+  <span class="flex size-12 items-center justify-center rounded-full bg-[#231f20] p-3">
     {% include svg/honey-logo.svg class="size-full" %}
   </span>
   Honey
-  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Senior Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Feb 2016 – Oct 2020</span>
+  <span class="h-0 basis-full sm:hidden"></span><span class="bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700 ml-auto inline-flex items-center gap-2.5 rounded-full border px-3 py-1.5 text-sm whitespace-nowrap max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px]"><strong>Senior Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Feb 2016 – Oct 2020</span>
 </h3>
 As the sole developer, I built custom client websites from scratch, often managing 2–3 projects simultaneously while working closely with the design team to bring creative concepts to life. I took an active role in client discovery sessions, contributed to design briefs, and presented technical solutions, completed websites, and training documentation to stakeholders. I also ran the maintenance contracts after launch. Many of the websites I built continue to see heavy use with minimal changes years later—something I'm genuinely proud of.
 
-<hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
-<h3 class="flex flex-wrap gap-3 items-center">
+<hr class="border-taupe-300 dark:border-taupe-700 border-y-0 border-t border-dotted">
+<h3 class="flex flex-wrap items-center gap-3">
   Bamboo Creative
-  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Web Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jan 2012 – Jan 2016</span>
+  <span class="h-0 basis-full sm:hidden"></span><span class="bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700 ml-auto inline-flex items-center gap-2.5 rounded-full border px-3 py-1.5 text-sm whitespace-nowrap max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px]"><strong>Web Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jan 2012 – Jan 2016</span>
 </h3>
 At Bamboo, I built websites from the ground up, handling everything from initial sketches and wireframes through to deployment and ongoing maintenance. I set up and configured LAMP stacks, managed Git-based deployments, and developed custom WordPress themes for multisite networks. Beyond new builds, I maintained a portfolio of 20+ client websites, keeping them updated, secure, and performing reliably.
 
-<hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
-<h3 class="flex flex-wrap gap-3 items-center">
+<hr class="border-taupe-300 dark:border-taupe-700 border-y-0 border-t border-dotted">
+<h3 class="flex flex-wrap items-center gap-3">
   Feif Ties / Trestle Leather Co
-  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jun 2010 – Jan 2013</span>
+  <span class="h-0 basis-full sm:hidden"></span><span class="bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700 ml-auto inline-flex items-center gap-2.5 rounded-full border px-3 py-1.5 text-sm whitespace-nowrap max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px]"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jun 2010 – Jan 2013</span>
 </h3>
 Years ago, I launched and ran several Etsy shops, designing and handcrafting ties, belts, and wallets from raw materials. Within a few years, I was shipping products to customers across the USA, Germany, Australia, and Japan. I managed budgets and expenses, learning how to make bulk purchases and optimize product timing.
 
 <span id="skill-set" class="block"></span>
 
-<div class="sticky top-0 z-10 px-2 -mx-2 mt-16 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 sticky--header to-white/80 backdrop-blur-sm before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16 dark:from-taupe-900 dark:to-taupe-900/80 dark:before:from-taupe-900/80 dark:before:to-taupe-900">
-  <div class="flex justify-between items-center not-prose">
-    <h2 class="py-2 mb-0 text-2xl tracking-tight sm:text-3xl font-vulf">Skill Set</h2>
+<div class="sticky--header dark:from-taupe-900 dark:to-taupe-900/80 dark:before:from-taupe-900/80 dark:before:to-taupe-900 sticky top-0 z-10 -mx-2 mt-16 bg-gradient-to-b from-white to-white/80 px-2 backdrop-blur-sm before:absolute before:-top-16 before:h-16 before:w-full before:bg-gradient-to-b before:from-white/80 before:to-white lg:-mx-8 lg:px-8">
+  <div class="not-prose flex items-center justify-between">
+    <h2 class="mb-0 py-2 font-vulf text-2xl tracking-tight sm:text-3xl">Skill Set</h2>
     <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0" data-class="-translate-x-12 md:-translate-x-[calc(1vw)]">Reach Out</a>
   </div>
-  <div class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
-    <div class="flex -mb-px w-full h-[2px]">
-      <div class="flex-none w-full blur-sm [background-image:linear-gradient(90deg,var(--gradient-stops))]"></div>
-      <div class="-ml-[100%] w-full flex-none blur-[1px] [background-image:linear-gradient(90deg,var(--gradient-stops))]"></div>
+  <div class="-inset-x-10 bottom-[2px] -mb-px flex items-end overflow-hidden">
+    <div class="-mb-px flex h-[2px] w-full">
+      <div class="w-full flex-none [background-image:linear-gradient(90deg,var(--gradient-stops))] blur-sm"></div>
+      <div class="-ml-[100%] w-full flex-none [background-image:linear-gradient(90deg,var(--gradient-stops))] blur-[1px]"></div>
     </div>
   </div>
 </div>
 
-<div class="flex flex-col mt-8 divide-y divide-dotted not-prose dark:divide-taupe-600">
-  <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
+<div class="not-prose dark:divide-taupe-600 mt-8 flex flex-col divide-y divide-dotted">
+  <div class="grid items-baseline gap-3 pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
     <span class="col-span-1 text-sm font-semibold">Backend</span>
-    <div class="flex flex-wrap col-span-3 gap-2">
+    <div class="col-span-3 flex flex-wrap gap-2">
       {% assign color="teal" %} {% assign text="Ruby on Rails" %} {% include tag.html %}
       {% assign text="PostgreSQL" %} {% include tag.html %}
       {% assign text="SQLite" %} {% include tag.html %}
@@ -128,9 +128,9 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
       {% assign text="RSpec" %} {% include tag.html %}
     </div>
   </div>
-  <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
+  <div class="grid items-baseline gap-3 pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
     <span class="col-span-1 text-sm font-semibold">Frontend</span>
-    <div class="flex flex-wrap col-span-3 gap-2">
+    <div class="col-span-3 flex flex-wrap gap-2">
       {% assign color="green" %} {% assign text="Hotwire (Turbo & Stimulus)" %} {% include tag.html %}
       {% assign text="Tailwind CSS" %} {% include tag.html %}
       {% assign text="JavaScript" %} {% include tag.html %}
@@ -143,9 +143,9 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
       {% assign text="Vite" %} {% include tag.html %}
     </div>
   </div>
-  <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
+  <div class="grid items-baseline gap-3 pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
     <span class="col-span-1 text-sm font-semibold">Infrastructure</span>
-    <div class="flex flex-wrap col-span-3 gap-2">
+    <div class="col-span-3 flex flex-wrap gap-2">
       {% assign color="slate" %} {% assign text="AWS" %} {% include tag.html %}
       {% assign text="Docker" %} {% include tag.html %}
       {% assign text="Kamal" %} {% include tag.html %}
@@ -157,9 +157,9 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
       {% assign text="DNS" %} {% include tag.html %}
     </div>
   </div>
-  <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
+  <div class="grid items-baseline gap-3 pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
     <span class="col-span-1 text-sm font-semibold">AI</span>
-    <div class="flex flex-wrap col-span-3 gap-2">
+    <div class="col-span-3 flex flex-wrap gap-2">
       {% assign color="fuchsia" %} {% assign text="Anthropic API" %} {% include tag.html %}
       {% assign text="OpenAI API" %} {% include tag.html %}
       {% assign text="Google Gemini" %} {% include tag.html %}
@@ -171,9 +171,9 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
       {% assign text="Claude Code" %} {% include tag.html %}
     </div>
   </div>
-  <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
+  <div class="grid items-baseline gap-3 pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
     <span class="col-span-1 text-sm font-semibold">AI at Scale</span>
-    <div class="flex flex-wrap col-span-3 gap-2">
+    <div class="col-span-3 flex flex-wrap gap-2">
       {% assign color="indigo" %} {% assign text="High-Volume Inference" %} {% include tag.html %}
       {% assign text="Queues & Concurrency Limits" %} {% include tag.html %}
       {% assign text="Batch APIs" %} {% include tag.html %}
@@ -184,9 +184,9 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
       {% assign text="Model Evals & Canaries" %} {% include tag.html %}
     </div>
   </div>
-  <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
+  <div class="grid items-baseline gap-3 pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
     <span class="col-span-1 text-sm font-semibold">Platforms</span>
-    <div class="flex flex-wrap col-span-3 gap-2">
+    <div class="col-span-3 flex flex-wrap gap-2">
       {% assign color="cyan" %} {% assign text="Shopify Apps" %} {% include tag.html %}
       {% assign text="WordPress & WooCommerce Plugins" %} {% include tag.html %}
       {% assign text="Magento" %} {% include tag.html %}
@@ -198,9 +198,9 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
       {% assign text="Intercom" %} {% include tag.html %}
     </div>
   </div>
-  <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
+  <div class="grid items-baseline gap-3 pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
     <span class="col-span-1 text-sm font-semibold">Product & Growth</span>
-    <div class="flex flex-wrap col-span-3 gap-2">
+    <div class="col-span-3 flex flex-wrap gap-2">
       {% assign color="violet" %} {% assign text="MRR & Churn" %} {% include tag.html %}
       {% assign text="Retention" %} {% include tag.html %}
       {% assign text="NPS" %} {% include tag.html %}
@@ -210,18 +210,18 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
       {% assign text="CRM" %} {% include tag.html %}
     </div>
   </div>
-  <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
+  <div class="grid items-baseline gap-3 pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
     <span class="col-span-1 text-sm font-semibold">Accessibility</span>
-    <div class="flex flex-wrap col-span-3 gap-2">
+    <div class="col-span-3 flex flex-wrap gap-2">
       {% assign color="rose" %} {% assign text="WCAG" %} {% include tag.html %}
       {% assign text="Alt Text" %} {% include tag.html %}
       {% assign text="Semantic HTML" %} {% include tag.html %}
       {% assign text="Accessible UI Design" %} {% include tag.html %}
     </div>
   </div>
-  <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
+  <div class="grid items-baseline gap-3 pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
     <span class="col-span-1 text-sm font-semibold">Design</span>
-    <div class="flex flex-wrap col-span-3 gap-2">
+    <div class="col-span-3 flex flex-wrap gap-2">
       {% assign color="amber" %} {% assign text="Figma" %} {% include tag.html %}
       {% assign text="Illustrator" %} {% include tag.html %}
     </div>
@@ -230,71 +230,71 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
 
 <span id="spare-me-ill-take-the-links" class="block"></span>
 
-<div class="sticky top-0 z-10 px-2 -mx-2 mt-16 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 sticky--header to-white/80 backdrop-blur-sm before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16 dark:from-taupe-900 dark:to-taupe-900/80 dark:before:from-taupe-900/80 dark:before:to-taupe-900">
-  <div class="flex justify-between items-center not-prose">
-    <h2 class="py-2 mb-0 text-2xl tracking-tight sm:text-3xl font-vulf">Things Built & Worked On</h2>
+<div class="sticky--header dark:from-taupe-900 dark:to-taupe-900/80 dark:before:from-taupe-900/80 dark:before:to-taupe-900 sticky top-0 z-10 -mx-2 mt-16 bg-gradient-to-b from-white to-white/80 px-2 backdrop-blur-sm before:absolute before:-top-16 before:h-16 before:w-full before:bg-gradient-to-b before:from-white/80 before:to-white lg:-mx-8 lg:px-8">
+  <div class="not-prose flex items-center justify-between">
+    <h2 class="mb-0 py-2 font-vulf text-2xl tracking-tight sm:text-3xl">Things Built & Worked On</h2>
     <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0" data-class="-translate-x-12 md:-translate-x-[calc(1vw)]">Reach Out</a>
   </div>
-  <div class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
-    <div class="flex -mb-px w-full h-[2px]">
-      <div class="flex-none w-full blur-sm [background-image:linear-gradient(90deg,var(--gradient-stops))]"></div>
-      <div class="-ml-[100%] w-full flex-none blur-[1px] [background-image:linear-gradient(90deg,var(--gradient-stops))]"></div>
+  <div class="-inset-x-10 bottom-[2px] -mb-px flex items-end overflow-hidden">
+    <div class="-mb-px flex h-[2px] w-full">
+      <div class="w-full flex-none [background-image:linear-gradient(90deg,var(--gradient-stops))] blur-sm"></div>
+      <div class="-ml-[100%] w-full flex-none [background-image:linear-gradient(90deg,var(--gradient-stops))] blur-[1px]"></div>
     </div>
   </div>
 </div>
 
-<h3 class="flex flex-wrap gap-3 items-center">
-  <img src="/images/icons/beaconed.svg" alt="" class="!my-0 squircle size-12">
+<h3 class="flex flex-wrap items-center gap-3">
+  <img src="/images/icons/beaconed.svg" alt="" class="squircle !my-0 size-12">
   Beaconed
-  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Built</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jan 2026 – Present</span>
+  <span class="h-0 basis-full sm:hidden"></span><span class="bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700 ml-auto inline-flex items-center gap-2.5 rounded-full border px-3 py-1.5 text-sm whitespace-nowrap max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px]"><strong>Built</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jan 2026 – Present</span>
 </h3>
 
 A Shopify and WooCommerce app for stores with more products than time. It finds incomplete listings, drafts improvements from each product’s own details in the store’s voice, and nothing publishes until the merchant approves it.
 
 <div class="not-prose"><a href="https://beaconed.ai" target="_blank" rel="noopener" class="jre-button-outline">Visit Beaconed</a></div>
 
-<hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
+<hr class="border-taupe-300 dark:border-taupe-700 border-y-0 border-t border-dotted">
 
-<h3 class="flex flex-wrap gap-3 items-center">
-  <img src="/images/icons/hearsay.png" alt="" class="!my-0 squircle size-12">
+<h3 class="flex flex-wrap items-center gap-3">
+  <img src="/images/icons/hearsay.png" alt="" class="squircle !my-0 size-12">
   Hearsay
-  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Built</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Sep 2026 – Present</span>
+  <span class="h-0 basis-full sm:hidden"></span><span class="bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700 ml-auto inline-flex items-center gap-2.5 rounded-full border px-3 py-1.5 text-sm whitespace-nowrap max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px]"><strong>Built</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Sep 2026 – Present</span>
 </h3>
 
 Shows Shopify merchants what Shopify’s catalog tells AI shopping agents about their products. It flags claims the merchant never made or directly contradicts, lists products the agents can’t find, and alerts when any of that changes. A project of Sola Co.
 
 <div class="not-prose"><a href="https://checkhearsay.com" target="_blank" rel="noopener" class="jre-button-outline">Visit Hearsay</a></div>
 
-<hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
+<hr class="border-taupe-300 dark:border-taupe-700 border-y-0 border-t border-dotted">
 
-<h3 class="flex flex-wrap gap-3 items-center">
+<h3 class="flex flex-wrap items-center gap-3">
   <img src="/images/icons/clementine.svg" alt="" class="!my-0 size-12 object-contain">
   Clementine CSA
-  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Built</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Sep 2024 – Present</span>
+  <span class="h-0 basis-full sm:hidden"></span><span class="bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700 ml-auto inline-flex items-center gap-2.5 rounded-full border px-3 py-1.5 text-sm whitespace-nowrap max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px]"><strong>Built</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Sep 2024 – Present</span>
 </h3>
 
 A CSA platform for small farms: a members list, weekly recurring card charges, and a shareable signup page, all in one place. A project of Sola Co.
 
 <div class="not-prose"><a href="https://clementinecsa.com" target="_blank" rel="noopener" class="jre-button-outline">Visit Clementine CSA</a></div>
-<hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
+<hr class="border-taupe-300 dark:border-taupe-700 border-y-0 border-t border-dotted">
 
-<h3 class="flex flex-wrap gap-3 items-center">
-  <img src="/images/icons/dinner-letter.svg" alt="" class="!my-0 squircle size-12">
+<h3 class="flex flex-wrap items-center gap-3">
+  <img src="/images/icons/dinner-letter.svg" alt="" class="squircle !my-0 size-12">
   Dinner Letter
-  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Built</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jun 2026 – Present</span>
+  <span class="h-0 basis-full sm:hidden"></span><span class="bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700 ml-auto inline-flex items-center gap-2.5 rounded-full border px-3 py-1.5 text-sm whitespace-nowrap max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px]"><strong>Built</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jun 2026 – Present</span>
 </h3>
 
 A weekly meal-planning service that builds a personalized dinner plan around each household's tastes and schedule. A project of Sola Co.
 
 <div class="not-prose"><a href="https://dinnerletter.com" target="_blank" rel="noopener" class="jre-button-outline">Visit Dinner Letter</a></div>
 
-<hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
+<hr class="border-taupe-300 dark:border-taupe-700 border-y-0 border-t border-dotted">
 
 - [**AltText.AI**](https://alttext.ai) — Leading engineering and support for this accessibility platform. I joined after the initial build to scale the infrastructure and enhance reliability. Working with Ruby on Rails, PostgreSQL, Sidekiq, and AI (OpenAI, Anthropic, and Gemini vision models). I implemented front-end designs from [Philippe Bosshart](https://www.philippebossh.art).
 - [**BKD Creative**](https://bkdcreative.com/) — Portfolio page for a lighting team on tour with Thomas Rhett.
 - [**Saints Church**](https://saintschurchknox.com/) — Jekyll site for my church in Knoxville, Tennessee.
 
-<p class="mt-10 mb-4 text-sm/5 font-semibold tracking-[.08em] uppercase text-taupe-500 dark:text-taupe-400">Built with the design team at Honey (employer from 2016 to 2020)</p>
+<p class="text-taupe-500 dark:text-taupe-400 mt-10 mb-4 text-sm/5 font-semibold tracking-[.08em] uppercase">Built with the design team at Honey (employer from 2016 to 2020)</p>
 
 - [**Lange Twins Winery**](https://langetwins.com/) — WordPress with a Winedirect integration for a fifth-generation California Winery.
 - [**The Central Kitchen**](https://thecentralkitchen.org/) — WordPress for a state-of-the-art district-wide kitchen in Sacramento, CA.
@@ -304,20 +304,20 @@ A weekly meal-planning service that builds a personalized dinner plan around eac
 - [**Lei Back**](https://wearehoney.co/work/lei-back/) — Shopify site.
 - [**Everlee Skincare**](https://everleeskincare.shop/) — Shopify site.
 
-<hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
+<hr class="border-taupe-300 dark:border-taupe-700 border-y-0 border-t border-dotted">
 
 
 <span id="more-about-me" class="block"></span>
 
-<div class="sticky top-0 z-10 px-2 -mx-2 mt-16 bg-gradient-to-b from-white lg:px-8 lg:-mx-8 sticky--header to-white/80 backdrop-blur-sm before:bg-gradient-to-b before:from-white/80 before:to-white before:h-16 before:w-full before:absolute before:-top-16 dark:from-taupe-900 dark:to-taupe-900/80 dark:before:from-taupe-900/80 dark:before:to-taupe-900">
-  <div class="flex justify-between items-center not-prose">
-    <h2 class="py-2 mb-0 text-2xl tracking-tight sm:text-3xl font-vulf">More About Me</h2>
+<div class="sticky--header dark:from-taupe-900 dark:to-taupe-900/80 dark:before:from-taupe-900/80 dark:before:to-taupe-900 sticky top-0 z-10 -mx-2 mt-16 bg-gradient-to-b from-white to-white/80 px-2 backdrop-blur-sm before:absolute before:-top-16 before:h-16 before:w-full before:bg-gradient-to-b before:from-white/80 before:to-white lg:-mx-8 lg:px-8">
+  <div class="not-prose flex items-center justify-between">
+    <h2 class="mb-0 py-2 font-vulf text-2xl tracking-tight sm:text-3xl">More About Me</h2>
     <a href="mailto:joshre@me.com" class="sticky-button jre-button !transition-transform !duration-300 ease-easy mdl:-translate-x-0" data-class="-translate-x-12 md:-translate-x-[calc(1vw)]">Reach Out</a>
   </div>
-  <div class="flex overflow-hidden -inset-x-10 items-end -mb-px bottom-[2px]">
-    <div class="flex -mb-px w-full h-[2px]">
-      <div class="flex-none w-full blur-sm [background-image:linear-gradient(90deg,var(--gradient-stops))]"></div>
-      <div class="-ml-[100%] w-full flex-none blur-[1px] [background-image:linear-gradient(90deg,var(--gradient-stops))]"></div>
+  <div class="-inset-x-10 bottom-[2px] -mb-px flex items-end overflow-hidden">
+    <div class="-mb-px flex h-[2px] w-full">
+      <div class="w-full flex-none [background-image:linear-gradient(90deg,var(--gradient-stops))] blur-sm"></div>
+      <div class="-ml-[100%] w-full flex-none [background-image:linear-gradient(90deg,var(--gradient-stops))] blur-[1px]"></div>
     </div>
   </div>
 </div>
@@ -333,7 +333,7 @@ Working in a product company, the focus was constantly providing value for those
 
 #### Front End
 
-When a project allows for it, I love working with in-browser animation. From <span class="relative butter max-md:before:hidden before:absolute before:inset-0 before:size-16 before:top-1/2 before:-translate-y-1/2 before:-translate-x-1/2 before:left-1/2 text-[#FFB300]">butter</span>-smooth transitions between pages and states to the more detailed implementation working with After Effects exports for SVG animation, it's all a treat.
+When a project allows for it, I love working with in-browser animation. From <span class="butter relative text-[#FFB300] before:absolute before:inset-0 before:top-1/2 before:left-1/2 before:size-16 before:-translate-x-1/2 before:-translate-y-1/2 max-md:before:hidden">butter</span>-smooth transitions between pages and states to the more detailed implementation working with After Effects exports for SVG animation, it's all a treat.
 
 #### Performance
 
@@ -352,7 +352,7 @@ I strive to hit good accessibility standards. It all should work for everyone, a
 
 ### Design
 
-While I wouldn't claim expertise at something like brand development, I'm very comfortable designing interfaces and webpages. 10 years of needing to develop an eye for typography and color, as well as the early days of <span class="text-nowrap"><span class="font-vulf">&ldquo;</span><em class="cursor-crosshair">pixel-perfect</em><span class="inline-flex relative items-center"><span class="font-vulf">&rdquo;</span></span></span> project scopes, taught me how to build according to a design and interpret the designer's intent. I've collaborated extensively with designers to realize their vision within a project's scope—whether expanding it or refining the design to hit a deadline.
+While I wouldn't claim expertise at something like brand development, I'm very comfortable designing interfaces and webpages. 10 years of needing to develop an eye for typography and color, as well as the early days of <span class="text-nowrap"><span class="font-vulf">&ldquo;</span><em class="cursor-crosshair">pixel-perfect</em><span class="relative inline-flex items-center"><span class="font-vulf">&rdquo;</span></span></span> project scopes, taught me how to build according to a design and interpret the designer's intent. I've collaborated extensively with designers to realize their vision within a project's scope—whether expanding it or refining the design to hit a deadline.
 
 - **Figma** — This is all I use today.
 - **Illustrator, Photoshop** — I used the Adobe suite for years (Bamboo & Honey), but I don't use it much anymore. I'll reach into Illustrator if I'm trying to do something with an SVG that I simply can't get Figma to do.

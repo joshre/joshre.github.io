@@ -1,27 +1,27 @@
 ---
 layout: default
 ---
-<div class="flex fixed inset-0 justify-center md:px-8">
+<div class="fixed inset-0 flex justify-center md:px-8">
   <div class="flex w-full max-w-5xl lg:px-8">
-    <div class="relative w-full bg-white border-x border-taupe-200 dark:bg-taupe-900 dark:border-taupe-800 dark:ring-taupe-300/20"></div>
+    <div class="border-taupe-200 dark:bg-taupe-900 dark:border-taupe-800 dark:ring-taupe-300/20 relative w-full border-x bg-white"></div>
   </div>
 </div>
 
-<header class="overflow-hidden relative bg-gradient-to-b border-b border-taupe-200 from-taupe-50 to-taupe-100 dark:border-taupe-800 dark:from-taupe-900/90 dark:to-taupe-900">
-  <div class="absolute sm:hidden size-[calc(100%+4rem)] left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 bg-cover bg-center blur-xl saturate-150 z-0 bg-[url(/images/i-am-a-real-person-circle-small.jpg)]"></div>
-  <div class="absolute inset-0 z-10 bg-gradient-to-b sm:hidden from-taupe-50/90 to-taupe-100 dark:from-taupe-900/90 dark:to-taupe-900"></div>
-  <div class="relative z-10 gap-2 items-center py-12 px-4 mx-auto max-w-5xl sm:flex sm:gap-8 sm:pt-0 sm:pl-0 lg:gap-16 lg:py-16">
-    <div class="relative sm:-mt-24 sm:-ml-16 sm:w-full sm:h-auto md:m-0 max-w-72 size-20">
-      <div class="overflow-hidden absolute rounded-full sm:rounded-[calc(1rem+2px)] dark:opacity-50 -inset-[3px]">
-        <div class="absolute -inset-2 bg-cover blur-sm z-0 bg-[center_20%] bg-[url(/images/i-am-a-real-person-small.jpg)]"></div>
-        <div class="absolute inset-2 z-10 rounded-full sm:rounded-2xl bg-taupe-100 dark:bg-taupe-900"></div>
+<header class="border-taupe-200 from-taupe-50 to-taupe-100 dark:border-taupe-800 dark:from-taupe-900/90 dark:to-taupe-900 relative overflow-hidden border-b bg-gradient-to-b">
+  <div class="absolute top-1/2 left-1/2 z-0 size-[calc(100%+4rem)] -translate-x-1/2 -translate-y-1/2 bg-[url(/images/i-am-a-real-person-circle-small.jpg)] bg-cover bg-center blur-xl saturate-150 sm:hidden"></div>
+  <div class="from-taupe-50/90 to-taupe-100 dark:from-taupe-900/90 dark:to-taupe-900 absolute inset-0 z-10 bg-gradient-to-b sm:hidden"></div>
+  <div class="relative z-10 mx-auto max-w-5xl items-center gap-2 px-4 py-12 sm:flex sm:gap-8 sm:pt-0 sm:pl-0 lg:gap-16 lg:py-16">
+    <div class="relative size-20 max-w-72 sm:-mt-24 sm:-ml-16 sm:h-auto sm:w-full md:m-0">
+      <div class="absolute -inset-[3px] overflow-hidden rounded-full sm:rounded-[calc(1rem+2px)] dark:opacity-50">
+        <div class="absolute -inset-2 z-0 bg-[url(/images/i-am-a-real-person-small.jpg)] bg-cover bg-[center_20%] blur-sm"></div>
+        <div class="bg-taupe-100 dark:bg-taupe-900 absolute inset-2 z-10 rounded-full sm:rounded-2xl"></div>
       </div>
 
       <picture>
         <source type="image/webp" srcset="/images/i-am-a-real-person.webp">
         <source type="image/jpeg" srcset="/images/i-am-a-real-person.jpg">
         <img loading="lazy" src="/images/i-am-a-real-person-small.jpg" 
-             class="hidden relative z-10 w-full rounded-br-2xl sm:block lg:rounded-2xl"
+             class="relative z-10 hidden w-full rounded-br-2xl sm:block lg:rounded-2xl"
              alt="Josh Reeder-Esparza, full-stack developer in Knoxville, Tennessee">
       </picture>
 
@@ -29,14 +29,14 @@ layout: default
         <source type="image/webp" srcset="/images/i-am-a-real-person-circle.webp">
         <source type="image/jpeg" srcset="/images/i-am-a-real-person-circle.jpg">
         <img loading="lazy" src="/images/i-am-a-real-person-circle-small.jpg"
-             class="overflow-hidden relative z-10 rounded-full sm:hidden size-20"
+             class="relative z-10 size-20 overflow-hidden rounded-full sm:hidden"
              alt="Josh Reeder-Esparza">
       </picture>
     </div>
-    <div class="max-w-2xl skew-children up slower observe" data-class="run">
-      <h1 class="mt-4 mb-2 text-3xl font-black tracking-tight sm:mt-0 sm:mb-4 sm:text-3xl lg:text-5xl child text-[#5D6046] font-display mdl:text-4xl dark:text-taupe-50">Josh Reeder-Esparza</h1>
-      <p class="text-base sm:text-lg lg:text-xl child text-balance text-taupe-700 dark:text-taupe-200">Full-stack Developer, Engineer, Designer</p>
-      <div class="flex gap-2 items-center mt-5 child">
+    <div class="up slower observe max-w-2xl skew-children" data-class="run">
+      <h1 class="child dark:text-taupe-50 mt-4 mb-2 font-display text-3xl font-black tracking-tight text-[#5D6046] sm:mt-0 sm:mb-4 sm:text-3xl lg:text-5xl mdl:text-4xl">Josh Reeder-Esparza</h1>
+      <p class="child text-taupe-700 dark:text-taupe-200 text-base text-balance sm:text-lg lg:text-xl">Full-stack Developer, Engineer, Designer</p>
+      <div class="child mt-5 flex items-center gap-2">
         <a target="_self" href="#spare-me-ill-take-the-links" class="jre-button">Jump To My Work</a>
         <a href="{{ site.url }}/" class="jre-button-outline">Back Home</a>
       </div>
@@ -44,6 +44,6 @@ layout: default
   </div>
 </header>
 
-<section class="relative px-4 mx-auto sm:px-6 prose prose-a:decoration-transparent prose-h2:leading-snug prose-a:text-olive-600 prose-a:transition-colors prose-a:duration-100 prose-a:ease-easy prose-p:text-pretty xl-2xl:py-20 dark:prose-invert prose-a:hover:decoration-olive-600 prose-a:hover:decoration-solid prose-a:active:decoration-transparent">
+<section class="prose-a:text-olive-600 prose-a:hover:decoration-olive-600 relative mx-auto px-4 prose sm:px-6 dark:prose-invert xl-2xl:py-20 prose-h2:leading-snug prose-p:text-pretty prose-a:decoration-transparent prose-a:transition-colors prose-a:duration-100 prose-a:ease-easy prose-a:hover:decoration-solid prose-a:active:decoration-transparent">
   {{ content }}
 </section>

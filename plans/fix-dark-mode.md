@@ -44,7 +44,7 @@ dark:before:from-zinc-800/80 dark:before:to-zinc-800
 Six job title badge spans at lines 41, 51, 60, 81, 88, 95. Each has:
 
 ```html
-<span class="border ... bg-stone-100 ...">
+<span class="border bg-stone-100 ... ...">
 ```
 
 Add to each: `dark:bg-zinc-700 dark:border-zinc-600`
