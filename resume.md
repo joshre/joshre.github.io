@@ -10,10 +10,10 @@ bg: "bg-taupe-50"
   <h2 id="about-me" class="pt-6 -mb-3 text-3xl tracking-tight font-vulf">About Me</h2>
 </div>
 <div class="flex relative flex-wrap items-center -mb-6 md:flex-nowrap md:gap-6 lg:gap-8 text-lg/relaxed text-pretty xl:text-xl/relaxed">
-  <p>I live in <strong class="font-medium"><span class="vols text-rocky-top">Knoxville</span>, Tennessee</strong> with my wonderful wife Leila and a couple of kiddos. We avidly garden—saving seeds and seeking out new varieties—and our family's best time is spent together cooking. I also have the privilege of serving as an elder at our&nbsp;church.</p>
+  <p>I live in <strong class="font-medium"><span class="vols text-rocky-top">Knoxville</span>, Tennessee</strong> with my wonderful wife Leila and a couple of kids. We avidly garden—saving seeds and seeking out new varieties—and our family's best time is spent together cooking. I also have the privilege of serving as an elder at our&nbsp;church.</p>
 </div>
 
-**I've spent over a decade working on the web, with experience across every discipline involved in putting ideas online.** From design briefs, wireframes, and mockups to content management, project management, server administration, shipping, and maintaining websites. I’ve worked with restaurants, the wine industry, churches, hotels, farms, large-scale commodity boards, and e-commerce shops. Most recently, I focused on a single product, leading feature development informed by user needs and feedback.
+**I've spent over a decade working on the web, with experience across every discipline involved in putting ideas online.** I’ve worked with restaurants, the wine industry, churches, hotels, farms, large-scale commodity boards, and e-commerce shops. Right now I lead engineering at AltText.AI and build my own products through Sola Co.
 
 <p class="flex flex-col gap-4 items-start p-6 text-white rounded-xl sm:flex-row sm:gap-3 sm:items-center lg:gap-4 lg:pr-8 bg-[#5D6046]">
 {% include svg/sola-logo.svg class="flex-none w-16 rounded-full sm:w-24 lg:w-36 bg-[#5D6046]" %}
@@ -41,7 +41,7 @@ bg: "bg-taupe-50"
   <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Head of Engineering</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Late '24 – Present</span>
 </h3>
 
-Leading engineering efforts at AltText.AI, where we make the web more accessible through AI-powered image descriptions. I joined after the initial platform was built and now focus on scaling infrastructure to support 70,000+ users while expanding our integration ecosystem. Our platform helps businesses improve SEO and meet accessibility standards by automatically generating high-quality alt text. My responsibilities include enhancing our Ruby on Rails application, implementing OpenAI and Azure Computer Vision APIs, optimizing image processing pipelines, managing cloud infrastructure on AWS, and ensuring system reliability through comprehensive testing and monitoring.
+Leading engineering efforts at AltText.AI, where we make the web more accessible through AI-powered image descriptions. I joined after the initial platform was built and now focus on scaling infrastructure to support 70,000+ users while expanding our integration ecosystem. Most of my work there is running AI at volume. That means queues and rate limits, batching and caching to keep costs down, running OpenAI, Anthropic, and Gemini side by side, and testing a new model against the current one before we switch.
 
 <hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
  
@@ -51,9 +51,9 @@ Leading engineering efforts at AltText.AI, where we make the web more accessible
   <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} 2024 – Present</span>
 </h3>
 
-Through Sola Co, I partner with teams that need help building and maintaining web applications. I specialize in Ruby on Rails but work comfortably across the full stack and with a range of frameworks. I enjoy solving performance problems, implementing solid architecture, and helping teams ship quality code. Day-to-day, that means database optimization, API design, frontend development, and DevOps.
+Through Sola Co, I partner with teams that need help building and maintaining web applications. I specialize in Ruby on Rails but work comfortably across the full stack and with a range of frameworks. Day-to-day, that means database optimization, API design, frontend development, and DevOps.
 
-Over the years I've worked extensively with Postgres, Redis, JavaScript, and modern CSS frameworks, and I've built reliable deployment pipelines along the way. Whether I'm untangling a legacy codebase to address technical debt or building new features from scratch, my focus is on delivering solutions that are maintainable long after the work is done.
+It's also where I build my own products: Clementine CSA, Dinner Letter, and Hearsay.
 
 If you need someone who can jump in and contribute quickly to your tech stack, let's talk.
 
@@ -79,7 +79,7 @@ I wore many hats at MxU. On the Rails side, I implemented Hotwire Stimulus and T
   Honey
   <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Senior Developer</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Feb 2016 – Oct 2020</span>
 </h3>
-As the sole developer, I built custom client websites from scratch, often managing 2–3 projects simultaneously while working closely with the design team to bring creative concepts to life. I took an active role in client discovery sessions, contributed to design briefs, and presented technical solutions, completed websites, and training documentation to stakeholders. In addition to leading development, I managed ongoing maintenance contracts to ensure long-term functionality and performance. Many of the websites I built continue to see heavy use with minimal changes years later—something I'm genuinely proud of.
+As the sole developer, I built custom client websites from scratch, often managing 2–3 projects simultaneously while working closely with the design team to bring creative concepts to life. I took an active role in client discovery sessions, contributed to design briefs, and presented technical solutions, completed websites, and training documentation to stakeholders. I also ran the maintenance contracts after launch. Many of the websites I built continue to see heavy use with minimal changes years later—something I'm genuinely proud of.
 
 <hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
 <h3 class="flex flex-wrap gap-3 items-center">
@@ -93,7 +93,7 @@ At Bamboo, I built websites from the ground up, handling everything from initial
   Feif Ties / Trestle Leather Co
   <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Owner</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jun 2010 – Jan 2013</span>
 </h3>
-Years ago, I launched and ran several Etsy shops, designing and handcrafting ties, belts, and wallets from raw materials. Within a few years, I was shipping products to customers across the USA, Germany, Australia, and Japan. I managed budgets and expenses, learning how to make bulk purchases and optimize product timing. The experience offered valuable lessons in entrepreneurship, operations, and customer service.
+Years ago, I launched and ran several Etsy shops, designing and handcrafting ties, belts, and wallets from raw materials. Within a few years, I was shipping products to customers across the USA, Germany, Australia, and Japan. I managed budgets and expenses, learning how to make bulk purchases and optimize product timing.
 
 <span id="skill-set" class="block"></span>
 
@@ -112,74 +112,109 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
 
 <div class="flex flex-col mt-8 divide-y divide-dotted not-prose dark:divide-taupe-600">
   <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
-    <span class="col-span-1 text-sm font-semibold shrink-0">Backend</span>
+    <span class="col-span-1 text-sm font-semibold">Backend</span>
     <div class="flex flex-wrap col-span-3 gap-2">
       {% assign color="teal" %} {% assign text="Ruby on Rails" %} {% include tag.html %}
-      {% assign text="PHP" %} {% include tag.html %} {% assign text="Liquid" %} {% include tag.html %}
-      {% assign text="SQL (Postgres & MySQL)" %} {% include tag.html %}
-      {% assign text="REST API Development" %} {% include tag.html %}
-      {% assign text="TDD" %} {% include tag.html %}
-      {% assign text="MiniTest" %} {% include tag.html %}
-      {% assign text="API Integration" %} {% include tag.html %}
+      {% assign text="PostgreSQL" %} {% include tag.html %}
+      {% assign text="SQLite" %} {% include tag.html %}
+      {% assign text="Solid Queue" %} {% include tag.html %}
       {% assign text="Sidekiq" %} {% include tag.html %}
       {% assign text="Redis" %} {% include tag.html %}
+      {% assign text="PHP" %} {% include tag.html %}
+      {% assign text="TypeScript" %} {% include tag.html %}
+      {% assign text="REST APIs" %} {% include tag.html %}
+      {% assign text="Multi-tenancy" %} {% include tag.html %}
+      {% assign text="Minitest" %} {% include tag.html %}
+      {% assign text="RSpec" %} {% include tag.html %}
     </div>
   </div>
   <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
     <span class="col-span-1 text-sm font-semibold">Frontend</span>
     <div class="flex flex-wrap col-span-3 gap-2">
-      {% assign color="green" %} {% assign text="JavaScript" %} {% include tag.html %}
-      {% assign text="CSS" %} {% include tag.html %}
-      {% assign text="HTML" %} {% include tag.html %}
-      {% assign text="TailwindCSS" %} {% include tag.html %}
-      {% assign text="Lottie" %} {% include tag.html %}
-      {% assign text="Hotwire Stimulus" %} {% include tag.html %}
-      {% assign text="Turbo" %} {% include tag.html %}
-      {% assign text="Next.js" %} {% include tag.html %}
+      {% assign color="green" %} {% assign text="Hotwire (Turbo & Stimulus)" %} {% include tag.html %}
+      {% assign text="Tailwind CSS" %} {% include tag.html %}
+      {% assign text="JavaScript" %} {% include tag.html %}
       {% assign text="React" %} {% include tag.html %}
+      {% assign text="Next.js" %} {% include tag.html %}
+      {% assign text="Shopify Polaris" %} {% include tag.html %}
+      {% assign text="HTML" %} {% include tag.html %}
+      {% assign text="CSS" %} {% include tag.html %}
       {% assign text="esbuild" %} {% include tag.html %}
+      {% assign text="Vite" %} {% include tag.html %}
     </div>
   </div>
   <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
-    <span class="col-span-1 text-sm font-semibold">DevOps</span>
+    <span class="col-span-1 text-sm font-semibold">Infrastructure</span>
     <div class="flex flex-wrap col-span-3 gap-2">
-      {% assign color="slate" %} {% assign text="Linux" %} {% include tag.html %}
-      {% assign text="Git" %} {% include tag.html %}
-      {% assign text="Heroku" %} {% include tag.html %}
-      {% assign text="AWS" %} {% include tag.html %}
-      {% assign text="DNS Management" %} {% include tag.html %}
-      {% assign text="CI/CD Pipelines" %} {% include tag.html %}
-      {% assign text="Server Setup" %} {% include tag.html %}
-      {% assign text="Scalable Infrastructure" %} {% include tag.html %}
+      {% assign color="slate" %} {% assign text="AWS" %} {% include tag.html %}
       {% assign text="Docker" %} {% include tag.html %}
+      {% assign text="Kamal" %} {% include tag.html %}
+      {% assign text="Cloudflare Workers" %} {% include tag.html %}
+      {% assign text="Terraform" %} {% include tag.html %}
+      {% assign text="GitHub Actions" %} {% include tag.html %}
+      {% assign text="Linux" %} {% include tag.html %}
       {% assign text="Nginx" %} {% include tag.html %}
+      {% assign text="DNS" %} {% include tag.html %}
     </div>
   </div>
   <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
-    <span class="col-span-1 text-sm font-semibold">SaaS KPIs</span>
+    <span class="col-span-1 text-sm font-semibold">AI</span>
     <div class="flex flex-wrap col-span-3 gap-2">
-      {% assign color="violet" %} {% assign text="Churn" %} {% include tag.html %}
+      {% assign color="fuchsia" %} {% assign text="Anthropic API" %} {% include tag.html %}
+      {% assign text="OpenAI API" %} {% include tag.html %}
+      {% assign text="Google Gemini" %} {% include tag.html %}
+      {% assign text="Vision Models" %} {% include tag.html %}
+      {% assign text="Structured Outputs" %} {% include tag.html %}
+      {% assign text="MCP Servers" %} {% include tag.html %}
+      {% assign text="AI Agents" %} {% include tag.html %}
+      {% assign text="Prompt Engineering" %} {% include tag.html %}
+      {% assign text="Claude Code" %} {% include tag.html %}
+    </div>
+  </div>
+  <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
+    <span class="col-span-1 text-sm font-semibold">AI at Scale</span>
+    <div class="flex flex-wrap col-span-3 gap-2">
+      {% assign color="indigo" %} {% assign text="High-Volume Inference" %} {% include tag.html %}
+      {% assign text="Queues & Concurrency Limits" %} {% include tag.html %}
+      {% assign text="Batch APIs" %} {% include tag.html %}
+      {% assign text="Prompt Caching" %} {% include tag.html %}
+      {% assign text="Rate Limits & Retries" %} {% include tag.html %}
+      {% assign text="Multi-Provider Fallbacks" %} {% include tag.html %}
+      {% assign text="Token & Cost Tracking" %} {% include tag.html %}
+      {% assign text="Model Evals & Canaries" %} {% include tag.html %}
+    </div>
+  </div>
+  <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
+    <span class="col-span-1 text-sm font-semibold">Platforms</span>
+    <div class="flex flex-wrap col-span-3 gap-2">
+      {% assign color="cyan" %} {% assign text="Shopify Apps" %} {% include tag.html %}
+      {% assign text="WordPress & WooCommerce Plugins" %} {% include tag.html %}
+      {% assign text="Magento" %} {% include tag.html %}
+      {% assign text="BigCommerce" %} {% include tag.html %}
+      {% assign text="Contentful" %} {% include tag.html %}
+      {% assign text="Browser Extensions" %} {% include tag.html %}
+      {% assign text="Stripe" %} {% include tag.html %}
+      {% assign text="HubSpot" %} {% include tag.html %}
+      {% assign text="Intercom" %} {% include tag.html %}
+    </div>
+  </div>
+  <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
+    <span class="col-span-1 text-sm font-semibold">Product & Growth</span>
+    <div class="flex flex-wrap col-span-3 gap-2">
+      {% assign color="violet" %} {% assign text="MRR & Churn" %} {% include tag.html %}
       {% assign text="Retention" %} {% include tag.html %}
-      {% assign text="MRR Milestones" %} {% include tag.html %}
       {% assign text="NPS" %} {% include tag.html %}
-      {% assign text="User Growth" %} {% include tag.html %}
-    </div>
-  </div>
-  <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
-    <span class="col-span-1 text-sm font-semibold">Marketing</span>
-    <div class="flex flex-wrap col-span-3 gap-2">
-      {% assign color="indigo" %} {% assign text="CRM Management / Integration" %} {% include tag.html %}
-      {% assign text="Inbound Marketing" %} {% include tag.html %}
-      {% assign text="HTML Email Development" %} {% include tag.html %}
+      {% assign text="SEO" %} {% include tag.html %}
+      {% assign text="HTML Email" %} {% include tag.html %}
       {% assign text="Analytics & Pixel Tracking" %} {% include tag.html %}
-      {% assign text="SEO Optimization" %} {% include tag.html %}
+      {% assign text="CRM" %} {% include tag.html %}
     </div>
   </div>
   <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
     <span class="col-span-1 text-sm font-semibold">Accessibility</span>
     <div class="flex flex-wrap col-span-3 gap-2">
-      {% assign color="rose" %} {% assign text="WCAG Standards" %} {% include tag.html %}
-      {% assign text="Alt Text Optimization" %} {% include tag.html %}
+      {% assign color="rose" %} {% assign text="WCAG" %} {% include tag.html %}
+      {% assign text="Alt Text" %} {% include tag.html %}
       {% assign text="Semantic HTML" %} {% include tag.html %}
       {% assign text="Accessible UI Design" %} {% include tag.html %}
     </div>
@@ -189,31 +224,6 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
     <div class="flex flex-wrap col-span-3 gap-2">
       {% assign color="amber" %} {% assign text="Figma" %} {% include tag.html %}
       {% assign text="Illustrator" %} {% include tag.html %}
-      {% assign text="Photoshop" %} {% include tag.html %}
-    </div>
-  </div>
-  <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
-    <span class="col-span-1 text-sm font-semibold">AI</span>
-    <div class="flex flex-wrap col-span-3 gap-2">
-      {% assign color="fuchsia" %} {% assign text="AI Integration" %} {% include tag.html %}
-      {% assign text="LLM Implementation" %} {% include tag.html %}
-      {% assign text="AI-Enhanced UX" %} {% include tag.html %}
-      {% assign text="Prompt Engineering" %} {% include tag.html %}
-      {% assign text="OpenAI API" %} {% include tag.html %}
-      {% assign text="Azure Computer Vision" %} {% include tag.html %}
-      {% assign text="Image Processing" %} {% include tag.html %}
-      {% assign text="Replicate API" %} {% include tag.html %}
-    </div>
-  </div>
-  <div class="grid gap-3 items-baseline pt-2 pb-4 sm:grid-cols-4 sm:gap-2">
-    <span class="col-span-1 text-sm font-semibold">Integrations</span>
-    <div class="flex flex-wrap col-span-3 gap-2">
-      {% assign color="cyan" %} {% assign text="Stripe" %} {% include tag.html %}
-      {% assign text="Cloudinary" %} {% include tag.html %}
-      {% assign text="HubSpot" %} {% include tag.html %}
-      {% assign text="WordPress" %} {% include tag.html %}
-      {% assign text="Shopify" %} {% include tag.html %}
-      {% assign text="Contentful" %} {% include tag.html %}
     </div>
   </div>
 </div>
@@ -233,10 +243,54 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
   </div>
 </div>
 
-- [**Beaconed**](https://beaconed.ai) — A Shopify and WooCommerce app for stores with more products than time. It finds incomplete listings, drafts improvements from each product’s own details in the store’s voice, and nothing publishes until the merchant approves it. Rails 8, Hotwire, Solid Queue, and Anthropic and OpenAI models, running on AWS ECS Fargate.
-- [**Hearsay**](https://checkhearsay.com) — Shows Shopify merchants what Shopify’s catalog tells AI shopping agents about their products. It flags claims the merchant never made or directly contradicts, lists products the agents can’t find, and alerts when any of that changes. Rails, deployed on Fly.io.
-- [**Dinner Letter**](https://dinnerletter.com) — A weekly meal-planning service that builds a personalized dinner plan around each household's tastes and schedule. A project of Sola Co.
-- [**AltText.AI**](https://alttext.ai) — Leading engineering and support for this accessibility platform. I joined after the initial build to scale the infrastructure and enhance reliability. Working with Ruby on Rails, PostgreSQL, Sidekiq, and AI technologies (OpenAI GPT Vision and Azure Computer Vision). I implemented front-end designs from [Philippe Bosshart](https://www.philippebossh.art).
+<h3 class="flex flex-wrap gap-3 items-center">
+  <img src="/images/icons/beaconed.svg" alt="" class="!my-0 squircle size-12">
+  Beaconed
+  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Built</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jan 2026 – Present</span>
+</h3>
+
+A Shopify and WooCommerce app for stores with more products than time. It finds incomplete listings, drafts improvements from each product’s own details in the store’s voice, and nothing publishes until the merchant approves it.
+
+<div class="not-prose"><a href="https://beaconed.ai" target="_blank" rel="noopener" class="jre-button-outline">Visit Beaconed</a></div>
+
+<hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
+
+<h3 class="flex flex-wrap gap-3 items-center">
+  <img src="/images/icons/hearsay.png" alt="" class="!my-0 squircle size-12">
+  Hearsay
+  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Built</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Sep 2026 – Present</span>
+</h3>
+
+Shows Shopify merchants what Shopify’s catalog tells AI shopping agents about their products. It flags claims the merchant never made or directly contradicts, lists products the agents can’t find, and alerts when any of that changes. A project of Sola Co.
+
+<div class="not-prose"><a href="https://checkhearsay.com" target="_blank" rel="noopener" class="jre-button-outline">Visit Hearsay</a></div>
+
+<hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
+
+<h3 class="flex flex-wrap gap-3 items-center">
+  <img src="/images/icons/clementine.svg" alt="" class="!my-0 size-12 object-contain">
+  Clementine CSA
+  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Built</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Sep 2024 – Present</span>
+</h3>
+
+A CSA platform for small farms: a members list, weekly recurring card charges, and a shareable signup page, all in one place. A project of Sola Co.
+
+<div class="not-prose"><a href="https://clementinecsa.com" target="_blank" rel="noopener" class="jre-button-outline">Visit Clementine CSA</a></div>
+<hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
+
+<h3 class="flex flex-wrap gap-3 items-center">
+  <img src="/images/icons/dinner-letter.svg" alt="" class="!my-0 squircle size-12">
+  Dinner Letter
+  <span class="basis-full h-0 sm:hidden"></span><span class="inline-flex gap-2.5 items-center py-1.5 px-3 ml-auto max-sm:ml-0 max-sm:py-0.5 max-sm:text-[13px] whitespace-nowrap text-sm rounded-full border bg-taupe-100 dark:bg-taupe-800 dark:border-taupe-700"><strong>Built</strong> {% include svg/circle-dot.svg class="w-1 fill-current" %} Jun 2026 – Present</span>
+</h3>
+
+A weekly meal-planning service that builds a personalized dinner plan around each household's tastes and schedule. A project of Sola Co.
+
+<div class="not-prose"><a href="https://dinnerletter.com" target="_blank" rel="noopener" class="jre-button-outline">Visit Dinner Letter</a></div>
+
+<hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
+
+- [**AltText.AI**](https://alttext.ai) — Leading engineering and support for this accessibility platform. I joined after the initial build to scale the infrastructure and enhance reliability. Working with Ruby on Rails, PostgreSQL, Sidekiq, and AI (OpenAI, Anthropic, and Gemini vision models). I implemented front-end designs from [Philippe Bosshart](https://www.philippebossh.art).
 - [**MxU**](https://getmxu.com) — A few things have changed since I left, but here are some pages showing the design direction I helped move the product toward:
   - [**Videos**](https://app.getmxu.com/lessons)
   - [**A single video page**](https://app.getmxu.com/lessons/96024893)
@@ -251,7 +305,7 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
 - [**Honey**](https://workbyhoney.com/) — WordPress for Honey to show off their work.
 - [**29 Palms Inn**](https://29palmsinn.com/) — WordPress for a historic Inn just outside Joshua Tree, CA.
 - [**Pressley Vineyards**](https://pressleyvineyards.com/) — WordPress with a Shopify integration for an up-and-coming California Winery
-- [**Lei Back**](https://drinkleiback.com/) — Shopify site.
+- [**Lei Back**](https://wearehoney.co/work/lei-back/) — Shopify site.
 - [**Everlee Skincare**](https://everleeskincare.shop/) — Shopify site.
 
 <hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
@@ -275,7 +329,7 @@ Years ago, I launched and ran several Etsy shops, designing and handcrafting tie
 
 ### Engineering
 
-I've worked with countless languages, web frameworks, and CMS platforms; enough that picking up a new RESTful architecture is pretty simple and a fun endeavor.
+I've worked with countless languages, web frameworks, and CMS platforms; enough that picking up a new RESTful architecture is pretty simple, and fun.
 
 In my agency time, I built websites that worked _for_ our clients. Not GPU-hungry webpage builders, but custom-tailored CMS dashboards that had the flexibility to adapt and grow with their business, while being rigid enough to not overload someone less technically savvy. The goal was to build something that wouldn't later require an engineer to make something look good and remain accessible.
 
@@ -283,29 +337,29 @@ Working in a product company, the focus was constantly providing value for those
 
 #### Front End
 
-When a project allows for it, I love working with in-browser animation. If I didn't get motion sickness building it, _the project suffered_. From <span class="relative butter max-md:before:hidden before:absolute before:inset-0 before:size-16 before:top-1/2 before:-translate-y-1/2 before:-translate-x-1/2 before:left-1/2 text-[#FFB300]">butter</span>-smooth transitions between pages and states to the more detailed implementation working with After Effects exports for SVG animation, it's all a treat.
+When a project allows for it, I love working with in-browser animation. From <span class="relative butter max-md:before:hidden before:absolute before:inset-0 before:size-16 before:top-1/2 before:-translate-y-1/2 before:-translate-x-1/2 before:left-1/2 text-[#FFB300]">butter</span>-smooth transitions between pages and states to the more detailed implementation working with After Effects exports for SVG animation, it's all a treat.
 
 #### Performance
 
-I have spent a lot of time focusing a ton on performance. The internet gods reward speed and lightness, and every MB counts in the LCP, FCP, CLS wars. Additionally, the web just _feels_ better when the bottleneck isn't a 4 MB VSCO jpeg in the background of the footer. In a product, this ends up being pretty simple, but with high-touch client work it takes a lot to strike a balance when the brand has 3 fonts and the client just paid 5k for a photo shoot. Working with responsive images, lazy- & pre- loading, caching, and utilizing CDNs and edge networks, I found ways to meet in the middle.
+I've spent a lot of time on performance. Search engines reward speed, and every MB counts toward LCP and CLS. The web also just _feels_ better when the bottleneck isn't a 4 MB jpeg in the background of the footer. In a product, this ends up being pretty simple, but with high-touch client work it takes a lot to strike a balance when the brand has 3 fonts and the client just paid 5k for a photo shoot. Working with responsive images, lazy loading and preloading, caching, and utilizing CDNs and edge networks, I found ways to meet in the middle.
 
 #### A11y
 
-I strive to hit good accessibility standards. It all should work for everyone, and the work to make that possible really isn't all that hard. Accessibility ends up creating benefits for folks that don't need any assistive technology in the first place, and usually, it just looks like building things with valid syntax. Additionally, we experienced numerous hotels that would get drive-by ADA lawsuits because of a failed lighthouse test, or government contracts that had an high standards based on what WCAG was at the time.
+I strive to hit good accessibility standards. It all should work for everyone, and the work to make that possible really isn't all that hard. Accessibility ends up creating benefits for people who don't need any assistive technology in the first place, and usually, it just looks like building things with valid syntax. We also had hotel clients get drive-by ADA lawsuits over a failed Lighthouse test, and government contracts held to whatever WCAG required at the time.
 
 ### Servers / DevOps
 
-- **Git** — I've used it solely to manage CI, to work in a PR process with code review, or simply to manage my projects.
+- **Git** — I've used it to manage CI, to work in a PR process with code review, or simply to manage my projects.
 - **CI** — I've worked with various systems—with and without a test suite. Heroku, Beanstalk, GitHub actions.
 - **Servers** — Setting up, managing, and maintaining servers was my bread-and-<span class="butter">butter</span> for agency work. Linux, AWS, Heroku, Linode, all the WordPress ones. Doing it ourselves meant low-cost, which helped to make maintenance contracts viable.
-- **DNS / CDNs** — Similarly, agency work gives any developer their fair-share of experience managing DNS records, hunting down someone's GoDaddy account, and handling CDNs.
+- **DNS / CDNs** — Similarly, agency work gives any developer their fair share of experience managing DNS records, hunting down someone's GoDaddy account, and handling CDNs.
 
 ### Design
 
 While I wouldn't claim expertise at something like brand development, I'm very comfortable designing interfaces and webpages. 10 years of needing to develop an eye for typography and color, as well as the early days of <span class="text-nowrap"><span class="font-vulf">&ldquo;</span><em class="cursor-crosshair">pixel-perfect</em><span class="inline-flex relative items-center"><span class="font-vulf">&rdquo;</span></span></span> project scopes, taught me how to build according to a design and interpret the designer's intent. I've collaborated extensively with designers to realize their vision within a project's scope—whether expanding it or refining the design to hit a deadline.
 
 - **Figma** — This is all I use today.
-- **Illustrator, Photoshop** — I used the Adobe suite for years (Bamboo & Honey), _but these days I prefer not to install malware on my computer_ <sup>[sic]</sup>. I'll reach into Illustrator if I'm trying to do something with an SVG that I simply can't get Figma to do.
+- **Illustrator, Photoshop** — I used the Adobe suite for years (Bamboo & Honey), but I don't use it much anymore. I'll reach into Illustrator if I'm trying to do something with an SVG that I simply can't get Figma to do.
 
 ### The Other Stuff
 
@@ -315,12 +369,12 @@ While I wouldn't claim expertise at something like brand development, I'm very c
 
 #### HTML Email
 
-This one feels strange to single out, but special beasts live in special places. I spent a ton of time building out custom emails for various clients on various systems (MailChimp, HubSpot, Constant Contact, Intercom, SendGrid etc.) with all of their various syntactic sugar. Love it or hate it: email makes money, and making HTML emails is somehow still like building webpages in 2006.
+This one feels strange to single out, but it's its own thing. I spent a ton of time building out custom emails for various clients on various systems (MailChimp, HubSpot, Constant Contact, Intercom, SendGrid etc.) with all of their various syntactic sugar. Email makes money, and making HTML emails is somehow still like building webpages in 2006.
 
 #### Writing
 
-Everywhere I've worked, I've enjoyed writing. Either in lieu of Lorem Ipsum, or simply being a professional that needed to communicate clearly with clients. <small>I'll concede: sometimes I could use an editor.</small>
+Everywhere I've worked, I've enjoyed writing. Either in lieu of Lorem Ipsum, or simply being a professional that needed to communicate clearly with clients.
 
 #### Team / Communications
 
-Similarly, I enjoy working with and communicating with clients; I always presented my own work and would train clients directly—whatever their skill set—on how to use the things we built. I've worked in teams where extreme detail was beloved as well as teams where minimal communication was extolled, I thrive in each. I've worked for years at a time in-person and for years at a time remote, I believe both have their advantages. It feels odd to note but, yes: Word, Google Sheets, Notion, Pages, Basecamp, Jira, Slack etc.
+Similarly, I enjoy working with and communicating with clients; I always presented my own work and would train clients directly—whatever their skill set—on how to use the things we built. I've worked in teams where extreme detail was beloved as well as teams where minimal communication was extolled, and I've done well in both. I've worked for years at a time in-person and for years at a time remote, and both have their advantages.

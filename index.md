@@ -8,7 +8,7 @@ projects:
     event: beaconed
     icon: /images/icons/beaconed.svg
     description: an app for Shopify and WooCommerce stores with more products than time. It finds incomplete listings and drafts better ones in the store’s own voice, and nothing goes live until the merchant approves it.
-  - name: Clementine
+  - name: Clementine CSA
     url: https://clementinecsa.com
     event: clementine
     icon: /images/icons/clementine.svg
