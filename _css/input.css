@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+/* skill tag colors are assembled in _includes/tag.html, so the scanner never sees them */
+@source inline("{dark:,}bg-{teal,green,slate,violet,indigo,rose,amber,fuchsia,cyan}-400/{20,10}");
+@source inline("text-{teal,green,slate,violet,indigo,rose,amber,fuchsia,cyan}-700");
+@source inline("dark:text-{teal,green,slate,violet,indigo,rose,amber,fuchsia,cyan}-300");
+
 @theme {
   /* Screens */
   --breakpoint-xxs: 390px;
@@ -787,4 +792,9 @@ body.navopen .nav li:not(.button) {
 
 @utility vols-checker {
   background: repeating-conic-gradient(var(--color-rocky-top) 0 25%, #fff 0 50%) 0 0 / 10px 10px;
+}
+
+.jre-button-outline {
+  @apply inline-flex items-center justify-center gap-x-2 rounded-lg border border-taupe-300 px-[calc(--spacing(3)-1px)] py-[calc(--spacing(1.5)-1px)] text-sm/6 font-semibold text-taupe-900 transition-colors duration-100 ease-easy hover:border-taupe-500 focus:outline-hidden focus-visible:ring-1 focus-visible:ring-blue-400 cursor-default;
+  @apply dark:border-taupe-700 dark:text-taupe-100 dark:hover:border-taupe-500;
 }
