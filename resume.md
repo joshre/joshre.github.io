@@ -291,10 +291,6 @@ A weekly meal-planning service that builds a personalized dinner plan around eac
 <hr class="border-t border-dotted border-y-0 border-taupe-300 dark:border-taupe-700">
 
 - [**AltText.AI**](https://alttext.ai) — Leading engineering and support for this accessibility platform. I joined after the initial build to scale the infrastructure and enhance reliability. Working with Ruby on Rails, PostgreSQL, Sidekiq, and AI (OpenAI, Anthropic, and Gemini vision models). I implemented front-end designs from [Philippe Bosshart](https://www.philippebossh.art).
-- [**MxU**](https://getmxu.com) — A few things have changed since I left, but here are some pages showing the design direction I helped move the product toward:
-  - [**Videos**](https://app.getmxu.com/lessons)
-  - [**A single video page**](https://app.getmxu.com/lessons/96024893)
-  - [**A course page**](https://app.getmxu.com/playlists/cb14671e)
 - [**BKD Creative**](https://bkdcreative.com/) — Portfolio page for a lighting team on tour with Thomas Rhett.
 - [**Saints Church**](https://saintschurchknox.com/) — Jekyll site for my church in Knoxville, Tennessee.
 
