@@ -11,19 +11,18 @@
     "lint": "concurrently \"yarn lint:tw\" \"yarn lint:format\"",
     "lint:tw": "rustywind --check-formatted '_layouts/**/*.html' '_includes/**/*.html' '_css/**/*.css'",
     "lint:tw:fix": "rustywind '_layouts/**/*.html' '_includes/**/*.html' '_css/**/*.css'",
-    "lint:format": "prettier --check '**/*.{html,css,js,json,md}' --ignore-path .gitignore",
-    "format": "prettier --write '**/*.{html,css,js,json,md}' --ignore-path .gitignore"
+    "lint:format": "biome check",
+    "format": "biome check --write"
   },
   "dependencies": {
     "@tailwindcss/cli": "*",
     "@tailwindcss/typography": "*",
     "concurrently": "*",
-    "estrella": "*",
+    "esbuild": "^0.28.2",
     "tailwindcss": "*"
   },
   "devDependencies": {
-    "prettier": "*",
-    "prettier-plugin-tailwindcss": "*",
+    "@biomejs/biome": "2.5.15",
     "rustywind": "*"
   }
 }
