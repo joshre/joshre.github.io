@@ -37,7 +37,6 @@ Through Sola Co, I work with teams that need help with Rails apps, database opti
 ## Optional
 
 - [Feif Leather Goods](https://joshre.com/feif/): A past project — handmade leather goods shipped internationally
-- [RSS Feed](https://joshre.com/feed.xml): Site feed
 
 ## Licensing & Usage
 

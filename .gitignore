@@ -1,7 +1,17 @@
+# build output
 _site/
-.sass-cache/
-.jekyll-cache
+.jekyll-cache/
 .jekyll-metadata
-.DS_Store
-node_modules
+.sass-cache/
+
+# dependencies
+node_modules/
 yarn-error.log
+
+# tool caches
+.playwright-mcp/
+.ruby-lsp/
+.rumdl_cache/
+
+# os
+.DS_Store
