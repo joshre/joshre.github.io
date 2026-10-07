@@ -7,6 +7,8 @@
 @source inline("dark:text-{teal,green,slate,violet,indigo,rose,amber,fuchsia,cyan}-300");
 
 @theme {
+  --radius: 0.25rem;
+
   /* Screens */
   --breakpoint-xxs: 390px;
   --breakpoint-xs: 414px;
@@ -25,6 +27,45 @@
   /* Colors */
   --color-rocky-top: #ff8200;
   --color-green: #1c5f4a;
+}
+
+@supports (corner-shape: squircle) {
+  @layer base {
+    :root {
+      --radius: 0.4375rem;
+      --radius-xs: 0.25rem;
+      --radius-sm: 0.4375rem;
+      --radius-md: 0.625rem;
+      --radius-lg: 0.875rem;
+      --radius-xl: 1.25rem;
+      --radius-2xl: 1.75rem;
+      --radius-3xl: 2.5rem;
+      --radius-4xl: 3.25rem;
+    }
+
+    :where([class*="rounded"]),
+    :where([class*="rounded"])::before,
+    :where([class*="rounded"])::after {
+      corner-shape: squircle;
+    }
+  }
+}
+
+/* extends the built-in utility so sm:, before: and other variants stay round too */
+@utility rounded-full {
+  corner-shape: round;
+}
+
+@utility rounded-* {
+  --tw-squircle: --value(--radius-*, [*]);
+  corner-shape: squircle;
+}
+
+.jre-button,
+.jre-button::before,
+.jre-button::after,
+.jre-button-outline {
+  corner-shape: squircle;
 }
 
 /* Typography prose theming with taupe + olive */
