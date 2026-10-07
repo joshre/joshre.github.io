@@ -56,6 +56,11 @@
   corner-shape: round;
 }
 
+@utility rounded-* {
+  --tw-squircle: --value(--radius-*, [*]);
+  corner-shape: squircle;
+}
+
 .jre-button,
 .jre-button::before,
 .jre-button::after,
